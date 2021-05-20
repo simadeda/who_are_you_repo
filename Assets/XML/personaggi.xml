@@ -1,0 +1,911 @@
+<personaggi>
+	<Asia>
+		<Russia>
+			<personaggio id = "0">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "1">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "2">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "3">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "4">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "5">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "6">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "7">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "8">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "9">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "10">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "11">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+		</Russia> 
+		<Cina>
+			<personaggio id = "0">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "1">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "2">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "3">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "4">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "5">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "6">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "7">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "8">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "9">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "10">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "11">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+		</Cina> 
+		<Iran>
+			<personaggio id = "0">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "1">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "2">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "3">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "4">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "5">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "6">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "7">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "8">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "9">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "10">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "11">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+		</Iran> 
+		<India>
+			<personaggio id = "0">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "1">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "2">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "3">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "4">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "5">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "6">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "7">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "8">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "9">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "10">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "11">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+		</India> 
+		<Giappone>
+			<personaggio id = "0">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "1">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "2">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "3">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "4">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "5">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "6">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "7">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "8">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "9">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "10">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "11">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+		</Giappone>	
+	</Asia>
+	<America>
+		<Stati_uniti>
+			<personaggio id = "0">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "1">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "2">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "3">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>			
+			<personaggio id = "4">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "5">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "6">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "7">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "8">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "9">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "10">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "11">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+		</stati_uniti>
+		<Messico>
+			<personaggio id = "0">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "1">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "2">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "3">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>			
+			<personaggio id = "4">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "5">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "6">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "7">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "8">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "9">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "10">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "11">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+		</Messico>
+		<Canada>
+			<personaggio id = "0">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "1">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "2">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "3">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "4">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "5">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "6">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "7">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "8">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "9">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "10">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "11">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+		</Canada>
+		<Brasile>
+			<personaggio id = "0">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "1">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "2">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "3">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "4">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "5">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "6">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "7">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "8">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "9">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "10">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "11">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+		</Brasile>
+	</America>
+	<Europa>
+		<Germania>
+			<personaggio id = "0">
+				<nome> Richthofen </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "1">
+				<nome> MÜller </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "2">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "3">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "4">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "5">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "6">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "7">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "8">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "9">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "10">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "11">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+		</Germania>
+		<Inghilterra>
+			<personaggio id = "0">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "1">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "2">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "3">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "4">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "5">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "6">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "7">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "8">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "9">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "10">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "11">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+		</Inghilterra>
+		<Italia>
+			<personaggio id = "0">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "1">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "2">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "3">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "4">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "5">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "6">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "7">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "8">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "9">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "10">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "11">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+		</Italia>
+		<Albania>
+			<personaggio id = "0">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "1">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "2">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "3">
+				<nome> </nome>
+				<anni> </anni>
+			<personaggio id = "4">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "5">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "6">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "7">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "8">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "9">
+				<nome> Coset </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "10">
+				<nome> Dori </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "11">
+				<nome> Orgest </nome>
+				<anni> </anni>
+			</personaggio>
+		</Albania>
+	</Europa>
+	<Africa>
+		<Egitto>
+			<personaggio id = "0">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "1">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "2">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "3">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "4">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "5">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "6">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "7">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "8">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "9">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "10">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "11">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+		</Egitto>
+		<Marocco>
+			<personaggio id = "0">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "1">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "2">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "3">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "4">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "5">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "6">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "7">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "8">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "9">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "10">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "11">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+		</Marocco>
+		<Algeria>
+			<personaggio id = "0">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "1">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "2">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "3">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "4">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "5">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "6">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "7">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "8">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "9">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "10">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "11">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+		</Algeria>
+	</Africa>
+	<Oceania>
+		<Australia>
+			<personaggio id = "0">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "1">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "2">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "3">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "4">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "5">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "6">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "7">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "8">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "9">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "10">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "11">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+		</Australia>
+		<Nuova_zelanda>
+			<personaggio id = "0">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "1">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "2">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "3">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "4">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "5">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "6">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "7">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "8">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "9">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "10">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+			<personaggio id = "11">
+				<nome> </nome>
+				<anni> </anni>
+			</personaggio>
+		</Nuova_zelanda>
+	</oceania>
+</personaggi>

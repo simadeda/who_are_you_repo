@@ -1,0 +1,84 @@
+<stati>
+	<Asia>
+		<stato id = "0">
+			<nome>russia</nome>
+			<capitale>Mosca</capitale>
+		</stato>
+		<stato id = "1">
+			<nome>cina</nome>
+			<capitale>Pechino</capitale>
+		</stato>
+		<stato id = "2">
+			<nome>Korea del nord</nome>
+			<capitale>Pyongyang</capitale>
+		</stato>
+		<stato id = "3">
+			<nome>India</nome> 
+			<capitale>Nuova Delhi</capitale>
+		</stato>
+		<stato id = "4">
+			<nome>Giappone</nome> 
+			<capitale>Tokyo</capitale>
+		</stato>
+	</Asia>
+	<America>
+		<stato id = "0">
+			<nome>Stati uniti</nome>
+			<capitale>Washington</capitale>
+		</stato>
+		<stato id = "1">
+			<nome>Messico</nome>
+			<capitale>Città del Messico</capitale>
+		</stato>
+		<stato id = "2">
+			<nome>Canada</nome>
+			<capitale>Ottawa</capitale>
+		</stato>
+		<stato id = "3">
+			<nome>Brasile</nome> 
+			<capitale>Rio de janerio</capitale>
+		</stato>
+	</America>
+	<Europa>
+		<stato id = "0">
+			<nome>Germania</nome>
+			<capitale>Berlino</capitale>
+		</stato>
+		<stato id = "1">
+			<nome>Inghilterra</nome>
+			<capitale>Londra</capitale>
+		</stato>
+		<stato id = "2">
+			<nome>Italia</nome>
+			<capitale>Roma</capitale>
+		</stato>
+		<stato id = "3">
+			<nome>Albania</nome> 
+			<capitale>Tirana</capitale>
+		</stato>
+	</Europa>
+	<Africa>
+		<stato id = "0">
+			<nome>Egitto</nome>
+			<capitale>Il Cairo</capitale>
+		</stato>
+		<stato id = "1">
+			<nome>Marocco</nome>
+			<capitale>Rabat</capitale>
+		</stato>
+		<stato id = "2">
+			<nome>Algeria</nome>
+			<capitale>Algeri</capitale>
+		</stato>
+	</Africa>
+	<Oceania>
+		<stato id = "0">
+			<nome>nuova zelanda</nome>
+			<capitale>Wellington</capitale>
+		</stato>
+		<stato id = "1">
+			<nome>Australia</nome>
+			<capitale>Camberra</capitale>
+		</stato>
+	</Oceania>
+</stati>
