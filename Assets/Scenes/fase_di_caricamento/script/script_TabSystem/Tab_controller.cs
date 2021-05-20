@@ -6,7 +6,7 @@ using UnityEngine;
 public class Tab_controller : MonoBehaviour
 {
     public List<Tab_bottone> Tab_bottoni = new List<Tab_bottone>();
-    public List<GameObject> Tab_pannello; //prova
+    public List<GameObject> Tab_pannello; 
            
     public void Tab_enter(Tab_bottone Bottone)
     {
