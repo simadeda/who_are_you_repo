@@ -32,8 +32,9 @@ public class Opzioni : MonoBehaviour
 
         Risoluzioni = Screen.resolutions;
 
-        List<string> Risoluzioni_str = new List<string>();
         Risoluzioni_disponibili.ClearOptions();
+        
+        List<string> Risoluzioni_str = new List<string>();
 
         for (i = 0; i < Risoluzioni.Length; i++)
         {
@@ -42,7 +43,7 @@ public class Opzioni : MonoBehaviour
                 string DropdownRisoluzioni = Risoluzioni[i].width + "x" + Risoluzioni[i].height;
                 Risoluzioni_str.Add(DropdownRisoluzioni);
             }
-
+            
             if (Risoluzioni[i].width == Screen.currentResolution.width && Risoluzioni[i].height == Screen.currentResolution.height)
             {
                 res_corrente = i;
