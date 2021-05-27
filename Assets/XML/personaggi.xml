@@ -2,97 +2,73 @@
 	<Asia>
 		<Russia>
 			<personaggio id = "0">
-				<nome> </nome>
-				<anni> </anni>
-        <data_di_nascita></data_di_nascita>
+				<nome>Vassili</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "1">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Dimitri</nome>      
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "2">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Maksim</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "3">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Vladimir</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "4">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Sasha</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "5">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Nikita</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "6">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Jurij</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "7">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Anatolij</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "8">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Alexei</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "9">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Valery</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "10">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Luri</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "11">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Ivan</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
@@ -100,293 +76,221 @@
 		</Russia> 
 		<Cina>
 			<personaggio id = "0">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Feng</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "1">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Guo</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "2">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Jian</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "3">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Long</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "4">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Peng</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "5">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Shi</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "6">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Tao</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "7">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Ning </nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "8">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Zhang</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "9">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Enlai</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "10">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Fa</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "11">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Viella</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 		</Cina> 
-		<Iran>
+    <Israele>
 			<personaggio id = "0">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Avraham</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "1">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Chimons</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "2">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Eden</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "3">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Eleazar</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "4">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Gavriel</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "5">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Hadas</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "6">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Rabi</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "7">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Shaoul</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "8">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Yaacov</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "9">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Isaia</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "10">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Yeh'ezqel</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "11">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Zeev</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
-		</Iran> 
+		</Israele>
 		<India>
 			<personaggio id = "0">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Adarsh</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "1">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Ajar</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "2">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Bhagat</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "3">
         <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "4">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Chaitanya</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "5">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Yamir</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "6">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Anjali</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "7">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Anori</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "8">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Denahi</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "9">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Chua</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "10">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Prabhat</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
 			</personaggio>
 			<personaggio id = "11">
-        <nome> </nome>
-        <anni> </anni>
-        <data_di_nascita></data_di_nascita>
+        <nome>Rasraj</nome>
         <altezza></altezza>
         <colore_occhi></colore_occhi>
         <colore_capelli></colore_capelli>
