@@ -8,8 +8,7 @@ public class Anni_DataDiNascita : MonoBehaviour
 {
     public GameObject txt_anni, txt_data_di_nascita;
     int Anni;
-    string Data_di_nascita;
-
+       
     int Giorno_mese_anno(int[] giorno_mese_anno, int cambio_valori, int j)
     {
         int Min = 1;  
@@ -55,6 +54,10 @@ public class Anni_DataDiNascita : MonoBehaviour
             }
 
         }
+        /*
+        string data = to_string( giorno_mese_anno[0]) + "/" + to_string(giorno_mese_anno[1]) + "/" + to_string(giorno_mese_anno[2]) ;
+        string data = giorno_mese_anno[0].ToString() + "/" + giorno_mese_anno[1].ToString() + "/" + giorno_mese_anno[2].ToString() ;
+        */
         Anni_rnd(giorno_mese_anno);
 
         Debug.Log(giorno_mese_anno[0] + "/" + giorno_mese_anno[1] + "/" + giorno_mese_anno[2]);
