@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 
 public class Anni_DataDiNascita : MonoBehaviour
 {
     public GameObject txt_anni, txt_data_di_nascita;
+    private TextMeshProUGUI textMesH;
     int Anni;
+    string Data_di_nascita;
        
     int Giorno_mese_anno(int[] giorno_mese_anno, int cambio_valori, int j)
     {
@@ -19,13 +22,13 @@ public class Anni_DataDiNascita : MonoBehaviour
         giorno_mese_anno[j] = Random.Range(Min, cambio_valori);
              
         return giorno_mese_anno[j];
-
     }
 
     public void Anni_rnd(int[] giorno_mese_anno)
     {
         Anni = 2021 - giorno_mese_anno[2];
-        Debug.Log("Anni " + Anni);
+        textMesH = txt_anni.GetComponent<TextMeshProUGUI>();
+        textMesH.text = Anni.ToString();
     }
     
     public void Data_di_nascita_rnd()
@@ -54,12 +57,12 @@ public class Anni_DataDiNascita : MonoBehaviour
             }
 
         }
-        /*
-        string data = to_string( giorno_mese_anno[0]) + "/" + to_string(giorno_mese_anno[1]) + "/" + to_string(giorno_mese_anno[2]) ;
-        string data = giorno_mese_anno[0].ToString() + "/" + giorno_mese_anno[1].ToString() + "/" + giorno_mese_anno[2].ToString() ;
-        */
+       
         Anni_rnd(giorno_mese_anno);
 
-        Debug.Log(giorno_mese_anno[0] + "/" + giorno_mese_anno[1] + "/" + giorno_mese_anno[2]);
+        Data_di_nascita = giorno_mese_anno[0].ToString() + "/" + giorno_mese_anno[1].ToString() + "/" + giorno_mese_anno[2].ToString();
+
+        textMesH = txt_data_di_nascita.GetComponent<TextMeshProUGUI>();
+        textMesH.text = Data_di_nascita;
     }
 }
