@@ -1077,7 +1077,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pannel: {fileID: 1325863690}
   main_script: {fileID: 1248537739}
-  video_img_intermittenza: {fileID: 956958757}
+  video_img_intermittenza: {fileID: 590412334}
   output_pannello: {fileID: 1172383171}
   img_mignatura: {fileID: 290376706}
   video_mappe: {fileID: 590412335}
