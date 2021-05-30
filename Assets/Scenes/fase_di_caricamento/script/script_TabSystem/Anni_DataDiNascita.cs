@@ -30,7 +30,11 @@ public class Anni_DataDiNascita : MonoBehaviour
         textMesH = txt_anni.GetComponent<TextMeshProUGUI>();
         textMesH.text = Anni.ToString();
     }
-    
+
+    void Start()
+    {
+        Data_di_nascita_rnd();
+    }
     public void Data_di_nascita_rnd()
     {
         int[] giorno_mese_anno = new int[3];
