@@ -5,13 +5,26 @@ using UnityEngine.UI;
 using TMPro;
 
 
-public class Anni_DataDiNascita : MonoBehaviour
+public class Caratteristiche_personaggio : MonoBehaviour
 {
-    public GameObject txt_anni, txt_data_di_nascita;
+    public GameObject txt_anni, txt_data_di_nascita,txt_occhi;
     private TextMeshProUGUI textMesH;
     int Anni;
     string Data_di_nascita;
-       
+    string[] Occhi = new string[4] {"Azzurri","Verdi","Neri","Marroni"};
+
+    void Start()
+    {
+        Data_di_nascita_rnd();
+        Colore_occhi(Occhi);
+    }  
+    public void Anni_rnd(int[] giorno_mese_anno)
+    {
+        Anni = 2021 - giorno_mese_anno[2];
+        textMesH = txt_anni.GetComponent<TextMeshProUGUI>();
+        textMesH.text = Anni.ToString();
+    }
+
     int Giorno_mese_anno(int[] giorno_mese_anno, int cambio_valori, int j)
     {
         int Min = 1;  
@@ -23,18 +36,7 @@ public class Anni_DataDiNascita : MonoBehaviour
              
         return giorno_mese_anno[j];
     }
-
-    public void Anni_rnd(int[] giorno_mese_anno)
-    {
-        Anni = 2021 - giorno_mese_anno[2];
-        textMesH = txt_anni.GetComponent<TextMeshProUGUI>();
-        textMesH.text = Anni.ToString();
-    }
-
-    void Start()
-    {
-        Data_di_nascita_rnd();
-    }
+      
     public void Data_di_nascita_rnd()
     {
         int[] giorno_mese_anno = new int[3];
@@ -69,4 +71,14 @@ public class Anni_DataDiNascita : MonoBehaviour
         textMesH = txt_data_di_nascita.GetComponent<TextMeshProUGUI>();
         textMesH.text = Data_di_nascita;
     }
+
+    public void Colore_occhi(string[] Occhi)
+    {
+        int Scelta = 0;
+        Scelta = Random.Range(0, Occhi.Length);
+        textMesH = txt_occhi.GetComponent<TextMeshProUGUI>();
+        textMesH.text = Occhi[Scelta].ToString();
+    }
+
+
 }
