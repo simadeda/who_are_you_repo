@@ -158,7 +158,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697859653}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -206,6 +206,11 @@ CanvasRenderer:
 --- !u!1 &272488119 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4909531119613586391, guid: a775320126aa6604489c671a18dba779, type: 3}
+  m_PrefabInstance: {fileID: 1553354757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &294103806 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7455565741929993944, guid: a775320126aa6604489c671a18dba779, type: 3}
   m_PrefabInstance: {fileID: 1553354757}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
@@ -603,8 +608,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 171732383}
   - {fileID: 199301376}
+  - {fileID: 171732383}
   - {fileID: 615919880}
   - {fileID: 955416197}
   - {fileID: 985430629}
@@ -887,6 +892,10 @@ MonoBehaviour:
   Mixer_main: {fileID: 24100000, guid: df26bf908ad705a49aaf7e6c4a92614f, type: 2}
   Pannellopzioni: {fileID: 850255157}
   Btn_ok: {fileID: 272488119}
+  Sound_icon: {fileID: 0}
+  Sound_icon_img:
+  - {fileID: 0}
+  - {fileID: 0}
   Controllo: 0
   Risoluzioni_disponibili: {fileID: 1518099253}
 --- !u!114 &1126850022
@@ -1201,6 +1210,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 985430629}
     m_Modifications:
+    - target: {fileID: 2537599761000270355, guid: a775320126aa6604489c671a18dba779, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909531119461454025, guid: a775320126aa6604489c671a18dba779, type: 3}
+      propertyPath: Sound_icon
+      value: 
+      objectReference: {fileID: 294103806}
+    - target: {fileID: 4909531119461454025, guid: a775320126aa6604489c671a18dba779, type: 3}
+      propertyPath: Sound_icon_img.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1e94c9f4f5acb7b4fa14c32d456c5b25, type: 3}
+    - target: {fileID: 4909531119461454025, guid: a775320126aa6604489c671a18dba779, type: 3}
+      propertyPath: Sound_icon_img.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 63f5c5cbe02238d439c29c824d0b7622, type: 3}
     - target: {fileID: 4909531119461454026, guid: a775320126aa6604489c671a18dba779, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1324,6 +1349,10 @@ PrefabInstance:
     - target: {fileID: 4909531120668412794, guid: a775320126aa6604489c671a18dba779, type: 3}
       propertyPath: m_AnchorMin.x
       value: 0.9876543
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027842845337054722, guid: a775320126aa6604489c671a18dba779, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -238.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a775320126aa6604489c671a18dba779, type: 3}
@@ -1758,7 +1787,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3507084805051535504, guid: 612e1d84b7526dc4caecba503c1d25d8, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3507084805051535504, guid: 612e1d84b7526dc4caecba503c1d25d8, type: 3}
       propertyPath: m_AnchorMax.x
