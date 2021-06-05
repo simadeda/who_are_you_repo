@@ -7,9 +7,10 @@ using TMPro;
 
 public class Caratteristiche_personaggio : MonoBehaviour
 {
-    public GameObject txt_anni, txt_data_di_nascita,txt_occhi;
+    public GameObject txt_anni,txt_data_di_nascita,txt_occhi,txt_altezza;
     private TextMeshProUGUI textMesH;
     int Anni;
+    float Altezza;
     string Data_di_nascita;
     string[] Occhi = new string[4] {"Azzurri","Verdi","Neri","Marroni"};
 
@@ -17,6 +18,7 @@ public class Caratteristiche_personaggio : MonoBehaviour
     {
         Data_di_nascita_rnd();
         Colore_occhi(Occhi);
+        Altezza_personaggio(Altezza);
     }  
     public void Anni_rnd(int[] giorno_mese_anno)
     {
@@ -80,5 +82,21 @@ public class Caratteristiche_personaggio : MonoBehaviour
         textMesH.text = Occhi[Scelta].ToString();
     }
 
+    public void Altezza_personaggio(float altezza)
+    {
+        float percentuale_altezza = 0.00f;
+        percentuale_altezza = Random.Range(0.00f,100.00f);
+        if(percentuale_altezza >= 0.01 && percentuale_altezza <= 0.05)
+        {
+            altezza = 1.00f; //rarità dello 0,05 %
+        }
+        else
+            {
+                altezza = Random.Range(1.60f, 2.00f); //altezza normale 
+            }
+
+        textMesH = txt_altezza.GetComponent<TextMeshProUGUI>();
+        textMesH.text = altezza.ToString();
+    }
 
 }
