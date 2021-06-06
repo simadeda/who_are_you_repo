@@ -6,16 +6,15 @@ using System;
 using System.IO;
 using System.Xml;
 
-public class script_principale_menù_continenti : MonoBehaviour
+public class Script_principale_menù_nazione : MonoBehaviour
 {
     public GameObject btn_scegli;
-    GameObject rnd_numb, continente_stati, video_img;          //vengono creati 2 gameobject
+    GameObject rnd_numb, continente_stati, video_img;          //vengono creati 3 gameobject
     random_number rnd_numb_script;
     lettoreXML_continenti_stati continente_stati_script;
     Cambio_immagini_script video_img_script;
     
     public int num_rnd,n_stati;
-    int counter = 0;
     public string nome_continente, capitale, stato_selezionato;
     public void Gestione_Script_Principale()
     {

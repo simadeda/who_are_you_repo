@@ -338,50 +338,50 @@
             <nome>José</nome>
           </personaggio>
           <personaggio id = "10">
-            <nome> </nome>
+            <nome>marcus</nome>
           </personaggio>
           <personaggio id = "11">
-            <nome> </nome>
+            <nome>Eltor</nome>
           </personaggio>
         </Brasile>
       </America>
       <Europa>
         <Germania>
           <personaggio id = "0">
-            <nome> </nome>
+            <nome>MÜller</nome>
           </personaggio>
           <personaggio id = "1">
-            <nome> </nome>
+            <nome>Berthold</nome>
           </personaggio>
           <personaggio id = "2">
-            <nome> </nome>
+            <nome>Heinrich</nome>
           </personaggio>
           <personaggio id = "3">
-            <nome> </nome>
+            <nome>Edmund</nome>
           </personaggio>
           <personaggio id = "4">
-            <nome> </nome>
+            <nome>Goethe</nome>
           </personaggio>
           <personaggio id = "5">
-            <nome> </nome>
+            <nome>Frerich</nome>
           </personaggio>
           <personaggio id = "6">
-            <nome> </nome>
+            <nome>Rosskopf</nome>
           </personaggio>
           <personaggio id = "7">
-            <nome> </nome>
+            <nome>Helmut</nome>
           </personaggio>
           <personaggio id = "8">
-            <nome> </nome>
+            <nome>Hans</nome>
           </personaggio>
           <personaggio id = "9">
-            <nome> </nome>
+            <nome>Jürgen</nome>
           </personaggio>
           <personaggio id = "10">
-            <nome> </nome>
+            <nome>Lampert</nome>
           </personaggio>
           <personaggio id = "11">
-            <nome> </nome>
+            <nome>Herwig</nome>
           </personaggio>
         </Germania>
         <Inghilterra>
@@ -424,78 +424,78 @@
         </Inghilterra>
         <Italia>
           <personaggio id = "0">
-            <nome> </nome>
+            <nome>Fabio</nome>
           </personaggio>
           <personaggio id = "1">
-            <nome> </nome>
+            <nome>Toni</nome>
           </personaggio>
           <personaggio id = "2">
-            <nome> </nome>
+            <nome>Ciro</nome>
           </personaggio>
           <personaggio id = "3">
-            <nome> </nome>
+            <nome>Ettore</nome>
           </personaggio>
           <personaggio id = "4">
-            <nome> </nome>
+            <nome>Salvatore</nome>
           </personaggio>
           <personaggio id = "5">
-            <nome> </nome>
+            <nome>Paquale</nome>
           </personaggio>
           <personaggio id = "6">
-            <nome> </nome>
+            <nome>Luigi</nome>
           </personaggio>
           <personaggio id = "7">
-            <nome> </nome>
+            <nome>Mario</nome>
           </personaggio>
           <personaggio id = "8">
-            <nome> </nome>
+            <nome>Aldo</nome>
           </personaggio>
           <personaggio id = "9">
-            <nome> </nome>
+            <nome>Cesare</nome>
           </personaggio>
           <personaggio id = "10">
-            <nome> </nome>
+            <nome>Adamo</nome>
           </personaggio>
           <personaggio id = "11">
-            <nome> </nome>
+            <nome>Daniele</nome>
           </personaggio>
         </Italia>
         <Albania>
           <personaggio id = "0">
-            <nome> </nome>
+            <nome>Albjon</nome>
           </personaggio>
           <personaggio id = "1">
-            <nome> </nome>
+            <nome>Namik</nome>
           </personaggio>
           <personaggio id = "2">
-            <nome> </nome>
+            <nome>Fatlind</nome>
           </personaggio>
           <personaggio id = "3">
-            <nome> </nome>
+            <nome>Blerton</nome>
           </personaggio>
           <personaggio id = "4">
-            <nome> </nome>
+            <nome>Baftjar</nome>
           </personaggio>
           <personaggio id = "5">
-            <nome> </nome>
+            <nome>Elidon</nome>
           </personaggio>
           <personaggio id = "6">
-            <nome> </nome>
+            <nome>Ardit</nome>
           </personaggio>
           <personaggio id = "7">
-            <nome> </nome>
+            <nome>Dëlirim</nome>
           </personaggio>
           <personaggio id = "8">
-            <nome> </nome>
+            <nome>Fejizie</nome>
           </personaggio>
           <personaggio id = "9">
-            <nome> </nome>
+            <nome>Meti</nome>
           </personaggio>
           <personaggio id = "10">
-            <nome> </nome>
+            <nome>Arian</nome>
           </personaggio>
           <personaggio id = "11">
-            <nome> </nome>
+            <nome>Lartim</nome>
           </personaggio>
         </Albania>
       </Europa>
@@ -540,156 +540,156 @@
         </Egitto>
         <Marocco>
           <personaggio id = "0">
-            <nome> </nome>
+            <nome>Abbou</nome>
           </personaggio>
           <personaggio id = "1">
-            <nome> </nome>
+            <nome>Bilal</nome>
           </personaggio>
           <personaggio id = "2">
-            <nome> </nome>
+            <nome>Fahim</nome>
           </personaggio>
           <personaggio id = "3">
-            <nome> </nome>
+            <nome>Ibraim </nome>
           </personaggio>
           <personaggio id = "4">
-            <nome> </nome>
+            <nome>Kadour</nome>
           </personaggio>
           <personaggio id = "5">
-            <nome> </nome>
+            <nome>Nabih</nome>
           </personaggio>
           <personaggio id = "6">
-            <nome> </nome>
+            <nome>Omar</nome>
           </personaggio>
           <personaggio id = "7">
-            <nome> </nome>
+            <nome>Salim</nome>
           </personaggio>
           <personaggio id = "8">
-            <nome> </nome>
+            <nome>Tareq</nome>
           </personaggio>
           <personaggio id = "9">
-            <nome> </nome>
+            <nome>Youssef</nome>
           </personaggio>
           <personaggio id = "10">
-            <nome> </nome>
+            <nome>Zakaria</nome>
           </personaggio>
           <personaggio id = "11">
-            <nome> </nome>
+            <nome>Abdallah</nome>
           </personaggio>
         </Marocco>
         <Algeria>
           <personaggio id = "0">
-            <nome> </nome>
+            <nome>Feisal</nome>
           </personaggio>
           <personaggio id = "1">
-            <nome> </nome>
+            <nome>Hazma</nome>
           </personaggio>
           <personaggio id = "2">
-            <nome> </nome>
+            <nome>Dhakir</nome>
           </personaggio>
           <personaggio id = "3">
-            <nome> </nome>
+            <nome>Ismail</nome>
           </personaggio>
           <personaggio id = "4">
-            <nome> </nome>
+            <nome>Jaffar</nome>
           </personaggio>
           <personaggio id = "5">
-            <nome> </nome>
+            <nome>Mahmud</nome>
           </personaggio>
           <personaggio id = "6">
-            <nome> </nome>
+            <nome>Rayyan</nome>
           </personaggio>
           <personaggio id = "7">
-            <nome> </nome>
+            <nome>Zeyd </nome>
           </personaggio>
           <personaggio id = "8">
-            <nome> </nome>
+            <nome>Wadid</nome>
           </personaggio>
           <personaggio id = "9">
-            <nome> </nome>
+            <nome>Talil </nome>
           </personaggio>
           <personaggio id = "10">
-            <nome> </nome>
+            <nome>Usama</nome>
           </personaggio>
           <personaggio id = "11">
-            <nome> </nome>
+            <nome>Talil</nome>
           </personaggio>
         </Algeria>
       </Africa>
       <Oceania>
         <nuova_zelanda>
           <personaggio id = "0">
-            <nome> </nome>
+            <nome>Timothy</nome>
           </personaggio>
           <personaggio id = "1">
-            <nome> </nome>
+            <nome>Dean</nome>
           </personaggio>
           <personaggio id = "2">
-            <nome> </nome>
+            <nome> Calum</nome>
           </personaggio>
           <personaggio id = "3">
-            <nome> </nome>
+            <nome>Connor</nome>
           </personaggio>
           <personaggio id = "4">
-            <nome> </nome>
+            <nome>Jayden</nome>
           </personaggio>
           <personaggio id = "5">
-            <nome> </nome>
+            <nome>Blake</nome>
           </personaggio>
           <personaggio id = "6">
-            <nome> </nome>
+            <nome>Theo</nome>
           </personaggio>
           <personaggio id = "7">
-            <nome> </nome>
+            <nome>Hudson</nome>
           </personaggio>
           <personaggio id = "8">
-            <nome> </nome>
+            <nome>Theodore</nome>
           </personaggio>
           <personaggio id = "9">
-            <nome> </nome>
+            <nome>Arlo</nome>
           </personaggio>
           <personaggio id = "10">
-            <nome> </nome>
+            <nome>Rupert</nome>
           </personaggio>
           <personaggio id = "11">
-            <nome> </nome>
+            <nome>Clive</nome>
           </personaggio>
         </nuova_zelanda>
         <Australia>
           <personaggio id = "0">
-            <nome> </nome>
+            <nome>Adam</nome>
           </personaggio>
           <personaggio id = "1">
-            <nome> </nome>
+            <nome>Blayne</nome>
           </personaggio>
           <personaggio id = "2">
-            <nome> </nome>
+            <nome>Casey</nome>
           </personaggio>
           <personaggio id = "3">
-            <nome> </nome>
+            <nome>Hunter</nome>
           </personaggio>
           <personaggio id = "4">
-            <nome> </nome>
+            <nome>Gus</nome>
           </personaggio>
           <personaggio id = "5">
-            <nome> </nome>
+            <nome>Jacob</nome>
           </personaggio>
           <personaggio id = "6">
-            <nome> </nome>
+            <nome>Keenan</nome>
           </personaggio>
           <personaggio id = "7">
-            <nome> </nome>
+            <nome>Klayton</nome>
           </personaggio>
           <personaggio id = "8">
-            <nome> </nome>
+            <nome>Mason</nome>
           </personaggio>
           <personaggio id = "9">
-            <nome> </nome>
+            <nome>Mitch</nome>
           </personaggio>
           <personaggio id = "10">
-            <nome> </nome>
+            <nome>Riley</nome>
           </personaggio>
           <personaggio id = "11">
-            <nome> </nome>
+            <nome>Zac</nome>
           </personaggio>
         </Australia>
       </Oceania>

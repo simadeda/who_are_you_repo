@@ -1,24 +1,38 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 using UnityEngine.UI;
 using TMPro;
 
 
 public class Caratteristiche_personaggio : MonoBehaviour
 {
-    public GameObject txt_anni,txt_data_di_nascita,txt_occhi,txt_altezza;
+    public GameObject txt_anni,txt_data_di_nascita,txt_occhi,txt_altezza,lettoreXML,Generatore_num_rand;
+    lettoreXML_continenti_stati Lettura_personaggi;
+    random_number Random_number;
+    Script_principale_menù_nazione Menù_nazione;
     private TextMeshProUGUI textMesH;
     int Anni;
-    float Altezza;
     string Data_di_nascita;
     string[] Occhi = new string[4] {"Azzurri","Verdi","Neri","Marroni"};
 
     void Start()
     {
+        Menù_nazione.GetComponent<Script_principale_menù_nazione>();
+        Lettura_personaggi = lettoreXML.GetComponent<lettoreXML_continenti_stati>();
+        Random_number = Generatore_num_rand.GetComponent<random_number>();
+        int random_num = Random_number.Rnd(12); 
+        string Continente = Menù_nazione.nome_continente;
+        string Stato = Menù_nazione.stato_selezionato;
+        Lettura_personaggi.lettura_personaggi(random_num,Continente,Stato);
+        
+       
+       
         Data_di_nascita_rnd();
         Colore_occhi(Occhi);
-        Altezza_personaggio(Altezza);
+        Altezza_personaggio();
+
     }  
     public void Anni_rnd(int[] giorno_mese_anno)
     {
@@ -34,7 +48,7 @@ public class Caratteristiche_personaggio : MonoBehaviour
         if (j == 2)
             Min = 1961;
 
-        giorno_mese_anno[j] = Random.Range(Min, cambio_valori);
+        giorno_mese_anno[j] = UnityEngine.Random.Range(Min, cambio_valori);
              
         return giorno_mese_anno[j];
     }
@@ -77,26 +91,26 @@ public class Caratteristiche_personaggio : MonoBehaviour
     public void Colore_occhi(string[] Occhi)
     {
         int Scelta = 0;
-        Scelta = Random.Range(0, Occhi.Length);
+        Scelta = UnityEngine.Random.Range(0, Occhi.Length);
         textMesH = txt_occhi.GetComponent<TextMeshProUGUI>();
         textMesH.text = Occhi[Scelta].ToString();
     }
 
-    public void Altezza_personaggio(float altezza)
+    public void Altezza_personaggio()
     {
-        float percentuale_altezza = 0.00f;
-        percentuale_altezza = Random.Range(0.00f,100.00f);
+        float percentuale_altezza = 0.00f,altezza;
+        percentuale_altezza = UnityEngine.Random.Range(0.00f,100.00f);
         if(percentuale_altezza >= 0.01 && percentuale_altezza <= 0.05)
         {
             altezza = 1.00f; //rarità dello 0,05 %
         }
         else
             {
-                altezza = Random.Range(1.60f, 2.00f); //altezza normale 
+                altezza = UnityEngine.Random.Range(1.60f, 2.00f); //altezza normale
             }
 
         textMesH = txt_altezza.GetComponent<TextMeshProUGUI>();
-        textMesH.text = altezza.ToString();
+        textMesH.text = altezza.ToString("F2");
     }
 
 }
