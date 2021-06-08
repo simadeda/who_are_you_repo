@@ -633,6 +633,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 396604025}
   m_CullTransparentMesh: 1
+--- !u!1 &398763909 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1191169994032877395, guid: 02360d863dae2b94bbca408fd34e7ef1, type: 3}
+  m_PrefabInstance: {fileID: 539132587}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &535354063
 GameObject:
   m_ObjectHideFlags: 0
@@ -2440,7 +2445,8 @@ MonoBehaviour:
   txt_occhi: {fileID: 2134483136}
   txt_altezza: {fileID: 49012459}
   lettoreXML: {fileID: 4561978239969240860}
-  Generatore_num_rand: {fileID: 0}
+  Generatore_num_rand: {fileID: 398763909}
+  txt_nome: {fileID: 1813077078}
 --- !u!114 &1294237870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4100,7 +4106,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9072389437081685921, guid: 616bd621e2d38704b9d48f9b7b6a86af, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 616bd621e2d38704b9d48f9b7b6a86af, type: 3}
 --- !u!4 &4561978239969240859 stripped
 Transform:

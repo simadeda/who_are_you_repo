@@ -8,31 +8,30 @@ using TMPro;
 
 public class Caratteristiche_personaggio : MonoBehaviour
 {
-    public GameObject txt_anni,txt_data_di_nascita,txt_occhi,txt_altezza,lettoreXML,Generatore_num_rand;
-    lettoreXML_continenti_stati Lettura_personaggi;
+    public GameObject txt_anni,txt_data_di_nascita,txt_occhi,txt_altezza,lettoreXML,Generatore_num_rand,txt_nome;
     random_number Random_number;
-    Script_principale_menù_nazione Menù_nazione;
+    LettoreXML_continenti_stati_personaggio Lettura_personaggi;
     private TextMeshProUGUI textMesH;
     int Anni;
-    string Data_di_nascita;
+    string Data_di_nascita,Nome_personaggio;
+    static string Continente,Stato;
     string[] Occhi = new string[4] {"Azzurri","Verdi","Neri","Marroni"};
+
+    //rnd_numb_script = rnd_numb.GetComponent<random_number>();
 
     void Start()
     {
-        Menù_nazione.GetComponent<Script_principale_menù_nazione>();
-        Lettura_personaggi = lettoreXML.GetComponent<lettoreXML_continenti_stati>();
+        Lettura_personaggi = lettoreXML.GetComponent<LettoreXML_continenti_stati_personaggio>();
         Random_number = Generatore_num_rand.GetComponent<random_number>();
-        int random_num = Random_number.Rnd(12); 
-        string Continente = Menù_nazione.nome_continente;
-        string Stato = Menù_nazione.stato_selezionato;
-        Lettura_personaggi.lettura_personaggi(random_num,Continente,Stato);
-        
-       
-       
+        int random_num = Random_number.Rnd(11);
+        Continente = Lettura_personaggi.Nome_continente;
+        Stato = Lettura_personaggi.Stato_selezionato;
+
+        Nome_personaggio = Lettura_personaggi.lettura_personaggi(random_num,Continente,Stato);
+
         Data_di_nascita_rnd();
         Colore_occhi(Occhi);
         Altezza_personaggio();
-
     }  
     public void Anni_rnd(int[] giorno_mese_anno)
     {
@@ -79,7 +78,6 @@ public class Caratteristiche_personaggio : MonoBehaviour
             }
 
         }
-       
         Anni_rnd(giorno_mese_anno);
 
         Data_di_nascita = giorno_mese_anno[0].ToString() + "/" + giorno_mese_anno[1].ToString() + "/" + giorno_mese_anno[2].ToString();
@@ -113,4 +111,9 @@ public class Caratteristiche_personaggio : MonoBehaviour
         textMesH.text = altezza.ToString("F2");
     }
 
+    public void nome_cognome_personaggio()
+    {
+        textMesH = txt_nome.GetComponent<TextMeshProUGUI>();
+        textMesH.text = Nome_personaggio.ToString();
+    }
 }
