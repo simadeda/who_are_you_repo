@@ -7,7 +7,8 @@ using UnityEngine.Audio;
 public class Opzioni : MonoBehaviour
 {
     public AudioMixer Mixer_main;
-    public GameObject Pannellopzioni,Btn_ok;
+    public GameObject Pannellopzioni,Btn_ok,Sound_icon;
+    public Sprite[] Sound_icon_img = new Sprite[2];
     public bool Controllo;
 
     public TMPro.TMP_Dropdown Risoluzioni_disponibili;
@@ -22,8 +23,7 @@ public class Opzioni : MonoBehaviour
             RisoluzioneDrop();          
         }
         else
-            Pannellopzioni.gameObject.SetActive(false);
-               
+            Pannellopzioni.gameObject.SetActive(false); 
     }
 
     public void RisoluzioneDrop()
@@ -62,7 +62,16 @@ public class Opzioni : MonoBehaviour
     }
     public void SetVolume(float Volume)
     {
-        Mixer_main.SetFloat("volume_menù_principale",Volume);
+        Mixer_main.SetFloat("volume_menù_principale", Volume);
+        if (Volume == -80)
+        {
+            Sound_icon.GetComponent<Image>().sprite = Sound_icon_img[1];
+        }
+        else
+            {
+            Sound_icon.GetComponent<Image>().sprite = Sound_icon_img[0];
+            }
+
     }
 
 }
