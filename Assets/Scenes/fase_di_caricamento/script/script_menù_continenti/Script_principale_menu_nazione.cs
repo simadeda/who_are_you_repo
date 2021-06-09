@@ -6,7 +6,7 @@ using System;
 using System.IO;
 using System.Xml;
 
-public class Script_principale_menù_nazione : MonoBehaviour
+public class Script_principale_menu_nazione : MonoBehaviour
 {
     public GameObject btn_scegli;
     GameObject rnd_numb, continente_stati, video_img;          //vengono creati 3 gameobject

@@ -10,7 +10,7 @@ public class pannello_script : MonoBehaviour
 {
     public GameObject pannel,main_script,video_img_intermittenza,output_pannello;
     public RawImage img_mignatura;
-    Script_principale_menù_nazione script_principale;
+    Script_principale_menu_nazione script_principale;
     Output_pannello output_Pannello_script;
              
     public VideoPlayer video_mappe;
@@ -19,7 +19,7 @@ public class pannello_script : MonoBehaviour
    
     public void show_hidePannel()
     { 
-        script_principale = main_script.GetComponent<Script_principale_menù_nazione>();
+        script_principale = main_script.GetComponent<Script_principale_menu_nazione>();
         
         continente = script_principale.nome_continente;
         capitale = script_principale.capitale;
@@ -73,11 +73,6 @@ public class pannello_script : MonoBehaviour
         pannel.gameObject.SetActive(false);
         video_img_intermittenza.gameObject.SetActive(false);
         video_mappe.Stop();
-    }
-
-    public void btn_si()
-    {
-
     }
 
 }
