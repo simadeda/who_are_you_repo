@@ -34,28 +34,26 @@ public class LettoreXML_continenti_stati_personaggio : MonoBehaviour
     {
         nome_stato_selezionato = "";
         capitale = "";
-
-        if (File.Exists("Assets / XML / stati.xml"))
-        {
+        if (File.Exists("Assets/XML/stati.xml"))
             try
             {
                 XmlDocument Doc = new XmlDocument();
-                Doc.Load("Assets / XML / stati.xml");
+                Doc.Load("Assets/XML/stati.xml");
                 nome_stato_selezionato = Doc.SelectSingleNode("/stati/" + nome_continente + "/stato[@id='" + num_rnd.ToString() + "']/nome").InnerText;
                 Stato_selezionato = nome_stato_selezionato;
                 capitale = Doc.SelectSingleNode("/stati/" + nome_continente + "/stato[@id='" + num_rnd.ToString() + "']/capitale").InnerText;
             }
             catch (Exception e)
             {
-                Debug.Log("errore " + e);
+              Debug.Log("errore " + e);
             }
-        }
+        
     }
 
     public string lettura_personaggi(int num_rnd, string nome_continente, string nome_stato)
     {
         string nome_personaggio = "";
-        if (File.Exists("Assets / XML / personaggi.xml"))
+        if (File.Exists("Assets/XML/personaggi.xml"))
         {
             try
             {

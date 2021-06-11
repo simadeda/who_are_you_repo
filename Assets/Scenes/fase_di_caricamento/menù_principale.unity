@@ -892,10 +892,10 @@ MonoBehaviour:
   Mixer_main: {fileID: 24100000, guid: df26bf908ad705a49aaf7e6c4a92614f, type: 2}
   Pannellopzioni: {fileID: 850255157}
   Btn_ok: {fileID: 272488119}
-  Sound_icon: {fileID: 0}
+  Sound_icon: {fileID: 294103806}
   Sound_icon_img:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 63f5c5cbe02238d439c29c824d0b7622, type: 3}
+  - {fileID: 21300000, guid: 1e94c9f4f5acb7b4fa14c32d456c5b25, type: 3}
   Controllo: 0
   Risoluzioni_disponibili: {fileID: 1518099253}
 --- !u!114 &1126850022
