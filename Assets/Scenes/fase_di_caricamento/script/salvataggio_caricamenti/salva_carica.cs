@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class salva_carica : MonoBehaviour
 {
-    LettoreXML_continenti_stati_personaggio continente_stato = new LettoreXML_continenti_stati_personaggio();
+    public GameObject LettoreContinenteStatoXML;
+    LettoreXML continente_stato;
 
+    private void Start()
+    {
+        continente_stato = LettoreContinenteStatoXML.GetComponent<LettoreXML>();
+    }
     public void Salva_dati()
     {
         Gestione_salvataggi.Salvataggio(continente_stato);
@@ -14,7 +19,7 @@ public class salva_carica : MonoBehaviour
     public void Carica_dati()
     {
         Cont_stato_prsn_data Carica = Gestione_salvataggi.Caricamento();
-        continente_stato.Nome_continente = Carica.continente_stato[1];
-        continente_stato.Nome_continente = Carica.continente_stato[1];
+        LettoreXML.Nome_continente = Carica.continente_stato[0];
+        LettoreXML.Stato_selezionato = Carica.continente_stato[1];
     }
 }

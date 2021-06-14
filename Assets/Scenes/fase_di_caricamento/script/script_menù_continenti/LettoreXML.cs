@@ -5,9 +5,9 @@ using System;
 using System.IO;
 using System.Xml;
 
-public class LettoreXML_continenti_stati_personaggio : MonoBehaviour
+public class LettoreXML : MonoBehaviour
 {
-    public string Nome_continente, Stato_selezionato;
+    public static string Nome_continente, Stato_selezionato;
     public void letturaXML_continenti(int num_rnd,out int n_stati,out string nome_continente)
     {
         n_stati = 0;
@@ -49,7 +49,6 @@ public class LettoreXML_continenti_stati_personaggio : MonoBehaviour
             }
         
     }
-
     public string lettura_personaggi(int num_rnd, string nome_continente, string nome_stato)
     {
         string nome_personaggio = "";
@@ -58,8 +57,8 @@ public class LettoreXML_continenti_stati_personaggio : MonoBehaviour
             try
             {
                 XmlDocument Doc = new XmlDocument();
-                Doc.Load("Assets / XML / personaggi.xml");
-                nome_personaggio = Doc.SelectSingleNode("/personaggi/" + nome_continente + nome_stato + "personaggio[@id='" + num_rnd.ToString()+ "']/nome").InnerText;
+                Doc.Load("Assets/XML/personaggi.xml");
+                nome_personaggio = Doc.SelectSingleNode("/personaggi/" + nome_continente +"/"+ nome_stato + "/personaggio[@id='" + num_rnd.ToString()+ "']/nome").InnerText;
             }
             catch (Exception e)
             {

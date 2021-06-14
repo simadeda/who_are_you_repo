@@ -5,39 +5,43 @@ using System;
 using UnityEngine.UI;
 using TMPro;
 
-
 public class Caratteristiche_personaggio : MonoBehaviour
 {
     public GameObject txt_anni,txt_data_di_nascita,txt_occhi,txt_altezza,lettoreXML,Generatore_num_rand,txt_nome;
     random_number Random_number;
-    LettoreXML_continenti_stati_personaggio Lettura_personaggi;
-    private TextMeshProUGUI textMesH;
+    LettoreXML Lettura_personaggi;
+    private TextMeshProUGUI TextMesH_anni,TextMesH_data,TextMesH_occhi,TextMesH_altezza,TextMesH_nome;
     int Anni;
     string Data_di_nascita,Nome_personaggio;
-    static string Continente,Stato;
+    string Continente,Stato;
     string[] Occhi = new string[4] {"Azzurri","Verdi","Neri","Marroni"};
 
-    //rnd_numb_script = rnd_numb.GetComponent<random_number>();
 
     void Start()
     {
-        Lettura_personaggi = lettoreXML.GetComponent<LettoreXML_continenti_stati_personaggio>();
+        TextMesH_anni = txt_anni.GetComponent<TextMeshProUGUI>();
+        TextMesH_data = txt_data_di_nascita.GetComponent<TextMeshProUGUI>();
+        TextMesH_occhi = txt_occhi.GetComponent<TextMeshProUGUI>();
+        TextMesH_altezza = txt_altezza.GetComponent<TextMeshProUGUI>();
+        TextMesH_nome = txt_nome.GetComponent<TextMeshProUGUI>();
+        Lettura_personaggi = lettoreXML.GetComponent<LettoreXML>();
         Random_number = Generatore_num_rand.GetComponent<random_number>();
+
         int random_num = Random_number.Rnd(11);
-        Continente = Lettura_personaggi.Nome_continente;
-        Stato = Lettura_personaggi.Stato_selezionato;
+        Continente = LettoreXML.Nome_continente;
+        Stato = LettoreXML.Stato_selezionato;
 
         Nome_personaggio = Lettura_personaggi.lettura_personaggi(random_num,Continente,Stato);
 
         Data_di_nascita_rnd();
         Colore_occhi(Occhi);
         Altezza_personaggio();
+        nome_cognome_personaggio();
     }  
     public void Anni_rnd(int[] giorno_mese_anno)
     {
         Anni = 2021 - giorno_mese_anno[2];
-        textMesH = txt_anni.GetComponent<TextMeshProUGUI>();
-        textMesH.text = Anni.ToString();
+        TextMesH_anni.text = Anni.ToString();
     }
 
     int Giorno_mese_anno(int[] giorno_mese_anno, int cambio_valori, int j)
@@ -82,16 +86,15 @@ public class Caratteristiche_personaggio : MonoBehaviour
 
         Data_di_nascita = giorno_mese_anno[0].ToString() + "/" + giorno_mese_anno[1].ToString() + "/" + giorno_mese_anno[2].ToString();
 
-        textMesH = txt_data_di_nascita.GetComponent<TextMeshProUGUI>();
-        textMesH.text = Data_di_nascita;
+        TextMesH_data.text = Data_di_nascita;
     }
 
     public void Colore_occhi(string[] Occhi)
     {
         int Scelta = 0;
         Scelta = UnityEngine.Random.Range(0, Occhi.Length);
-        textMesH = txt_occhi.GetComponent<TextMeshProUGUI>();
-        textMesH.text = Occhi[Scelta].ToString();
+
+        TextMesH_occhi.text = Occhi[Scelta].ToString();
     }
 
     public void Altezza_personaggio()
@@ -103,17 +106,15 @@ public class Caratteristiche_personaggio : MonoBehaviour
             altezza = 1.00f; //rarità dello 0,05 %
         }
         else
-            {
-                altezza = UnityEngine.Random.Range(1.60f, 2.00f); //altezza normale
-            }
+        {
+            altezza = UnityEngine.Random.Range(1.60f, 2.00f); //altezza normale
+        }
 
-        textMesH = txt_altezza.GetComponent<TextMeshProUGUI>();
-        textMesH.text = altezza.ToString("F2");
+        TextMesH_altezza.text = altezza.ToString("F2");
     }
 
     public void nome_cognome_personaggio()
     {
-        textMesH = txt_nome.GetComponent<TextMeshProUGUI>();
-        textMesH.text = Nome_personaggio.ToString();
+        TextMesH_nome.text = Nome_personaggio.ToString();
     }
 }

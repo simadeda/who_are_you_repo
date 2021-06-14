@@ -14,7 +14,7 @@ public class Opzioni : MonoBehaviour
     public TMPro.TMP_Dropdown Risoluzioni_disponibili;
     
     Resolution[] Risoluzioni;
-       
+
     public void ShowHide_pannel()
     {
         if (Controllo == false)

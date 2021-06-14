@@ -13,10 +13,10 @@ public class Cont_stato_prsn_data
     {
         continente_stato[0] = prova.Nome_continente;
     }*/
-    public Cont_stato_prsn_data(LettoreXML_continenti_stati_personaggio salvataggio)
-    {
-        continente_stato[0] = salvataggio.Nome_continente;
-        continente_stato[1] = salvataggio.Stato_selezionato;
+    public Cont_stato_prsn_data(LettoreXML salvataggio)
+    { 
+        continente_stato[0] = LettoreXML.Nome_continente;
+        continente_stato[1] = LettoreXML.Stato_selezionato;
     }
 
 }

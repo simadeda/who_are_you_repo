@@ -8,7 +8,7 @@ using TMPro;
 
 public class pannello_script : MonoBehaviour
 {
-    public GameObject pannel,main_script,video_img_intermittenza,output_pannello;
+    public GameObject pannel,bottone_scegli,img_intermittenza,output_pannello;
     public RawImage img_mignatura;
     Script_principale_menu_nazione script_principale;
     Output_pannello output_Pannello_script;
@@ -19,14 +19,14 @@ public class pannello_script : MonoBehaviour
    
     public void show_hidePannel()
     { 
-        script_principale = main_script.GetComponent<Script_principale_menu_nazione>();
+        script_principale = bottone_scegli.GetComponent<Script_principale_menu_nazione>();
         
         continente = script_principale.nome_continente;
         capitale = script_principale.capitale;
         stato = script_principale.stato_selezionato;
         n_stati = script_principale.n_stati.ToString();
 
-        main_script.SetActive(false);
+        bottone_scegli.SetActive(false);
         pannel.gameObject.SetActive(true);
 
         output_Pannello_script =  output_pannello.GetComponent<Output_pannello>();
@@ -69,9 +69,9 @@ public class pannello_script : MonoBehaviour
     }
     public void btn_no()
     {
-        main_script.SetActive(true);
+        bottone_scegli.SetActive(true);
         pannel.gameObject.SetActive(false);
-        video_img_intermittenza.gameObject.SetActive(false);
+        img_intermittenza.gameObject.SetActive(false);
         video_mappe.Stop();
     }
 
