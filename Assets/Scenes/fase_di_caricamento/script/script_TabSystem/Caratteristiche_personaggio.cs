@@ -7,15 +7,15 @@ using TMPro;
 
 public class Caratteristiche_personaggio : MonoBehaviour
 {
-    public GameObject txt_anni,txt_data_di_nascita,txt_occhi,txt_altezza,lettoreXML,Generatore_num_rand,txt_nome;
-    random_number Random_number;
+    public GameObject txt_anni,txt_data_di_nascita,txt_occhi,txt_altezza,lettoreXML,Generatore_num_rand,txt_nome,txt_capelli;
+    private TextMeshProUGUI TextMesH_anni,TextMesH_data,TextMesH_occhi,TextMesH_altezza,TextMesH_nome,TextMesH_capelli;
+    Random_number Random_number;
     LettoreXML Lettura_personaggi;
-    private TextMeshProUGUI TextMesH_anni,TextMesH_data,TextMesH_occhi,TextMesH_altezza,TextMesH_nome;
     int Anni;
     string Data_di_nascita,Nome_personaggio;
     string Continente,Stato;
     string[] Occhi = new string[4] {"Azzurri","Verdi","Neri","Marroni"};
-
+    string[] Colore_capelli = new string[6] {"Biondi","Castani","Neri","Marroni","Bianchi","Rossi"};
 
     void Start()
     {
@@ -24,8 +24,9 @@ public class Caratteristiche_personaggio : MonoBehaviour
         TextMesH_occhi = txt_occhi.GetComponent<TextMeshProUGUI>();
         TextMesH_altezza = txt_altezza.GetComponent<TextMeshProUGUI>();
         TextMesH_nome = txt_nome.GetComponent<TextMeshProUGUI>();
+        TextMesH_capelli = txt_capelli.GetComponent<TextMeshProUGUI>();
         Lettura_personaggi = lettoreXML.GetComponent<LettoreXML>();
-        Random_number = Generatore_num_rand.GetComponent<random_number>();
+        Random_number = Generatore_num_rand.GetComponent<Random_number>();
 
         int random_num = Random_number.Rnd(11);
         Continente = LettoreXML.Nome_continente;
@@ -35,8 +36,9 @@ public class Caratteristiche_personaggio : MonoBehaviour
 
         Data_di_nascita_rnd();
         Colore_occhi(Occhi);
+        Capelli(Colore_capelli);
         Altezza_personaggio();
-        nome_cognome_personaggio();
+        Nome_cognome_personaggio();
     }  
     public void Anni_rnd(int[] giorno_mese_anno)
     {
@@ -91,12 +93,22 @@ public class Caratteristiche_personaggio : MonoBehaviour
 
     public void Colore_occhi(string[] Occhi)
     {
-        int Scelta = 0;
+        int Scelta;
         Scelta = UnityEngine.Random.Range(0, Occhi.Length);
 
         TextMesH_occhi.text = Occhi[Scelta].ToString();
     }
 
+    public void Capelli(string[] colore_capelli)
+    {
+        int scelta;
+        if(Anni > 55)
+        {
+            TextMesH_capelli.text = colore_capelli[4].ToString();
+        }
+        scelta = UnityEngine.Random.Range(0, 5);
+        TextMesH_capelli.text = colore_capelli[scelta].ToString();
+    }
     public void Altezza_personaggio()
     {
         float percentuale_altezza = 0.00f,altezza;
@@ -113,7 +125,7 @@ public class Caratteristiche_personaggio : MonoBehaviour
         TextMesH_altezza.text = altezza.ToString("F2");
     }
 
-    public void nome_cognome_personaggio()
+    public void Nome_cognome_personaggio()
     {
         TextMesH_nome.text = Nome_personaggio.ToString();
     }

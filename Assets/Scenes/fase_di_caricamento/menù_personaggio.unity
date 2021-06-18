@@ -2447,6 +2447,7 @@ MonoBehaviour:
   lettoreXML: {fileID: 4561978239969240860}
   Generatore_num_rand: {fileID: 398763909}
   txt_nome: {fileID: 1813077078}
+  txt_capelli: {fileID: 833017341}
 --- !u!114 &1294237870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2963,7 +2964,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1665162792
 RectTransform:
   m_ObjectHideFlags: 0

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 
-public class random_number : MonoBehaviour
+public class Random_number : MonoBehaviour
 {
     private int num_rnd;
     public int Rnd(int num_rnd_max)

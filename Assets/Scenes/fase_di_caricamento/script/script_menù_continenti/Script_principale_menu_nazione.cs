@@ -10,7 +10,7 @@ public class Script_principale_menu_nazione : MonoBehaviour
 {
     public GameObject btn_scegli;
     GameObject rnd_numb, continente_stati, video_img;          //vengono creati 3 gameobject
-    random_number rnd_numb_script;
+    Random_number rnd_numb_script;
     LettoreXML continente_stati_script;
     Cambio_immagini_script video_img_script;
     
@@ -20,7 +20,7 @@ public class Script_principale_menu_nazione : MonoBehaviour
     {
         
         rnd_numb = GameObject.FindGameObjectWithTag("random_num");         //rnd_numb è diverso da num_rnd 
-        rnd_numb_script = rnd_numb.GetComponent<random_number>();
+        rnd_numb_script = rnd_numb.GetComponent<Random_number>();
         continente_stati = GameObject.FindGameObjectWithTag("let_XML");
         continente_stati_script = continente_stati.GetComponent<LettoreXML>();
         video_img = GameObject.Find("video_mappe_intermittenza");

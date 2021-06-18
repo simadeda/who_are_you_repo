@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class Cont_stato_prsn_data 
+public class SalvataggioData 
 {
     public string[] continente_stato = new string[2];
 
@@ -13,10 +13,17 @@ public class Cont_stato_prsn_data
     {
         continente_stato[0] = prova.Nome_continente;
     }*/
-    public Cont_stato_prsn_data(LettoreXML salvataggio)
+    public SalvataggioData(LettoreXML salvataggio_continente_stato)
     { 
         continente_stato[0] = LettoreXML.Nome_continente;
         continente_stato[1] = LettoreXML.Stato_selezionato;
+    } 
+    
+    public SalvataggioData(Opzioni salvataggio_opzioni)
+    {
+
     }
 
 }
+
+

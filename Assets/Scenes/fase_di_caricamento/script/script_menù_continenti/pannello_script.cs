@@ -6,7 +6,7 @@ using UnityEngine.Video;
 using UnityEngine;
 using TMPro;
 
-public class pannello_script : MonoBehaviour
+public class Pannello_script : MonoBehaviour
 {
     public GameObject pannel,bottone_scegli,img_intermittenza,output_pannello;
     public RawImage img_mignatura;
@@ -17,7 +17,7 @@ public class pannello_script : MonoBehaviour
     public Texture[] continenti_mignatura;
     string continente,capitale,stato,n_stati;
    
-    public void show_hidePannel()
+    public void Show_hidePannel()
     { 
         script_principale = bottone_scegli.GetComponent<Script_principale_menu_nazione>();
         
@@ -32,11 +32,11 @@ public class pannello_script : MonoBehaviour
         output_Pannello_script =  output_pannello.GetComponent<Output_pannello>();
               
         output_Pannello_script.Visualizzazione_pannello(continente, stato, capitale, n_stati);
-        immagine_in_mignatura(continente);
+        Immagine_in_mignatura(continente);
         
 
     }
-    void immagine_in_mignatura(string continente)
+    void Immagine_in_mignatura(string continente)
     {
         switch (continente)
         {
@@ -67,7 +67,7 @@ public class pannello_script : MonoBehaviour
                break;
         }
     }
-    public void btn_no()
+    public void Btn_no()
     {
         bottone_scegli.SetActive(true);
         pannel.gameObject.SetActive(false);
