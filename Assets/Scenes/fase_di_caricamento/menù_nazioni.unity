@@ -481,6 +481,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 562336706}
     m_Modifications:
+    - target: {fileID: 1484728681287106480, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Btn_no
+      objectReference: {fileID: 0}
+    - target: {fileID: 1484728681287106480, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Pannello_script, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 1484728682370630122, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
       propertyPath: m_Name
       value: pannelo_conferma_continente
@@ -621,6 +629,10 @@ PrefabInstance:
       propertyPath: LettoreXML
       value: 
       objectReference: {fileID: 616693466}
+    - target: {fileID: 5936079007349355896, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
+      propertyPath: Salva_opzioni
+      value: 
+      objectReference: {fileID: 413756104}
     - target: {fileID: 5936079007349355896, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
       propertyPath: LettoreContinenteStatoXML
       value: 
@@ -1376,8 +1388,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1248537741}
-        m_TargetAssemblyTypeName: pannello_script, Assembly-CSharp
-        m_MethodName: show_hidePannel
+        m_TargetAssemblyTypeName: Pannello_script, Assembly-CSharp
+        m_MethodName: Show_hidePannel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

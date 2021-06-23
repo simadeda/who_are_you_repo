@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Salva_carica : MonoBehaviour
 {
-    public int Scelta_salvataggio;
     public GameObject LettoreContinenteStatoXML,Salva_opzioni;
     LettoreXML continente_stato;
     Opzioni opzioni;
@@ -14,7 +13,7 @@ public class Salva_carica : MonoBehaviour
         continente_stato = LettoreContinenteStatoXML.GetComponent<LettoreXML>();
         opzioni = Salva_opzioni.GetComponent<Opzioni>();
     }
-    public void Salva_dati()
+    public void Salva_dati(int Scelta_salvataggio)
     {
         switch (Scelta_salvataggio)
         {
@@ -29,7 +28,7 @@ public class Salva_carica : MonoBehaviour
     }
     public void Carica_dati()
     {
-        SalvataggioData Carica = Gestione_salvataggi.Caricamento();
+        DepositoData Carica = Gestione_salvataggi.Caricamento();
         LettoreXML.Nome_continente = Carica.continente_stato[0];
         LettoreXML.Stato_selezionato = Carica.continente_stato[1];
     }

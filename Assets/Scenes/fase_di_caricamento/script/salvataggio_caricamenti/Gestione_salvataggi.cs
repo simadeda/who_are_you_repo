@@ -1,5 +1,6 @@
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
+using System;
 using UnityEngine;
 
 public static class Gestione_salvataggi 
@@ -10,24 +11,30 @@ public static class Gestione_salvataggi
         BinaryFormatter formattatore = new BinaryFormatter();     //CREAZIOEN DEL FORMATTATORE IN BINARIO
         FileStream flusso_file = new FileStream(percorso, FileMode.Create);   //CREAZIONE DEL FILE TRAMITE IL PERCORSO
       
+        switch(scelta_salvataggio)
+        {
+            case 0:
+                DepositoData salva_carica_cont_stato = new DepositoData(salvataggio_stato_continente);  //PRENDE GLI OGETTI DAL COSTRUTTORE DI Cont_stato_prsn_data per rendere tutto più comodo
+                formattatore.Serialize(flusso_file, salva_carica_cont_stato);    //IL FORMATTATORE SERIALIZZA (mette in sequenza i dati da Cont_stato_prsn_data) salva_carica_cont_stato
+            break;
 
-
-        SalvataggioData salva_carica_cont_stato = new SalvataggioData(salvataggio_stato_continente);  //PRENDE GLI OGETTI DAL COSTRUTTORE DI Cont_stato_prsn_data per rendere tutto più comodo
-        formattatore.Serialize(flusso_file, salva_carica_cont_stato);    //IL FORMATTATORE SERIALIZZA (mette in sequenza i dati da Cont_stato_prsn_data) salva_carica_cont_stato
+            case 1:
+                DepositoData salva_opzioni = new DepositoData(salvataggio_opzioni); 
+                if (salvataggio_opzioni != null)
+                     formattatore.Serialize(flusso_file, salvataggio_opzioni);
+            break;
+        }
         flusso_file.Close();   //SI CHIUDE IL TRASFERIMENTO DEI FILE
-
-        SalvataggioData salva_opzioni = new SalvataggioData(salvataggio_opzioni);  //PRENDE GLI OGETTI DAL COSTRUTTORE DI Cont_stato_prsn_data per rendere tutto più comodo
-        formattatore.Serialize(flusso_file, salvataggio_opzioni);    //IL FORMATTATORE SERIALIZZA (mette in sequenza i dati da Cont_stato_prsn_data) salva_carica_cont_stato
-        flusso_file.Close();   //SI CHIUDE IL TRASFERIMENTO DEI FILE
+                
     }
 
-    public static SalvataggioData Caricamento()
+    public static DepositoData Caricamento()
     {
         if(File.Exists(percorso))
         {
             BinaryFormatter formattatore = new BinaryFormatter();
             FileStream flusso_file = new FileStream(percorso, FileMode.Open);
-            SalvataggioData caricamento = formattatore.Deserialize(flusso_file) as SalvataggioData;
+            DepositoData caricamento = formattatore.Deserialize(flusso_file) as DepositoData;
             flusso_file.Close();     //SI CHIUDE IL TRASFERIMENTO DEI FILE 
             return caricamento;
         }
