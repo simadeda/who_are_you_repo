@@ -1,12 +1,11 @@
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
-using System;
 using UnityEngine;
 
 public static class Gestione_salvataggi 
 {
    static string percorso = Application.persistentDataPath + "/Salvataggio.save";  
-   public static void Salvataggio(LettoreXML salvataggio_stato_continente, Opzioni salvataggio_opzioni, int scelta_salvataggio)
+   public static void Salvataggio(LettoreXML salvataggio_stato_continente, int scelta_salvataggio)
    {
         BinaryFormatter formattatore = new BinaryFormatter();     //CREAZIOEN DEL FORMATTATORE IN BINARIO
         FileStream flusso_file = new FileStream(percorso, FileMode.Create);   //CREAZIONE DEL FILE TRAMITE IL PERCORSO
@@ -19,9 +18,7 @@ public static class Gestione_salvataggi
             break;
 
             case 1:
-                DepositoData salva_opzioni = new DepositoData(salvataggio_opzioni); 
-                if (salvataggio_opzioni != null)
-                     formattatore.Serialize(flusso_file, salvataggio_opzioni);
+                
             break;
         }
         flusso_file.Close();   //SI CHIUDE IL TRASFERIMENTO DEI FILE

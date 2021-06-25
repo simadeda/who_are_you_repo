@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 using UnityEngine.Audio;
 
@@ -10,10 +11,11 @@ public class Opzioni : MonoBehaviour
     public GameObject Pannellopzioni,Btn_ok,Sound_icon;
     public Sprite[] Sound_icon_img = new Sprite[2];
     public bool Controllo;
-
+    public Slider Slider_volume;
     public TMPro.TMP_Dropdown Risoluzioni_disponibili;
-    
-    Resolution[] Risoluzioni;
+    public TMPro.TMP_Dropdown Qualità_disponibili;
+
+    public Resolution[] Risoluzioni;
 
     public void ShowHide_pannel()
     {
@@ -25,10 +27,30 @@ public class Opzioni : MonoBehaviour
         else
             Pannellopzioni.gameObject.SetActive(false); 
     }
+    public void Salvataggio_opzioni()
+    {
+        Risoluzioni_disponibili.onValueChanged.AddListener(new UnityAction<int>(index =>
+        {
+            PlayerPrefs.SetInt("valore_risoluzione", Risoluzioni_disponibili.value);
+            PlayerPrefs.Save();
+        }));
 
+        Qualità_disponibili.onValueChanged.AddListener(new UnityAction<int>(index =>
+        {
+            PlayerPrefs.SetInt("valore_qualita", Qualità_disponibili.value);
+            PlayerPrefs.Save();
+        }));
+               
+    }
     public void RisoluzioneDrop()
     {
-        int i = 0, res_corrente = 0;
+        int i, res_corrente =0;
+               
+        Slider_volume.value = PlayerPrefs.GetFloat("volume", -3f);
+
+        Mixer_main.SetFloat ("volume_menù_principale", PlayerPrefs.GetFloat("volume"));
+        
+        Qualità_disponibili.value = PlayerPrefs.GetInt("valore_qualita", 3);
 
         Risoluzioni = Screen.resolutions;
 
@@ -50,18 +72,21 @@ public class Opzioni : MonoBehaviour
             }
         }
         Risoluzioni_disponibili.AddOptions(Risoluzioni_str);
-        Risoluzioni_disponibili.value = res_corrente;
+        Risoluzioni_disponibili.value = PlayerPrefs.GetInt("valore_risoluzione", res_corrente);
+
+        Salvataggio_opzioni();
     }
     public void Fullscreen(bool Full_scrn)
     {
         Screen.fullScreen = Full_scrn;
     }
-    public void QualitàVideo(int Qualità)
+    public void QualitaVideo(int Qualità)
     {
         QualitySettings.SetQualityLevel(Qualità);
     }
     public void SetVolume(float Volume)
     {
+        PlayerPrefs.SetFloat("volume", Volume);
         Mixer_main.SetFloat("volume_menù_principale", Volume);
         if (Volume == -80)
         {

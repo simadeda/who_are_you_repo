@@ -6,6 +6,7 @@ using UnityEngine;
 public class DepositoData 
 {
     public string[] continente_stato = new string[2];
+    public Resolution Salva_risoluzione_corrente;
 
     /*
     LettoreXML_continenti_stati_personaggio prova;
@@ -19,13 +20,7 @@ public class DepositoData
         continente_stato[1] = LettoreXML.Stato_selezionato;
     } 
     
-    public DepositoData(Opzioni salvataggio_opzioni)
-    {
-
-
-
-
-    }
+  
 
 }
 

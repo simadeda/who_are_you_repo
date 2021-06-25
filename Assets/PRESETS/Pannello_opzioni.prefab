@@ -143,7 +143,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6978843719227523933}
         m_TargetAssemblyTypeName: Opzioni, Assembly-CSharp
-        m_MethodName: "Qualit\xE0Video"
+        m_MethodName: QualitaVideo
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -696,7 +696,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1e94c9f4f5acb7b4fa14c32d456c5b25, type: 3}
   - {fileID: 21300000, guid: 63f5c5cbe02238d439c29c824d0b7622, type: 3}
   Controllo: 0
+  Slider_volume: {fileID: 6978843720311769798}
   Risoluzioni_disponibili: {fileID: 6978843719353978973}
+  "Qualit\xE0_disponibili": {fileID: 6978843718824849760}
 --- !u!1 &6978843719233210810
 GameObject:
   m_ObjectHideFlags: 0
@@ -1734,7 +1736,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -12.132801, y: 2.4000053}
+  m_AnchoredPosition: {x: -12.132801, y: 0.2465}
   m_SizeDelta: {x: 14.2655, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6978843719818494109
@@ -3142,7 +3144,6 @@ GameObject:
   - component: {fileID: 6978843720555257423}
   - component: {fileID: 6978843720555257422}
   - component: {fileID: 6978843720555257409}
-  - component: {fileID: 7072363782945269502}
   m_Layer: 5
   m_Name: Btn_ok_opzioni
   m_TagString: Untagged
@@ -3264,18 +3265,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 7072363782945269502}
-        m_TargetAssemblyTypeName: Salva_carica, Assembly-CSharp
-        m_MethodName: Salva_dati
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &6978843720555257409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3296,21 +3285,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1e94c9f4f5acb7b4fa14c32d456c5b25, type: 3}
   - {fileID: 21300000, guid: 63f5c5cbe02238d439c29c824d0b7622, type: 3}
   Controllo: 1
+  Slider_volume: {fileID: 6978843720311769798}
   Risoluzioni_disponibili: {fileID: 6978843719353978973}
---- !u!114 &7072363782945269502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6978843720555257420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17e9f263a9c68a24bba885e12e926ca2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LettoreContinenteStatoXML: {fileID: 2221530270228205538, guid: 616bd621e2d38704b9d48f9b7b6a86af, type: 3}
-  Salva_opzioni: {fileID: 6978843719227523929}
+  "Qualit\xE0_disponibili": {fileID: 6978843718824849760}
 --- !u!1 &6978843720571344170
 GameObject:
   m_ObjectHideFlags: 0
