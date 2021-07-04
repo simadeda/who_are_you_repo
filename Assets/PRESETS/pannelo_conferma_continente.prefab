@@ -147,7 +147,6 @@ GameObject:
   - component: {fileID: 1484728681287106482}
   - component: {fileID: 1484728681287106481}
   - component: {fileID: 1484728681287106480}
-  - component: {fileID: 1484728681287106479}
   m_Layer: 5
   m_Name: btn_no
   m_TagString: Untagged
@@ -257,9 +256,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1484728682370630124}
+      - m_Target: {fileID: 1484728682370630122}
         m_TargetAssemblyTypeName: pannello_script, Assembly-CSharp
-        m_MethodName: btn_no
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -269,30 +268,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1484728681287106479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1484728681287106477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3a87c854e2e14c40b5dec96187054fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pannel: {fileID: 1484728682370630122}
-  bottone_scegli: {fileID: 0}
-  img_intermittenza: {fileID: 0}
-  output_pannello: {fileID: 0}
-  img_mignatura: {fileID: 1484728681669648098}
-  video_mappe: {fileID: 0}
-  continenti_mignatura:
-  - {fileID: 2800000, guid: 8336b22b49c7e8f478e4fca1b419cb53, type: 3}
-  - {fileID: 2800000, guid: 9ea85cc7f5a0d9f4294d674c5d8b2431, type: 3}
-  - {fileID: 2800000, guid: 8d4e6e8692bddc142bd3d328a0420158, type: 3}
-  - {fileID: 2800000, guid: 1fbe661fdaf49644a91ea47a2525e335, type: 3}
-  - {fileID: 2800000, guid: 7469c8301097ddf439ee7015d46e9cf9, type: 3}
 --- !u!1 &1484728681377309385
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,8 +889,8 @@ GameObject:
   - component: {fileID: 1484728681693918117}
   - component: {fileID: 1484728681693918116}
   - component: {fileID: 1484728681693918115}
-  - component: {fileID: 5936079007349355896}
   - component: {fileID: 6361032873739956773}
+  - component: {fileID: 2639538674726009793}
   m_Layer: 5
   m_Name: btn_si
   m_TagString: Untagged
@@ -1037,10 +1012,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 5936079007349355896}
-        m_TargetAssemblyTypeName: salva_carica, Assembly-CSharp
+      - m_Target: {fileID: 2639538674726009793}
+        m_TargetAssemblyTypeName: Salva_carica, Assembly-CSharp
         m_MethodName: Salva_dati
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1049,19 +1024,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &5936079007349355896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1484728681693918113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17e9f263a9c68a24bba885e12e926ca2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LettoreXML: {fileID: 0}
 --- !u!114 &6361032873739956773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1074,6 +1036,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cff87e166bc0ee4392930063ab5d266, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2639538674726009793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484728681693918113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17e9f263a9c68a24bba885e12e926ca2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LettoreContinenteStatoXML: {fileID: 0}
+  Salva_opzioni: {fileID: 0}
 --- !u!1 &1484728681704829851
 GameObject:
   m_ObjectHideFlags: 0
@@ -1623,8 +1599,8 @@ GameObject:
   - component: {fileID: 1484728682370630123}
   - component: {fileID: 1484728682370630127}
   - component: {fileID: 1484728682370630126}
-  - component: {fileID: 1484728682370630124}
   - component: {fileID: 1484728682370630125}
+  - component: {fileID: 1433567781446440271}
   m_Layer: 5
   m_Name: pannelo_conferma_continente
   m_TagString: panel
@@ -1693,30 +1669,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &1484728682370630124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1484728682370630122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3a87c854e2e14c40b5dec96187054fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pannel: {fileID: 1484728682370630122}
-  bottone_scegli: {fileID: 0}
-  img_intermittenza: {fileID: 0}
-  output_pannello: {fileID: 1484728682536711971}
-  img_mignatura: {fileID: 1484728681669648098}
-  video_mappe: {fileID: 0}
-  continenti_mignatura:
-  - {fileID: 2800000, guid: 8336b22b49c7e8f478e4fca1b419cb53, type: 3}
-  - {fileID: 2800000, guid: 9ea85cc7f5a0d9f4294d674c5d8b2431, type: 3}
-  - {fileID: 2800000, guid: 8d4e6e8692bddc142bd3d328a0420158, type: 3}
-  - {fileID: 2800000, guid: 1fbe661fdaf49644a91ea47a2525e335, type: 3}
-  - {fileID: 2800000, guid: 7469c8301097ddf439ee7015d46e9cf9, type: 3}
 --- !u!114 &1484728682370630125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1735,6 +1687,30 @@ MonoBehaviour:
   nome_continente: 
   capitale: 
   stato_selezionato: 
+--- !u!114 &1433567781446440271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484728682370630122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f64dfbdb4538ef46832aa546a0eda3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pannel: {fileID: 1484728682370630122}
+  bottone_scegli: {fileID: 0}
+  img_intermittenza: {fileID: 0}
+  output_pannello: {fileID: 1484728682536711971}
+  img_mignatura: {fileID: 1484728681669648098}
+  video_mappe: {fileID: 0}
+  continenti_mignatura:
+  - {fileID: 2800000, guid: 8336b22b49c7e8f478e4fca1b419cb53, type: 3}
+  - {fileID: 2800000, guid: 9ea85cc7f5a0d9f4294d674c5d8b2431, type: 3}
+  - {fileID: 2800000, guid: 8d4e6e8692bddc142bd3d328a0420158, type: 3}
+  - {fileID: 2800000, guid: 1fbe661fdaf49644a91ea47a2525e335, type: 3}
+  - {fileID: 2800000, guid: 7469c8301097ddf439ee7015d46e9cf9, type: 3}
 --- !u!1 &1484728682483361491
 GameObject:
   m_ObjectHideFlags: 0

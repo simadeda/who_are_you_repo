@@ -14,6 +14,7 @@ public class Opzioni : MonoBehaviour
     public Slider Slider_volume;
     public TMPro.TMP_Dropdown Risoluzioni_disponibili;
     public TMPro.TMP_Dropdown Qualità_disponibili;
+    static int i = 0;
 
     public Resolution[] Risoluzioni;
 
@@ -40,12 +41,12 @@ public class Opzioni : MonoBehaviour
             PlayerPrefs.SetInt("valore_qualita", Qualità_disponibili.value);
             PlayerPrefs.Save();
         }));
-               
+
+        i = 0;
     }
     public void RisoluzioneDrop()
     {
-        int i, res_corrente =0;
-               
+        int res_corrente = 0;
         Slider_volume.value = PlayerPrefs.GetFloat("volume", -3f);
 
         Mixer_main.SetFloat ("volume_menù_principale", PlayerPrefs.GetFloat("volume"));
@@ -54,26 +55,28 @@ public class Opzioni : MonoBehaviour
 
         Risoluzioni = Screen.resolutions;
 
-        Risoluzioni_disponibili.ClearOptions();
-        
-        List<string> Risoluzioni_str = new List<string>();
-
-        for (i = 0; i < Risoluzioni.Length; i++)
-        {
-            if (i % 2 == 1)
-            {
-                string DropdownRisoluzioni = Risoluzioni[i].width + "x" + Risoluzioni[i].height;
-                Risoluzioni_str.Add(DropdownRisoluzioni);
-            }
+        if(i != Risoluzioni.Length)
+        { 
+            Risoluzioni_disponibili.ClearOptions();
             
-            if (Risoluzioni[i].width == Screen.currentResolution.width && Risoluzioni[i].height == Screen.currentResolution.height)
-            {
-                res_corrente = i;
-            }
-        }
-        Risoluzioni_disponibili.AddOptions(Risoluzioni_str);
-        Risoluzioni_disponibili.value = PlayerPrefs.GetInt("valore_risoluzione", res_corrente);
+            List<string> Risoluzioni_str = new List<string>();
 
+            for (i = 0; i < Risoluzioni.Length; i++)
+            {
+                if (i % 2 == 1)
+                {
+                    string DropdownRisoluzioni = Risoluzioni[i].width + "x" + Risoluzioni[i].height;
+                    Risoluzioni_str.Add(DropdownRisoluzioni);
+                }
+                
+                if (Risoluzioni[i].width == Screen.currentResolution.width && Risoluzioni[i].height == Screen.currentResolution.height)
+                {
+                    res_corrente = i;
+                }
+            }
+            Risoluzioni_disponibili.AddOptions(Risoluzioni_str);
+            Risoluzioni_disponibili.value = PlayerPrefs.GetInt("valore_risoluzione", res_corrente);
+        }
         Salvataggio_opzioni();
     }
     public void Fullscreen(bool Full_scrn)

@@ -7,7 +7,7 @@ public class Salva_carica : MonoBehaviour
     public GameObject LettoreContinenteStatoXML,Salva_opzioni;
     LettoreXML continente_stato;
 
-    private void Start()
+    void Start()
     {
         continente_stato = LettoreContinenteStatoXML.GetComponent<LettoreXML>();
     }

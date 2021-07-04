@@ -6,7 +6,7 @@ using UnityEngine.Video;
 using UnityEngine;
 using TMPro;
 
-public class Pannello_script : MonoBehaviour
+public class Pannello_scelta_continente : MonoBehaviour
 {
     public GameObject pannel,bottone_scegli,img_intermittenza,output_pannello;
     public RawImage img_mignatura;
