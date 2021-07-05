@@ -5,13 +5,15 @@ using UnityEngine;
 public class Cerchio_caricamento : MonoBehaviour
 {
     public RectTransform cerchio_caricamento;
-    
+    Vector2 altezza_wordpoint; 
+    Vector2 largehzza_wordpoint;
     float velocità_x = 5f, velocità_y = 5f,start_time;
     public float velocita_rotazione,Angolo;
    
 
     private void Start()
     {
+        transform.localPosition = new Vector2(UnityEngine.Random.Range(-250f, 250f), UnityEngine.Random.Range(-250f, 250));
         start_time = Time.time;
         StartCoroutine("Status_caricamento", cerchio_caricamento);
     }
@@ -21,10 +23,8 @@ public class Cerchio_caricamento : MonoBehaviour
     {
         while (true)
         {
-            
-            Vector2 altezza_wordpoint = Camera.main.ViewportToWorldPoint(new Vector3(1, 1, 0));
-            Vector2 largehzza_wordpoint = Camera.main.ViewportToWorldPoint(new Vector3(0, 0, 0));
-
+            altezza_wordpoint = Camera.main.ViewportToWorldPoint(new Vector3(1, 1, 0));
+            largehzza_wordpoint = Camera.main.ViewportToWorldPoint(new Vector3(0, 0, 0));           
             if (Time.time - start_time >= velocita_rotazione)
             {              
                 transform.position -= new Vector3(velocità_x,velocità_y,0);
