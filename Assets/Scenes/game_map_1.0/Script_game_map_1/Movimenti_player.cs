@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class Movimenti_player : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField]
+    float velocita = 5f;
+    Vector2 direzione = new Vector2(0, 0);
+    public CharacterController controlli;
     void Start()
     {
         
     }
-
-    // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void FixedUpdate()
+    {
+              
+       direzione.x = Input.GetAxisRaw("Horizontal") * velocita * Time.fixedDeltaTime;
+       transform.Translate(direzione * velocita * Time.fixedDeltaTime);
+        
+
+     
     }
 }
