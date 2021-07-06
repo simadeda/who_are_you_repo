@@ -78,6 +78,7 @@ public class Opzioni : MonoBehaviour
             Risoluzioni_disponibili.value = PlayerPrefs.GetInt("valore_risoluzione", res_corrente);
         }
         Salvataggio_opzioni();
+
     }
     public void Fullscreen(bool Full_scrn)
     {
