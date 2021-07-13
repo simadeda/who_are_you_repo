@@ -18,9 +18,7 @@ public class Salva_carica : MonoBehaviour
             case 0:
                 Gestione_salvataggi.Salvataggio(continente_stato,Scelta_salvataggio);
                 break;
-            case 1:
-                Gestione_salvataggi.Salvataggio(continente_stato,Scelta_salvataggio);
-                break;
+            
         }
        
     }
