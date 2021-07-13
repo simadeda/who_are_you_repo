@@ -1738,7 +1738,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1969582244}
-        m_TargetAssemblyTypeName: carica_scene, Assembly-CSharp
+        m_TargetAssemblyTypeName: Carica_scene, Assembly-CSharp
         m_MethodName: caricatore
         m_Mode: 3
         m_Arguments:
