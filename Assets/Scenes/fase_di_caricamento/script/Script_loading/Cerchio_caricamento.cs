@@ -48,7 +48,7 @@ public class Cerchio_caricamento : MonoBehaviour
 
                 cerchio_caricamento.localEulerAngles = direzione;
                 start_time = Time.time; 
-                Debug.Log(transform.position);
+               
                                 
             }
            yield return null;
