@@ -6,7 +6,7 @@ using UnityEngine;
 public class DepositoData 
 {
     public string[] continente_stato = new string[2];
-   
+    
     public DepositoData(LettoreXML salvataggio_continente_stato)
     { 
         continente_stato[0] = LettoreXML.Nome_continente;

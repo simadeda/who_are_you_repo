@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Salva_carica : MonoBehaviour
 {
-    public GameObject LettoreContinenteStatoXML,Salva_opzioni;
+    public GameObject LettoreContinenteStatoXML;
     LettoreXML continente_stato;
 
     void Start()
