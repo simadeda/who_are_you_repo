@@ -24,6 +24,13 @@ public class Opzioni : MonoBehaviour
         cerchio_caricamento = icona_caricamento.GetComponent<Cerchio_caricamento>();
     }
 
+    public void Applica()
+    {
+        icona_caricamento.gameObject.SetActive(true);
+        Salvataggio_opzioni();
+        StartCoroutine(cerchio_caricamento.Icona_caricamento_normale(icona_caricamento));  //call of the second corroutine
+    }
+
     public void ShowHide_pannel()
     {
         if (Controllo == false)
@@ -32,14 +39,9 @@ public class Opzioni : MonoBehaviour
             RisoluzioneDrop();          
         }
         else
-            {
-                Pannellopzioni.gameObject.SetActive(false);
-                Salvataggio_opzioni();
-                icona_caricamento.gameObject.SetActive(true);
-                StartCoroutine(cerchio_caricamento.Icona_caricamento_normale(icona_caricamento));  //call of the second corroutine
-            }
-            
+            Pannellopzioni.gameObject.SetActive(false);              
     }
+
     public void Salvataggio_opzioni()
     {
         Risoluzioni_disponibili.onValueChanged.AddListener(new UnityAction<int>(index =>
@@ -109,7 +111,7 @@ public class Opzioni : MonoBehaviour
         }
         else
             {
-            Sound_icon.GetComponent<Image>().sprite = Sound_icon_img[0];
+                Sound_icon.GetComponent<Image>().sprite = Sound_icon_img[0];
             }
 
     }

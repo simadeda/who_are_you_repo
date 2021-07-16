@@ -8,25 +8,26 @@ public class Cerchio_caricamento : MonoBehaviour
     public RectTransform cerchio_caricamento;
     Vector2 altezza_wordpoint; 
     Vector2 largehzza_wordpoint;
-    float velocità_x = 5f, velocità_y = 5f,start_time;
+    float velocità_x = 5f, velocità_y = 5f,start_time,fine_time = 5f;
     public float velocita_rotazione,Angolo;
-   
+    float tempo = 0f;
 
     private void Start()
     {
         start_time = Time.time;
-        if(SceneManager.sceneCount.Equals(3))
+        if (SceneManager.GetActiveScene().buildIndex == 3)
         { 
             transform.localPosition = new Vector2(UnityEngine.Random.Range(-250f, 250f), UnityEngine.Random.Range(-250f, 250));
             StartCoroutine("Status_caricamento_rimbalzo", cerchio_caricamento);
         }
        
-        Debug.Log(SceneManager.sceneCount);
+        Debug.Log(SceneManager.GetActiveScene().buildIndex);
     }
 
     //first corroutine
     IEnumerator Status_caricamento_rimbalzo(RectTransform cerchio_caricamento)
     {
+        start_time = Time.time;
         while (true)
         {
             altezza_wordpoint = Camera.main.ViewportToWorldPoint(new Vector3(1, 1, 0));
@@ -65,23 +66,26 @@ public class Cerchio_caricamento : MonoBehaviour
     //second corroutine
     public IEnumerator Icona_caricamento_normale(RectTransform cerchio_caricamento)
     {
-        while (true)
+        tempo = 0;
+        while (tempo <= fine_time)
         {
             if (Time.time - start_time >= velocita_rotazione)
             {
-                transform.position -= new Vector3(velocità_x, velocità_y, 0);
-
                 Vector3 direzione = cerchio_caricamento.localEulerAngles;
 
                 direzione.z += Angolo;
 
                 cerchio_caricamento.localEulerAngles = direzione;
-                start_time = Time.time;
-            }
 
-        yield return new WaitForSeconds(3f); 
+                start_time = Time.time;
+                
+            }
+            tempo += Time.deltaTime;
+           yield return null;
         }
+        this.gameObject.SetActive(false);
     }
 
+    
 
 }
