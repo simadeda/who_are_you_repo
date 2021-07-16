@@ -10,8 +10,7 @@ namespace TMPro.Examples
     {
 
         public int BenchmarkType = 0;
-
-        public Canvas canvas;
+               
         public TMP_FontAsset TMProFont;
         public Font TextMeshFont;
 

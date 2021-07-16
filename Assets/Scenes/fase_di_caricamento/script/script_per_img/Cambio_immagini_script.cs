@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Video;
 
 public class Cambio_immagini_script : MonoBehaviour
@@ -8,10 +9,15 @@ public class Cambio_immagini_script : MonoBehaviour
     public GameObject video_img_intermittenza;
     public VideoClip[] clip_video_mappe;
     private VideoPlayer video;
-    
-    public void attiva_intermittenza(string continente)
+
+    private void Start()
     {
         video = GetComponent<VideoPlayer>();
+    }
+   
+    public void attiva_intermittenza(string continente)
+    {
+              
         switch (continente)
         {
             case "Asia":

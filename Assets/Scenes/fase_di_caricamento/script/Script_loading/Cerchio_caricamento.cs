@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Cerchio_caricamento : MonoBehaviour
 {
@@ -13,13 +14,18 @@ public class Cerchio_caricamento : MonoBehaviour
 
     private void Start()
     {
-        transform.localPosition = new Vector2(UnityEngine.Random.Range(-250f, 250f), UnityEngine.Random.Range(-250f, 250));
         start_time = Time.time;
-        StartCoroutine("Status_caricamento", cerchio_caricamento);
+        if(SceneManager.sceneCount.Equals(3))
+        { 
+            transform.localPosition = new Vector2(UnityEngine.Random.Range(-250f, 250f), UnityEngine.Random.Range(-250f, 250));
+            StartCoroutine("Status_caricamento_rimbalzo", cerchio_caricamento);
+        }
+       
+        Debug.Log(SceneManager.sceneCount);
     }
 
-   
-    IEnumerator Status_caricamento(RectTransform cerchio_caricamento)
+    //first corroutine
+    IEnumerator Status_caricamento_rimbalzo(RectTransform cerchio_caricamento)
     {
         while (true)
         {
@@ -48,14 +54,34 @@ public class Cerchio_caricamento : MonoBehaviour
 
                 cerchio_caricamento.localEulerAngles = direzione;
                 start_time = Time.time; 
-               
-                                
+                              
             }
            yield return null;
          }
          
     }
 
+
+    //second corroutine
+    public IEnumerator Icona_caricamento_normale(RectTransform cerchio_caricamento)
+    {
+        while (true)
+        {
+            if (Time.time - start_time >= velocita_rotazione)
+            {
+                transform.position -= new Vector3(velocità_x, velocità_y, 0);
+
+                Vector3 direzione = cerchio_caricamento.localEulerAngles;
+
+                direzione.z += Angolo;
+
+                cerchio_caricamento.localEulerAngles = direzione;
+                start_time = Time.time;
+            }
+
+        yield return new WaitForSeconds(3f); 
+        }
+    }
 
 
 }

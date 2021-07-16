@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/fase_di_caricamento/men\xF9_personaggio.unity"
     guid: b0bdb584a0631d043b3ffb2d4a0c591e
+  - enabled: 1
+    path: Assets/Scenes/fase_di_caricamento/caricamento.unity
+    guid: 9c87a30f2db5a8f47abd394ab6ea8505
   m_configObjects: {}

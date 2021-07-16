@@ -13,8 +13,6 @@ public class DepositoData
         continente_stato[1] = LettoreXML.Stato_selezionato;
     } 
     
-  
-
 }
 
 

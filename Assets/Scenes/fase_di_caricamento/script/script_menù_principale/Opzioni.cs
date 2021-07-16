@@ -7,16 +7,22 @@ using UnityEngine.Audio;
 
 public class Opzioni : MonoBehaviour
 {
+    private Cerchio_caricamento cerchio_caricamento;
     public AudioMixer Mixer_main;
+    public RectTransform icona_caricamento;
     public GameObject Pannellopzioni,Btn_ok,Sound_icon;
     public Sprite[] Sound_icon_img = new Sprite[2];
     public bool Controllo;
     public Slider Slider_volume;
-    public TMPro.TMP_Dropdown Risoluzioni_disponibili;
-    public TMPro.TMP_Dropdown Qualità_disponibili;
+    public TMPro.TMP_Dropdown Risoluzioni_disponibili, Qualità_disponibili;
     static int i = 0;
 
     public Resolution[] Risoluzioni;
+
+    void Start()
+    {
+        cerchio_caricamento = icona_caricamento.GetComponent<Cerchio_caricamento>();
+    }
 
     public void ShowHide_pannel()
     {
@@ -26,7 +32,13 @@ public class Opzioni : MonoBehaviour
             RisoluzioneDrop();          
         }
         else
-            Pannellopzioni.gameObject.SetActive(false); 
+            {
+                Pannellopzioni.gameObject.SetActive(false);
+                Salvataggio_opzioni();
+                icona_caricamento.gameObject.SetActive(true);
+                StartCoroutine(cerchio_caricamento.Icona_caricamento_normale(icona_caricamento));  //call of the second corroutine
+            }
+            
     }
     public void Salvataggio_opzioni()
     {
@@ -77,8 +89,7 @@ public class Opzioni : MonoBehaviour
             Risoluzioni_disponibili.AddOptions(Risoluzioni_str);
             Risoluzioni_disponibili.value = PlayerPrefs.GetInt("valore_risoluzione", res_corrente);
         }
-        Salvataggio_opzioni();
-
+       
     }
     public void Fullscreen(bool Full_scrn)
     {
