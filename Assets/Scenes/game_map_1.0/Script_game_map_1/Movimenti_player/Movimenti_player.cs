@@ -11,12 +11,10 @@ public class Movimenti_player : MonoBehaviour
    
     void FixedUpdate()
     {
-              
        direzione.x = Input.GetAxisRaw("Horizontal") * velocita * Time.fixedDeltaTime;
        transform.Translate(direzione * velocita * Time.fixedDeltaTime);
 
        direzione.y = Input.GetAxisRaw("Vertical") * velocita * Time.fixedDeltaTime;
        transform.Translate(direzione * velocita * Time.fixedDeltaTime);
-
     }
 }

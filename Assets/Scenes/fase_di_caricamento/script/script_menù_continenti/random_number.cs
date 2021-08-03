@@ -9,7 +9,8 @@ public class Random_number : MonoBehaviour
     public int Rnd(int num_rnd_max)
     {
         num_rnd = Random.Range(0, num_rnd_max);
-        return num_rnd;                   
+        return num_rnd;
     }
 
-} 
+}
+
