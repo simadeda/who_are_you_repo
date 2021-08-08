@@ -256,9 +256,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1484728682370630122}
-        m_TargetAssemblyTypeName: pannello_script, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 1433567781446440271}
+        m_TargetAssemblyTypeName: Pannello_scelta_continente, Assembly-CSharp
+        m_MethodName: Btn_no
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1033,7 +1033,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1484728681693918113}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cff87e166bc0ee4392930063ab5d266, type: 3}
+  m_Script: {fileID: 11500000, guid: 2d9119608927cc14295c286e626f36cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &2639538674726009793
