@@ -1,0 +1,30 @@
+<abilita_classi>
+  <classe id = "0">
+    <nome_classe>Guerrafondaio</nome_classe>
+    <nome_abilita>Giubotto pesante</nome_abilita>
+  </classe>
+  <classe id = "1">
+    <nome_classe>Velocista</nome_classe>
+    <nome_abilita>schivata</nome_abilita>
+	</classe>
+  <classe id = "2">
+    <nome_classe>Attaccabrighe</nome_classe>
+    <nome_abilita>spinta</nome_abilita>
+  </classe>
+  <classe id = "3">
+    <nome_classe>doc</nome_classe>
+    <nome_abilita>cura e via</nome_abilita>	
+  </classe>
+  <classe id = "4">
+      <nome_classe>Marksman</nome_classe>
+      <nome_abilita>big shot</nome_abilita>
+  </classe>
+  <classe id ="5">
+      <nome_classe>Armaiolo</nome_classe>
+      <nome_abilita>kit supporto</nome_abilita>
+  </classe>
+  <classe id ="6">
+      <nome_classe>Piromane</nome_classe>
+      <nome_abilita>tanica</nome_abilita>
+  </classe>
+</abilita_classi>

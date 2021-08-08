@@ -618,9 +618,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1484728682370630125, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
+      propertyPath: rnd_numb
+      value: 
+      objectReference: {fileID: 558367429}
+    - target: {fileID: 1484728682370630125, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
+      propertyPath: video_img
+      value: 
+      objectReference: {fileID: 590412334}
+    - target: {fileID: 1484728682370630125, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
       propertyPath: btn_scegli
       value: 
       objectReference: {fileID: 1248537739}
+    - target: {fileID: 1484728682370630125, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
+      propertyPath: lettoreXML
+      value: 
+      objectReference: {fileID: 616693466}
     - target: {fileID: 1484728682536711971, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -641,6 +653,26 @@ PrefabInstance:
       propertyPath: continente
       value: 
       objectReference: {fileID: 237008425}
+    - target: {fileID: 1484728682536711972, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
+      propertyPath: abilita_stato
+      value: 
+      objectReference: {fileID: 1020467003}
+    - target: {fileID: 1484728682536711972, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
+      propertyPath: abilita_classe
+      value: 
+      objectReference: {fileID: 967382557}
+    - target: {fileID: 1484728682536711973, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1484728682536711973, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1484728682536711973, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2639538674726009793, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
       propertyPath: LettoreContinenteStatoXML
       value: 
@@ -890,6 +922,11 @@ CanvasRenderer:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1484728681377309385, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
   m_PrefabInstance: {fileID: 263425505}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &558367429 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1191169994032877395, guid: 02360d863dae2b94bbca408fd34e7ef1, type: 3}
+  m_PrefabInstance: {fileID: 1191169992840257123}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &562336702
 GameObject:
@@ -1147,6 +1184,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1484728683034077843, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
   m_PrefabInstance: {fileID: 263425505}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &967382557 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7711386160806165465, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
+  m_PrefabInstance: {fileID: 263425505}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1008458603
 GameObject:
   m_ObjectHideFlags: 0
@@ -1281,6 +1323,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008458603}
   m_CullTransparentMesh: 1
+--- !u!1 &1020467003 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 245970864348140004, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
+  m_PrefabInstance: {fileID: 263425505}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1248537739
 GameObject:
   m_ObjectHideFlags: 0
@@ -1349,11 +1396,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   btn_scegli: {fileID: 1248537739}
+  rnd_numb: {fileID: 558367429}
+  lettoreXML: {fileID: 616693466}
+  video_img: {fileID: 590412334}
   num_rnd: 0
   n_stati: 0
   nome_continente: 
   capitale: 
   stato_selezionato: 
+  nome_classe: 
+  nome_abilita: 
 --- !u!114 &1248537743
 MonoBehaviour:
   m_ObjectHideFlags: 0

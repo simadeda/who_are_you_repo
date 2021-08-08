@@ -30,6 +30,7 @@ public class LettoreXML : MonoBehaviour
             }
         }
     } 
+
     public void letturaXML_stati(int num_rnd, string nome_continente,out string nome_stato_selezionato, out string capitale)
     {
         nome_stato_selezionato = "";
@@ -47,8 +48,8 @@ public class LettoreXML : MonoBehaviour
             {
               Debug.Log("errore " + e);
             }
-        
     }
+
     public string lettura_personaggi(int num_rnd, string nome_continente, string nome_stato)
     {
         string nome_personaggio = "";
@@ -66,6 +67,28 @@ public class LettoreXML : MonoBehaviour
             }
         }
         return nome_personaggio;
+    }
+
+    public void lettura_abilita(int num_rnd, string nome_stato, out string nome_classe, out string abilità_classe )
+    {
+        abilità_classe = "";
+        nome_classe = "";
+
+        if (File.Exists("Assets/XML/abilità_classi.xml"))
+        {
+            try
+            {
+                XmlDocument Doc = new XmlDocument();
+                Doc.Load("Assets/XML/abilità_classi.xml");
+                abilità_classe = Doc.SelectSingleNode("/abilita_classi/classe[@id='" + num_rnd.ToString() + "']/nome_abilita").InnerText;
+                nome_classe = Doc.SelectSingleNode("/abilita_classi/classe[@id='" + num_rnd.ToString() + "']/nome_classe").InnerText;
+            }
+            catch (Exception e)
+            {
+                Debug.Log("errore " + e);
+            }
+        }
+
     }
 }
    
