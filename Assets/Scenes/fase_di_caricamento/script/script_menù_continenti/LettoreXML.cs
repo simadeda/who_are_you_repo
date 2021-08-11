@@ -7,22 +7,22 @@ using System.Xml;
 
 public class LettoreXML : MonoBehaviour
 {
-    public static string Nome_continente, Stato_selezionato;
-    public void letturaXML_continenti(int num_rnd,out int n_stati,out string nome_continente)
+    public static string Nome_continente, Stato_selezionato, Classe;
+    public void LetturaXML_continenti(int num_rnd,out int n_stati,out string nome_continente)
     {
         n_stati = 0;
         nome_continente = "";
 
-        if (File.Exists("Assets/XML/continenti.xml"))
+        if (File.Exists("Assets/XML/continenti.xml")) // vede se il path è "corretto" e se lo è entra
         {
             try
             {
-                XmlDocument Doc = new XmlDocument();
-                Doc.Load("Assets/XML/continenti.xml");
-                nome_continente = Doc.SelectSingleNode("/continenti/continente[@id='" + num_rnd.ToString() + "']/nome").InnerText;
+                XmlDocument Doc = new XmlDocument(); //creazione di una variabile di tipo XmlDocument per lavorare con i file .XML
+                Doc.Load("Assets/XML/continenti.xml"); //carica il file continenti.XML
+                nome_continente = Doc.SelectSingleNode("/continenti/continente[@id='" + num_rnd.ToString() + "']/nome").InnerText; //tramite la funzione SelectSingleNode e num_rand ( un numero random) vien epreso un continente
                 Nome_continente = nome_continente;
-                string num_stati_str = Doc.SelectSingleNode("/continenti/continente[@id='" + num_rnd.ToString() + "']/n_stato").InnerText;
-                n_stati = int.Parse(num_stati_str);
+                string num_stati_str = Doc.SelectSingleNode("/continenti/continente[@id='" + num_rnd.ToString() + "']/n_stato").InnerText; //stessa cosa del continente ma qui invece per lo stato
+                n_stati = int.Parse(num_stati_str); //conversione da string a int
             }
             catch (Exception e)
             {
@@ -31,7 +31,7 @@ public class LettoreXML : MonoBehaviour
         }
     } 
 
-    public void letturaXML_stati(int num_rnd, string nome_continente,out string nome_stato_selezionato, out string capitale)
+    public void LetturaXML_stati(int num_rnd, string nome_continente,out string nome_stato_selezionato, out string capitale)
     {
         nome_stato_selezionato = "";
         capitale = "";
@@ -50,7 +50,7 @@ public class LettoreXML : MonoBehaviour
             }
     }
 
-    public string lettura_personaggi(int num_rnd, string nome_continente, string nome_stato)
+    public string Lettura_personaggi(int num_rnd, string nome_continente, string nome_stato)
     {
         string nome_personaggio = "";
         if (File.Exists("Assets/XML/personaggi.xml"))
@@ -69,9 +69,9 @@ public class LettoreXML : MonoBehaviour
         return nome_personaggio;
     }
 
-    public void lettura_abilita(int num_rnd, string nome_stato, out string nome_classe, out string abilità_classe )
+    public void Lettura_abilita_classe(int num_rnd, string nome_stato, out string nome_classe, out string abilita_classe )
     {
-        abilità_classe = "";
+        abilita_classe = "";
         nome_classe = "";
 
         if (File.Exists("Assets/XML/abilità_classi.xml"))
@@ -80,8 +80,9 @@ public class LettoreXML : MonoBehaviour
             {
                 XmlDocument Doc = new XmlDocument();
                 Doc.Load("Assets/XML/abilità_classi.xml");
-                abilità_classe = Doc.SelectSingleNode("/abilita_classi/classe[@id='" + num_rnd.ToString() + "']/nome_abilita").InnerText;
+                abilita_classe = Doc.SelectSingleNode("/abilita_classi/classe[@id='" + num_rnd.ToString() + "']/nome_abilita").InnerText;
                 nome_classe = Doc.SelectSingleNode("/abilita_classi/classe[@id='" + num_rnd.ToString() + "']/nome_classe").InnerText;
+                Classe = nome_classe;
             }
             catch (Exception e)
             {

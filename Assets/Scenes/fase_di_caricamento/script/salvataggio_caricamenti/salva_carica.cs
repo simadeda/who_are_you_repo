@@ -5,20 +5,19 @@ using UnityEngine;
 public class Salva_carica : MonoBehaviour
 {
     public GameObject LettoreContinenteStatoXML;
-    LettoreXML continente_stato;
+    LettoreXML salvataggi_fileXML;
 
     void Start()
     {
-        continente_stato = LettoreContinenteStatoXML.GetComponent<LettoreXML>();
+        salvataggi_fileXML = LettoreContinenteStatoXML.GetComponent<LettoreXML>();
     }
     public void Salva_dati(int Scelta_salvataggio)
     {
         switch (Scelta_salvataggio)
         {
             case 0:
-                Gestione_salvataggi.Salvataggio(continente_stato,Scelta_salvataggio);
+                Gestione_salvataggi.Salvataggio(salvataggi_fileXML,Scelta_salvataggio);
                 break;
-            
         }
        
     }

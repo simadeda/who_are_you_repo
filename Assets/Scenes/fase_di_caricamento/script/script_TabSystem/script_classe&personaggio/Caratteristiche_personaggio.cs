@@ -31,8 +31,8 @@ public class Caratteristiche_personaggio : MonoBehaviour
         int random_num = Random_number.Rnd(11);
         Continente = LettoreXML.Nome_continente;
         Stato = LettoreXML.Stato_selezionato;
-
-        Nome_personaggio = Lettura_personaggi.lettura_personaggi(random_num,Continente,Stato);
+        
+        Nome_personaggio = Lettura_personaggi.Lettura_personaggi(random_num,Continente,Stato);
 
         Data_di_nascita_rnd();
         Colore_occhi(Occhi);

@@ -27,13 +27,13 @@ public class Script_principale_menu_nazione : MonoBehaviour
         //prende il numero random la prima volta, e gli passa 5
         num_rnd = rnd_number.Rnd(5);
         //sceglie il continente tramite il numero random e ridà il continente  e il numero di stati possibili
-        continente_stati_abilita.letturaXML_continenti(num_rnd, out n_stati, out nome_continente); 
+        continente_stati_abilita.LetturaXML_continenti(num_rnd, out n_stati, out nome_continente); 
         //richiamo della funzione random per la selezione dello stato, e gli si passa il numero massimo di stati del continete scelto in precedenza
         num_rnd = rnd_number.Rnd(n_stati);
         //scelta tramite il numero random dello stato selezionato e della sua capitale, gli si passa anche il continente selezionato
-        continente_stati_abilita.letturaXML_stati(num_rnd, nome_continente, out stato_selezionato, out capitale);
+        continente_stati_abilita.LetturaXML_stati(num_rnd, nome_continente, out stato_selezionato, out capitale);
         //scelta tramite il numero random della classe e della sua relativa abilità base
-        continente_stati_abilita.lettura_abilita(num_rnd, stato_selezionato, out nome_classe, out nome_abilita);
+        continente_stati_abilita.Lettura_abilita_classe(num_rnd, stato_selezionato, out nome_classe, out nome_abilita);
         //si va allo script per cambiare lo sfondo predefinito dei continenti, con il video mp4 del continente selezionato per fare una sorta di effetto visivo per capire quale continete è stato scelto
         video_img_script.scambio_immagini(nome_continente);
     }   
