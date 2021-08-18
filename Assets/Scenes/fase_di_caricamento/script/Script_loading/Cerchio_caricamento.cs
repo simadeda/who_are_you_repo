@@ -36,24 +36,18 @@ public class Cerchio_caricamento : MonoBehaviour
             {              
                 transform.position -= new Vector3(velocità_x,velocità_y,0);
                
-                if (transform.position.x >= altezza_wordpoint.x - 10 && transform.position.x <= altezza_wordpoint.x || 
-                    transform.position.x <= largehzza_wordpoint.x + 10 && transform.position.x >= largehzza_wordpoint.x)
+                if (transform.position.x >= altezza_wordpoint.x - 12 && transform.position.x <= altezza_wordpoint.x || 
+                    transform.position.x <= largehzza_wordpoint.x + 12 && transform.position.x >= largehzza_wordpoint.x)
                 {
                     velocità_x = velocità_x * -1;
                 }
 
-                if (transform.position.y >= altezza_wordpoint.y - 10 && transform.position.y <= altezza_wordpoint.y || 
-                    transform.position.y <= largehzza_wordpoint.y + 10 && transform.position.y >= largehzza_wordpoint.y)
+                if (transform.position.y >= altezza_wordpoint.y - 12 && transform.position.y <= altezza_wordpoint.y || 
+                    transform.position.y <= largehzza_wordpoint.y + 12 && transform.position.y >= largehzza_wordpoint.y)
                 {
                     velocità_y = velocità_y * -1;
                 }
-                              
-               
-                Vector3 direzione = cerchio_caricamento.localEulerAngles;
-
-                direzione.z += Angolo;
-
-                cerchio_caricamento.localEulerAngles = direzione;
+                             
                 start_time = Time.time; 
                               
             }
@@ -69,23 +63,11 @@ public class Cerchio_caricamento : MonoBehaviour
         tempo = 0;
         while (tempo <= fine_time)
         {
-            if (Time.time - start_time >= velocita_rotazione)
-            {
-                Vector3 direzione = cerchio_caricamento.localEulerAngles;
-
-                direzione.z += Angolo;
-
-                cerchio_caricamento.localEulerAngles = direzione;
-
-                start_time = Time.time;
-                
-            }
             tempo += Time.deltaTime;
            yield return null;
         }
         this.gameObject.SetActive(false);
     }
-
-    
+       
 
 }

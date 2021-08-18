@@ -1860,6 +1860,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3031102643864651493, guid: 4466d8cbd8ab76243a1b5c047002ad15, type: 3}
+      propertyPath: velocita_rotazione_ore
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4183087048560914376, guid: 4466d8cbd8ab76243a1b5c047002ad15, type: 3}
       propertyPath: m_Name
       value: cerchio_caricamento
@@ -1942,11 +1946,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4183087048560914379, guid: 4466d8cbd8ab76243a1b5c047002ad15, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1196
+      value: 1186.9
       objectReference: {fileID: 0}
     - target: {fileID: 4183087048560914379, guid: 4466d8cbd8ab76243a1b5c047002ad15, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 610
+      value: 604.4
       objectReference: {fileID: 0}
     - target: {fileID: 4183087048560914379, guid: 4466d8cbd8ab76243a1b5c047002ad15, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

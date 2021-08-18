@@ -813,6 +813,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3031102643864651493, guid: 4466d8cbd8ab76243a1b5c047002ad15, type: 3}
+      propertyPath: angolo
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031102643864651493, guid: 4466d8cbd8ab76243a1b5c047002ad15, type: 3}
+      propertyPath: velocita_rotazione_ore
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031102643864651493, guid: 4466d8cbd8ab76243a1b5c047002ad15, type: 3}
+      propertyPath: velocita_rotazione_minuti
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 4183087048560914376, guid: 4466d8cbd8ab76243a1b5c047002ad15, type: 3}
       propertyPath: m_Name
       value: cerchio_caricamento
