@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 54d21f6ece3b46479f0c328f8c6007e0, type: 3}
-  m_Name: red gioca
+  m_Name: classe tabSystem
   m_EditorClassIdentifier: 
   colorMode: 3
-  topLeft: {r: 0.5566038, g: 0, b: 0.019461673, a: 1}
-  topRight: {r: 1, g: 0.494382, b: 0, a: 1}
-  bottomLeft: {r: 1, g: 0, b: 0.031297684, a: 1}
-  bottomRight: {r: 1, g: 0.66513133, b: 0, a: 1}
+  topLeft: {r: 0.9622642, g: 0.5075608, b: 0.37673548, a: 1}
+  topRight: {r: 1, g: 0.7019608, b: 0, a: 1}
+  bottomLeft: {r: 0.24528301, g: 0.026610898, b: 0.08627451, a: 1}
+  bottomRight: {r: 0.5566038, g: 0.5380004, b: 0, a: 1}
