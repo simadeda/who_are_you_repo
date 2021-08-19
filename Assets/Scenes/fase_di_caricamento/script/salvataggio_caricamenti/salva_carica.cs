@@ -16,10 +16,10 @@ public class Salva_carica : MonoBehaviour
         switch (Scelta_salvataggio)
         {
             case 0:
-                Gestione_salvataggi.Salvataggio(salvataggi_fileXML,Scelta_salvataggio);
+                Gestione_salvataggi.Salvataggio(salvataggi_fileXML, Scelta_salvataggio);
                 break;
         }
-       
+
     }
     public void Carica_dati()
     {
@@ -28,3 +28,4 @@ public class Salva_carica : MonoBehaviour
         LettoreXML.Stato_selezionato = Carica.continente_stato[1];
     }
 }
+
