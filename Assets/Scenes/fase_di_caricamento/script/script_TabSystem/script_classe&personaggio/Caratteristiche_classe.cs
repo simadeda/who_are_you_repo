@@ -13,7 +13,7 @@ public class Caratteristiche_classe : MonoBehaviour
     void Start()
     {
         TextMesH_classe = txt_classe.GetComponent<TextMeshProUGUI>(); //presa componenti
-        nome_classe = LettoreXML.Classe;
+        nome_classe = LettoreXML.Classe; //prova
         TextMesH_classe.text = nome_classe;
 
     }
