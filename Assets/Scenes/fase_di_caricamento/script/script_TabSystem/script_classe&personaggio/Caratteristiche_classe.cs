@@ -6,20 +6,22 @@ using TMPro;
 public class Caratteristiche_classe : MonoBehaviour
 {
     public GameObject txt_classe;
-    private TextMeshProUGUI TextMesH_classe;
+    private TextMeshProUGUI TextMesH_classe; 
    
     string nome_classe;
+    string[] tipo_classe = new string[2] { "Assalto", "Supporto" };
     void Start()
     {
         TextMesH_classe = txt_classe.GetComponent<TextMeshProUGUI>(); //presa componenti
         nome_classe = LettoreXML.Classe;
-
-        Nome_classe(nome_classe);
-    }
-
-    public void Nome_classe(string nome_classe)
-    {
         TextMesH_classe.text = nome_classe;
+
     }
+
+    void Tipo_classe()
+    {
+
+    }
+    
     
 }

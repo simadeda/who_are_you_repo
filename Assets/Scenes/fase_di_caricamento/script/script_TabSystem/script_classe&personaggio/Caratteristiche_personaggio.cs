@@ -10,7 +10,7 @@ public class Caratteristiche_personaggio : MonoBehaviour
     public GameObject txt_anni,txt_data_di_nascita,txt_occhi,txt_altezza,lettoreXML,Generatore_num_rand,txt_nome,txt_capelli;
     private TextMeshProUGUI TextMesH_anni,TextMesH_data,TextMesH_occhi,TextMesH_altezza,TextMesH_nome,TextMesH_capelli;
     Random_number Random_number;
-    LettoreXML Lettura_personaggi;
+    LettoreXML Lettura_personaggi; 
     int Anni;
     string Data_di_nascita,Nome_personaggio;
     string Continente,Stato;
