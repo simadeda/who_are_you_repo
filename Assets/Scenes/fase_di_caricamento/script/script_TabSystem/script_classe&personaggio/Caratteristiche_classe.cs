@@ -7,12 +7,11 @@ public class Caratteristiche_classe : MonoBehaviour
 {
     public GameObject txt_classe;
     private TextMeshProUGUI TextMesH_classe;
-    //LettoreXML lettura_classe;
-
+   
     string nome_classe;
     void Start()
     {
-        TextMesH_classe = txt_classe.GetComponent<TextMeshProUGUI>();
+        TextMesH_classe = txt_classe.GetComponent<TextMeshProUGUI>(); //presa componenti
         nome_classe = LettoreXML.Classe;
 
         Nome_classe(nome_classe);
