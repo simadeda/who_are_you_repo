@@ -3600,6 +3600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   txt_classe: {fileID: 266782835}
   txt_armamento: {fileID: 1515952208}
+  txt_tipo: {fileID: 1684727890}
 --- !u!1 &1315853249
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Movimenti_player : MonoBehaviour
 {
     [SerializeField]
-    float velocita = 8f;
+    float velocita = 15f;
     Vector2 direzione = new Vector2(0, 0);
     public CharacterController controlli;
    

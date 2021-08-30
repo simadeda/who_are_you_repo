@@ -386,40 +386,40 @@
         </Germania>
         <Inghilterra>
           <personaggio id = "0">
-            <nome>Walter </nome>
+            <nome>Walter</nome>
           </personaggio>
           <personaggio id = "1">
-            <nome>Jake </nome>
+            <nome>Jake</nome>
           </personaggio>
           <personaggio id = "2">
-            <nome>Edward </nome>
+            <nome>Edward</nome>
           </personaggio>
           <personaggio id = "3">
-            <nome>Oliver </nome>
+            <nome>Oliver</nome>
           </personaggio>
           <personaggio id = "4">
-            <nome>James </nome>
+            <nome>James</nome>
           </personaggio>
           <personaggio id = "5">
-            <nome>Jesse </nome>
+            <nome>Jesse</nome>
           </personaggio>
           <personaggio id = "6">
-            <nome>Kelly </nome>
+            <nome>Kelly</nome>
           </personaggio>
           <personaggio id = "7">
-            <nome>Arnold </nome>
+            <nome>Arnold</nome>
           </personaggio>
           <personaggio id = "8">
-            <nome>Eliot </nome>
+            <nome>Eliot</nome>
           </personaggio>
           <personaggio id = "9">
-            <nome>Noah </nome>
+            <nome>Noah</nome>
           </personaggio>
           <personaggio id = "10">
             <nome>Cody</nome>
           </personaggio>
           <personaggio id = "11">
-            <nome>Tyler </nome>
+            <nome>Tyler</nome>
           </personaggio>
         </Inghilterra>
         <Italia>
@@ -549,7 +549,7 @@
             <nome>Fahim</nome>
           </personaggio>
           <personaggio id = "3">
-            <nome>Ibraim </nome>
+            <nome>Ibraim</nome>
           </personaggio>
           <personaggio id = "4">
             <nome>Kadour</nome>
@@ -599,13 +599,13 @@
             <nome>Rayyan</nome>
           </personaggio>
           <personaggio id = "7">
-            <nome>Zeyd </nome>
+            <nome>Zeyd</nome>
           </personaggio>
           <personaggio id = "8">
             <nome>Wadid</nome>
           </personaggio>
           <personaggio id = "9">
-            <nome>Talil </nome>
+            <nome>Talil</nome>
           </personaggio>
           <personaggio id = "10">
             <nome>Usama</nome>
