@@ -7,7 +7,7 @@ using System.Xml;
 
 public class LettoreXML : MonoBehaviour
 {
-    public static string Nome_continente, Stato_selezionato, Classe;
+    public static string Nome_continente, Stato_selezionato, Classe, Abilita_classe;
     public void LetturaXML_continenti(int num_rnd,out int n_stati,out string nome_continente)
     {
         n_stati = 0;
@@ -83,6 +83,7 @@ public class LettoreXML : MonoBehaviour
                 abilita_classe = Doc.SelectSingleNode("/abilita_classi/classe[@id='" + num_rnd.ToString() + "']/nome_abilita").InnerText;
                 nome_classe = Doc.SelectSingleNode("/abilita_classi/classe[@id='" + num_rnd.ToString() + "']/nome_classe").InnerText;
                 Classe = nome_classe;
+                Abilita_classe = abilita_classe;
             }
             catch (Exception e)
             {
