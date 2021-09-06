@@ -20,7 +20,10 @@ public class Caratteristiche_abilita_satto_classe : MonoBehaviour
     void Abilita_classe_stato()
     {
         string abilita_classe = LettoreXML.Abilita_classe;
-        
+
+        textMesh_abilita_classe.text = abilita_classe;
+
+
     }
     
 }
