@@ -578,7 +578,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 42.219994, y: 421.1}
+  m_AnchoredPosition: {x: 42.219994, y: 419.5}
   m_SizeDelta: {x: 190, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &163862818
@@ -632,6 +632,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Tab_controller: {fileID: 945532713}
+  tab_bottoni: []
+  btn_inattivo: {fileID: 0}
+  img_icona_sfondo: {fileID: 0}
 --- !u!1 &266782835
 GameObject:
   m_ObjectHideFlags: 0
@@ -2372,7 +2375,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -147.78, y: 421.10004}
+  m_AnchoredPosition: {x: -147.78, y: 419.5001}
   m_SizeDelta: {x: 190, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &795533521
@@ -2426,6 +2429,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Tab_controller: {fileID: 945532713}
+  tab_bottoni: []
+  btn_inattivo: {fileID: 0}
+  img_icona_sfondo: {fileID: 0}
 --- !u!1 &817409067
 GameObject:
   m_ObjectHideFlags: 0
@@ -3621,7 +3627,7 @@ GameObject:
   - component: {fileID: 1245980002}
   - component: {fileID: 1245980001}
   m_Layer: 5
-  m_Name: Immaggine_Passiva
+  m_Name: "img_abilit\xE0_classe"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3721,7 +3727,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -340.59, y: 421.1}
+  m_AnchoredPosition: {x: -340.59, y: 419.50006}
   m_SizeDelta: {x: 195.61, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1262403362
@@ -3775,6 +3781,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Tab_controller: {fileID: 945532713}
+  tab_bottoni: []
+  btn_inattivo: {fileID: 0}
+  img_icona_sfondo: {fileID: 0}
 --- !u!114 &1262403365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3790,6 +3799,15 @@ MonoBehaviour:
   abilita_stato: {fileID: 385048263}
   abilita_classe: {fileID: 163764996}
   lettoreXML: {fileID: 4561978239969240860}
+  img_abilita_classe: {fileID: 1245979999}
+  arr_abilita_classe:
+  - {fileID: -7770703493853416602, guid: dd0f22398f610084b91b4f70c62441c1, type: 3}
+  - {fileID: 4735935923538653611, guid: dd0f22398f610084b91b4f70c62441c1, type: 3}
+  - {fileID: 0}
+  - {fileID: -5786551987114473975, guid: dd0f22398f610084b91b4f70c62441c1, type: 3}
+  - {fileID: 7135782469208440450, guid: dd0f22398f610084b91b4f70c62441c1, type: 3}
+  - {fileID: -8107280311070518103, guid: dd0f22398f610084b91b4f70c62441c1, type: 3}
+  - {fileID: 2715889862751552018, guid: dd0f22398f610084b91b4f70c62441c1, type: 3}
 --- !u!1 &1294237864
 GameObject:
   m_ObjectHideFlags: 0
@@ -3829,7 +3847,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -533.4, y: 421.1}
+  m_AnchoredPosition: {x: -533.4, y: 419.50006}
   m_SizeDelta: {x: 190, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1294237866
@@ -3883,6 +3901,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Tab_controller: {fileID: 945532713}
+  tab_bottoni: []
+  btn_inattivo: {fileID: 0}
+  img_icona_sfondo: {fileID: 0}
 --- !u!114 &1294237869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4243,7 +4264,7 @@ GameObject:
   - component: {fileID: 1389298137}
   - component: {fileID: 1389298136}
   m_Layer: 5
-  m_Name: cornice_immaggine_attiva
+  m_Name: "cornice_img_abilit\xE0_stato"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5314,7 +5335,7 @@ GameObject:
   - component: {fileID: 1657857520}
   - component: {fileID: 1657857519}
   m_Layer: 5
-  m_Name: Immaggine_Attiva
+  m_Name: "img_abilit\xE0_stato"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6381,7 +6402,7 @@ GameObject:
   - component: {fileID: 1909111736}
   - component: {fileID: 1909111735}
   m_Layer: 5
-  m_Name: cornice_immaggine_passiva
+  m_Name: "cornice_img_abilit\xE0_classe"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

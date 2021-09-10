@@ -1,7 +1,7 @@
 <abilita_classi>
   <classe id = "0">
     <nome_classe>Guerrafondaio</nome_classe>
-    <nome_abilita>Giubotto pesante</nome_abilita>
+    <nome_abilita>giubotto pesante</nome_abilita>
   </classe>
   <classe id = "1">
     <nome_classe>Velocista</nome_classe>
