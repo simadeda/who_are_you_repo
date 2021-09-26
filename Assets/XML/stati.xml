@@ -23,7 +23,7 @@
 	</Asia>
 	<America>
 		<stato id = "0">
-			<nome>Stati uniti</nome>
+			<nome>Stati_uniti</nome>
 			<capitale>Washington</capitale>
 		</stato>
 		<stato id = "1">
@@ -73,7 +73,7 @@
 	</Africa>
 	<Oceania>
 		<stato id = "0">
-			<nome>nuova zelanda</nome>
+			<nome>Nuova_zelanda</nome>
 			<capitale>Wellington</capitale>
 		</stato>
 		<stato id = "1">

@@ -616,7 +616,7 @@
         </Algeria>
       </Africa>
       <Oceania>
-        <nuova_zelanda>
+        <Nuova_zelanda>
           <personaggio id = "0">
             <nome>Timothy</nome>
           </personaggio>
@@ -653,7 +653,7 @@
           <personaggio id = "11">
             <nome>Clive</nome>
           </personaggio>
-        </nuova_zelanda>
+        </Nuova_zelanda>
         <Australia>
           <personaggio id = "0">
             <nome>Adam</nome>
