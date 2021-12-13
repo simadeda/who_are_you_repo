@@ -21,7 +21,7 @@ public class Movimenti_player : MonoBehaviour
        animator.SetFloat("orizzontale", direzione.x);
 
        animator.SetFloat("velocità",direzione.sqrMagnitude);
-         
-       
+
     }
+       
 }
