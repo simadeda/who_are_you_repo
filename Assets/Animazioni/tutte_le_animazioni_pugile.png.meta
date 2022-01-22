@@ -1,109 +1,163 @@
 fileFormatVersion: 2
-guid: bb5b7368346897e4b8d0f0c69fb22365
+guid: cd8b8e0e90810774e868501e9d1feac1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4891907521769528909
-    second: tutte_le_animazioni_pugile_0
+      213: 8156369104504403485
+    second: tutte_le_animazioni_pugile 1_0
   - first:
-      213: -3027963253196363716
-    second: tutte_le_animazioni_pugile_1
+      213: 3359765068459983252
+    second: tutte_le_animazioni_pugile 1_1
   - first:
-      213: 2313655456699952917
-    second: tutte_le_animazioni_pugile_2
+      213: -8508022658248480558
+    second: tutte_le_animazioni_pugile 1_2
   - first:
-      213: -4595970115498884095
-    second: tutte_le_animazioni_pugile_3
+      213: 712392613644562961
+    second: tutte_le_animazioni_pugile 1_3
   - first:
-      213: 1428357415760862700
-    second: tutte_le_animazioni_pugile_4
+      213: 8067897380829229247
+    second: tutte_le_animazioni_pugile 1_4
   - first:
-      213: 1515983621957810213
-    second: tutte_le_animazioni_pugile_5
+      213: 3791442633922189517
+    second: tutte_le_animazioni_pugile 1_5
   - first:
-      213: 3027519235086245762
-    second: tutte_le_animazioni_pugile_6
+      213: -7287650945812179354
+    second: tutte_le_animazioni_pugile 1_6
   - first:
-      213: 401897226997256974
-    second: tutte_le_animazioni_pugile_7
+      213: -6721606854894990076
+    second: tutte_le_animazioni_pugile 1_7
   - first:
-      213: -6295987422914359316
-    second: tutte_le_animazioni_pugile_8
+      213: 8834547861099249690
+    second: tutte_le_animazioni_pugile 1_8
   - first:
-      213: -3099799920727426392
-    second: tutte_le_animazioni_pugile_9
+      213: 6164948664488419471
+    second: tutte_le_animazioni_pugile 1_9
   - first:
-      213: 4334741312032669095
-    second: tutte_le_animazioni_pugile_10
+      213: -5863058116116986763
+    second: tutte_le_animazioni_pugile 1_10
   - first:
-      213: 4346163925700477233
-    second: tutte_le_animazioni_pugile_11
+      213: -2441565195096785325
+    second: tutte_le_animazioni_pugile 1_11
   - first:
-      213: 9128821084992128664
-    second: tutte_le_animazioni_pugile_12
+      213: -6529393758402678139
+    second: tutte_le_animazioni_pugile 1_12
   - first:
-      213: -9102901251723496854
-    second: tutte_le_animazioni_pugile_13
+      213: 2112964530614618176
+    second: tutte_le_animazioni_pugile 1_13
   - first:
-      213: -4590254058898430959
-    second: tutte_le_animazioni_pugile_14
+      213: 5457499397014105425
+    second: tutte_le_animazioni_pugile 1_14
   - first:
-      213: 8377698758963621962
-    second: tutte_le_animazioni_pugile_15
+      213: -305876608223561061
+    second: tutte_le_animazioni_pugile 1_15
   - first:
-      213: 1694362834449624808
-    second: tutte_le_animazioni_pugile_16
+      213: 5718890716241640691
+    second: tutte_le_animazioni_pugile 1_16
   - first:
-      213: 4306715331119682721
-    second: tutte_le_animazioni_pugile_17
+      213: 3138474851938573954
+    second: tutte_le_animazioni_pugile 1_17
   - first:
-      213: 1325626782134707931
-    second: tutte_le_animazioni_pugile_18
+      213: -193195004666654688
+    second: tutte_le_animazioni_pugile 1_18
   - first:
-      213: 7501527353036036584
-    second: tutte_le_animazioni_pugile_19
+      213: 587751434617643083
+    second: tutte_le_animazioni_pugile 1_19
   - first:
-      213: 4198219931925449023
-    second: tutte_le_animazioni_pugile_20
+      213: -447972273265395627
+    second: tutte_le_animazioni_pugile 1_20
   - first:
-      213: 1934044188892078753
-    second: tutte_le_animazioni_pugile_21
+      213: -3777530284197197587
+    second: tutte_le_animazioni_pugile 1_21
   - first:
-      213: -1312774694123287786
-    second: tutte_le_animazioni_pugile_22
+      213: 7345594365758620
+    second: tutte_le_animazioni_pugile 1_22
   - first:
-      213: -8794902746120039816
-    second: tutte_le_animazioni_pugile_23
+      213: -9030405147824878784
+    second: tutte_le_animazioni_pugile 1_23
   - first:
-      213: 875324645547244548
-    second: tutte_le_animazioni_pugile_24
+      213: -1874367540355776650
+    second: tutte_le_animazioni_pugile 1_24
   - first:
-      213: 2813496399785908713
-    second: tutte_le_animazioni_pugile_25
+      213: -316552815736145726
+    second: tutte_le_animazioni_pugile 1_25
   - first:
-      213: -8959864700249623973
-    second: tutte_le_animazioni_pugile_26
+      213: -2351700761761195083
+    second: tutte_le_animazioni_pugile 1_26
   - first:
-      213: 6825380211116632636
-    second: tutte_le_animazioni_pugile_27
+      213: -1109477734973906089
+    second: tutte_le_animazioni_pugile 1_27
   - first:
-      213: -4531938107170467605
-    second: tutte_le_animazioni_pugile_28
+      213: 4451802760567609127
+    second: tutte_le_animazioni_pugile 1_28
   - first:
-      213: -6611506537629261742
-    second: tutte_le_animazioni_pugile_29
+      213: 6468777788389995816
+    second: tutte_le_animazioni_pugile 1_29
   - first:
-      213: 1797762684335448610
-    second: tutte_le_animazioni_pugile_30
+      213: 2011260904544309255
+    second: tutte_le_animazioni_pugile 1_30
   - first:
-      213: 2151641348172226961
-    second: tutte_le_animazioni_pugile_31
+      213: -6015492516948596498
+    second: tutte_le_animazioni_pugile 1_31
   - first:
-      213: 3134171582910077776
-    second: tutte_le_animazioni_pugile_32
+      213: -7253449340476094787
+    second: tutte_le_animazioni_pugile 1_32
   - first:
-      213: 1327474673358833212
-    second: tutte_le_animazioni_pugile_33
+      213: -5948956675607805341
+    second: tutte_le_animazioni_pugile 1_33
+  - first:
+      213: -2472513232963805881
+    second: tutte_le_animazioni_pugile 1_34
+  - first:
+      213: -911823929663538768
+    second: tutte_le_animazioni_pugile 1_35
+  - first:
+      213: 6888089417774925707
+    second: tutte_le_animazioni_pugile 1_36
+  - first:
+      213: 1946609986317616636
+    second: tutte_le_animazioni_pugile 1_37
+  - first:
+      213: 8191802006539766139
+    second: tutte_le_animazioni_pugile 1_38
+  - first:
+      213: 164278940780846951
+    second: tutte_le_animazioni_pugile 1_39
+  - first:
+      213: -4016402435396022537
+    second: tutte_le_animazioni_pugile 1_40
+  - first:
+      213: -8553709972245116972
+    second: tutte_le_animazioni_pugile 1_41
+  - first:
+      213: -3430036130302349283
+    second: tutte_le_animazioni_pugile 1_42
+  - first:
+      213: -8255358447570339868
+    second: tutte_le_animazioni_pugile 1_43
+  - first:
+      213: -2749881889998912286
+    second: tutte_le_animazioni_pugile 1_44
+  - first:
+      213: 6171781276032374062
+    second: tutte_le_animazioni_pugile 1_45
+  - first:
+      213: 4361227862927520760
+    second: tutte_le_animazioni_pugile 1_46
+  - first:
+      213: 8901720558007903332
+    second: tutte_le_animazioni_pugile 1_47
+  - first:
+      213: 3489055667266398375
+    second: tutte_le_animazioni_pugile 1_48
+  - first:
+      213: -6000807101131668411
+    second: tutte_le_animazioni_pugile 1_49
+  - first:
+      213: -96124349384116051
+    second: tutte_le_animazioni_pugile 1_50
+  - first:
+      213: -5309696941889848376
+    second: tutte_le_animazioni_pugile 1_51
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -193,7 +247,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_0
+      name: tutte_le_animazioni_pugile 1_0
       rect:
         serializedVersion: 2
         x: 37
@@ -207,14 +261,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4e522df8fb83e340800000000000000
-      internalID: 4891907521769528909
+      spriteID: d16b4fa7c7e313170800000000000000
+      internalID: 8156369104504403485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_1
+      name: tutte_le_animazioni_pugile 1_1
       rect:
         serializedVersion: 2
         x: 81
@@ -228,14 +282,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c386b4cc6738af5d0800000000000000
-      internalID: -3027963253196363716
+      spriteID: 491c25a678840ae20800000000000000
+      internalID: 3359765068459983252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_2
+      name: tutte_le_animazioni_pugile 1_2
       rect:
         serializedVersion: 2
         x: 126
@@ -249,14 +303,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51fae3d2161cb1020800000000000000
-      internalID: 2313655456699952917
+      spriteID: 2d8ef12487e6de980800000000000000
+      internalID: -8508022658248480558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_3
+      name: tutte_le_animazioni_pugile 1_3
       rect:
         serializedVersion: 2
         x: 168
@@ -270,14 +324,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 104c06bc785d730c0800000000000000
-      internalID: -4595970115498884095
+      spriteID: 11275e4ce4de2e900800000000000000
+      internalID: 712392613644562961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_4
+      name: tutte_le_animazioni_pugile 1_4
       rect:
         serializedVersion: 2
         x: 213
@@ -291,14 +345,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ced98ba708b82d310800000000000000
-      internalID: 1428357415760862700
+      spriteID: fb071ac1cede6ff60800000000000000
+      internalID: 8067897380829229247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_5
+      name: tutte_le_animazioni_pugile 1_5
       rect:
         serializedVersion: 2
         x: 261
@@ -312,14 +366,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 528fa18721bd90510800000000000000
-      internalID: 1515983621957810213
+      spriteID: dc81435dcf8ed9430800000000000000
+      internalID: 3791442633922189517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_6
+      name: tutte_le_animazioni_pugile 1_6
       rect:
         serializedVersion: 2
         x: 302
@@ -333,14 +387,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28f5afd24b8e30a20800000000000000
-      internalID: 3027519235086245762
+      spriteID: 66653df83101dda90800000000000000
+      internalID: -7287650945812179354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_7
+      name: tutte_le_animazioni_pugile 1_7
       rect:
         serializedVersion: 2
         x: 344
@@ -354,14 +408,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e03d26b0663d39500800000000000000
-      internalID: 401897226997256974
+      spriteID: 40d47269d2e08b2a0800000000000000
+      internalID: -6721606854894990076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_8
+      name: tutte_le_animazioni_pugile 1_8
       rect:
         serializedVersion: 2
         x: 36
@@ -375,14 +429,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cefccd2ebc820a8a0800000000000000
-      internalID: -6295987422914359316
+      spriteID: a100204e87e9a9a70800000000000000
+      internalID: 8834547861099249690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_9
+      name: tutte_le_animazioni_pugile 1_9
       rect:
         serializedVersion: 2
         x: 77
@@ -396,14 +450,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8aaf142456c4bf4d0800000000000000
-      internalID: -3099799920727426392
+      spriteID: f80e955a52c4e8550800000000000000
+      internalID: 6164948664488419471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_10
+      name: tutte_le_animazioni_pugile 1_10
       rect:
         serializedVersion: 2
         x: 108
@@ -417,14 +471,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7adfae0c148182c30800000000000000
-      internalID: 4334741312032669095
+      spriteID: 574406b05bb32aea0800000000000000
+      internalID: -5863058116116986763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_11
+      name: tutte_le_animazioni_pugile 1_11
       rect:
         serializedVersion: 2
         x: 162
@@ -438,14 +492,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1318efe301da05c30800000000000000
-      internalID: 4346163925700477233
+      spriteID: 35e7c4a1461dd1ed0800000000000000
+      internalID: -2441565195096785325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_12
+      name: tutte_le_animazioni_pugile 1_12
       rect:
         serializedVersion: 2
         x: 209
@@ -459,14 +513,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8964d05096610be70800000000000000
-      internalID: 9128821084992128664
+      spriteID: 58271cf88fee265a0800000000000000
+      internalID: -6529393758402678139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_13
+      name: tutte_le_animazioni_pugile 1_13
       rect:
         serializedVersion: 2
         x: 253
@@ -480,14 +534,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a62ff817a8ffba180800000000000000
-      internalID: -9102901251723496854
+      spriteID: 048c84eab02c25d10800000000000000
+      internalID: 2112964530614618176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_14
+      name: tutte_le_animazioni_pugile 1_14
       rect:
         serializedVersion: 2
         x: 286
@@ -501,17 +555,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 114609ee0442c40c0800000000000000
-      internalID: -4590254058898430959
+      spriteID: 15d2fe859ceecbb40800000000000000
+      internalID: 5457499397014105425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_15
+      name: tutte_le_animazioni_pugile 1_15
       rect:
         serializedVersion: 2
-        x: 343
+        x: 342
         y: 624
         width: 24
         height: 47
@@ -522,14 +576,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a40f14362a0934470800000000000000
-      internalID: 8377698758963621962
+      spriteID: b9abbbd68de41cbf0800000000000000
+      internalID: -305876608223561061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_16
+      name: tutte_le_animazioni_pugile 1_16
       rect:
         serializedVersion: 2
         x: 32
@@ -543,14 +597,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ee6ef35506938710800000000000000
-      internalID: 1694362834449624808
+      spriteID: 3fcbcd27ec49d5f40800000000000000
+      internalID: 5718890716241640691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_17
+      name: tutte_le_animazioni_pugile 1_17
       rect:
         serializedVersion: 2
         x: 80
@@ -564,14 +618,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a41e1496c684cb30800000000000000
-      internalID: 4306715331119682721
+      spriteID: 28e9b4edf3a1e8b20800000000000000
+      internalID: 3138474851938573954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_18
+      name: tutte_le_animazioni_pugile 1_18
       rect:
         serializedVersion: 2
         x: 128
@@ -585,14 +639,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd622ede882956210800000000000000
-      internalID: 1325626782134707931
+      spriteID: 020d676ba22a15df0800000000000000
+      internalID: -193195004666654688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_19
+      name: tutte_le_animazioni_pugile 1_19
       rect:
         serializedVersion: 2
         x: 176
@@ -606,14 +660,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e9d69ef167ca1860800000000000000
-      internalID: 7501527353036036584
+      spriteID: b406c94d0dc182800800000000000000
+      internalID: 587751434617643083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_20
+      name: tutte_le_animazioni_pugile 1_20
       rect:
         serializedVersion: 2
         x: 224
@@ -627,14 +681,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f398163f8c2134a30800000000000000
-      internalID: 4198219931925449023
+      spriteID: 558bac6479b78c9f0800000000000000
+      internalID: -447972273265395627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_21
+      name: tutte_le_animazioni_pugile 1_21
       rect:
         serializedVersion: 2
         x: 272
@@ -648,14 +702,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a222da51fa17da10800000000000000
-      internalID: 1934044188892078753
+      spriteID: de845228834839bc0800000000000000
+      internalID: -3777530284197197587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_22
+      name: tutte_le_animazioni_pugile 1_22
       rect:
         serializedVersion: 2
         x: 32
@@ -669,14 +723,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61bc8aefe5618cde0800000000000000
-      internalID: -1312774694123287786
+      spriteID: c9cc5d677c81a1000800000000000000
+      internalID: 7345594365758620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_23
+      name: tutte_le_animazioni_pugile 1_23
       rect:
         serializedVersion: 2
         x: 80
@@ -690,14 +744,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 872586fbc8a32f580800000000000000
-      internalID: -8794902746120039816
+      spriteID: 04b0a0afc5e8da280800000000000000
+      internalID: -9030405147824878784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_24
+      name: tutte_le_animazioni_pugile 1_24
       rect:
         serializedVersion: 2
         x: 128
@@ -711,14 +765,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40cfcf0a027c52c00800000000000000
-      internalID: 875324645547244548
+      spriteID: 67f329227a8ecf5e0800000000000000
+      internalID: -1874367540355776650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_25
+      name: tutte_le_animazioni_pugile 1_25
       rect:
         serializedVersion: 2
         x: 176
@@ -732,14 +786,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e9541ea11c8b0720800000000000000
-      internalID: 2813496399785908713
+      spriteID: 2c8b56924e06b9bf0800000000000000
+      internalID: -316552815736145726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_26
+      name: tutte_le_animazioni_pugile 1_26
       rect:
         serializedVersion: 2
         x: 224
@@ -753,14 +807,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b523f0ac68a28a380800000000000000
-      internalID: -8959864700249623973
+      spriteID: 5bb5535fd941d5fd0800000000000000
+      internalID: -2351700761761195083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_27
+      name: tutte_le_animazioni_pugile 1_27
       rect:
         serializedVersion: 2
         x: 272
@@ -774,18 +828,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3a669cb32f98be50800000000000000
-      internalID: 6825380211116632636
+      spriteID: 753eca8d0e75a90f0800000000000000
+      internalID: -1109477734973906089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_28
+      name: tutte_le_animazioni_pugile 1_28
       rect:
         serializedVersion: 2
         x: 32
-        y: 384
+        y: 400
         width: 32
         height: 47
       alignment: 7
@@ -795,18 +849,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be05c028d425b11c0800000000000000
-      internalID: -4531938107170467605
+      spriteID: 7275cb9260bf7cd30800000000000000
+      internalID: 4451802760567609127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_29
+      name: tutte_le_animazioni_pugile 1_29
       rect:
         serializedVersion: 2
         x: 80
-        y: 384
+        y: 400
         width: 32
         height: 49
       alignment: 7
@@ -816,18 +870,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2506f6255d53f34a0800000000000000
-      internalID: -6611506537629261742
+      spriteID: 8253cef1027b5c950800000000000000
+      internalID: 6468777788389995816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_30
+      name: tutte_le_animazioni_pugile 1_30
       rect:
         serializedVersion: 2
-        x: 142
-        y: 384
+        x: 126
+        y: 400
         width: 36
         height: 48
       alignment: 7
@@ -837,18 +891,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 222644ee2afe2f810800000000000000
-      internalID: 1797762684335448610
+      spriteID: 7009ef5f22f69eb10800000000000000
+      internalID: 2011260904544309255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_31
+      name: tutte_le_animazioni_pugile 1_31
       rect:
         serializedVersion: 2
-        x: 207
-        y: 384
+        x: 175
+        y: 400
         width: 34
         height: 47
       alignment: 7
@@ -858,18 +912,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19129d1086a2cdd10800000000000000
-      internalID: 2151641348172226961
+      spriteID: ee822426d6da48ca0800000000000000
+      internalID: -6015492516948596498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_32
+      name: tutte_le_animazioni_pugile 1_32
       rect:
         serializedVersion: 2
-        x: 270
-        y: 384
+        x: 222
+        y: 400
         width: 36
         height: 49
       alignment: 7
@@ -879,18 +933,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05b9a78f270de7b20800000000000000
-      internalID: 3134171582910077776
+      spriteID: db681a85142965b90800000000000000
+      internalID: -7253449340476094787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tutte_le_animazioni_pugile_33
+      name: tutte_le_animazioni_pugile 1_33
       rect:
         serializedVersion: 2
-        x: 336
-        y: 384
+        x: 272
+        y: 400
         width: 32
         height: 48
       alignment: 7
@@ -900,8 +954,386 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3681e1ae232c6210800000000000000
-      internalID: 1327474673358833212
+      spriteID: 36245362c6f017da0800000000000000
+      internalID: -5948956675607805341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutte_le_animazioni_pugile 1_34
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 320
+        width: 20
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d5db6805edfadd0800000000000000
+      internalID: -2472513232963805881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutte_le_animazioni_pugile 1_35
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 320
+        width: 20
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b934be87fc8853f0800000000000000
+      internalID: -911823929663538768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutte_le_animazioni_pugile 1_36
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 320
+        width: 20
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b870a9fa4d8679f50800000000000000
+      internalID: 6888089417774925707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutte_le_animazioni_pugile 1_37
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 320
+        width: 23
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5663671, y: -0.00041464102}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf580be087fb30b10800000000000000
+      internalID: 1946609986317616636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutte_le_animazioni_pugile 1_38
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 320
+        width: 20
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79822ed5802fa170800000000000000
+      internalID: 8191802006539766139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutte_le_animazioni_pugile 1_39
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 320
+        width: 20
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fd15583d2a74200800000000000000
+      internalID: 164278940780846951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutte_le_animazioni_pugile 1_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 20
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fec43bc34fd248c0800000000000000
+      internalID: -4016402435396022537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutte_le_animazioni_pugile 1_41
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 20
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d70d98891e1b4980800000000000000
+      internalID: -8553709972245116972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutte_le_animazioni_pugile 1_42
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 256
+        width: 23
+        height: 46
+      alignment: 9
+      pivot: {x: 0.43652177, y: 0.0000006634256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10b29600501660d0800000000000000
+      internalID: -3430036130302349283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutte_le_animazioni_pugile 1_43
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 256
+        width: 20
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7bc0f0b331f6d80800000000000000
+      internalID: -8255358447570339868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutte_le_animazioni_pugile 1_44
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 20
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4c5549df476d9d0800000000000000
+      internalID: -2749881889998912286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutte_le_animazioni_pugile 1_45
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 20
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25115dfe5296a550800000000000000
+      internalID: 6171781276032374062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutte_le_animazioni_pugile 1_46
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3b45272a1368c30800000000000000
+      internalID: 4361227862927520760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutte_le_animazioni_pugile 1_47
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 32
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4646ad52fa3498b70800000000000000
+      internalID: 8901720558007903332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutte_le_animazioni_pugile 1_48
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 192
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a82af0c4ad9b6030800000000000000
+      internalID: 3489055667266398375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutte_le_animazioni_pugile 1_49
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 192
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544c7633cb9d8bca0800000000000000
+      internalID: -6000807101131668411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutte_le_animazioni_pugile 1_50
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 192
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8b1bcd96f7aaef0800000000000000
+      internalID: -96124349384116051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutte_le_animazioni_pugile 1_51
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb7da963ca2056b0800000000000000
+      internalID: -5309696941889848376
       vertices: []
       indices: 
       edges: []
