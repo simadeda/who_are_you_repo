@@ -3801,13 +3801,13 @@ MonoBehaviour:
   lettoreXML: {fileID: 4561978239969240860}
   img_abilita_classe: {fileID: 1245979999}
   arr_abilita_classe:
-  - {fileID: -7770703493853416602, guid: dd0f22398f610084b91b4f70c62441c1, type: 3}
-  - {fileID: 4735935923538653611, guid: dd0f22398f610084b91b4f70c62441c1, type: 3}
-  - {fileID: 0}
-  - {fileID: -5786551987114473975, guid: dd0f22398f610084b91b4f70c62441c1, type: 3}
-  - {fileID: 7135782469208440450, guid: dd0f22398f610084b91b4f70c62441c1, type: 3}
-  - {fileID: -8107280311070518103, guid: dd0f22398f610084b91b4f70c62441c1, type: 3}
-  - {fileID: 2715889862751552018, guid: dd0f22398f610084b91b4f70c62441c1, type: 3}
+  - {fileID: -4452006743488470800, guid: 504dabdda13dd0143a367607d3bd1d6a, type: 3}
+  - {fileID: -6285043853835289812, guid: 504dabdda13dd0143a367607d3bd1d6a, type: 3}
+  - {fileID: 3449185750421142068, guid: 504dabdda13dd0143a367607d3bd1d6a, type: 3}
+  - {fileID: -6377281334731902586, guid: 504dabdda13dd0143a367607d3bd1d6a, type: 3}
+  - {fileID: 1973210425229599259, guid: 504dabdda13dd0143a367607d3bd1d6a, type: 3}
+  - {fileID: -4613363753333885042, guid: 504dabdda13dd0143a367607d3bd1d6a, type: 3}
+  - {fileID: -2287480604017462750, guid: 504dabdda13dd0143a367607d3bd1d6a, type: 3}
 --- !u!1 &1294237864
 GameObject:
   m_ObjectHideFlags: 0
@@ -5017,7 +5017,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1585129091
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6356,7 +6356,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1841530974
 RectTransform:
   m_ObjectHideFlags: 0

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class Caratteristiche_abilita_satto_classe : MonoBehaviour
+public class Caratteristiche_abilita_stato_classe : MonoBehaviour
 {
     public GameObject abilita_stato, abilita_classe, lettoreXML,img_abilita_classe;
     TextMeshProUGUI textMesh_abilita_stato, textMesh_abilita_classe;

@@ -32,6 +32,7 @@ public class Script_principale_menu_nazione : MonoBehaviour
         num_rnd = rnd_number.Rnd(n_stati);
         //scelta tramite il numero random dello stato selezionato e della sua capitale, gli si passa anche il continente selezionato
         continente_stati_abilita.LetturaXML_stati(num_rnd, nome_continente, out stato_selezionato, out capitale);
+        num_rnd = rnd_number.Rnd(7);
         //scelta tramite il numero random della classe e della sua relativa abilità base
         continente_stati_abilita.Lettura_abilita_classe(num_rnd, stato_selezionato, out nome_classe, out nome_abilita);
         //si va allo script per cambiare lo sfondo predefinito dei continenti, con il video mp4 del continente selezionato per fare una sorta di effetto visivo per capire quale continete è stato scelto

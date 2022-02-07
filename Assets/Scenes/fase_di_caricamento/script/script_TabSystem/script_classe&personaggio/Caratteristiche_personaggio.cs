@@ -28,7 +28,7 @@ public class Caratteristiche_personaggio : MonoBehaviour
         Lettura_personaggi = lettoreXML.GetComponent<LettoreXML>();
         Random_number = Generatore_num_rand.GetComponent<Random_number>();
 
-        int random_num = Random_number.Rnd(11);
+        int random_num = Random_number.Rnd(12);
         Continente = LettoreXML.Nome_continente;
         Stato = LettoreXML.Stato_selezionato;
         

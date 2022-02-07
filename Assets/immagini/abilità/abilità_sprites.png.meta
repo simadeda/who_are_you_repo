@@ -1,28 +1,31 @@
 fileFormatVersion: 2
-guid: dd0f22398f610084b91b4f70c62441c1
+guid: 504dabdda13dd0143a367607d3bd1d6a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7770703493853416602
-    second: "abilit\xE0_sprites-Recovered_0"
+      213: -4452006743488470800
+    second: "abilit\xE0_sprites_0"
   - first:
-      213: 4735935923538653611
-    second: "abilit\xE0_sprites-Recovered_1"
+      213: -6285043853835289812
+    second: "abilit\xE0_sprites_1"
   - first:
-      213: -5786551987114473975
-    second: "abilit\xE0_sprites-Recovered_2"
+      213: -6377281334731902586
+    second: "abilit\xE0_sprites_2"
   - first:
-      213: -8107280311070518103
-    second: "abilit\xE0_sprites-Recovered_3"
+      213: -4613363753333885042
+    second: "abilit\xE0_sprites_3"
   - first:
-      213: 2715889862751552018
-    second: "abilit\xE0_sprites-Recovered_4"
+      213: -2287480604017462750
+    second: "abilit\xE0_sprites_4"
   - first:
-      213: 3006494302261305164
-    second: "abilit\xE0_sprites-Recovered_5"
+      213: 8798398280078188866
+    second: "abilit\xE0_sprites_5"
   - first:
-      213: 7135782469208440450
-    second: "abilit\xE0_sprites-Recovered_6"
+      213: 1973210425229599259
+    second: "abilit\xE0_sprites_6"
+  - first:
+      213: 3449185750421142068
+    second: "abilit\xE0_sprites_7"
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -112,7 +115,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "abilit\xE0_sprites-Recovered_0"
+      name: "abilit\xE0_sprites_0"
       rect:
         serializedVersion: 2
         x: 32
@@ -120,20 +123,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 663faf1e75ae82490800000000000000
-      internalID: -7770703493853416602
+      spriteID: 0f0e9bc547b4732c0800000000000000
+      internalID: -4452006743488470800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites-Recovered_1"
+      name: "abilit\xE0_sprites_1"
       rect:
         serializedVersion: 2
         x: 80
@@ -141,20 +144,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba1788161ac69b140800000000000000
-      internalID: 4735935923538653611
+      spriteID: c2b356e1ae907c8a0800000000000000
+      internalID: -6285043853835289812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites-Recovered_2"
+      name: "abilit\xE0_sprites_2"
       rect:
         serializedVersion: 2
         x: 128
@@ -162,20 +165,20 @@ TextureImporter:
         width: 33
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90606bd40a902bfa0800000000000000
-      internalID: -5786551987114473975
+      spriteID: 68173921a685f77a0800000000000000
+      internalID: -6377281334731902586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites-Recovered_3"
+      name: "abilit\xE0_sprites_3"
       rect:
         serializedVersion: 2
         x: 176
@@ -183,20 +186,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a49f14e2872d7f80800000000000000
-      internalID: -8107280311070518103
+      spriteID: e87fed6eb1a0affb0800000000000000
+      internalID: -4613363753333885042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites-Recovered_4"
+      name: "abilit\xE0_sprites_4"
       rect:
         serializedVersion: 2
         x: 224
@@ -204,20 +207,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2120466d077c0b520800000000000000
-      internalID: 2715889862751552018
+      spriteID: 22271fe928c3140e0800000000000000
+      internalID: -2287480604017462750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites-Recovered_6"
+      name: "abilit\xE0_sprites_6"
       rect:
         serializedVersion: 2
         x: 32
@@ -225,14 +228,35 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28ef0a74954670360800000000000000
-      internalID: 7135782469208440450
+      spriteID: b1268ee5d60426b10800000000000000
+      internalID: 1973210425229599259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "abilit\xE0_sprites_7"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43af03a5a28fddf20800000000000000
+      internalID: 3449185750421142068
       vertices: []
       indices: 
       edges: []
