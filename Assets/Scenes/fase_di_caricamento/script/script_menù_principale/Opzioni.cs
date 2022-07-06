@@ -13,6 +13,7 @@ public class Opzioni : MonoBehaviour
     public GameObject Pannellopzioni,Btn_ok,Sound_icon;
     public Sprite[] Sound_icon_img = new Sprite[2];
     public bool Controllo;
+    IEnumerator caricamento_normale;
     public Slider Slider_volume;
     public TMPro.TMP_Dropdown Risoluzioni_disponibili, Qualità_disponibili;
     static int i = 0;
@@ -28,7 +29,8 @@ public class Opzioni : MonoBehaviour
     {
         icona_caricamento.gameObject.SetActive(true);
         Salvataggio_opzioni();
-        StartCoroutine(cerchio_caricamento.Icona_caricamento_normale(icona_caricamento));  //call of the second corroutine
+        caricamento_normale = cerchio_caricamento.Icona_caricamento_normale(icona_caricamento);
+        StartCoroutine(caricamento_normale); //caricamento normale corroutine
     }
 
     public void ShowHide_pannel()
@@ -39,7 +41,13 @@ public class Opzioni : MonoBehaviour
             RisoluzioneDrop();          
         }
         else
-            Pannellopzioni.gameObject.SetActive(false);              
+        {
+            if (caricamento_normale != null)
+                StopCoroutine(caricamento_normale);
+            icona_caricamento.gameObject.SetActive(false);
+            Pannellopzioni.gameObject.SetActive(false);
+        }
+                 
     }
 
     public void Salvataggio_opzioni()
@@ -91,6 +99,7 @@ public class Opzioni : MonoBehaviour
             Risoluzioni_disponibili.AddOptions(Risoluzioni_str);
             Risoluzioni_disponibili.value = PlayerPrefs.GetInt("valore_risoluzione", res_corrente);
         }
+        i = 0;
        
     }
     public void Fullscreen(bool Full_scrn)

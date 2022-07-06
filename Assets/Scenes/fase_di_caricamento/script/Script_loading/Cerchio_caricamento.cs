@@ -8,20 +8,21 @@ public class Cerchio_caricamento : MonoBehaviour
     public RectTransform cerchio_caricamento;
     Vector2 altezza_wordpoint; 
     Vector2 largehzza_wordpoint;
-    float velocità_x = 5f, velocità_y = 5f,start_time,fine_time = 5f;
+    float velocità_x = 5f, velocità_y = 5f,start_time,fine_time = 3f;
     public float velocita_rotazione,Angolo;
     float tempo = 0f;
 
     private void Start()
     {
-        start_time = Time.time;
+        start_time = Time.time; //the time in seconds since the start of the game
+
         if (SceneManager.GetActiveScene().buildIndex == 3)
         { 
             transform.localPosition = new Vector2(UnityEngine.Random.Range(-250f, 250f), UnityEngine.Random.Range(-250f, 250));
             StartCoroutine("Status_caricamento_rimbalzo", cerchio_caricamento);
         }
        
-        Debug.Log(SceneManager.GetActiveScene().buildIndex);
+       //Debug.Log(SceneManager.GetActiveScene().buildIndex);
     }
 
     //first corroutine
@@ -63,8 +64,9 @@ public class Cerchio_caricamento : MonoBehaviour
         tempo = 0;
         while (tempo <= fine_time)
         {
-            tempo += Time.deltaTime;
+           tempo += Time.deltaTime;
            yield return null;
+           Debug.Log(tempo);
         }
         this.gameObject.SetActive(false);
     }
