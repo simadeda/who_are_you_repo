@@ -5,84 +5,33 @@ using UnityEngine.UI;
 
 public class Barra_vita : MonoBehaviour
 {
-    public int num_max_vita;
-    public int num_corrente_vita;
-    string nome_classe;
-
     public Image[] array_hp10;
     public Image[] array_hp12;
-    public GameObject barra12;
-    public GameObject barra10;
 
-    bool guerrafondaio = false;
-    private void barra_vita10()
+    public int barra_vita10(int num_corrente_vita, int danno)
     {
-        if(num_corrente_vita > num_max_vita)
-        {
-            num_corrente_vita = num_max_vita;
-        }
-
+        num_corrente_vita -= danno;
         for (int i = 0; i < array_hp10.Length; i++)
         {
-            if (i > num_corrente_vita)
+            if (i >= num_corrente_vita)
                 array_hp10[i].enabled = false;
             else
                 array_hp10[i].enabled = true;
-
-            if (num_corrente_vita == 0)
-            {
-                //player morto
-            }
-
         }
+        return num_corrente_vita;
     }
 
-    private void barra_vita12()
+    public int barra_vita12(int num_corrente_vita, int danno)
     {
-        if (num_corrente_vita > num_max_vita)
-        {
-            num_corrente_vita = num_max_vita;
-        }
-
+        num_corrente_vita -= danno;
         for (int i = 0; i < array_hp12.Length; i++)
         {
             if (i > num_corrente_vita)
                 array_hp12[i].enabled = false;
             else
                 array_hp12[i].enabled = true;
-
-            if (num_corrente_vita == 0)
-            {
-                //player morto
-            }
-
         }
-    }
-
-    private void Start()
-    {
-        nome_classe = LettoreXML.Classe;
-        if(nome_classe == "Guerrafondaio")
-        {
-            guerrafondaio = true;
-            num_max_vita = 12;
-            num_corrente_vita = num_max_vita;
-            barra10.SetActive(false);
-            barra12.SetActive(true);
-        }
-        else
-            {
-                num_max_vita = 10;
-                num_corrente_vita = 10;
-            }
-    }
-
-    private void Update()
-    {
-        if(guerrafondaio)
-            barra_vita12();
-        else
-            barra_vita10();
+        return num_corrente_vita;
     }
 
 }

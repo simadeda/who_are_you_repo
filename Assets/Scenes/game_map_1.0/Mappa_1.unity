@@ -536,37 +536,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 135598652}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cce5bfc3f00e98342a36af55de060951, type: 3}
+  m_Script: {fileID: 11500000, guid: a16c94df4eba09946a4e259c0017e240, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   num_max_vita: 0
   num_corrente_vita: 0
-  array_hp10:
-  - {fileID: 1918051218}
-  - {fileID: 517695693}
-  - {fileID: 1616870830}
-  - {fileID: 1131412655}
-  - {fileID: 1900740962}
-  - {fileID: 1618164047}
-  - {fileID: 642636041}
-  - {fileID: 2045568760}
-  - {fileID: 898119708}
-  - {fileID: 1127180672}
-  array_hp12:
-  - {fileID: 1659694602}
-  - {fileID: 114774690}
-  - {fileID: 842749569}
-  - {fileID: 536245533}
-  - {fileID: 1474240298}
-  - {fileID: 800271543}
-  - {fileID: 2044742581}
-  - {fileID: 1671849600}
-  - {fileID: 647918336}
-  - {fileID: 1263958949}
-  - {fileID: 279944103}
-  - {fileID: 68680826}
   barra12: {fileID: 1494371820}
   barra10: {fileID: 1639269305}
+  barra_Vita: {fileID: 380417826}
 --- !u!1 &245748919
 GameObject:
   m_ObjectHideFlags: 0
@@ -4393,6 +4370,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 380417825}
+  - component: {fileID: 380417826}
   m_Layer: 5
   m_Name: barra_vita
   m_TagString: Untagged
@@ -4422,6 +4400,42 @@ RectTransform:
   m_AnchoredPosition: {x: -793.3, y: -476}
   m_SizeDelta: {x: 315.99, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &380417826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380417824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cce5bfc3f00e98342a36af55de060951, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  array_hp10:
+  - {fileID: 1918051218}
+  - {fileID: 517695693}
+  - {fileID: 1616870830}
+  - {fileID: 1131412655}
+  - {fileID: 1900740962}
+  - {fileID: 1618164047}
+  - {fileID: 642636041}
+  - {fileID: 2045568760}
+  - {fileID: 898119708}
+  - {fileID: 1127180672}
+  array_hp12:
+  - {fileID: 1659694602}
+  - {fileID: 114774690}
+  - {fileID: 842749569}
+  - {fileID: 536245533}
+  - {fileID: 1474240298}
+  - {fileID: 800271543}
+  - {fileID: 2044742581}
+  - {fileID: 1671849600}
+  - {fileID: 647918336}
+  - {fileID: 1263958949}
+  - {fileID: 279944103}
+  - {fileID: 68680826}
 --- !u!1 &481278514
 GameObject:
   m_ObjectHideFlags: 0
