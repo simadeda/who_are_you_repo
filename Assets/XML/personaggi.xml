@@ -304,23 +304,23 @@
         <Messico>
           <personaggio id = "0">
             <nome>Leon</nome>
-            <cognome></cognome>
+            <cognome>Pérez</cognome>
           </personaggio>
           <personaggio id = "1">
             <nome>Alejandro</nome>
-            <cognome></cognome>
+            <cognome>Rodrìguez</cognome>
           </personaggio>
           <personaggio id = "2">
             <nome>Valentino</nome>
-            <cognome></cognome>
+            <cognome>Torres</cognome>
           </personaggio>
           <personaggio id = "3">
             <nome>Adrian</nome>
-            <cognome></cognome>
+            <cognome>Santos</cognome>
           </personaggio>
           <personaggio id = "4">
             <nome>Álvaro</nome>
-            <cognome></cognome>
+            <cognome>Garcìa</cognome>
           </personaggio>
           <personaggio id = "5">
             <nome>Bacilio</nome>
