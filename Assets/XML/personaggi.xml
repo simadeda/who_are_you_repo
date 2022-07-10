@@ -324,19 +324,19 @@
           </personaggio>
           <personaggio id = "5">
             <nome>Bacilio</nome>
-            <cognome></cognome>
+            <cognome>Gonzàlez</cognome>
           </personaggio>
           <personaggio id = "6">
             <nome>Carlos</nome>
-            <cognome></cognome>
+            <cognome>Suarez</cognome>
           </personaggio>
           <personaggio id = "7">
             <nome>Damacio</nome>
-            <cognome></cognome>
+            <cognome>Ortiz</cognome>
           </personaggio>
           <personaggio id = "8">
             <nome>Fernando</nome>
-            <cognome></cognome>
+            <cognome>Martin</cognome>
           </personaggio>
           <personaggio id = "9">
             <nome>Marcelo</nome>
