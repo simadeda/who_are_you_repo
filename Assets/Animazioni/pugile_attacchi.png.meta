@@ -134,8 +134,8 @@ TextureImporter:
         y: 320
         width: 20
         height: 47
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.2, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -155,8 +155,8 @@ TextureImporter:
         y: 320
         width: 27
         height: 47
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25999987, y: 0.00042594748}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,8 +176,8 @@ TextureImporter:
         y: 320
         width: 28
         height: 47
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.39285713, y: 0.0004265968}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -197,8 +197,8 @@ TextureImporter:
         y: 320
         width: 30
         height: 50
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.067333475, y: 0.00040039062}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -218,8 +218,8 @@ TextureImporter:
         y: 320
         width: 32
         height: 47
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.06312513, y: 0.00042594748}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -239,8 +239,8 @@ TextureImporter:
         y: 320
         width: 46
         height: 47
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.08785148, y: 0.0011336956}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -256,12 +256,12 @@ TextureImporter:
       name: pugile_attacchi_6
       rect:
         serializedVersion: 2
-        x: 10
+        x: 30
         y: 256
         width: 46
         height: 47
-      alignment: 8
-      pivot: {x: 1, y: 0}
+      alignment: 9
+      pivot: {x: 0.9128579, y: 0.00000064931015}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -277,12 +277,12 @@ TextureImporter:
       name: pugile_attacchi_7
       rect:
         serializedVersion: 2
-        x: 72
+        x: 92
         y: 256
         width: 32
         height: 47
-      alignment: 8
-      pivot: {x: 1, y: 0}
+      alignment: 9
+      pivot: {x: 0.939, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -298,12 +298,12 @@ TextureImporter:
       name: pugile_attacchi_8
       rect:
         serializedVersion: 2
-        x: 122
+        x: 142
         y: 256
         width: 30
         height: 50
-      alignment: 8
-      pivot: {x: 1, y: 0}
+      alignment: 9
+      pivot: {x: 0.9314153, y: 0.0010272217}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -319,12 +319,12 @@ TextureImporter:
       name: pugile_attacchi_9
       rect:
         serializedVersion: 2
-        x: 172
+        x: 192
         y: 256
         width: 28
         height: 47
-      alignment: 8
-      pivot: {x: 1, y: 0}
+      alignment: 9
+      pivot: {x: 0.606387, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -340,12 +340,12 @@ TextureImporter:
       name: pugile_attacchi_10
       rect:
         serializedVersion: 2
-        x: 218
+        x: 238
         y: 256
         width: 27
         height: 47
-      alignment: 8
-      pivot: {x: 1, y: 0}
+      alignment: 9
+      pivot: {x: 0.7370097, y: 0.001448611}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -361,12 +361,12 @@ TextureImporter:
       name: pugile_attacchi_11
       rect:
         serializedVersion: 2
-        x: 268
+        x: 288
         y: 256
         width: 20
         height: 47
-      alignment: 8
-      pivot: {x: 1, y: 0}
+      alignment: 9
+      pivot: {x: 0.79753417, y: 0.0009116315}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

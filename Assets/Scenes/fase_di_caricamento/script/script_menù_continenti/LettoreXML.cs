@@ -50,23 +50,46 @@ public class LettoreXML : MonoBehaviour
             }
     }
 
-    public string Lettura_personaggi(int num_rnd, string nome_continente, string nome_stato)
+    public (string, string) Lettura_personaggi(int num_rnd, string nome_continente, string nome_stato)
     {
-        string nome_personaggio = "";
+        string Nome_personaggio = " ";
+        string Cognome_personaggio = " ";
         if (File.Exists("Assets/XML/personaggi.xml"))
         {
             try
             {
                 XmlDocument Doc = new XmlDocument();
                 Doc.Load("Assets/XML/personaggi.xml");
-                nome_personaggio = Doc.SelectSingleNode("/personaggi/" + nome_continente +"/"+ nome_stato + "/personaggio[@id='" + num_rnd.ToString()+ "']/nome").InnerText;
+                Nome_personaggio = Doc.SelectSingleNode("/personaggi/" + nome_continente + "/" + nome_stato + "/personaggio[@id='" + num_rnd.ToString() + "']/nome").InnerText;
+                Cognome_personaggio = Doc.SelectSingleNode("/personaggi/" + nome_continente + "/" + nome_stato + "/personaggio/cognome").InnerText;
             }
             catch (Exception e)
             {
                 Debug.Log("errore " + e);
             }
         }
-        return nome_personaggio;
+        return (Nome_personaggio, Cognome_personaggio);
+    }
+
+
+    public void Lettura_personaggi_old(int num_rnd, string nome_continente, string nome_stato, out string Nome_personaggio, out string Cognome_personaggio)
+    { 
+        Nome_personaggio = " ";
+        Cognome_personaggio = " ";
+        if (File.Exists("Assets/XML/personaggi.xml"))
+        {
+            try
+            {
+                XmlDocument Doc = new XmlDocument();
+                Doc.Load("Assets/XML/personaggi.xml");
+                Nome_personaggio = Doc.SelectSingleNode("/personaggi/" + nome_continente + "/" + nome_stato + "/personaggio[@id='" + num_rnd.ToString() + "']/nome").InnerText;
+                Cognome_personaggio = Doc.SelectSingleNode("/personaggi/" + nome_continente + "/" + nome_stato + "/personaggio/cognome").InnerText;
+            }
+            catch (Exception e)
+            {
+                Debug.Log("errore " + e);
+            }
+        }
     }
 
     public void Lettura_abilita_classe(int num_rnd, string nome_stato, out string nome_classe, out string abilita_classe )

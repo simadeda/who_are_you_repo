@@ -7,12 +7,12 @@ using TMPro;
 
 public class Caratteristiche_personaggio : MonoBehaviour
 {
-    public GameObject txt_anni,txt_data_di_nascita,txt_occhi,txt_altezza,lettoreXML,Generatore_num_rand,txt_nome,txt_capelli;
-    private TextMeshProUGUI TextMesH_anni,TextMesH_data,TextMesH_occhi,TextMesH_altezza,TextMesH_nome,TextMesH_capelli;
+    public GameObject txt_anni,txt_data_di_nascita,txt_occhi,txt_altezza,lettoreXML,Generatore_num_rand,txt_nome,txt_capelli,txt_cognome;
+    private TextMeshProUGUI TextMesH_anni,TextMesH_data,TextMesH_occhi,TextMesH_altezza,TextMesH_nome,TextMesH_capelli,TextMesH_cognome;
     Random_number Random_number;
     LettoreXML Lettura_personaggi; 
     int Anni;
-    string Data_di_nascita,Nome_personaggio;
+    string Data_di_nascita, Nome_personaggio, Cognome_personaggio;
     string Continente,Stato;
     string[] Occhi = new string[4] {"Azzurri","Verdi","Neri","Marroni"};
     string[] Colore_capelli = new string[6] {"Biondi","Castani","Neri","Marroni","Bianchi","Rossi"};
@@ -24,6 +24,7 @@ public class Caratteristiche_personaggio : MonoBehaviour
         TextMesH_occhi = txt_occhi.GetComponent<TextMeshProUGUI>();
         TextMesH_altezza = txt_altezza.GetComponent<TextMeshProUGUI>();
         TextMesH_nome = txt_nome.GetComponent<TextMeshProUGUI>();
+        TextMesH_cognome = txt_cognome.GetComponent<TextMeshProUGUI>();
         TextMesH_capelli = txt_capelli.GetComponent<TextMeshProUGUI>();
         Lettura_personaggi = lettoreXML.GetComponent<LettoreXML>();
         Random_number = Generatore_num_rand.GetComponent<Random_number>();
@@ -32,7 +33,7 @@ public class Caratteristiche_personaggio : MonoBehaviour
         Continente = LettoreXML.Nome_continente;
         Stato = LettoreXML.Stato_selezionato;
         
-        Nome_personaggio = Lettura_personaggi.Lettura_personaggi(random_num,Continente,Stato);
+        (Nome_personaggio, Cognome_personaggio) = Lettura_personaggi.Lettura_personaggi(random_num,Continente,Stato);
 
         Data_di_nascita_rnd();
         Colore_occhi(Occhi);
@@ -128,5 +129,6 @@ public class Caratteristiche_personaggio : MonoBehaviour
     public void Nome_cognome_personaggio()
     {
         TextMesH_nome.text = Nome_personaggio.ToString();
+        TextMesH_cognome.text = Cognome_personaggio.ToString();
     }
 }
