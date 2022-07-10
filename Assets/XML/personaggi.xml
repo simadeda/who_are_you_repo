@@ -3,101 +3,101 @@
     <Russia>
       <personaggio id = "0">
         <nome>Vassili</nome>
-        <cognome></cognome>
+        <cognome>Plotnikov</cognome>
       </personaggio>
       <personaggio id = "1">
         <nome>Dimitri</nome>
-        <cognome></cognome>
+        <cognome>Chernov</cognome>
       </personaggio>
       <personaggio id = "2">
         <nome>Maksim</nome>
-        <cognome></cognome>
+        <cognome>Kalashnikov</cognome>
       </personaggio>
       <personaggio id = "3">
         <nome>Vladimir</nome>
-        <cognome></cognome>
+        <cognome>Makarov</cognome>
       </personaggio>
       <personaggio id = "4">
         <nome>Sasha</nome>
-        <cognome></cognome>
+        <cognome>Sokolov</cognome>
       </personaggio>
       <personaggio id = "5">
         <nome>Nikita</nome>
-        <cognome></cognome>
+        <cognome>Sergeeva</cognome>
       </personaggio>
       <personaggio id = "6">
         <nome>Jurij</nome>
-        <cognome></cognome>
+        <cognome>Zaytseva</cognome>
       </personaggio>
       <personaggio id = "7">
         <nome>Anatolij</nome>
-        <cognome></cognome>
+        <cognome>Polyakova</cognome>
       </personaggio>
       <personaggio id = "8">
         <nome>Alexei</nome>
-        <cognome></cognome>
+        <cognome>Maksimova</cognome>
       </personaggio>
       <personaggio id = "9">
         <nome>Valery</nome>
-        <cognome></cognome>
+        <cognome>Bogdanov</cognome>
       </personaggio>
       <personaggio id = "10">
         <nome>Luri</nome>
-        <cognome></cognome>
+        <cognome>Ivanov</cognome>
       </personaggio>
       <personaggio id = "11">
         <nome>Ivan</nome>
-        <cognome></cognome>
+        <cognome>Tkachenko</cognome>
       </personaggio>
     </Russia>
     <Cina>
       <personaggio id = "0">
         <nome>Feng</nome>
-        <cognome></cognome>
+        <cognome>Chen</cognome>
       </personaggio>
       <personaggio id = "1">
         <nome>Guo</nome>
-        <cognome></cognome>
+        <cognome>Ning</cognome>
       </personaggio>
       <personaggio id = "2">
         <nome>Jian</nome>
-        <cognome></cognome>
+        <cognome>Jie</cognome>
       </personaggio>
       <personaggio id = "3">
         <nome>Long</nome>
-        <cognome></cognome>
+        <cognome>Teng</cognome>
       </personaggio>
       <personaggio id = "4">
         <nome>Peng</nome>
-        <cognome></cognome>
+        <cognome>Duan</cognome>
       </personaggio>
       <personaggio id = "5">
         <nome>Shi</nome>
-        <cognome></cognome>
+        <cognome>Chen</cognome>
       </personaggio>
       <personaggio id = "6">
         <nome>Tao</nome>
-        <cognome></cognome>
+        <cognome>Liang</cognome>
       </personaggio>
       <personaggio id = "7">
         <nome>Ning</nome>
-        <cognome></cognome>
+        <cognome>Xiao</cognome>
       </personaggio>
       <personaggio id = "8">
         <nome>Zhang</nome>
-        <cognome></cognome>
+        <cognome>Cheng</cognome>
       </personaggio>
       <personaggio id = "9">
         <nome>Enlai</nome>
-        <cognome></cognome>
+        <cognome>Di</cognome>
       </personaggio>
       <personaggio id = "10">
         <nome>Fa</nome>
-        <cognome></cognome>
+        <cognome>Kuang</cognome>
       </personaggio>
       <personaggio id = "11">
         <nome>Viella</nome>
-        <cognome></cognome>
+        <cognome>Shenzhen</cognome>
       </personaggio>
     </Cina>
     <Israele>
@@ -255,51 +255,51 @@
         <Stati_uniti>
           <personaggio id = "0">
             <nome>Adam</nome>
-            <cognome></cognome>
+            <cognome>Carter</cognome>
           </personaggio>
           <personaggio id = "1">
             <nome>Bruce</nome>
-            <cognome></cognome>
+            <cognome>Willis</cognome>
           </personaggio>
           <personaggio id = "2">
             <nome>John</nome>
-            <cognome></cognome>
+            <cognome>Burrows</cognome>
           </personaggio>
           <personaggio id = "3">
             <nome>Douglas</nome>
-            <cognome></cognome>
+            <cognome>Taylor</cognome>
           </personaggio>
           <personaggio id = "4">
             <nome>Matthew</nome>
-            <cognome></cognome>
+            <cognome>Hill</cognome>
           </personaggio>
           <personaggio id = "5">
             <nome>Stanley</nome>
-            <cognome></cognome>
+            <cognome>Thompson</cognome>
           </personaggio>
           <personaggio id = "6">
             <nome>Kenneth</nome>
-            <cognome></cognome>
+            <cognome>Trotterman</cognome>
           </personaggio>
           <personaggio id = "7">
             <nome>Scott</nome>
-            <cognome></cognome>
+            <cognome>Howard</cognome>
           </personaggio>
           <personaggio id = "8">
             <nome>Justin</nome>
-            <cognome></cognome>
+            <cognome>Dixon</cognome>
           </personaggio>
           <personaggio id = "9">
             <nome>Jeff</nome>
-            <cognome></cognome>
+            <cognome>Coleman</cognome>
           </personaggio>
           <personaggio id = "10">
             <nome>Randy</nome>
-            <cognome></cognome>
+            <cognome>Orton</cognome>
           </personaggio>
           <personaggio id = "11">
             <nome>William </nome>
-            <cognome></cognome>
+            <cognome>Griffin</cognome>
           </personaggio>
         </Stati_uniti>
         <Messico>
@@ -355,51 +355,51 @@
         <Canada>
           <personaggio id = "0">
             <nome>Hubert</nome>
-            <cognome></cognome>
+            <cognome>Girard</cognome>
           </personaggio>
           <personaggio id = "1">
             <nome>Loki</nome>
-            <cognome></cognome>
+            <cognome>Ross</cognome>
           </personaggio>
           <personaggio id = "2">
             <nome>Ryan</nome>
-            <cognome></cognome>
+            <cognome>Hill</cognome>
           </personaggio>
           <personaggio id = "3">
             <nome>Owen</nome>
-            <cognome></cognome>
+            <cognome>Morrison</cognome>
           </personaggio>
           <personaggio id = "4">
             <nome>Logan</nome>
-            <cognome></cognome>
+            <cognome>Cormier</cognome>
           </personaggio>
           <personaggio id = "5">
             <nome>Essan</nome>
-            <cognome></cognome>
+            <cognome>Pelletier</cognome>
           </personaggio>
           <personaggio id = "6">
             <nome>Carter</nome>
-            <cognome></cognome>
+            <cognome>Hughes</cognome>
           </personaggio>
           <personaggio id = "7">
             <nome>Tommy</nome>
-            <cognome></cognome>
+            <cognome>Mills</cognome>
           </personaggio>
           <personaggio id = "8">
             <nome>Emrick</nome>
-            <cognome></cognome>
+            <cognome>Brooks</cognome>
           </personaggio>
           <personaggio id = "9">
             <nome>Jordan</nome>
-            <cognome></cognome>
+            <cognome>Larocque</cognome>
           </personaggio>
           <personaggio id = "10">
             <nome>Arnaud</nome>
-            <cognome></cognome>
+            <cognome>Watson</cognome>
           </personaggio>
           <personaggio id = "11">
             <nome>Leonard</nome>  
-            <cognome></cognome>
+            <cognome>Craig</cognome>
           </personaggio>
         </Canada>
         <Brasile>
@@ -457,19 +457,19 @@
         <Germania>
           <personaggio id = "0">
             <nome>MÜller</nome>
-            <cognome></cognome>
+            <cognome>Schumacher</cognome>
           </personaggio>
           <personaggio id = "1">
             <nome>Berthold</nome>
-            <cognome></cognome>
+            <cognome>Günther</cognome>
           </personaggio>
           <personaggio id = "2">
             <nome>Heinrich</nome>
-            <cognome></cognome>
+            <cognome>Schiller</cognome>
           </personaggio>
           <personaggio id = "3">
             <nome>Edmund</nome>
-            <cognome></cognome>
+            <cognome>Schulz</cognome>
           </personaggio>
           <personaggio id = "4">
             <nome>Goethe</nome>
@@ -477,81 +477,81 @@
           </personaggio>
           <personaggio id = "5">
             <nome>Frerich</nome>
-            <cognome></cognome>
+            <cognome>Schubert</cognome>
           </personaggio>
           <personaggio id = "6">
             <nome>Rosskopf</nome>
-            <cognome></cognome>
+            <cognome>Zimmermann</cognome>
           </personaggio>
           <personaggio id = "7">
             <nome>Helmut</nome>
-            <cognome></cognome>
+            <cognome>Richter</cognome>
           </personaggio>
           <personaggio id = "8">
             <nome>Hans</nome>
-            <cognome></cognome>
+            <cognome>Günther</cognome>
           </personaggio>
           <personaggio id = "9">
             <nome>Jürgen</nome>
-            <cognome></cognome>
+            <cognome>Förster</cognome>
           </personaggio>
           <personaggio id = "10">
             <nome>Lampert</nome>
-            <cognome></cognome>
+            <cognome>Keller</cognome>
           </personaggio>
           <personaggio id = "11">
             <nome>Herwig</nome>
-            <cognome></cognome>
+            <cognome>Rommel</cognome>
           </personaggio>
         </Germania>
         <Inghilterra>
           <personaggio id = "0">
             <nome>Walter</nome>
-            <cognome></cognome>
+            <cognome>Green</cognome>
           </personaggio>
           <personaggio id = "1">
             <nome>Jake</nome>
-            <cognome></cognome>
+            <cognome>Cooper</cognome>
           </personaggio>
           <personaggio id = "2">
             <nome>Edward</nome>
-            <cognome></cognome>
+            <cognome>Clarke</cognome>
           </personaggio>
           <personaggio id = "3">
             <nome>Oliver</nome>
-            <cognome></cognome>
+            <cognome>Wright</cognome>
           </personaggio>
           <personaggio id = "4">
             <nome>James</nome>
-            <cognome></cognome>
+            <cognome>Bennett</cognome>
           </personaggio>
           <personaggio id = "5">
             <nome>Jesse</nome>
-            <cognome></cognome>
+            <cognome>Chapman</cognome>
           </personaggio>
           <personaggio id = "6">
             <nome>Kelly</nome>
-            <cognome></cognome>
+            <cognome>Ward</cognome>
           </personaggio>
           <personaggio id = "7">
             <nome>Arnold</nome>
-            <cognome></cognome>
+            <cognome>Fisher</cognome>
           </personaggio>
           <personaggio id = "8">
             <nome>Eliot</nome>
-            <cognome></cognome>
+            <cognome>Alderson</cognome>
           </personaggio>
           <personaggio id = "9">
             <nome>Noah</nome>
-            <cognome></cognome>
+            <cognome>Banks</cognome>
           </personaggio>
           <personaggio id = "10">
             <nome>Cody</nome>
-            <cognome></cognome>
+            <cognome>Thornton</cognome>
           </personaggio>
           <personaggio id = "11">
             <nome>Tyler</nome>
-            <cognome></cognome>
+            <cognome>Hart</cognome>
           </personaggio>
         </Inghilterra>
         <Italia>
@@ -659,50 +659,51 @@
         <Egitto>
           <personaggio id = "0">
             <nome>Abdul</nome>
-            <cognome></cognome>
+            <cognome>Galal</cognome>
           </personaggio>
           <personaggio id = "1">
             <nome>Barakah</nome>
-            <cognome></cognome>
+            <cognome>Ezzat</cognome>
           </personaggio>
           <personaggio id = "2">
             <nome>Amir</nome>
-            <cognome></cognome>
+            <cognome>Khalifa</cognome>
           </personaggio>
           <personaggio id = "3">
             <nome>Esmaeel</nome>
-            <cognome></cognome>
+            <cognome>Refaat</cognome>
           </personaggio>
           <personaggio id = "4">
             <nome>Jamal</nome>
-            <cognome></cognome>
+            <cognome>Ailhiyah</cognome>
           </personaggio>
           <personaggio id = "5">
             <nome>Karim</nome>
-            <cognome></cognome>
+            <cognome>Hafez</cognome>
           </personaggio>
           <personaggio id = "6">
             <nome>Sulaiman</nome>
-            <cognome></cognome>
+            <cognome>Fares</cognome>
           </personaggio>
           <personaggio id = "7">
             <nome>Shukri</nome>
-            <cognome></cognome>
+            <cognome>Rezk</cognome>
           </personaggio>
           <personaggio id = "8">
             <nome>Rasmi</nome>
-            <cognome></cognome>
+            <cognome>Shehab</cognome>
           </personaggio>
           <personaggio id = "9">
             <nome>Najm El Din</nome>
-            <cognome></cognome>
+            <cognome>El jazzar</cognome>
           </personaggio>
           <personaggio id = "10">
             <nome>Mustafa</nome>
-            <cognome></cognome>
+            <cognome>Ali</cognome>
           </personaggio>
           <personaggio id = "11">
-            <nome> </nome>
+            <nome>Jalal</nome>
+            <cognome>Salem</cognome>
           </personaggio>
         </Egitto>
         <Marocco>
@@ -860,51 +861,51 @@
         <Australia>
           <personaggio id = "0">
             <nome>Adam</nome>
-            <cognome></cognome>
+            <cognome>Porter</cognome>
           </personaggio>
           <personaggio id = "1">
             <nome>Blayne</nome>
-            <cognome></cognome>
+            <cognome>Griffiths</cognome>
           </personaggio>
           <personaggio id = "2">
             <nome>Casey</nome>
-            <cognome></cognome>
+            <cognome>Burns</cognome>
           </personaggio>
           <personaggio id = "3">
             <nome>Hunter</nome>
-            <cognome></cognome>
+            <cognome>Armstrong</cognome>
           </personaggio>
           <personaggio id = "4">
             <nome>Gus</nome>
-            <cognome></cognome>
+            <cognome>Brennan</cognome>
           </personaggio>
           <personaggio id = "5">
             <nome>Jacob</nome>
-            <cognome></cognome>
+            <cognome>Li</cognome>
           </personaggio>
           <personaggio id = "6">
             <nome>Keenan</nome>
-            <cognome></cognome>
+            <cognome>O'brien</cognome>
           </personaggio>
           <personaggio id = "7">
             <nome>Klayton</nome>
-            <cognome></cognome>
+            <cognome>Johnston</cognome>
           </personaggio>
           <personaggio id = "8">
-            <nome>Mason</nome>
-            <cognome></cognome>
+            <nome>Alex</nome>
+            <cognome>Mason</cognome>
           </personaggio>
           <personaggio id = "9">
             <nome>Mitch</nome>
-            <cognome></cognome>
+            <cognome>Stevens</cognome>
           </personaggio>
           <personaggio id = "10">
             <nome>Riley</nome>
-            <cognome></cognome>
+            <cognome>Stone</cognome>
           </personaggio>
           <personaggio id = "11">
             <nome>Zac</nome>
-            <cognome></cognome>
+            <cognome>Barnes</cognome>
           </personaggio>
         </Australia>
       </Oceania>
