@@ -1025,8 +1025,8 @@ GameObject:
   - component: {fileID: 1484728681693918117}
   - component: {fileID: 1484728681693918116}
   - component: {fileID: 1484728681693918115}
-  - component: {fileID: 6361032873739956773}
-  - component: {fileID: 2639538674726009793}
+  - component: {fileID: 5538525680080063846}
+  - component: {fileID: 590280207412845192}
   m_Layer: 5
   m_Name: btn_si
   m_TagString: Untagged
@@ -1136,8 +1136,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6361032873739956773}
-        m_TargetAssemblyTypeName: carica_scene, Assembly-CSharp
+      - m_Target: {fileID: 590280207412845192}
+        m_TargetAssemblyTypeName: Carica_scene1, Assembly-CSharp
         m_MethodName: caricatore
         m_Mode: 3
         m_Arguments:
@@ -1148,8 +1148,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2639538674726009793}
-        m_TargetAssemblyTypeName: Salva_carica, Assembly-CSharp
+      - m_Target: {fileID: 5538525680080063846}
+        m_TargetAssemblyTypeName: Salva_carica1, Assembly-CSharp
         m_MethodName: Salva_dati
         m_Mode: 3
         m_Arguments:
@@ -1160,7 +1160,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &6361032873739956773
+--- !u!114 &5538525680080063846
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1169,22 +1169,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1484728681693918113}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d9119608927cc14295c286e626f36cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2639538674726009793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1484728681693918113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17e9f263a9c68a24bba885e12e926ca2, type: 3}
+  m_Script: {fileID: 11500000, guid: 83bf758d3ad75b6499b91146d10df8e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   LettoreContinenteStatoXML: {fileID: 0}
+--- !u!114 &590280207412845192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484728681693918113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dcd0195775c8bd49a6a5d1a4f3e715b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1484728681704829851
 GameObject:
   m_ObjectHideFlags: 0
@@ -1817,11 +1817,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   btn_scegli: {fileID: 0}
+  rnd_numb: {fileID: 0}
+  lettoreXML: {fileID: 0}
+  video_img: {fileID: 0}
   num_rnd: 0
   n_stati: 0
   nome_continente: 
   capitale: 
   stato_selezionato: 
+  nome_classe: 
+  nome_abilita: 
 --- !u!114 &1433567781446440271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2039,6 +2044,8 @@ MonoBehaviour:
   stato: {fileID: 1484728681377309385}
   capitale: {fileID: 1484728683034077843}
   num_stati: {fileID: 1484728682948158805}
+  abilita_classe: {fileID: 0}
+  abilita_stato: {fileID: 0}
 --- !u!1 &1484728682948158805
 GameObject:
   m_ObjectHideFlags: 0

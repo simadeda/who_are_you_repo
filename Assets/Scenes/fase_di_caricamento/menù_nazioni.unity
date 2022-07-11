@@ -306,7 +306,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 193320078}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d9119608927cc14295c286e626f36cd, type: 3}
+  m_Script: {fileID: 11500000, guid: 3dcd0195775c8bd49a6a5d1a4f3e715b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &193320081
@@ -354,7 +354,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 193320080}
-        m_TargetAssemblyTypeName: bottone, Assembly-CSharp
+        m_TargetAssemblyTypeName: Carica_scene1, Assembly-CSharp
         m_MethodName: caricatore
         m_Mode: 3
         m_Arguments:
@@ -511,7 +511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1484728682370630122, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1484728682370630123, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
       propertyPath: m_Pivot.x
@@ -674,6 +674,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2639538674726009793, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
+      propertyPath: LettoreContinenteStatoXML
+      value: 
+      objectReference: {fileID: 616693466}
+    - target: {fileID: 5538525680080063846, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
       propertyPath: LettoreContinenteStatoXML
       value: 
       objectReference: {fileID: 616693466}
@@ -1340,9 +1344,9 @@ GameObject:
   - component: {fileID: 1248537745}
   - component: {fileID: 1248537744}
   - component: {fileID: 1248537743}
+  - component: {fileID: 1248537741}
   - component: {fileID: 1248537742}
   - component: {fileID: 1248537740}
-  - component: {fileID: 1248537741}
   - component: {fileID: 1248537747}
   m_Layer: 5
   m_Name: bottone_scegli
@@ -1379,7 +1383,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1248537739}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17e9f263a9c68a24bba885e12e926ca2, type: 3}
+  m_Script: {fileID: 11500000, guid: 83bf758d3ad75b6499b91146d10df8e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   LettoreContinenteStatoXML: {fileID: 616693466}

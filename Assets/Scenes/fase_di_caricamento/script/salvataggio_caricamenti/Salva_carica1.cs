@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Salva_carica : MonoBehaviour
+public class Salva_carica1 : MonoBehaviour
 {
     public GameObject LettoreContinenteStatoXML;
     LettoreXML salvataggi_fileXML;
