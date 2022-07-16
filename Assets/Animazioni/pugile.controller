@@ -372,8 +372,8 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: verticale
     m_Mirror: 0
-  m_BlendParameter: idle_sx_dx
-  m_BlendParameterY: verticale
+  m_BlendParameter: attacco_orizzontale
+  m_BlendParameterY: attacco_verticale
   m_MinThreshold: 0
   m_MaxThreshold: 0
   m_UseAutomaticThresholds: 1
@@ -419,6 +419,18 @@ AnimatorController:
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
   - m_Name: idle_dietro_avanti
+    m_Type: 1
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: attacco_verticale
+    m_Type: 1
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: attacco_orizzontale
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0

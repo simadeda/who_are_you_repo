@@ -28,10 +28,10 @@ public class Movimento_camera : MonoBehaviour
        transform.position = Vector3.Lerp(start_Cam, end_cam, velocita_cam * Time.deltaTime);
               
        angolo_destro = Camera.main.ViewportToWorldPoint(new Vector3(0.8f, 0.7f, 0));
-       Debug.Log(angolo_destro);
+       //Debug.Log(angolo_destro);
 
        angolo_sinistro = Camera.main.ViewportToWorldPoint(new Vector3(0.2f, 0.3f, 0));
-       Debug.Log(angolo_sinistro);  
+       //Debug.Log(angolo_sinistro);  
     
     }
      
