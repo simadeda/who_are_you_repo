@@ -9,8 +9,9 @@ public class Movimenti_player : MonoBehaviour
     static float sx_dx_controller = 0;
     static float dietro_avanti_controller = 0;
     Vector2 direzione = new Vector2(0, 0);
-    public CharacterController controlli;
+    //public CharacterController controlli;
     public Animator animator;
+    public Attacco_player attacco;
    
     void FixedUpdate()
     {
@@ -28,7 +29,17 @@ public class Movimenti_player : MonoBehaviour
        Idle();
 
        animator.SetFloat("velocità",direzione.sqrMagnitude);
+    }
 
+    void Update()
+    {
+        float spara_hori = Input.GetAxisRaw("Spara_Horizontal");
+        float spara_verti = Input.GetAxisRaw("Spara_Vertical");
+
+        if (spara_hori != 0 || spara_verti != 0)
+        {
+            attacco.Attacco_melee(spara_hori,spara_verti);
+        }
     }
 
     void Idle()
@@ -45,8 +56,6 @@ public class Movimenti_player : MonoBehaviour
             animator.SetFloat("idle_sx_dx", sx_dx_controller);
             dietro_avanti_controller = 0;
             animator.SetFloat("idle_dietro_avanti", dietro_avanti_controller);
-        }
-            
-        
+        }       
     }
 }

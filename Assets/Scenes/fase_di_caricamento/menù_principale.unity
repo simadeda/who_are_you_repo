@@ -341,7 +341,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 587511689}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91e0385a8cbde434bb4a0deb3b94669f, type: 3}
+  m_Script: {fileID: 11500000, guid: e482c3d714c91e246a003a0483ee2185, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &587511692
@@ -389,7 +389,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 587511691}
-        m_TargetAssemblyTypeName: quit, Assembly-CSharp
+        m_TargetAssemblyTypeName: Quit1, Assembly-CSharp
         m_MethodName: GameExit
         m_Mode: 1
         m_Arguments:
@@ -1874,7 +1874,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1969582244}
-        m_TargetAssemblyTypeName: Carica_scene, Assembly-CSharp
+        m_TargetAssemblyTypeName: Carica_scene1, Assembly-CSharp
         m_MethodName: caricatore
         m_Mode: 3
         m_Arguments:
@@ -1932,7 +1932,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1969582239}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d9119608927cc14295c286e626f36cd, type: 3}
+  m_Script: {fileID: 11500000, guid: 3dcd0195775c8bd49a6a5d1a4f3e715b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &3507084805155601679

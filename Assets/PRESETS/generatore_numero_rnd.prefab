@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1191169994032877394}
-  - component: {fileID: 942710710108817931}
+  - component: {fileID: 8296737798551945615}
   m_Layer: 0
   m_Name: generatore_numero_rnd
   m_TagString: random_num
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &942710710108817931
+--- !u!114 &8296737798551945615
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,6 +40,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1191169994032877395}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dce37ab4f16e1d34e93d1a3897152b3f, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a54acc96165e2243b1f67d7966c8315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

@@ -9,7 +9,7 @@ public class Caratteristiche_personaggio : MonoBehaviour
 {
     public GameObject txt_anni,txt_data_di_nascita,txt_occhi,txt_altezza,lettoreXML,Generatore_num_rand,txt_nome,txt_capelli,txt_cognome;
     private TextMeshProUGUI TextMesH_anni,TextMesH_data,TextMesH_occhi,TextMesH_altezza,TextMesH_nome,TextMesH_capelli,TextMesH_cognome;
-    Random_number Random_number;
+    Random_number1 Random_number;
     LettoreXML Lettura_personaggi; 
     int Anni;
     string Data_di_nascita, Nome_personaggio, Cognome_personaggio;
@@ -27,7 +27,7 @@ public class Caratteristiche_personaggio : MonoBehaviour
         TextMesH_cognome = txt_cognome.GetComponent<TextMeshProUGUI>();
         TextMesH_capelli = txt_capelli.GetComponent<TextMeshProUGUI>();
         Lettura_personaggi = lettoreXML.GetComponent<LettoreXML>();
-        Random_number = Generatore_num_rand.GetComponent<Random_number>();
+        Random_number = Generatore_num_rand.GetComponent<Random_number1>();
 
         int random_num = Random_number.Rnd(12);
         Continente = LettoreXML.Nome_continente;

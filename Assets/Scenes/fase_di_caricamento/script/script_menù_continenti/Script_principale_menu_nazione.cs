@@ -9,7 +9,7 @@ using System.Xml;
 public class Script_principale_menu_nazione : MonoBehaviour
 {
     public GameObject btn_scegli,rnd_numb, lettoreXML, video_img;
-    Random_number rnd_number;
+    Random_number1 rnd_number;
     LettoreXML continente_stati_abilita;
     Cambio_immagini_script video_img_script;
     
@@ -18,7 +18,7 @@ public class Script_principale_menu_nazione : MonoBehaviour
 
     void Start()
     {
-        rnd_number = rnd_numb.GetComponent<Random_number>();
+        rnd_number = rnd_numb.GetComponent<Random_number1>();
         continente_stati_abilita = lettoreXML.GetComponent<LettoreXML>();
         video_img_script = video_img.GetComponent<Cambio_immagini_script>();
     }
