@@ -1,31 +1,82 @@
 fileFormatVersion: 2
-guid: 504dabdda13dd0143a367607d3bd1d6a
+guid: f65025fc35e360845b9e714251151a2b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4452006743488470800
-    second: "abilit\xE0_sprites_0"
+      213: -518875324839877039
+    second: "abilit\xE0_sprites 1_10"
   - first:
-      213: -6285043853835289812
-    second: "abilit\xE0_sprites_1"
+      213: -1091526982617481763
+    second: "abilit\xE0_sprites 1_11"
   - first:
-      213: -6377281334731902586
-    second: "abilit\xE0_sprites_2"
+      213: -7695402610811524718
+    second: "abilit\xE0_sprites 1_12"
   - first:
-      213: -4613363753333885042
-    second: "abilit\xE0_sprites_3"
+      213: 1794317429540304084
+    second: "abilit\xE0_sprites 1_13"
   - first:
-      213: -2287480604017462750
-    second: "abilit\xE0_sprites_4"
+      213: 6053741468830377528
+    second: "abilit\xE0_sprites 1_14"
   - first:
-      213: 8798398280078188866
-    second: "abilit\xE0_sprites_5"
+      213: 7049944872726976499
+    second: "abilit\xE0_sprites 1_15"
   - first:
-      213: 1973210425229599259
-    second: "abilit\xE0_sprites_6"
+      213: -3247087926936815800
+    second: "abilit\xE0_sprites 1_16"
   - first:
-      213: 3449185750421142068
-    second: "abilit\xE0_sprites_7"
+      213: 3729039847606210771
+    second: "abilit\xE0_sprites 1_29"
+  - first:
+      213: 4216969689129408931
+    second: "abilit\xE0_sprites 1_30"
+  - first:
+      213: 5005841052001772305
+    second: "abilit\xE0_sprites 1_31"
+  - first:
+      213: -370793064957141814
+    second: "abilit\xE0_sprites 1_32"
+  - first:
+      213: 7214243901369063580
+    second: "abilit\xE0_sprites 1_35"
+  - first:
+      213: 775962793380815160
+    second: "abilit\xE0_sprites 1_36"
+  - first:
+      213: -7399982336665904170
+    second: "abilit\xE0_sprites 1_37"
+  - first:
+      213: -3748696207507515335
+    second: "abilit\xE0_sprites 1_38"
+  - first:
+      213: 5878841122605578797
+    second: "abilit\xE0_sprites 1_39"
+  - first:
+      213: 2759871476459762613
+    second: "abilit\xE0_sprites 1_42"
+  - first:
+      213: -6172816536010206373
+    second: "abilit\xE0_sprites 1_43"
+  - first:
+      213: 7301254248989035156
+    second: "abilit\xE0_sprites 1_44"
+  - first:
+      213: 8717879972459397242
+    second: "abilit\xE0_sprites 1_45"
+  - first:
+      213: 2685359384054360082
+    second: "abilit\xE0_sprites 1_49"
+  - first:
+      213: -651290504753196766
+    second: "abilit\xE0_sprites 1_50"
+  - first:
+      213: -8210310729008501268
+    second: "abilit\xE0_sprites 1_51"
+  - first:
+      213: 6315985482397956200
+    second: "abilit\xE0_sprites 1_54"
+  - first:
+      213: -7225239809135890473
+    second: "abilit\xE0_sprites 1_55"
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -70,7 +121,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -115,148 +166,526 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_0"
+      name: "abilit\xE0_sprites 1_10"
       rect:
         serializedVersion: 2
         x: 32
-        y: 656
+        y: 416
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f0e9bc547b4732c0800000000000000
-      internalID: -4452006743488470800
+      spriteID: 156243424a59cc8f0800000000000000
+      internalID: -518875324839877039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_1"
+      name: "abilit\xE0_sprites 1_11"
       rect:
         serializedVersion: 2
         x: 80
-        y: 656
+        y: 416
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2b356e1ae907c8a0800000000000000
-      internalID: -6285043853835289812
+      spriteID: dddb4521efd1ad0f0800000000000000
+      internalID: -1091526982617481763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_2"
+      name: "abilit\xE0_sprites 1_12"
       rect:
         serializedVersion: 2
         x: 128
-        y: 656
+        y: 416
         width: 33
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68173921a685f77a0800000000000000
-      internalID: -6377281334731902586
+      spriteID: 29927f2f810743590800000000000000
+      internalID: -7695402610811524718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_3"
+      name: "abilit\xE0_sprites 1_13"
       rect:
         serializedVersion: 2
         x: 176
-        y: 656
+        y: 416
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e87fed6eb1a0affb0800000000000000
-      internalID: -4613363753333885042
+      spriteID: 4d4ba0a0232b6e810800000000000000
+      internalID: 1794317429540304084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_4"
+      name: "abilit\xE0_sprites 1_14"
       rect:
         serializedVersion: 2
         x: 224
-        y: 656
+        y: 416
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22271fe928c3140e0800000000000000
-      internalID: -2287480604017462750
+      spriteID: 836afa3bac5330450800000000000000
+      internalID: 6053741468830377528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_6"
+      name: "abilit\xE0_sprites 1_15"
       rect:
         serializedVersion: 2
         x: 32
-        y: 608
+        y: 368
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1268ee5d60426b10800000000000000
-      internalID: 1973210425229599259
+      spriteID: 3f75af0728f66d160800000000000000
+      internalID: 7049944872726976499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_7"
+      name: "abilit\xE0_sprites 1_16"
       rect:
         serializedVersion: 2
         x: 80
-        y: 608
+        y: 368
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43af03a5a28fddf20800000000000000
-      internalID: 3449185750421142068
+      spriteID: 847b878fbb600f2d0800000000000000
+      internalID: -3247087926936815800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "abilit\xE0_sprites 1_29"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d058ddebf530c330800000000000000
+      internalID: 3729039847606210771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "abilit\xE0_sprites 1_30"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9d52df69fa58a30800000000000000
+      internalID: 4216969689129408931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "abilit\xE0_sprites 1_31"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11322aa2ae1587540800000000000000
+      internalID: 5005841052001772305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "abilit\xE0_sprites 1_32"
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 288
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc1d060cadaadaf0800000000000000
+      internalID: -370793064957141814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "abilit\xE0_sprites 1_35"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9891280b942e1460800000000000000
+      internalID: 7214243901369063580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "abilit\xE0_sprites 1_36"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8312262ac06c4ca00800000000000000
+      internalID: 775962793380815160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "abilit\xE0_sprites 1_37"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db1dd6854bfd4990800000000000000
+      internalID: -7399982336665904170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "abilit\xE0_sprites 1_38"
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93819a429a4f9fbc0800000000000000
+      internalID: -3748696207507515335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "abilit\xE0_sprites 1_39"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 240
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a3dd38ad6d59150800000000000000
+      internalID: 5878841122605578797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "abilit\xE0_sprites 1_42"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3fd144c780d4620800000000000000
+      internalID: 2759871476459762613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "abilit\xE0_sprites 1_43"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b535473c010c55aa0800000000000000
+      internalID: -6172816536010206373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "abilit\xE0_sprites 1_44"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a8dc54e04435560800000000000000
+      internalID: 7301254248989035156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "abilit\xE0_sprites 1_45"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a704fe845a12cf870800000000000000
+      internalID: 8717879972459397242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "abilit\xE0_sprites 1_49"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21862d4d120544520800000000000000
+      internalID: 2685359384054360082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "abilit\xE0_sprites 1_50"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221d9929cb626f6f0800000000000000
+      internalID: -651290504753196766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "abilit\xE0_sprites 1_51"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedaedd54ed1f0e80800000000000000
+      internalID: -8210310729008501268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "abilit\xE0_sprites 1_54"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868badc2553e6a750800000000000000
+      internalID: 6315985482397956200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "abilit\xE0_sprites 1_55"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfa17facaacabb90800000000000000
+      internalID: -7225239809135890473
       vertices: []
       indices: 
       edges: []

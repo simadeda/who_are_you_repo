@@ -17,7 +17,7 @@ public class Output_pannello : MonoBehaviour
         textMesH6 = abilita_stato.GetComponent<TextMeshProUGUI>();
     }
     
-    public void Visualizzazione_pannello(string continente_selezionato, string stato_selezionato, string capitale_selezionata, string n_stati, string abilita_classe)
+    public void Visualizzazione_pannello(string continente_selezionato, string stato_selezionato, string capitale_selezionata, string n_stati, string abilita_classe, string abilita_stato)
     {
         textMesH1.text = continente_selezionato;
 
@@ -28,6 +28,8 @@ public class Output_pannello : MonoBehaviour
         textMesH4.text = n_stati;
 
         textMesH5.text = abilita_classe;
+
+        textMesH6.text = abilita_stato;
     }
 
 }

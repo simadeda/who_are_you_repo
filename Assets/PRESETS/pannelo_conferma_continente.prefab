@@ -1826,7 +1826,8 @@ MonoBehaviour:
   capitale: 
   stato_selezionato: 
   nome_classe: 
-  nome_abilita: 
+  nome_abilita_classe: 
+  nome_abilita_stato: 
 --- !u!114 &1433567781446440271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2044,8 +2045,8 @@ MonoBehaviour:
   stato: {fileID: 1484728681377309385}
   capitale: {fileID: 1484728683034077843}
   num_stati: {fileID: 1484728682948158805}
-  abilita_classe: {fileID: 0}
-  abilita_stato: {fileID: 0}
+  abilita_classe: {fileID: 7711386160806165465}
+  abilita_stato: {fileID: 245970864348140004}
 --- !u!1 &1484728682948158805
 GameObject:
   m_ObjectHideFlags: 0
