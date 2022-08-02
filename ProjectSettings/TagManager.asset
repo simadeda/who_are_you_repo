@@ -47,3 +47,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: base
+    uniqueID: 585641583
+    locked: 0
+  - name: player&ogetti
+    uniqueID: 4146329019
+    locked: 0

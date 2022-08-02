@@ -1,163 +1,7 @@
 fileFormatVersion: 2
 guid: c96aa4ed37baa0e4c83fe3362cead31c
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -1644617764348660342
-    second: tutte_le_animazioni_pugile_new_0
-  - first:
-      213: 5254930539017527315
-    second: tutte_le_animazioni_pugile_new_1
-  - first:
-      213: -7825649497317980124
-    second: tutte_le_animazioni_pugile_new_2
-  - first:
-      213: -2060018666917420646
-    second: tutte_le_animazioni_pugile_new_3
-  - first:
-      213: -5203730574737775775
-    second: tutte_le_animazioni_pugile_new_4
-  - first:
-      213: 3643355213853756534
-    second: tutte_le_animazioni_pugile_new_5
-  - first:
-      213: 4613319387905436287
-    second: tutte_le_animazioni_pugile_new_6
-  - first:
-      213: -8409461927398601029
-    second: tutte_le_animazioni_pugile_new_7
-  - first:
-      213: -6619269034661878211
-    second: tutte_le_animazioni_pugile_new_8
-  - first:
-      213: 5542104938295126533
-    second: tutte_le_animazioni_pugile_new_9
-  - first:
-      213: -6192538902210931309
-    second: tutte_le_animazioni_pugile_new_10
-  - first:
-      213: 6856579814827135374
-    second: tutte_le_animazioni_pugile_new_11
-  - first:
-      213: 2060789340836711796
-    second: tutte_le_animazioni_pugile_new_12
-  - first:
-      213: 6460530216882980541
-    second: tutte_le_animazioni_pugile_new_13
-  - first:
-      213: 6637410163956490902
-    second: tutte_le_animazioni_pugile_new_14
-  - first:
-      213: -1679660879923172168
-    second: tutte_le_animazioni_pugile_new_15
-  - first:
-      213: 5588999061311402936
-    second: tutte_le_animazioni_pugile_new_16
-  - first:
-      213: -4922087708302869164
-    second: tutte_le_animazioni_pugile_new_17
-  - first:
-      213: -3205498526939793428
-    second: tutte_le_animazioni_pugile_new_18
-  - first:
-      213: -2639507931221235964
-    second: tutte_le_animazioni_pugile_new_19
-  - first:
-      213: 3421051528907305315
-    second: tutte_le_animazioni_pugile_new_20
-  - first:
-      213: 5866532496214155746
-    second: tutte_le_animazioni_pugile_new_21
-  - first:
-      213: -3970052387830054886
-    second: tutte_le_animazioni_pugile_new_22
-  - first:
-      213: 1584322982770048894
-    second: tutte_le_animazioni_pugile_new_23
-  - first:
-      213: 545707461928605423
-    second: tutte_le_animazioni_pugile_new_24
-  - first:
-      213: 4644517711419896951
-    second: tutte_le_animazioni_pugile_new_25
-  - first:
-      213: -2312529217770236434
-    second: tutte_le_animazioni_pugile_new_26
-  - first:
-      213: 6147499091335485107
-    second: tutte_le_animazioni_pugile_new_27
-  - first:
-      213: 8941242458293840266
-    second: tutte_le_animazioni_pugile_new_28
-  - first:
-      213: -1935780128308030021
-    second: tutte_le_animazioni_pugile_new_29
-  - first:
-      213: -7231261300250556127
-    second: tutte_le_animazioni_pugile_new_30
-  - first:
-      213: 7080038582817054966
-    second: tutte_le_animazioni_pugile_new_31
-  - first:
-      213: -4826792450748109537
-    second: tutte_le_animazioni_pugile_new_32
-  - first:
-      213: -3339571396705573630
-    second: tutte_le_animazioni_pugile_new_33
-  - first:
-      213: 6409171426800473617
-    second: tutte_le_animazioni_pugile_new_34
-  - first:
-      213: -3272866700599407792
-    second: tutte_le_animazioni_pugile_new_35
-  - first:
-      213: 940000312462369412
-    second: tutte_le_animazioni_pugile_new_36
-  - first:
-      213: -1669471097783453318
-    second: tutte_le_animazioni_pugile_new_37
-  - first:
-      213: 2613146032600785575
-    second: tutte_le_animazioni_pugile_new_38
-  - first:
-      213: 305685634056506866
-    second: tutte_le_animazioni_pugile_new_39
-  - first:
-      213: -1511498299766063843
-    second: tutte_le_animazioni_pugile_new_40
-  - first:
-      213: 7090592252353424382
-    second: tutte_le_animazioni_pugile_new_41
-  - first:
-      213: 8781420290692690879
-    second: tutte_le_animazioni_pugile_new_42
-  - first:
-      213: -8464348064381793206
-    second: tutte_le_animazioni_pugile_new_43
-  - first:
-      213: -438143459712938430
-    second: tutte_le_animazioni_pugile_new_44
-  - first:
-      213: -2125302414432074563
-    second: tutte_le_animazioni_pugile_new_45
-  - first:
-      213: 8758567172924865625
-    second: tutte_le_animazioni_pugile_new_46
-  - first:
-      213: -810983793284091501
-    second: tutte_le_animazioni_pugile_new_47
-  - first:
-      213: 975790914904787014
-    second: tutte_le_animazioni_pugile_new_48
-  - first:
-      213: -4713657971197072116
-    second: tutte_le_animazioni_pugile_new_49
-  - first:
-      213: 1938704990482654807
-    second: tutte_le_animazioni_pugile_new_50
-  - first:
-      213: 7582586715511783918
-    second: tutte_le_animazioni_pugile_new_51
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -252,10 +96,10 @@ TextureImporter:
         serializedVersion: 2
         x: 38
         y: 688
-        width: 25
+        width: 22
         height: 50
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5206777, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -273,10 +117,10 @@ TextureImporter:
         serializedVersion: 2
         x: 84
         y: 688
-        width: 28
-        height: 49
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 25
+        height: 50
+      alignment: 9
+      pivot: {x: 0.57868135, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -292,12 +136,12 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_2
       rect:
         serializedVersion: 2
-        x: 127
+        x: 128
         y: 688
-        width: 35
-        height: 49
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 30
+        height: 50
+      alignment: 9
+      pivot: {x: 0.61578524, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -313,12 +157,12 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_3
       rect:
         serializedVersion: 2
-        x: 174
+        x: 177
         y: 688
-        width: 39
+        width: 34
         height: 49
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.57261974, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -334,12 +178,12 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_4
       rect:
         serializedVersion: 2
-        x: 230
+        x: 228
         y: 688
-        width: 27
-        height: 49
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 26
+        height: 50
+      alignment: 9
+      pivot: {x: 0.55801976, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -355,12 +199,12 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_5
       rect:
         serializedVersion: 2
-        x: 269
-        y: 689
-        width: 25
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 272
+        y: 688
+        width: 21
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5474505, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -376,12 +220,12 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_6
       rect:
         serializedVersion: 2
-        x: 307
-        y: 689
-        width: 28
-        height: 49
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 309
+        y: 688
+        width: 24
+        height: 50
+      alignment: 9
+      pivot: {x: 0.56164294, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -397,12 +241,12 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_7
       rect:
         serializedVersion: 2
-        x: 350
+        x: 353
         y: 688
-        width: 31
+        width: 26
         height: 49
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5951362, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -418,9 +262,9 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_8
       rect:
         serializedVersion: 2
-        x: 416
+        x: 418
         y: 688
-        width: 30
+        width: 26
         height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -439,9 +283,9 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_9
       rect:
         serializedVersion: 2
-        x: 463
+        x: 465
         y: 688
-        width: 32
+        width: 28
         height: 47
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -460,12 +304,12 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_10
       rect:
         serializedVersion: 2
-        x: 511
+        x: 513
         y: 688
-        width: 31
+        width: 29
         height: 47
-      alignment: 9
-      pivot: {x: 0.5159066, y: 0.0005038647}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -481,9 +325,9 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_11
       rect:
         serializedVersion: 2
-        x: 560
+        x: 562
         y: 688
-        width: 30
+        width: 26
         height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -502,9 +346,9 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_12
       rect:
         serializedVersion: 2
-        x: 609
+        x: 611
         y: 688
-        width: 28
+        width: 24
         height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -523,9 +367,9 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_13
       rect:
         serializedVersion: 2
-        x: 658
+        x: 660
         y: 688
-        width: 26
+        width: 22
         height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -544,12 +388,12 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_14
       rect:
         serializedVersion: 2
-        x: 35
+        x: 37
         y: 624
-        width: 30
+        width: 26
         height: 49
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.4035096, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -565,12 +409,12 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_15
       rect:
         serializedVersion: 2
-        x: 81
-        y: 625
-        width: 28
-        height: 49
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 83
+        y: 624
+        width: 24
+        height: 50
+      alignment: 9
+      pivot: {x: 0.43718496, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -586,12 +430,12 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_16
       rect:
         serializedVersion: 2
-        x: 122
-        y: 625
-        width: 25
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 123
+        y: 624
+        width: 21
+        height: 50
+      alignment: 9
+      pivot: {x: 0.4517321, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -607,12 +451,12 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_17
       rect:
         serializedVersion: 2
-        x: 159
+        x: 162
         y: 624
-        width: 27
-        height: 49
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 26
+        height: 50
+      alignment: 9
+      pivot: {x: 0.44243562, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -628,12 +472,12 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_18
       rect:
         serializedVersion: 2
-        x: 203
+        x: 205
         y: 624
-        width: 39
+        width: 34
         height: 49
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.42730892, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -649,12 +493,12 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_19
       rect:
         serializedVersion: 2
-        x: 254
+        x: 258
         y: 624
-        width: 35
-        height: 49
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 30
+        height: 50
+      alignment: 9
+      pivot: {x: 0.38359374, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -670,12 +514,12 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_20
       rect:
         serializedVersion: 2
-        x: 304
+        x: 307
         y: 624
-        width: 28
-        height: 49
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 25
+        height: 50
+      alignment: 9
+      pivot: {x: 0.42005005, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -691,12 +535,12 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_21
       rect:
         serializedVersion: 2
-        x: 353
+        x: 356
         y: 624
-        width: 25
+        width: 22
         height: 50
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.4758176, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -712,9 +556,9 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_22
       rect:
         serializedVersion: 2
-        x: 420
+        x: 422
         y: 624
-        width: 26
+        width: 22
         height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -733,9 +577,9 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_23
       rect:
         serializedVersion: 2
-        x: 467
+        x: 469
         y: 624
-        width: 28
+        width: 24
         height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -754,9 +598,9 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_24
       rect:
         serializedVersion: 2
-        x: 514
+        x: 516
         y: 624
-        width: 30
+        width: 26
         height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -775,12 +619,12 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_25
       rect:
         serializedVersion: 2
-        x: 560
+        x: 562
         y: 624
-        width: 33
+        width: 29
         height: 47
-      alignment: 9
-      pivot: {x: 0.51576, y: 0.00042594748}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -796,9 +640,9 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_26
       rect:
         serializedVersion: 2
-        x: 609
+        x: 611
         y: 624
-        width: 32
+        width: 28
         height: 47
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -817,9 +661,9 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_27
       rect:
         serializedVersion: 2
-        x: 658
+        x: 660
         y: 624
-        width: 30
+        width: 26
         height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -859,9 +703,9 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_29
       rect:
         serializedVersion: 2
-        x: 80
+        x: 82
         y: 544
-        width: 32
+        width: 28
         height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -880,9 +724,9 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_30
       rect:
         serializedVersion: 2
-        x: 128
+        x: 130
         y: 544
-        width: 32
+        width: 28
         height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -901,9 +745,9 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_31
       rect:
         serializedVersion: 2
-        x: 174
+        x: 176
         y: 544
-        width: 36
+        width: 32
         height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -922,9 +766,9 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_32
       rect:
         serializedVersion: 2
-        x: 224
+        x: 226
         y: 544
-        width: 32
+        width: 28
         height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -943,9 +787,9 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_33
       rect:
         serializedVersion: 2
-        x: 272
+        x: 274
         y: 544
-        width: 32
+        width: 28
         height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1132,9 +976,9 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_42
       rect:
         serializedVersion: 2
-        x: 128
+        x: 129
         y: 480
-        width: 32
+        width: 30
         height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1195,9 +1039,9 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_45
       rect:
         serializedVersion: 2
-        x: 272
+        x: 273
         y: 480
-        width: 32
+        width: 30
         height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
