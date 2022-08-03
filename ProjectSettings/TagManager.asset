@@ -17,8 +17,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - player
+  - edifici
   - 
   - 
   - 
@@ -52,4 +52,7 @@ TagManager:
     locked: 0
   - name: player&ogetti
     uniqueID: 4146329019
+    locked: 0
+  - name: interazione
+    uniqueID: 189560533
     locked: 0
