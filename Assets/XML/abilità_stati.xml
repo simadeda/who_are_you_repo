@@ -32,7 +32,7 @@
     </stato>
     <stato id = "2">
       <!--abilità del Canada-->
-      <nome_abilita>davedere</nome_abilita>
+      <nome_abilita>Bolas</nome_abilita>
     </stato>
     <stato id = "3">
       <!--abilità del Brasile-->
@@ -68,7 +68,7 @@
     </stato>
     <stato id = "2">
       <!--abilità dell' Algeria-->
-      <nome_abilita>Afa del Deserto </nome_abilita>
+      <nome_abilita>Afa del Deserto</nome_abilita>
     </stato>
   </Africa>
   <Oceania>

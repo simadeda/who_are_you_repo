@@ -91,7 +91,7 @@ public class Caratteristiche_abilita_stato_classe : MonoBehaviour
             case "La Marioneta":
                 abilita_stato_img.sprite = arr_abilita_stato[6];
                 break;
-            case "davedere":
+            case "Bolas":
                 abilita_stato_img.sprite = arr_abilita_stato[7];
                 break;
 

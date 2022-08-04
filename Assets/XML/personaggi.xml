@@ -203,8 +203,8 @@
     <Giappone>
       <personaggio id = "0">
         <nome>Akinori</nome>
+        <cognome>Suzuki</cognome>
       </personaggio>
-		<cognome>Suzuki</cognome>
       <personaggio id = "1">
         <nome>Murai</nome>
         <cognome>Watanabe</cognome>
