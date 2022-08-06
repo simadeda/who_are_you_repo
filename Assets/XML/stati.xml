@@ -1,11 +1,11 @@
 <stati>
 	<Asia>
 		<stato id = "0">
-			<nome>russia</nome>
+			<nome>Russia</nome>
 			<capitale>Mosca</capitale>
 		</stato>
 		<stato id = "1">
-			<nome>cina</nome>
+			<nome>Cina</nome>
 			<capitale>Pechino</capitale>
 		</stato>
 		<stato id = "2">

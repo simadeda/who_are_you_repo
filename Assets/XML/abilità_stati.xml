@@ -1,0 +1,84 @@
+<abilita_stati>
+  <Asia>
+    <stato id = "0">
+      <!--abilità della Russia-->
+      <nome_abilita>Kord</nome_abilita>
+    </stato>
+    <stato id = "1">
+      <!--abilità della Cina-->
+      <nome_abilita>Shaolin</nome_abilita>
+    </stato>
+    <stato id = "2">
+      <!--abilità di Israele-->
+      <nome_abilita>Bomba al Nokia</nome_abilita>
+    </stato>
+    <stato id = "3">
+      <!--abilità dell' India-->
+      <nome_abilita>Carica Regale</nome_abilita>
+    </stato>
+    <stato id = "4">
+      <!--abilità del Giappone-->
+      <nome_abilita>Samurai</nome_abilita>
+    </stato>
+  </Asia>
+  <America>
+    <stato id = "0">
+      <!--abilità degli stati_uniti-->
+      <nome_abilita>Libertà</nome_abilita>
+    </stato>
+    <stato id = "1">
+      <!--abilità del Messico-->
+      <nome_abilita>La Marioneta</nome_abilita>
+    </stato>
+    <stato id = "2">
+      <!--abilità del Canada-->
+      <nome_abilita>Bolas</nome_abilita>
+    </stato>
+    <stato id = "3">
+      <!--abilità del Brasile-->
+      <nome_abilita>Macumba</nome_abilita>
+    </stato>
+  </America>
+  <Europa>
+    <stato id = "0">
+      <!--abilità della Germania-->
+      <nome_abilita>Vichingo</nome_abilita>
+    </stato>
+    <stato id = "1">
+      <!--abilità dell' Inghilterra-->
+      <nome_abilita>Spitfire</nome_abilita>
+    </stato>
+    <stato id = "2">
+      <!--abilità dell' Italia-->
+      <nome_abilita>La Famiglia</nome_abilita>
+    </stato>
+    <stato id = "3">
+      <!--abilità dell' Albania-->
+      <nome_abilita>Vetro Albanese</nome_abilita>
+    </stato>
+  </Europa>
+  <Africa>
+    <stato id = "0">
+      <!--abilità dell' Egitto-->
+      <nome_abilita>Furia degli Dei</nome_abilita>
+    </stato>
+    <stato id = "1">
+      <!--abilità del marocco-->
+      <nome_abilita>Luna Zayana</nome_abilita>
+    </stato>
+    <stato id = "2">
+      <!--abilità dell' Algeria-->
+      <nome_abilita>Afa del Deserto</nome_abilita>
+    </stato>
+  </Africa>
+  <Oceania>
+    <stato id = "0">
+      <!--abilità della Nuova_zelanda-->
+      <nome_abilita>Rugby</nome_abilita>
+    </stato>
+    <stato id = "1">
+      <!--abilità dell' Australia-->
+      <nome_abilita>Forza Animale</nome_abilita>
+    </stato>
+  </Oceania>  
+</abilita_stati>

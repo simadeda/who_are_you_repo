@@ -15,7 +15,7 @@ public class Pannello_scelta_continente : MonoBehaviour
              
     public VideoPlayer video_mappe;
     public Texture[] continenti_mignatura;
-    string continente,capitale,stato,n_stati,classe,abilita_classe;
+    string continente,capitale,stato,n_stati,abilita_classe,abilita_stato;
     
    
     public void Show_hidePannel()
@@ -26,15 +26,15 @@ public class Pannello_scelta_continente : MonoBehaviour
         capitale = script_principale.capitale;
         stato = script_principale.stato_selezionato;
         n_stati = script_principale.n_stati.ToString();
-        classe = script_principale.nome_classe;
-        abilita_classe = script_principale.nome_abilita;
-        
+        abilita_classe = script_principale.nome_abilita_classe;
+        abilita_stato = script_principale.nome_abilita_stato;
+
         bottone_scegli.SetActive(false);
         pannel.gameObject.SetActive(true);
 
         output_Pannello_script =  output_pannello.GetComponent<Output_pannello>();
               
-        output_Pannello_script.Visualizzazione_pannello(continente, stato, capitale, n_stati,abilita_classe);
+        output_Pannello_script.Visualizzazione_pannello(continente, stato, capitale, n_stati,abilita_classe, abilita_stato);
         Immagine_in_mignatura(continente);
        
     }

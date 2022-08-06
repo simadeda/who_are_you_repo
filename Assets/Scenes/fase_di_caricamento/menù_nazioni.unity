@@ -1409,7 +1409,8 @@ MonoBehaviour:
   capitale: 
   stato_selezionato: 
   nome_classe: 
-  nome_abilita: 
+  nome_abilita_classe: 
+  nome_abilita_stato: 
 --- !u!114 &1248537743
 MonoBehaviour:
   m_ObjectHideFlags: 0

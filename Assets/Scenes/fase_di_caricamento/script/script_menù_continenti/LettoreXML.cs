@@ -1,14 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using System;
 using System.IO;
 using System.Xml;
+using UnityEngine;
 
 public class LettoreXML : MonoBehaviour
 {
-    public static string Nome_continente, Stato_selezionato, Classe, Abilita_classe;
-    public void LetturaXML_continenti(int num_rnd,out int n_stati,out string nome_continente)
+    public static string Nome_continente, Stato_selezionato, Classe, Abilita_classe, Abilita_stato;
+    public void LetturaXML_continenti(int num_rnd, out int n_stati, out string nome_continente)
     {
         n_stati = 0;
         nome_continente = "";
@@ -29,9 +27,9 @@ public class LettoreXML : MonoBehaviour
                 Debug.Log("errore " + e);
             }
         }
-    } 
+    }
 
-    public void LetturaXML_stati(int num_rnd, string nome_continente,out string nome_stato_selezionato, out string capitale)
+    public void LetturaXML_stati(int num_rnd, string nome_continente, out string nome_stato_selezionato, out string capitale)
     {
         nome_stato_selezionato = "";
         capitale = "";
@@ -46,8 +44,27 @@ public class LettoreXML : MonoBehaviour
             }
             catch (Exception e)
             {
-              Debug.Log("errore " + e);
+                Debug.Log("errore " + e);
             }
+    }
+
+    public void Lettura_abilità_stato(int num_stato, string nome_continente, out string abilita_stato)
+    {
+        abilita_stato = "";
+        if (File.Exists("Assets/XML/abilità_stati.xml"))
+        {
+            try
+            {
+                XmlDocument Doc = new XmlDocument();
+                Doc.Load("Assets/XML/abilità_stati.xml");
+                abilita_stato = Doc.SelectSingleNode("/abilita_stati/" + nome_continente + "/stato[@id='" + num_stato.ToString() + "']/nome_abilita").InnerText;
+                Abilita_stato = abilita_stato;
+            }
+            catch(Exception e)
+            {
+                Debug.Log("errore " + e);
+            }
+        }
     }
 
     public (string, string) Lettura_personaggi(int num_rnd, string nome_continente, string nome_stato)
@@ -61,7 +78,7 @@ public class LettoreXML : MonoBehaviour
                 XmlDocument Doc = new XmlDocument();
                 Doc.Load("Assets/XML/personaggi.xml");
                 Nome_personaggio = Doc.SelectSingleNode("/personaggi/" + nome_continente + "/" + nome_stato + "/personaggio[@id='" + num_rnd.ToString() + "']/nome").InnerText;
-                Cognome_personaggio = Doc.SelectSingleNode("/personaggi/" + nome_continente + "/" + nome_stato + "/personaggio/cognome").InnerText;
+                Cognome_personaggio = Doc.SelectSingleNode("/personaggi/" + nome_continente + "/" + nome_stato + "/personaggio[@id='" + num_rnd.ToString() + "']/cognome").InnerText;
             }
             catch (Exception e)
             {
@@ -71,28 +88,7 @@ public class LettoreXML : MonoBehaviour
         return (Nome_personaggio, Cognome_personaggio);
     }
 
-
-    public void Lettura_personaggi_old(int num_rnd, string nome_continente, string nome_stato, out string Nome_personaggio, out string Cognome_personaggio)
-    { 
-        Nome_personaggio = " ";
-        Cognome_personaggio = " ";
-        if (File.Exists("Assets/XML/personaggi.xml"))
-        {
-            try
-            {
-                XmlDocument Doc = new XmlDocument();
-                Doc.Load("Assets/XML/personaggi.xml");
-                Nome_personaggio = Doc.SelectSingleNode("/personaggi/" + nome_continente + "/" + nome_stato + "/personaggio[@id='" + num_rnd.ToString() + "']/nome").InnerText;
-                Cognome_personaggio = Doc.SelectSingleNode("/personaggi/" + nome_continente + "/" + nome_stato + "/personaggio/cognome").InnerText;
-            }
-            catch (Exception e)
-            {
-                Debug.Log("errore " + e);
-            }
-        }
-    }
-
-    public void Lettura_abilita_classe(int num_rnd, string nome_stato, out string nome_classe, out string abilita_classe )
+    public void Lettura_abilita_classe(int num_rnd, string nome_stato, out string nome_classe, out string abilita_classe)
     {
         abilita_classe = "";
         nome_classe = "";
@@ -115,5 +111,25 @@ public class LettoreXML : MonoBehaviour
         }
 
     }
+
+    //public void Lettura_personaggi_old(int num_rnd, string nome_continente, string nome_stato, out string Nome_personaggio, out string Cognome_personaggio)
+    //{
+    //    Nome_personaggio = " ";
+    //    Cognome_personaggio = " ";
+    //    if (File.Exists("Assets/XML/personaggi.xml"))
+    //    {
+    //        try
+    //        {
+    //            XmlDocument Doc = new XmlDocument();
+    //            Doc.Load("Assets/XML/personaggi.xml");
+    //            Nome_personaggio = Doc.SelectSingleNode("/personaggi/" + nome_continente + "/" + nome_stato + "/personaggio[@id='" + num_rnd.ToString() + "']/nome").InnerText;
+    //            Cognome_personaggio = Doc.SelectSingleNode("/personaggi/" + nome_continente + "/" + nome_stato + "/personaggio/cognome").InnerText;
+    //        }
+    //        catch (Exception e)
+    //        {
+    //            Debug.Log("errore " + e);
+    //        }
+    //    }
+    //}
 }
-   
+

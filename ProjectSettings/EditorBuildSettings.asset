@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/game_map_1.0/Mappa_1.unity
     guid: b702e7998020e394e83d9a036071d9e0
+  - enabled: 1
+    path: Assets/Scenes/game_map_1.0/edifici.unity
+    guid: 3a82b2759d4871d419c1a07c0effcbdb
   m_configObjects: {}

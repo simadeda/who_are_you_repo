@@ -8,5 +8,11 @@ public class Carica_scene1 : MonoBehaviour
     {
         SceneManager.LoadScene(i);
     }
+
+    public void caricatore_edifici(string scena)
+    {
+        SceneManager.LoadScene(scena);
+    }
+
 }
 
