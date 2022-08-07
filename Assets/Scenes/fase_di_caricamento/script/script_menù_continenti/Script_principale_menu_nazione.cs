@@ -15,6 +15,7 @@ public class Script_principale_menu_nazione : MonoBehaviour
     
     public int num_rnd,n_stati;
     public string nome_continente, capitale, stato_selezionato, nome_classe, nome_abilita_classe, nome_abilita_stato;
+    string descrizione_classe, descrizione_abilita_classe, descrizione_abilita_stato;
 
     void Start()
     {
@@ -33,10 +34,10 @@ public class Script_principale_menu_nazione : MonoBehaviour
         //scelta tramite il numero random dello stato selezionato e della sua capitale, gli si passa anche il continente selezionato
         continente_stati_abilita.LetturaXML_stati(num_rnd, nome_continente, out stato_selezionato, out capitale);
         //scelta tramite il numero random dello stato selezionato, l'abilità di quello stato
-        continente_stati_abilita.Lettura_abilità_stato(num_rnd, nome_continente, out nome_abilita_stato);
+        continente_stati_abilita.Lettura_abilità_stato(num_rnd, nome_continente, out nome_abilita_stato, out descrizione_abilita_stato);
         num_rnd = rnd_number.Rnd(7);
         //scelta tramite il numero random della classe e della sua relativa abilità base
-        continente_stati_abilita.Lettura_abilita_classe(num_rnd, stato_selezionato, out nome_classe, out nome_abilita_classe);
+        continente_stati_abilita.Lettura_abilita_classe(num_rnd, out nome_classe, out nome_abilita_classe, out descrizione_classe, out descrizione_abilita_classe);
         //si va allo script per cambiare lo sfondo predefinito dei continenti, con il video mp4 del continente selezionato per fare una sorta di effetto visivo per capire quale continete è stato scelto
         video_img_script.scambio_immagini(nome_continente);
     }   

@@ -2,29 +2,36 @@
   <classe id = "0">
     <nome_classe>Guerrafondaio</nome_classe>
     <nome_abilita>Giubotto Pesante</nome_abilita>
+    <descrizione></descrizione>
   </classe>
   <classe id = "1">
     <nome_classe>Velocista</nome_classe>
     <nome_abilita>Schivata</nome_abilita>
+    <descrizione></descrizione>
 	</classe>
   <classe id = "2">
     <nome_classe>Attaccabrighe</nome_classe>
     <nome_abilita>Spinta</nome_abilita>
+    <descrizione></descrizione>
   </classe>
   <classe id = "3">
     <nome_classe>Doc</nome_classe>
-    <nome_abilita>Cura e Via</nome_abilita>	
+    <nome_abilita>Cura e Via</nome_abilita>
+    <descrizione></descrizione>
   </classe>
   <classe id = "4">
       <nome_classe>Marksman</nome_classe>
       <nome_abilita>Big Shot</nome_abilita>
+      <descrizione></descrizione>
   </classe>
   <classe id ="5">
       <nome_classe>Armaiolo</nome_classe>
       <nome_abilita>Kit Supporto</nome_abilita>
+      <descrizione></descrizione>
   </classe>
   <classe id ="6">
       <nome_classe>Piromane</nome_classe>
       <nome_abilita>Tanica</nome_abilita>
+      <descrizione></descrizione>
   </classe>
 </abilita_classi>
