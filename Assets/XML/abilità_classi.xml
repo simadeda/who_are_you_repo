@@ -1,37 +1,76 @@
 <abilita_classi>
   <classe id = "0">
     <nome_classe>Guerrafondaio</nome_classe>
-    <nome_abilita>Giubotto Pesante</nome_abilita>
-    <descrizione></descrizione>
+    <nome_abilita>Scudo Balistico</nome_abilita>
+	<descrizione_classe>
+		Il guerrafondaio,specializzato nell'armamento pesante 
+		e equipaggiamento antiproiettile,non per caso è sempre 
+		in prima linea.
+		Al suo passaggio chiunque tremerebbe di fronte a lui,
+		la sua grande vita, lo scudo balistico e le sue armi ti 
+		faranno vincere ogni battaglia.
+		Con questa classe il divertimento è assicurato!
+	</descrizione_classe>
+	<descrizione_abilita>
+		Un scudo in grado di parare proiettili e attacchi nemici, 
+		(quasi)qualunque colpo sarà inutile!
+		"Attenzione, il prodotto non protegge a 360 gradi. Copritevi le spalle!"
+	</descrizione_abilita>
   </classe>
   <classe id = "1">
     <nome_classe>Velocista</nome_classe>
     <nome_abilita>Schivata</nome_abilita>
-    <descrizione></descrizione>
+	<descrizione_classe>
+		Nel campo di battaglia conta solo la velocità,
+		sorprendendo i tuoi nemici con attacchi veloci e letali.
+		l'armamento compatto e leggero insieme alla sua agilità
+		ti faranno mietere vittime con grande facilità.
+		Niente scuse, si va in guerra!
+	</descrizione_classe>
+	<descrizione_abilita>
+		Come da copione la schivata permetterà al
+		velocistà di essere intocabile dagli attachi
+		avversari, niente potrà colpirvi!
+		Se schivata non funziona la preghiamo di effettuare il rimborso.
+	</descrizione_abilita>
 	</classe>
   <classe id = "2">
     <nome_classe>Attaccabrighe</nome_classe>
     <nome_abilita>Spinta</nome_abilita>
-    <descrizione></descrizione>
+	<descrizione_classe>
+		L'Attaccabrighe è un energumeno senza macchia e senza paura, 
+		non si tira mai indietro da una sana scazzottata.
+		Il campo di battaglia non sarà mai più lo stesso,
+		il sangue colera a fiumi, nessuno si potrà salvare!
+		Per chi vuole avere uno stile di gioco corpo a corpo
+		puro e aggressivo, questa è la classe giusta per te!
+	</descrizione_classe>
+	<descrizione_abilita>
+		
+	</descrizione_abilita>
   </classe>
   <classe id = "3">
     <nome_classe>Doc</nome_classe>
     <nome_abilita>Cura e Via</nome_abilita>
-    <descrizione></descrizione>
+	<descrizione_classe></descrizione_classe>
+	<descrizione_abilita></descrizione_abilita>
   </classe>
   <classe id = "4">
-      <nome_classe>Marksman</nome_classe>
-      <nome_abilita>Big Shot</nome_abilita>
-      <descrizione></descrizione>
+    <nome_classe>Marksman</nome_classe>
+    <nome_abilita>Big Shot</nome_abilita>
+	<descrizione_classe></descrizione_classe>
+	<descrizione_abilita></descrizione_abilita>
   </classe>
   <classe id ="5">
-      <nome_classe>Armaiolo</nome_classe>
-      <nome_abilita>Kit Supporto</nome_abilita>
-      <descrizione></descrizione>
+    <nome_classe>Armaiolo</nome_classe>
+    <nome_abilita>Kit Supporto</nome_abilita>
+	<descrizione_classe></descrizione_classe>
+	<descrizione_abilita></descrizione_abilita>
   </classe>
   <classe id ="6">
-      <nome_classe>Piromane</nome_classe>
-      <nome_abilita>Tanica</nome_abilita>
-      <descrizione></descrizione>
+    <nome_classe>Piromane</nome_classe>
+    <nome_abilita>Tanica</nome_abilita>
+	<descrizione_classe></descrizione_classe>
+	<descrizione_abilita></descrizione_abilita>
   </classe>
 </abilita_classi>
