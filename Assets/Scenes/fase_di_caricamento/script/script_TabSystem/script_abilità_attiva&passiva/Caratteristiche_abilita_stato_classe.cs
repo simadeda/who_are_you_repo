@@ -6,34 +6,45 @@ using TMPro;
 
 public class Caratteristiche_abilita_stato_classe : MonoBehaviour
 {
-    public GameObject abilita_stato, abilita_classe, lettoreXML,img_abilita_classe,img_abilita_stato;
-    TextMeshProUGUI textMesh_abilita_stato, textMesh_abilita_classe;
+    public GameObject txt_abilita_stato, txt_abilita_classe, lettoreXML,img_abilita_classe,img_abilita_stato,descrizione_abilità_stato,descrizione_abilità_classe;
+    TextMeshProUGUI textMesh_abilita_stato, textMesh_abilita_classe, textMesh_desc_abilita_classe, textMesh_desc_abilita_stato;
     public Sprite[] arr_abilita_classe = new Sprite[7];
     public Sprite[] arr_abilita_stato = new Sprite[18];
     Image abilita_classe_img;
     Image abilita_stato_img;
 
+    string abilita_classe, abilita_stato, desc_abl_stato, desc_abl_classe;
     void Start()
     {
-        textMesh_abilita_stato = abilita_stato.GetComponent<TextMeshProUGUI>();
-        textMesh_abilita_classe = abilita_classe.GetComponent<TextMeshProUGUI>();
+        textMesh_abilita_stato = txt_abilita_stato.GetComponent<TextMeshProUGUI>();
+        textMesh_abilita_classe = txt_abilita_classe.GetComponent<TextMeshProUGUI>();
+        textMesh_desc_abilita_classe = descrizione_abilità_classe.GetComponent<TextMeshProUGUI>();
+        textMesh_desc_abilita_stato = descrizione_abilità_stato.GetComponent<TextMeshProUGUI>();
+
         abilita_classe_img = img_abilita_classe.GetComponent<Image>();
         abilita_stato_img = img_abilita_stato.GetComponent<Image>();
 
-        Abilita_classe_stato();
-    }
-
-    void Abilita_classe_stato()
-    {
-        string abilita_classe = LettoreXML.Abilita_classe;
-        string abilita_stato = LettoreXML.Abilita_stato;
+        abilita_classe = LettoreXML.Abilita_classe;
+        abilita_stato = LettoreXML.Abilita_stato;
+        desc_abl_classe = LettoreXML.Descrizone_abilita_classe;
+        desc_abl_stato = LettoreXML.Descrizone_abilita_stato;
 
         textMesh_abilita_classe.text = abilita_classe;
         textMesh_abilita_stato.text = abilita_stato;
+        textMesh_desc_abilita_classe.text = desc_abl_classe;
+        textMesh_desc_abilita_stato.text = desc_abl_stato;
+
+
+        Abilita_classe_stato(abilita_classe, abilita_stato);
+    }
+
+    void Abilita_classe_stato(string abilita_classe, string abilita_stato)
+    {
+        
 
         switch (abilita_classe)
         {
-            case "Giubotto Pesante":
+            case "Scudo Balistico":
                 abilita_classe_img.sprite = arr_abilita_classe[0];
             break;
 
@@ -68,7 +79,7 @@ public class Caratteristiche_abilita_stato_classe : MonoBehaviour
                 abilita_stato_img.sprite = arr_abilita_stato[0];
                 break;
 
-            case "Shaolin":
+            case "Shaolinquan":
                 abilita_stato_img.sprite = arr_abilita_stato[1];
                 break;
 

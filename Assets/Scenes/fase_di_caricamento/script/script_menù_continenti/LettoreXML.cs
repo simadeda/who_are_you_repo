@@ -59,7 +59,7 @@ public class LettoreXML : MonoBehaviour
                 XmlDocument Doc = new XmlDocument();
                 Doc.Load("Assets/XML/abilità_stati.xml");
                 abilita_stato = Doc.SelectSingleNode("/abilita_stati/" + nome_continente + "/stato[@id='" + num_stato.ToString() + "']/nome_abilita").InnerText;
-                //descrizone_abilita_stato = Doc.SelectSingleNode("/abilita_stati/" + nome_continente + "/stato[@id='" + num_stato.ToString() + "']/descrizione").InnerText;
+                descrizone_abilita_stato = Doc.SelectSingleNode("/abilita_stati/" + nome_continente + "/stato[@id='" + num_stato.ToString() + "']/descrizione").InnerText;
                 Abilita_stato = abilita_stato;
                 Descrizone_abilita_stato = descrizone_abilita_stato;
             }
@@ -106,8 +106,8 @@ public class LettoreXML : MonoBehaviour
                 Doc.Load("Assets/XML/abilità_classi.xml");
                 abilita_classe = Doc.SelectSingleNode("/abilita_classi/classe[@id='" + num_rnd.ToString() + "']/nome_abilita").InnerText;
                 nome_classe = Doc.SelectSingleNode("/abilita_classi/classe[@id='" + num_rnd.ToString() + "']/nome_classe").InnerText;
-                //descrizione_classe = Doc.SelectSingleNode("/abilita_classi/classe[@id='" + num_rnd.ToString() + "']/descrizione_classe").InnerText;
-                //descrizione_abilita_classe = Doc.SelectSingleNode("/abilita_classi/classe[@id='" + num_rnd.ToString() + "']/descrizione_abilita").InnerText;
+                descrizione_classe = Doc.SelectSingleNode("/abilita_classi/classe[@id='" + num_rnd.ToString() + "']/descrizione_classe").InnerText;
+                descrizione_abilita_classe = Doc.SelectSingleNode("/abilita_classi/classe[@id='" + num_rnd.ToString() + "']/descrizione_abilita").InnerText;
                 Classe = nome_classe;
                 Abilita_classe = abilita_classe;
                 Descrizone_abilita_classe = descrizione_abilita_classe;
