@@ -16,7 +16,7 @@ Con questa classe il divertimento è assicurato!
 L'armamento compatto e leggero insieme alla sua agilità	ti faranno mietere vittime con grande facilità.
 Niente scuse, si va in guerra!
 	</descrizione_classe>
-	<descrizione_abilita>Come da copione la schivata permetterà al velocistà di essere intoccabile da attacchi avversari ma attenzione, se la userete più volte in un lasso di tempo limitato sarete più lenti per ben 5 secondi! 
+	<descrizione_abilita>Come da copione la schivata permetterà al velocistà di essere intoccabile da attacchi avversari ma attenzione, se la userete più volte in un lasso di tempo limitato sarete più lenti per ben 5 secondi!
 	</descrizione_abilita>
 	</classe>
   <classe id = "2">
@@ -27,14 +27,14 @@ Il campo di battaglia non sarà mai più lo stesso, il sangue colera a fiumi, ne
 Per chi vuole avere uno stile di gioco corpo a corpo puro e aggressivo, questa è la classe giusta per te!
 	</descrizione_classe>
 	<descrizione_abilita>
-		
+Un buon Attaccabrighe deve saper lanciare i propri nemici con energia. Questa abilità permette di lanciare i nemici lontani da te  e farli cadere come birilli, per ogni nemico colpito quello  successivo, che ne colpirà un altro, riceverà un danno aggiuntivo. Farsi strada con la forza bruta è sempre la risposta!
 	</descrizione_abilita>
   </classe>
   <classe id = "3">
     <nome_classe>Doc</nome_classe>
     <nome_abilita>Cura e Via</nome_abilita>
-	<descrizione_classe>Il Doc ha un carattere davvero tenebroso, un vero e proprio sadico, quando si trovava in sala operatoria 
-costringeva l'anestetista a sbagliare la dose così da far patire le pene dell' inferno ai suoi pazienti. 
+	<descrizione_classe>Il Doc ha un carattere davvero tenebroso, un vero e proprio sadico, quando si trovava in sala operatoria
+costringeva l'anestetista a sbagliare la dose così da far patire le pene dell' inferno ai suoi pazienti.
 Il Doc è l'unica classe che può rigenerare la vita nel tempo, aumentare la sua salute e può curare i suoi alleati...un Doc nel team è sempre gradito.
   </descrizione_classe>
 	<descrizione_abilita>Per un dottore essere preciso e allo stesso tempo veloce nel suo lavoro è fondamentale, con questa abilità la tua velocità di movimento aumenterà e guadagnerai temporanemante un bust alla vita ma anche i tuoi alleati lo riceveranno.
@@ -46,7 +46,7 @@ Il Doc è l'unica classe che può rigenerare la vita nel tempo, aumentare la sua
     <nome_abilita>Big Shot</nome_abilita>
 	<descrizione_classe>Lo sai cosa hanno in comune un'artista e un Marksman? i dettagli... rendersi conto che un colore è fuori posto, quando un'ombra non dovrebbe stare li.
 Quando qualcuno da un incarico al Marksman lo porta sempre a termine, anche se fosse in fin di vita... è molto ligio al suo dovere grazie al suo maestro (nessuno sa ancora chi è)
-che un giorno gli disse "in questo lavoro non morirai mai di fame, perche alla fine della giornata finchè ci saranno almeno altre 2 persone nel pianeta terra, qualcuno vorrà l'altro morto".  
+che un giorno gli disse "in questo lavoro non morirai mai di fame, perche alla fine della giornata finchè ci saranno almeno altre 2 persone nel pianeta terra, qualcuno vorrà l'altro morto".
     </descrizione_classe>
 	<descrizione_abilita>Dicono che un proiettile calibro .50 se ti prende in pieno non rimangono neanche le gambe, con questa abilità potrai sparare 3 colpi perforanti a anima rigida che trapasseranno i tuoi nemici e non solo,
 potrai trapassare anche delle superfici.
@@ -55,13 +55,30 @@ potrai trapassare anche delle superfici.
   <classe id ="5">
     <nome_classe>Armaiolo</nome_classe>
     <nome_abilita>Kit Supporto</nome_abilita>
-	<descrizione_classe></descrizione_classe>
-	<descrizione_abilita></descrizione_abilita>
+	<descrizione_classe>Nelle situazioni di conflitto può capitare di trovarsi a corto
+		di munizioni o esplosivi.
+		Questa classe è estremamente versatile, avrai
+		l'imbarazzo della scelta grazie all'enorme quantità di armi
+		che può usare.
+		Se la vostra più grande paura è quella di dire "Out of ammo",
+		L'Armaiolo è la classe perfetta per te!
+	</descrizione_classe>
+	<descrizione_abilita>
+Il kit in questione può essere posizionato dopo un lungo caricamento, ma permettara di ripristinare di un 40% il proprio equipaggimento. Questa grande abilità di supporto ti sarà di grande aiuto nei momenti difficili.
+	</descrizione_abilita>
   </classe>
   <classe id ="6">
     <nome_classe>Piromane</nome_classe>
     <nome_abilita>Tanica</nome_abilita>
-	<descrizione_classe></descrizione_classe>
-	<descrizione_abilita></descrizione_abilita>
+	<descrizione_classe>Non molti hanno il coraggio di maneggiare il fuoco,
+		ma il Piromane è un eccezione.
+		Il suo nome è una garanzia, questo pazzoide amante
+		degli effetti speciali arrostirà chi osa sfidarlo.
+		Contrattare con lui è totalmente inutile, vuole solo uccidere.
+		Il suo motto la dice lunga "Benvenuti all'inferno!".
+	</descrizione_classe>
+	<descrizione_abilita>
+Un Piromane che si rispetti porta sempre con se la sua carissima tanica di benzina. Lancia contro i nemici questa tanica che a contatto con il terreno creerà un'area avvolta delle fiamme, non vorrei essere al loro posto.
+	</descrizione_abilita>
   </classe>
 </abilita_classi>
