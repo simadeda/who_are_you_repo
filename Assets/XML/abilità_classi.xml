@@ -2,9 +2,8 @@
   <classe id = "0">
     <nome_classe>Guerrafondaio</nome_classe>
     <nome_abilita>Scudo Balistico</nome_abilita>
-	<descrizione_classe>Il Guerrafondaio è specializzato nell'armamento pesante e equipaggiamento antiproiettile, non per caso è sempre in prima linea.
-Al suo passaggio chiunque tremerebbe di fronte a lui, con lo scudo balistico e le sue armi riuscirai a vincere ogni battaglia.
-Con questa classe il divertimento è assicurato!
+	<descrizione_classe>Il Guerrafondaio è specializzato nell'armamento pesante e equipaggiamento antiproiettile, non per caso è sempre in prima linea. Ci vuole una certa stazza per spostarsi con tutto quell'equipagiamento, infatti è una delle classi più lente ma in compenso ha 175 di vita.
+Al suo passaggio chiunque tremerebbe di fronte a lui, con lo scudo balistico e le sue armi pesanti riuscirai a vincere ogni battaglia. Con questa classe il divertimento è assicurato!
 	</descrizione_classe>
 	<descrizione_abilita>Uno scudo balistico in poleitilene in grado di parare proiettili e attacchi nemici, quasi "qualsiasi" colpo sarà inutile! ma quando lo utilizzerai non potrai muoverti "Attenzione il prodotto non protegge a 360 gradi, Copritevi le spalle!"
 	</descrizione_abilita>
@@ -12,22 +11,19 @@ Con questa classe il divertimento è assicurato!
   <classe id = "1">
     <nome_classe>Velocista</nome_classe>
     <nome_abilita>Schivata</nome_abilita>
-	<descrizione_classe>Nel campo di battaglia conta solo la velocità nel sorprendere i tuoi nemici con attacchi veloci e letali.
-L'armamento compatto e leggero insieme alla sua agilità	ti faranno mietere vittime con grande facilità.
-Niente scuse, si va in guerra!
-	</descrizione_classe>
+	<descrizione_classe>Nel campo di battaglia conta solo la velocità nel sorprendere i tuoi nemici con attacchi veloci e letali, questa classe è ottima per uno stile di combattiemnto mordi e fuggi. Il velocista è la classe più agile del gioco ma non è consigliato stare in prima
+linea avendo poca vita rispetto alle altre classi. per la loro leggerezza le sue armi preferite sono i fucili a pompa e le mitragliette. Se riuscirai a stare al passo con la sua velocità, per te non ci sarrano probelmi...o forse no.
+  </descrizione_classe>
 	<descrizione_abilita>Come da copione la schivata permetterà al velocistà di essere intoccabile da attacchi avversari ma attenzione, se la userete più volte in un lasso di tempo limitato sarete più lenti per ben 5 secondi!
 	</descrizione_abilita>
 	</classe>
   <classe id = "2">
     <nome_classe>Attaccabrighe</nome_classe>
     <nome_abilita>Spinta</nome_abilita>
-	<descrizione_classe>L'Attaccabrighe è il classico energumeno senza macchia e senza paura, non si tira mai indietro da una sana scazzottata.
-Il campo di battaglia non sarà mai più lo stesso, il sangue colera a fiumi, nessuno si potrà salvare!
-Per chi vuole avere uno stile di gioco corpo a corpo puro e aggressivo, questa è la classe giusta per te!
+	<descrizione_classe>L'Attaccabrighe è il classico energumeno senza macchia e senza paura, non si tira mai indietro da una sana scazzottata. Dopo aver passato una vita intera nel fare risse di strada, ora niente e nessuno lo spaventa. L'attaccabrighe è la classe con più vita nel gioco ed è esperto nel utilizzo di armi corpo a corpo ma dispone di poche armi da fuoco.
+Il campo di battaglia non sarà mai più lo stesso, Per chi vuole avere uno stile di gioco corpo a corpo puro e aggressivo, questa è la classe giusta per te!
 	</descrizione_classe>
-	<descrizione_abilita>
-Un buon Attaccabrighe deve saper lanciare i propri nemici con energia. Questa abilità permette di lanciare i nemici lontani da te  e farli cadere come birilli, per ogni nemico colpito quello  successivo, che ne colpirà un altro, riceverà un danno aggiuntivo. Farsi strada con la forza bruta è sempre la risposta!
+	<descrizione_abilita>Un buon Attaccabrighe deve saper lanciare i propri nemici con energia. Questa abilità permette di lanciare i nemici lontani da te  e farli cadere come birilli, per ogni nemico colpito quello  successivo, che ne colpirà un altro, riceverà un danno aggiuntivo. Farsi strada con la forza bruta è sempre la risposta!
 	</descrizione_abilita>
   </classe>
   <classe id = "3">
@@ -38,47 +34,33 @@ costringeva l'anestetista a sbagliare la dose così da far patire le pene dell' 
 Il Doc è l'unica classe che può rigenerare la vita nel tempo, aumentare la sua salute e può curare i suoi alleati...un Doc nel team è sempre gradito.
   </descrizione_classe>
 	<descrizione_abilita>Per un dottore essere preciso e allo stesso tempo veloce nel suo lavoro è fondamentale, con questa abilità la tua velocità di movimento aumenterà e guadagnerai temporanemante un bust alla vita ma anche i tuoi alleati lo riceveranno.
-
   </descrizione_abilita>
   </classe>
   <classe id = "4">
     <nome_classe>Marksman</nome_classe>
     <nome_abilita>Big Shot</nome_abilita>
-	<descrizione_classe>Lo sai cosa hanno in comune un'artista e un Marksman? i dettagli... rendersi conto che un colore è fuori posto, quando un'ombra non dovrebbe stare li.
-Quando qualcuno da un incarico al Marksman lo porta sempre a termine, anche se fosse in fin di vita... è molto ligio al suo dovere grazie al suo maestro (nessuno sa ancora chi è)
-che un giorno gli disse "in questo lavoro non morirai mai di fame, perche alla fine della giornata finchè ci saranno almeno altre 2 persone nel pianeta terra, qualcuno vorrà l'altro morto".
+	<descrizione_classe>Lo sai cosa hanno in comune un'artista e un Marksman? i dettagli... rendersi conto che un colore è fuori posto, un'ombra non dovrebbe essere li. Quando qualcuno da un incarico al Marksman lo porta sempre a termine, anche se fosse in fin di vita... è molto ligio nel suo dovere grazie al suo maestro (nessuno sa ancora chi è) che un giorno gli disse "in questo lavoro non morirai mai di fame, perchè alla fine della giornata finchè ci saranno almeno altre 2 persone nel pianeta terra, qualcuno vorrà l'altro morto".
     </descrizione_classe>
-	<descrizione_abilita>Dicono che un proiettile calibro .50 se ti prende in pieno non rimangono neanche le gambe, con questa abilità potrai sparare 3 colpi perforanti a anima rigida che trapasseranno i tuoi nemici e non solo,
-potrai trapassare anche delle superfici.
+	<descrizione_abilita>Dicono che un proiettile calibro .50 se ti prende in pieno non rimangono neanche le gambe, con questa abilità potrai sparare 3 colpi perforanti ad anima rigida che trapasseranno i tuoi nemici e non solo, potrai trapassare anche delle superfici.
   </descrizione_abilita>
   </classe>
   <classe id ="5">
     <nome_classe>Armaiolo</nome_classe>
     <nome_abilita>Kit Supporto</nome_abilita>
-	<descrizione_classe>Nelle situazioni di conflitto può capitare di trovarsi a corto
-		di munizioni o esplosivi.
-		Questa classe è estremamente versatile, avrai
-		l'imbarazzo della scelta grazie all'enorme quantità di armi
-		che può usare.
-		Se la vostra più grande paura è quella di dire "Out of ammo",
-		L'Armaiolo è la classe perfetta per te!
+	<descrizione_classe>Nelle situazioni di conflitto può capitare di trovarsi a corto di munizioni o esplosivi. Da oggi questo non sarà più un problema! Questa classe è estremamente versatile, avrai l'imbarazzo della scelta grazie all'enorme quantità di armi che puoi usare.
+Se la vostra più grande paura è quella di dire "Out of ammo", L'Armaiolo è la classe perfetta per te!
 	</descrizione_classe>
-	<descrizione_abilita>
-Il kit in questione può essere posizionato dopo un lungo caricamento, ma permettara di ripristinare di un 40% il proprio equipaggimento. Questa grande abilità di supporto ti sarà di grande aiuto nei momenti difficili.
+	<descrizione_abilita>Il kit in questione può essere posizionato dopo un lungo caricamento, ma permettara di ripristinare di un 40% il proprio equipaggimento. Questa grande abilità di supporto ti sarà di grande aiuto nei momenti difficili.
 	</descrizione_abilita>
   </classe>
   <classe id ="6">
     <nome_classe>Piromane</nome_classe>
     <nome_abilita>Tanica</nome_abilita>
 	<descrizione_classe>Non molti hanno il coraggio di maneggiare il fuoco,
-		ma il Piromane è un eccezione.
-		Il suo nome è una garanzia, questo pazzoide amante
-		degli effetti speciali arrostirà chi osa sfidarlo.
-		Contrattare con lui è totalmente inutile, vuole solo uccidere.
-		Il suo motto la dice lunga "Benvenuti all'inferno!".
+ma il Piromane è un eccezione. Il suo nome è una garanzia, questo pazzoide amante degli effetti speciali arrostirà chi osa sfidarlo.
+Contrattare con lui è totalmente inutile, vuole solo uccidere. Il suo motto la dice lunga "Benvenuti all'inferno!".
 	</descrizione_classe>
-	<descrizione_abilita>
-Un Piromane che si rispetti porta sempre con se la sua carissima tanica di benzina. Lancia contro i nemici questa tanica che a contatto con il terreno creerà un'area avvolta delle fiamme, non vorrei essere al loro posto.
+	<descrizione_abilita>Un Piromane che si rispetti porta sempre con se la sua carissima tanica di benzina. Lancia contro i nemici questa tanica che a contatto con il terreno creerà un'area avvolta delle fiamme, non vorrei essere al loro posto.
 	</descrizione_abilita>
   </classe>
 </abilita_classi>
