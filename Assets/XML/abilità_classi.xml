@@ -47,8 +47,7 @@ Il Doc è l'unica classe che può rigenerare la vita nel tempo, aumentare la sua
   <classe id ="5">
     <nome_classe>Armaiolo</nome_classe>
     <nome_abilita>Kit Supporto</nome_abilita>
-	<descrizione_classe>Nelle situazioni di conflitto può capitare di trovarsi a corto di munizioni o esplosivi. Da oggi questo non sarà più un problema! Questa classe è estremamente versatile, avrai l'imbarazzo della scelta grazie all'enorme quantità di armi che puoi usare.
-Se la vostra più grande paura è quella di dire "Out of ammo", L'Armaiolo è la classe perfetta per te!
+	<descrizione_classe>Nelle situazioni di conflitto può capitare di trovarsi a corto di munizioni o esplosivi. Da oggi questo non sarà più un problema! Questa classe è estremamente versatile, avrai l'imbarazzo della scelta grazie all'enorme quantità di armi che puoi usare. Se la vostra più grande paura è quella di dire "Out of ammo", L'Armaiolo è la classe perfetta per te!
 	</descrizione_classe>
 	<descrizione_abilita>Il kit in questione può essere posizionato dopo un lungo caricamento, ma permettara di ripristinare di un 40% il proprio equipaggimento. Questa grande abilità di supporto ti sarà di grande aiuto nei momenti difficili.
 	</descrizione_abilita>
@@ -56,10 +55,9 @@ Se la vostra più grande paura è quella di dire "Out of ammo", L'Armaiolo è la
   <classe id ="6">
     <nome_classe>Piromane</nome_classe>
     <nome_abilita>Tanica</nome_abilita>
-	<descrizione_classe>Non molti hanno il coraggio di maneggiare il fuoco,
-ma il Piromane è un eccezione. Il suo nome è una garanzia, questo pazzoide amante degli effetti speciali arrostirà chi osa sfidarlo.
-Contrattare con lui è totalmente inutile, vuole solo uccidere. Il suo motto la dice lunga "Benvenuti all'inferno!".
-	</descrizione_classe>
+	<descrizione_classe>
+    Non molti hanno il coraggio di maneggiare il fuoco, ma il Piromane è un eccezione. Il suo nome è una garanzia, può dar fuoco ai propri nemici consumando lentamente la loro salute con i conseguenti danni da bruciatura. questo pazzoide amante degli effetti speciali arrostirà chi osa sfidarlo, vi auguro di non trovarvi mai faccia a faccia con un' arma incendiaria del Piromane, più sarete vicini e maggiori saranno i danni. Contrattare con lui è totalmente inutile, vuole solo uccidere. Il suo motto la dice lunga "Benvenuti all'inferno!".
+  </descrizione_classe>
 	<descrizione_abilita>Un Piromane che si rispetti porta sempre con se la sua carissima tanica di benzina. Lancia contro i nemici questa tanica che a contatto con il terreno creerà un'area avvolta delle fiamme, non vorrei essere al loro posto.
 	</descrizione_abilita>
   </classe>

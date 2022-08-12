@@ -102,7 +102,9 @@
     <stato id = "0">
       <!--abilità della Nuova_zelanda-->
       <nome_abilita>Rugby</nome_abilita>
-      <descrizione></descrizione>
+      <descrizione>Oggi il Rugby è una parte integrante della Nuova Zelanda, delle sue tradizioni e del suo futuro...è uno sport importantissimo, soprattutto quando giocano gli All Blacks che rappresentano la nazione. Ogni volta che l'abilità viene attivata, si genera un pallone da rugby attorno al player, riattivandola viene generato un' altro pallone ma il precedente non viene distrutto (si può arrivare ad un massimo di 3 palloni).
+      
+      </descrizione>
     </stato>
     <stato id = "1">
       <!--abilità dell' Australia-->
