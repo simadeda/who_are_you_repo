@@ -6,9 +6,10 @@ using UnityEngine.Events;
 public class Interazioni : MonoBehaviour
 {
     public bool attivo;
+    string edificio_rilevato;
     public KeyCode btn_interazione;
     public Interazioni_playerUI interazioni_UI;
-    public UnityEvent evento_interazione;
+    public UnityEvent<string> evento_interazione;
     
     void Update()
     {
@@ -16,7 +17,7 @@ public class Interazioni : MonoBehaviour
         {
             if(Input.GetKeyDown(btn_interazione))
             {
-                evento_interazione.Invoke();
+                evento_interazione.Invoke(edificio_rilevato);
             }
         }
     }
@@ -27,7 +28,9 @@ public class Interazioni : MonoBehaviour
         {
             attivo = true;
             interazioni_UI.attiva_interazione();
-            //Debug.Log("player in range");
+            edificio_rilevato = transform.parent.name;
+
+            Debug.Log(edificio_rilevato);
         }
     }
 

@@ -10,13 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: gestione_edifici
+  m_Name: asset_armeria
   m_EditorClassIdentifier: 
-  m_GroupName: gestione_edifici
+  m_GroupName: asset_armeria
   m_Data:
     m_SerializedData: []
   m_GUID: 85332dc90cb7b6e4f8518fc5fb02e0d6
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 2533b4b312854584c94563f280161de3
+    m_Address: Assets/PRESETS/presets_player/player.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 5446873925572969912, guid: 2533b4b312854584c94563f280161de3, type: 3}
+    m_TargetAsset: {fileID: 5446873925572969912, guid: 2533b4b312854584c94563f280161de3, type: 3}
+  - m_GUID: c4cb03c5362b061448ccc247e7b43d9c
+    m_Address: Assets/PRESETS/presets_npc/boscaiolo.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 2c06f878155668946838e859a72cdf0e, type: 2}
   m_SchemaSet:

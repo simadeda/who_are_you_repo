@@ -6,10 +6,9 @@ TagManager:
   tags:
   - random_num
   - let_XML
-  - panel
   - btn_scegli
   - img_mp4
-  - mondo_tot
+  - panel
   layers:
   - Default
   - TransparentFX

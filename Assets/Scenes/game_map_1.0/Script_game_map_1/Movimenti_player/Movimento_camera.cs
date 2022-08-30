@@ -8,9 +8,8 @@ public class Movimento_camera : MonoBehaviour
        
     [SerializeField]
     Vector2 playerOffset;
-
-    [SerializeField]
-    Transform player;
+        
+    public Transform player;
 
     [SerializeField]
     float velocita_cam;
