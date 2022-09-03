@@ -1,3 +1,4 @@
+using Cinemachine;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -5,6 +6,7 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.AddressableAssets.ResourceLocators;
 using UnityEngine.ResourceManagement.AsyncOperations;
+
 
 public class Gestore_indirizzabili : MonoBehaviour
 {
@@ -15,7 +17,7 @@ public class Gestore_indirizzabili : MonoBehaviour
     private AssetReference boscaiolo_reference;
 
     [SerializeField]
-    private Movimento_camera movimento_camera;
+    private CinemachineVirtualCamera segui_player;
 
     private void Start()
     {
@@ -31,7 +33,7 @@ public class Gestore_indirizzabili : MonoBehaviour
 
     private void Player_caricato(AsyncOperationHandle<GameObject> obj)
     {
-        movimento_camera.player = obj.Result.transform;
+        segui_player.Follow = obj.Result.transform;
     }
 }
 

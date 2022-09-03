@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 5446873925572969924}
   - component: {fileID: 5446873925572969926}
   - component: {fileID: 5446873925572969927}
-  - component: {fileID: 5446873925572969920}
+  - component: {fileID: 3078365534247715218}
   m_Layer: 6
   m_Name: player
   m_TagString: Player
@@ -206,7 +206,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5446873925572969912}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -6.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5446873924382688762}
@@ -349,7 +349,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &5446873925572969920
+--- !u!58 &3078365534247715218
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -362,6 +362,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.32}
+  m_Offset: {x: 0, y: 0.37}
   serializedVersion: 2
-  m_Radius: 0.68
+  m_Radius: 0.55583733

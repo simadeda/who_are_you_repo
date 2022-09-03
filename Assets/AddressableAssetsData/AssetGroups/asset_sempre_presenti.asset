@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: asset_armeria
+  m_Name: asset_sempre_presenti
   m_EditorClassIdentifier: 
-  m_GroupName: asset_armeria
+  m_GroupName: asset_sempre_presenti
   m_Data:
     m_SerializedData: []
-  m_GUID: ae0382bce5c8bf34b832f9c03e0ee12d
+  m_GUID: 85332dc90cb7b6e4f8518fc5fb02e0d6
   m_SerializeEntries:
-  - m_GUID: c4cb03c5362b061448ccc247e7b43d9c
-    m_Address: Assets/PRESETS/presets_npc/boscaiolo.prefab
+  - m_GUID: 2533b4b312854584c94563f280161de3
+    m_Address: Assets/PRESETS/presets_player/player.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 5446873925572969912, guid: 2533b4b312854584c94563f280161de3, type: 3}
+    m_TargetAsset: {fileID: 5446873925572969912, guid: 2533b4b312854584c94563f280161de3, type: 3}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 2c06f878155668946838e859a72cdf0e, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 8f7ce97b04e1f7a4b9990c61d5bbff8b, type: 2}
-    - {fileID: 11400000, guid: ef95585bd0808b142a3b472410ee6aba, type: 2}
+    - {fileID: 11400000, guid: 39942136bcf394d41946974654f6727e, type: 2}
+    - {fileID: 11400000, guid: 506f1960054aced4e94b597f06c3591b, type: 2}
