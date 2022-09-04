@@ -12,13 +12,16 @@ public class Gestore_indirizzabili : MonoBehaviour
 {
     [SerializeField]
     private AssetReference player_reference;
-
     [SerializeField]
     private AssetReference boscaiolo_reference;
-
+    [SerializeField]
+    private AssetReference La_porta_uguale_pe_tutti;
     [SerializeField]
     private CinemachineVirtualCamera segui_player;
+    [SerializeField]
+    private Camera camera_overword;
 
+    private IEnumerator coroutine;
     private void Start()
     {
         Addressables.InitializeAsync().Completed += Gestore_indirizzabili_completato;
@@ -26,15 +29,40 @@ public class Gestore_indirizzabili : MonoBehaviour
 
     private void Gestore_indirizzabili_completato(AsyncOperationHandle<IResourceLocator> obj)
     {
-        player_reference.InstantiateAsync().Completed += Player_caricato;
+        AsyncOperationHandle<GameObject> porta = La_porta_uguale_pe_tutti.InstantiateAsync().Completed += mymethod;
+
+        var player = player_reference.InstantiateAsync();
+
+        coroutine = Prova(porta,player);
+        StartCoroutine(coroutine);
 
         boscaiolo_reference.InstantiateAsync();
     }
 
-    private void Player_caricato(AsyncOperationHandle<GameObject> obj)
+    private AsyncOperationHandle<GameObject> mymethod(AsyncOperationHandle<GameObject> obj)
     {
-        segui_player.Follow = obj.Result.transform;
+        return obj;
     }
+
+    IEnumerator Prova(AsyncOperationHandle<GameObject> porta, AsyncOperationHandle<GameObject> player)
+    {
+        Transform bambino = porta.Result.transform.GetChild(0);
+        bambino.gameObject.SetActive(false);
+
+        segui_player.Follow = player.Result.transform;
+
+        var canvas = player.Result.GetComponentInChildren<Canvas>();
+        canvas.worldCamera = camera_overword;
+
+         
+        bambino.gameObject.SetActive(false);
+
+        yield return new WaitForSeconds(10f);
+
+        bambino.gameObject.SetActive(true);
+    }
+
+
 }
 
 

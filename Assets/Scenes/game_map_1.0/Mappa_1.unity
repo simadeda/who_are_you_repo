@@ -2289,7 +2289,11 @@ PrefabInstance:
       objectReference: {fileID: 1670210138}
     - target: {fileID: 8296661599568875271, guid: 97b4a4c0d43083d4088cec7119dded4c, type: 3}
       propertyPath: evento_interazione.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Entra_nell_edificio
+      value: Edificio_rilevato
+      objectReference: {fileID: 0}
+    - target: {fileID: 8296661599568875271, guid: 97b4a4c0d43083d4088cec7119dded4c, type: 3}
+      propertyPath: evento_interazione.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Rileva_porte, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97b4a4c0d43083d4088cec7119dded4c, type: 3}
@@ -2640,11 +2644,11 @@ PrefabInstance:
       objectReference: {fileID: 1992173082}
     - target: {fileID: 8296661599568875271, guid: 97b4a4c0d43083d4088cec7119dded4c, type: 3}
       propertyPath: evento_interazione.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Entra_nell_edificio
+      value: Edificio_rilevato
       objectReference: {fileID: 0}
     - target: {fileID: 8296661599568875271, guid: 97b4a4c0d43083d4088cec7119dded4c, type: 3}
       propertyPath: evento_interazione.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Apri_porte, Assembly-CSharp
+      value: Rileva_porte, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8296661599568875271, guid: 97b4a4c0d43083d4088cec7119dded4c, type: 3}
       propertyPath: evento_interazione.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -2936,7 +2940,11 @@ PrefabInstance:
       objectReference: {fileID: 1667874602}
     - target: {fileID: 8296661599568875271, guid: 97b4a4c0d43083d4088cec7119dded4c, type: 3}
       propertyPath: evento_interazione.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Entra_nell_edificio
+      value: Edificio_rilevato
+      objectReference: {fileID: 0}
+    - target: {fileID: 8296661599568875271, guid: 97b4a4c0d43083d4088cec7119dded4c, type: 3}
+      propertyPath: evento_interazione.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Rileva_porte, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97b4a4c0d43083d4088cec7119dded4c, type: 3}
@@ -23877,10 +23885,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1667874598}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1aa71c9cece1fbb449275755f7169766, type: 3}
+  m_Script: {fileID: 11500000, guid: 95a5dad482755e64b9cabfdbd0c5de7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carica_scene: {fileID: 3167210155293000974}
+  carica_scene: {fileID: 0}
 --- !u!212 &1667874603
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24023,10 +24031,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1670210134}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1aa71c9cece1fbb449275755f7169766, type: 3}
+  m_Script: {fileID: 11500000, guid: 95a5dad482755e64b9cabfdbd0c5de7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carica_scene: {fileID: 3167210155293000974}
+  carica_scene: {fileID: 0}
 --- !u!212 &1670210139
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24457,7 +24465,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1aa71c9cece1fbb449275755f7169766, type: 3}
+  m_Script: {fileID: 11500000, guid: 95a5dad482755e64b9cabfdbd0c5de7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2044742579

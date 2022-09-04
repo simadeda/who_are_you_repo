@@ -154,8 +154,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1168958993093603721}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1aa71c9cece1fbb449275755f7169766, type: 3}
+  m_Script: {fileID: 11500000, guid: 95a5dad482755e64b9cabfdbd0c5de7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   carica_scene: {fileID: 7682246055984770204}
-  interazioni: {fileID: 0}
