@@ -543,7 +543,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Armi future
+  m_text: 'Armi future '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3e48a39ec65cfa84c8fb59fcf9d3819c, type: 2}
   m_sharedMaterial: {fileID: -3606099151231098688, guid: 3e48a39ec65cfa84c8fb59fcf9d3819c, type: 2}
@@ -1331,8 +1331,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 305.25003, y: -142.99997}
-  m_SizeDelta: {x: 407, y: 180.4456}
+  m_AnchoredPosition: {x: 305.25003, y: -172.76733}
+  m_SizeDelta: {x: 407, y: 226.2416}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &288151253
 MonoBehaviour:
@@ -1541,8 +1541,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 175.9303, y: 29.9456}
+  m_AnchoredPosition: {x: 0.35980225, y: 0.6619034}
+  m_SizeDelta: {x: 181.7532, y: 50.649}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &331818961
 MonoBehaviour:
@@ -2024,7 +2024,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -540, y: 174.20003}
+  m_AnchoredPosition: {x: -540, y: 229}
   m_SizeDelta: {x: 135.3122, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &525493128
@@ -2815,7 +2815,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Armi utilizzabili
+  m_text: 'Armi utilizzabili :'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3e48a39ec65cfa84c8fb59fcf9d3819c, type: 2}
   m_sharedMaterial: {fileID: -3606099151231098688, guid: 3e48a39ec65cfa84c8fb59fcf9d3819c, type: 2}
@@ -3593,7 +3593,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -524.60004, y: 265.40002}
+  m_AnchoredPosition: {x: -524.60004, y: 320.20004}
   m_SizeDelta: {x: 166.1054, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &817571743
@@ -4229,7 +4229,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Descrizione arma
+  m_text: 'Descrizione arma :'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3e48a39ec65cfa84c8fb59fcf9d3819c, type: 2}
   m_sharedMaterial: {fileID: -3606099151231098688, guid: 3e48a39ec65cfa84c8fb59fcf9d3819c, type: 2}
@@ -5246,7 +5246,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 343.15552, y: 313}
+  m_AnchoredPosition: {x: 390, y: 313}
   m_SizeDelta: {x: 183.0585, y: 40.9306}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1178247229
@@ -5663,7 +5663,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   txt_abilita_stato: {fileID: 385048263}
-  txt_abilita_classe: {fileID: 1965226132}
+  txt_abilita_classe: {fileID: 163764996}
   lettoreXML: {fileID: 4561978239969240860}
   img_abilita_classe: {fileID: 1245979999}
   img_abilita_stato: {fileID: 1657857517}
@@ -7101,7 +7101,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1585129091
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8053,7 +8053,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1790772524
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8942,7 +8942,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -540, y: 35}
+  m_AnchoredPosition: {x: -540, y: 89.80002}
   m_SizeDelta: {x: 135.3122, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1973981809
@@ -9211,7 +9211,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 109.99998}
+  m_AnchoredPosition: {x: 0, y: 131.2}
   m_SizeDelta: {x: 117.7218, y: 48.0837}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2118711039

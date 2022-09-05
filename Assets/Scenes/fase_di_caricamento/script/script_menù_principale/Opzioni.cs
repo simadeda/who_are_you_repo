@@ -23,6 +23,8 @@ public class Opzioni : MonoBehaviour
     void Start()
     {
         cerchio_caricamento = icona_caricamento.GetComponent<Cerchio_caricamento>();
+        float Volume = PlayerPrefs.GetFloat("volume");
+        SetVolume(Volume);
     }
 
     public void Applica()

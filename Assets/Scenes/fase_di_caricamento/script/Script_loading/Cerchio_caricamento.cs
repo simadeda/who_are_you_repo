@@ -22,7 +22,6 @@ public class Cerchio_caricamento : MonoBehaviour
             StartCoroutine("Status_caricamento_rimbalzo", cerchio_caricamento);
         }
        
-       //Debug.Log(SceneManager.GetActiveScene().buildIndex);
     }
 
     //first corroutine

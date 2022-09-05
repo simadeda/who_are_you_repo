@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: asset_armeria
+  m_EditorClassIdentifier: 
+  m_GroupName: asset_armeria
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ae0382bce5c8bf34b832f9c03e0ee12d
+  m_SerializeEntries:
+  - m_GUID: c4cb03c5362b061448ccc247e7b43d9c
+    m_Address: Assets/PRESETS/presets_npc/boscaiolo.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2c06f878155668946838e859a72cdf0e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8f7ce97b04e1f7a4b9990c61d5bbff8b, type: 2}
+    - {fileID: 11400000, guid: ef95585bd0808b142a3b472410ee6aba, type: 2}

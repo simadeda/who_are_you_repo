@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 3185496756643872311}
   - component: {fileID: 3185496756643872310}
   - component: {fileID: 3185496756643872309}
-  - component: {fileID: 3185496756643872312}
   - component: {fileID: 3185496756643872313}
+  - component: {fileID: 711318765878628422}
   m_Layer: 0
   m_Name: Camera_overword
   m_TagString: MainCamera
@@ -44,7 +44,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.5754717, g: 0.44364008, b: 0.04071733, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -59,9 +59,9 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 40
   orthographic: 1
-  orthographic size: 12.5
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -85,21 +85,6 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3185496756643872308}
   m_Enabled: 1
---- !u!114 &3185496756643872312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3185496756643872308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4c2e1adea2d6cc4eb6fa7575c5eaa2b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerOffset: {x: 0, y: 2}
-  player: {fileID: 5446873925572969913, guid: 2533b4b312854584c94563f280161de3, type: 3}
-  velocita_cam: 5
 --- !u!114 &3185496756643872313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,8 +100,42 @@ MonoBehaviour:
   m_AssetsPPU: 16
   m_RefResolutionX: 400
   m_RefResolutionY: 200
-  m_UpscaleRT: 1
-  m_PixelSnapping: 0
+  m_UpscaleRT: 0
+  m_PixelSnapping: 1
   m_CropFrameX: 0
   m_CropFrameY: 0
   m_StretchFill: 0
+--- !u!114 &711318765878628422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3185496756643872308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowDebugText: 0
+  m_ShowCameraFrustum: 1
+  m_IgnoreTimeScale: 0
+  m_WorldUpOverride: {fileID: 0}
+  m_UpdateMethod: 2
+  m_BlendUpdateMethod: 1
+  m_DefaultBlend:
+    m_Style: 1
+    m_Time: 2
+    m_CustomCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  m_CustomBlends: {fileID: 0}
+  m_CameraCutEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_CameraActivatedEvent:
+    m_PersistentCalls:
+      m_Calls: []
