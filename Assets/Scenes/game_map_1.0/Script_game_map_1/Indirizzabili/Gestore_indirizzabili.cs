@@ -21,7 +21,9 @@ public class Gestore_indirizzabili : MonoBehaviour
     [SerializeField]
     private Camera camera_overword;
 
-    private IEnumerator coroutine;
+    private GameObject Player_caricato;
+    private Interazioni Interazioni;
+
     private void Start()
     {
         Addressables.InitializeAsync().Completed += Gestore_indirizzabili_completato;
@@ -29,38 +31,37 @@ public class Gestore_indirizzabili : MonoBehaviour
 
     private void Gestore_indirizzabili_completato(AsyncOperationHandle<IResourceLocator> obj)
     {
-        AsyncOperationHandle<GameObject> porta = La_porta_uguale_pe_tutti.InstantiateAsync().Completed += mymethod;
+        player_reference.InstantiateAsync().Completed += player_completato;
 
-        var player = player_reference.InstantiateAsync();
-
-        coroutine = Prova(porta,player);
-        StartCoroutine(coroutine);
+        La_porta_uguale_pe_tutti.InstantiateAsync().Completed += porta_completata;
 
         boscaiolo_reference.InstantiateAsync();
     }
 
-    private AsyncOperationHandle<GameObject> mymethod(AsyncOperationHandle<GameObject> obj)
+    private void porta_completata(AsyncOperationHandle<GameObject> porta)
     {
-        return obj;
+        Transform Oggetto_bambino_porta = porta.Result.transform.GetChild(0);
+        Interazioni = Oggetto_bambino_porta.GetComponent<Interazioni>();
     }
 
-    IEnumerator Prova(AsyncOperationHandle<GameObject> porta, AsyncOperationHandle<GameObject> player)
+    private void player_completato(AsyncOperationHandle<GameObject> player)
     {
-        Transform bambino = porta.Result.transform.GetChild(0);
-        bambino.gameObject.SetActive(false);
-
         segui_player.Follow = player.Result.transform;
 
         var canvas = player.Result.GetComponentInChildren<Canvas>();
         canvas.worldCamera = camera_overword;
 
-         
-        bambino.gameObject.SetActive(false);
+        Player_caricato = player.Result;
 
-        yield return new WaitForSeconds(10f);
+        Transform Oggetto_bambino_player = Player_caricato.transform.GetChild(0);
+        Interazioni_playerUI interazione = Oggetto_bambino_player.GetComponent<Interazioni_playerUI>();
 
-        bambino.gameObject.SetActive(true);
+        Interazioni.interazioni_UI = interazione;
     }
+
+ 
+
+   
 
 
 }

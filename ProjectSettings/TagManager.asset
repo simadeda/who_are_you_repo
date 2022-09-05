@@ -9,6 +9,7 @@ TagManager:
   - btn_scegli
   - img_mp4
   - panel
+  - porta
   layers:
   - Default
   - TransparentFX

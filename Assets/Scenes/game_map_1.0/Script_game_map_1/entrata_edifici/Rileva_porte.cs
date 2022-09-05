@@ -14,6 +14,8 @@ public class Rileva_porte : MonoBehaviour
             Player_rilevato = true;
             carica_scene.caricatore_edifici(nome_edificio);
         }
+        else
+            Player_rilevato = false;
     }
 
 }

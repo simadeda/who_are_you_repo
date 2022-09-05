@@ -4,13 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 6821501456528520135
-    second: locker_armi
+    second: locker_armeria
   - first:
       213: -5908331335482318667
-    second: porta_armeria
-  - first:
-      213: -5877412767102133952
-    second: oggetti_armeria_2
+    second: porta_pe_tutti
   - first:
       213: 1639714105667124144
     second: bancone_giubotti
@@ -109,7 +106,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: locker_armi
+      name: locker_armeria
       rect:
         serializedVersion: 2
         x: 16
@@ -117,7 +114,7 @@ TextureImporter:
         width: 35
         height: 46
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -130,7 +127,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_armeria
+      name: porta_pe_tutti
       rect:
         serializedVersion: 2
         x: 80
@@ -180,7 +177,7 @@ TextureImporter:
         width: 127
         height: 58
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -196,12 +193,12 @@ TextureImporter:
       name: cornicione_armeria
       rect:
         serializedVersion: 2
-        x: 12
-        y: 11
-        width: 234
-        height: 234
+        x: 10
+        y: 9
+        width: 237
+        height: 238
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

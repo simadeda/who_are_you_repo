@@ -283,25 +283,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5446873925572969913, guid: 2533b4b312854584c94563f280161de3, type: 3}
   m_PrefabInstance: {fileID: 5446873925437380484}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &188784309 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5446873924382688761, guid: 2533b4b312854584c94563f280161de3, type: 3}
-  m_PrefabInstance: {fileID: 5446873925437380484}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &188784314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188784309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a094fbefc4b5f0c429ca551c5a57098c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  premi_e: {fileID: 1981210591}
-  attivo: 0
 --- !u!1 &263572194
 GameObject:
   m_ObjectHideFlags: 0
@@ -2278,7 +2259,7 @@ PrefabInstance:
     - target: {fileID: 8296661599568875271, guid: 97b4a4c0d43083d4088cec7119dded4c, type: 3}
       propertyPath: interazioni_UI
       value: 
-      objectReference: {fileID: 188784314}
+      objectReference: {fileID: 0}
     - target: {fileID: 8296661599568875271, guid: 97b4a4c0d43083d4088cec7119dded4c, type: 3}
       propertyPath: evento_interazione.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 0
@@ -2633,7 +2614,7 @@ PrefabInstance:
     - target: {fileID: 8296661599568875271, guid: 97b4a4c0d43083d4088cec7119dded4c, type: 3}
       propertyPath: interazioni_UI
       value: 
-      objectReference: {fileID: 188784314}
+      objectReference: {fileID: 0}
     - target: {fileID: 8296661599568875271, guid: 97b4a4c0d43083d4088cec7119dded4c, type: 3}
       propertyPath: evento_interazione.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 0
@@ -2929,7 +2910,7 @@ PrefabInstance:
     - target: {fileID: 8296661599568875271, guid: 97b4a4c0d43083d4088cec7119dded4c, type: 3}
       propertyPath: interazioni_UI
       value: 
-      objectReference: {fileID: 188784314}
+      objectReference: {fileID: 0}
     - target: {fileID: 8296661599568875271, guid: 97b4a4c0d43083d4088cec7119dded4c, type: 3}
       propertyPath: evento_interazione.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 0
@@ -24632,7 +24613,7 @@ PrefabInstance:
     - target: {fileID: 380211520421285400, guid: cfefa6eb2ef138b4ba52866b231b8c73, type: 3}
       propertyPath: interazioni
       value: 
-      objectReference: {fileID: 188784314}
+      objectReference: {fileID: 0}
     - target: {fileID: 380211520421285400, guid: cfefa6eb2ef138b4ba52866b231b8c73, type: 3}
       propertyPath: altezza_area
       value: 3
@@ -24700,7 +24681,7 @@ PrefabInstance:
     - target: {fileID: 4233820826227774019, guid: cfefa6eb2ef138b4ba52866b231b8c73, type: 3}
       propertyPath: interazioni
       value: 
-      objectReference: {fileID: 188784314}
+      objectReference: {fileID: 0}
     - target: {fileID: 6129618157926070321, guid: cfefa6eb2ef138b4ba52866b231b8c73, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -24977,5 +24958,6 @@ PrefabInstance:
       propertyPath: barra_Vita
       value: 
       objectReference: {fileID: 380417826}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8572368538718920671, guid: 2533b4b312854584c94563f280161de3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2533b4b312854584c94563f280161de3, type: 3}
