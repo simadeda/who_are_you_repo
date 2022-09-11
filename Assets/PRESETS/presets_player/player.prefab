@@ -112,7 +112,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 3.5}
+  m_AnchoredPosition: {x: 0.098, y: 3.6}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &5446873924382688517
@@ -338,10 +338,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a16c94df4eba09946a4e259c0017e240, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  num_max_vita: 0
-  num_corrente_vita: 0
-  barra12: {fileID: 0}
-  barra10: {fileID: 0}
+  num_max_vita: 100
+  num_corrente_vita: 100
   barra_Vita: {fileID: 0}
 --- !u!50 &5446873925572969927
 Rigidbody2D:

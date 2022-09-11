@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-guid: 8c70fd6abf754b340a1661cfc26de8e9
+guid: 8ef01fe4c9c1b914c991aa3dfc994bbc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8053856436577626774
-    second: UI_elements 1_0
+      213: -7940220726841132508
+    second: UI_elements_0
   - first:
-      213: -2948924456213217427
-    second: UI_elements 1_1
-  - first:
-      213: -3371746753247209040
-    second: UI_elements 1_2
-  - first:
-      213: 7241854811907668602
-    second: UI_elements 1_3
+      213: -5346684397127113027
+    second: UI_elements_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -103,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_elements 1_0
+      name: UI_elements_0
       rect:
         serializedVersion: 2
         x: 1
@@ -117,14 +111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a651cc9fd34fa3090800000000000000
-      internalID: -8053856436577626774
+      spriteID: 42ab07a615baec190800000000000000
+      internalID: -7940220726841132508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_elements 1_1
+      name: UI_elements_1
       rect:
         serializedVersion: 2
         x: 32
@@ -138,50 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6ff2f5c4d05317d0800000000000000
-      internalID: -2948924456213217427
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI_elements 1_2
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 192
-        width: 61
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b99f1431362531d0800000000000000
-      internalID: -3371746753247209040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI_elements 1_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 188
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7ab5ba159c308460800000000000000
-      internalID: 7241854811907668602
+      spriteID: db66d176ed2ccc5b0800000000000000
+      internalID: -5346684397127113027
       vertices: []
       indices: 
       edges: []

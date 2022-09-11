@@ -7,7 +7,11 @@ public class Interazioni : MonoBehaviour
 {
     public bool attivo;
     string edificio_rilevato;
-    public KeyCode btn_interazione;
+
+    [SerializeField]
+    private KeyCode btn_interazione;
+
+    public Gestore_indirizzabili indirizzabili;
     public Interazioni_playerUI interazioni_UI;
     public UnityEvent<string> evento_interazione;
     
@@ -29,7 +33,7 @@ public class Interazioni : MonoBehaviour
             attivo = true;
             interazioni_UI.attiva_interazione();
             edificio_rilevato = transform.parent.name;
-
+           
             Debug.Log(edificio_rilevato);
         }
     }
@@ -40,7 +44,6 @@ public class Interazioni : MonoBehaviour
         {
             attivo = false;
             interazioni_UI.disattiva_interazione();
-            //Debug.Log("player non in range");
         }
     }
 }

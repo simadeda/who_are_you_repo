@@ -6,7 +6,8 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.AddressableAssets.ResourceLocators;
 using UnityEngine.ResourceManagement.AsyncOperations;
-
+using UnityEngine.ResourceManagement.ResourceProviders;
+using UnityEngine.SceneManagement;
 
 public class Gestore_indirizzabili : MonoBehaviour
 {
@@ -17,53 +18,118 @@ public class Gestore_indirizzabili : MonoBehaviour
     [SerializeField]
     private AssetReference La_porta_uguale_pe_tutti;
     [SerializeField]
+    private AssetReference armeria;
+    [SerializeField]
     private CinemachineVirtualCamera segui_player;
     [SerializeField]
     private Camera camera_overword;
-
+    
     private GameObject Player_caricato;
     private Interazioni Interazioni;
 
+    //carico scene
+    static bool smonta_scena_prec = false;
+    static private SceneInstance scena_indirizzabile_precedente;
+    public static string[] scene_precedenti = new string[2];
+          
+    string scena_corrente;
+
     private void Start()
     {
-        Addressables.InitializeAsync().Completed += Gestore_indirizzabili_completato;
+        Addressables.InitializeAsync().Completed += Asset_indispensabili;
     }
 
-    private void Gestore_indirizzabili_completato(AsyncOperationHandle<IResourceLocator> obj)
+    private void Asset_indispensabili(AsyncOperationHandle<IResourceLocator> obj)
     {
-        player_reference.InstantiateAsync().Completed += player_completato;
+        player_reference.InstantiateAsync().Completed += (Player_completato) =>
+        {
+            segui_player.Follow = Player_completato.Result.transform;
 
-        La_porta_uguale_pe_tutti.InstantiateAsync().Completed += porta_completata;
+            var canvas = Player_completato.Result.GetComponentInChildren<Canvas>();
+            canvas.worldCamera = camera_overword;
+
+            Player_caricato = Player_completato.Result;
+
+            scena_corrente = SceneManager.GetActiveScene().name;
+
+            switch (scena_corrente)
+            {
+                case "Mappa_1":
+                    Carica_asset_mappa_1();
+                    break;
+
+                case "armeria":
+                    Carica_asset_armeria();
+                    break;
+            };
+        };
+             
+    }
+
+    private void Carica_asset_armeria()
+    {
+        La_porta_uguale_pe_tutti.InstantiateAsync().Completed += (Porta_completata) =>
+        {
+            Transform Oggetto_bambino_porta = Porta_completata.Result.transform.GetChild(0);
+            Interazioni = Oggetto_bambino_porta.GetComponent<Interazioni>();
+            Interazioni.indirizzabili = this;
+
+            Transform Oggetto_bambino_player = Player_caricato.transform.GetChild(0);
+            Interazioni_playerUI interazione = Oggetto_bambino_player.GetComponent<Interazioni_playerUI>();
+
+            Interazioni.interazioni_UI = interazione;
+
+            var rileva_porte = Porta_completata.Result.GetComponent<Rileva_porte>();
+            rileva_porte.indirizzabili = this;
+        };
 
         boscaiolo_reference.InstantiateAsync();
     }
 
-    private void porta_completata(AsyncOperationHandle<GameObject> porta)
+    private void Carica_asset_mappa_1()
     {
-        Transform Oggetto_bambino_porta = porta.Result.transform.GetChild(0);
-        Interazioni = Oggetto_bambino_porta.GetComponent<Interazioni>();
+        armeria.InstantiateAsync().Completed += (Armeria_esterno_completata) =>
+        {
+            Transform Oggetto_bambino_armeria = Armeria_esterno_completata.Result.transform.GetChild(0);
+            var rileva_porte = Armeria_esterno_completata.Result.GetComponent<Rileva_porte>();
+            rileva_porte.indirizzabili = this;
+
+            Interazioni = Oggetto_bambino_armeria.GetComponent<Interazioni>();
+
+            Transform Oggetto_bambino_player = Player_caricato.transform.GetChild(0);
+            Interazioni_playerUI interazione = Oggetto_bambino_player.GetComponent<Interazioni_playerUI>();
+
+            Interazioni.interazioni_UI = interazione;
+            Interazioni.indirizzabili = this;
+        };
+
+
     }
 
-    private void player_completato(AsyncOperationHandle<GameObject> player)
-    {
-        segui_player.Follow = player.Result.transform;
-
-        var canvas = player.Result.GetComponentInChildren<Canvas>();
-        canvas.worldCamera = camera_overword;
-
-        Player_caricato = player.Result;
-
-        Transform Oggetto_bambino_player = Player_caricato.transform.GetChild(0);
-        Interazioni_playerUI interazione = Oggetto_bambino_player.GetComponent<Interazioni_playerUI>();
-
-        Interazioni.interazioni_UI = interazione;
+    public void carica_scene_indirizzabili(string chiave_nome_scena)
+    {   
+        if(chiave_nome_scena == "porta_uscita_edifici")
+        {
+            chiave_nome_scena = scene_precedenti[0];
+        }
+        if (smonta_scena_prec)
+        {
+            Addressables.UnloadSceneAsync(scena_indirizzabile_precedente).Completed += scena_pulita;
+        }
+            Addressables.LoadSceneAsync(chiave_nome_scena, LoadSceneMode.Single).Completed += scena_caricata;
     }
 
- 
+    private void scena_caricata(AsyncOperationHandle<SceneInstance> scena)
+    {
+        smonta_scena_prec = true;
+        scena_indirizzabile_precedente = scena.Result;
+    }
 
-   
-
-
+    private void scena_pulita(AsyncOperationHandle<SceneInstance> scena)
+    {
+        smonta_scena_prec = false;
+        scena_indirizzabile_precedente = new SceneInstance();
+    }
 }
 
 
