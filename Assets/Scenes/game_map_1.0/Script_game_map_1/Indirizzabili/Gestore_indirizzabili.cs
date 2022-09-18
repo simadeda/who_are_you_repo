@@ -116,7 +116,7 @@ public class Gestore_indirizzabili : MonoBehaviour
         {
             Addressables.UnloadSceneAsync(scena_indirizzabile_precedente).Completed += scena_pulita;
         }
-            Addressables.LoadSceneAsync(chiave_nome_scena, LoadSceneMode.Single).Completed += scena_caricata;
+            Addressables.LoadSceneAsync(chiave_nome_scena,UnityEngine.SceneManagement.LoadSceneMode.Single).Completed += scena_caricata;
     }
 
     private void scena_caricata(AsyncOperationHandle<SceneInstance> scena)
