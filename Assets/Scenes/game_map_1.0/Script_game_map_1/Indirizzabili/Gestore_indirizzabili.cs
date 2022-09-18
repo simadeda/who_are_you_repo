@@ -14,6 +14,8 @@ public class Gestore_indirizzabili : MonoBehaviour
     [SerializeField]
     private AssetReference player_reference;
     [SerializeField]
+    private Barra_vita barra_vita_Player;
+    [SerializeField]
     private AssetReference boscaiolo_reference;
     [SerializeField]
     private AssetReference La_porta_uguale_pe_tutti;
@@ -44,8 +46,10 @@ public class Gestore_indirizzabili : MonoBehaviour
         player_reference.InstantiateAsync().Completed += (Player_completato) =>
         {
             segui_player.Follow = Player_completato.Result.transform;
+            var vita_player = Player_completato.Result.GetComponentInChildren<Health_player>();
+            vita_player.barra_Vita = barra_vita_Player;
 
-            var canvas = Player_completato.Result.GetComponentInChildren<Canvas>();
+             var canvas = Player_completato.Result.GetComponentInChildren<Canvas>();
             canvas.worldCamera = camera_overword;
 
             Player_caricato = Player_completato.Result;
