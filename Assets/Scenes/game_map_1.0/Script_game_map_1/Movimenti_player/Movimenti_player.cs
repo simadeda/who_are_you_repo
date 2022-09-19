@@ -6,6 +6,7 @@ public class Movimenti_player : MonoBehaviour
 {
     [SerializeField]
     float velocita = 15f;
+
     static float sx_dx_controller = 0;
     static float dietro_avanti_controller = 0;
     Vector2 direzione = new Vector2(0, 0);

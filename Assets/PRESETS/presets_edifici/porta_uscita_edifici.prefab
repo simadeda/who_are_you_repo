@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 4042361322431120901}
   - component: {fileID: 4042361322431120900}
   - component: {fileID: 7635750838999081343}
-  - component: {fileID: 3456887886410709779}
   m_Layer: 0
-  m_Name: porta_pe_tutti
+  m_Name: porta_uscita_edifici
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -97,19 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95a5dad482755e64b9cabfdbd0c5de7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carica_scene: {fileID: 3456887886410709779}
---- !u!114 &3456887886410709779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4042361322431120897}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dcd0195775c8bd49a6a5d1a4f3e715b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  carica_scene: {fileID: 0}
 --- !u!1001 &2693901024148408523
 PrefabInstance:
   m_ObjectHideFlags: 0
