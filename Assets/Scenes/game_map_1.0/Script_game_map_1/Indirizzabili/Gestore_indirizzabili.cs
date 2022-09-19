@@ -49,7 +49,7 @@ public class Gestore_indirizzabili : MonoBehaviour
             var vita_player = Player_completato.Result.GetComponentInChildren<Health_player>();
             vita_player.barra_Vita = barra_vita_Player;
 
-             var canvas = Player_completato.Result.GetComponentInChildren<Canvas>();
+            var canvas = Player_completato.Result.GetComponentInChildren<Canvas>();
             canvas.worldCamera = camera_overword;
 
             Player_caricato = Player_completato.Result;
@@ -86,8 +86,8 @@ public class Gestore_indirizzabili : MonoBehaviour
             var rileva_porte = Porta_completata.Result.GetComponent<Rileva_porte>();
             rileva_porte.indirizzabili = this;
         };
-
-        boscaiolo_reference.InstantiateAsync();
+            boscaiolo_reference.InstantiateAsync();
+       
     }
 
     private void Carica_asset_mappa_1()

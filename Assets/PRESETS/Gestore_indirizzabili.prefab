@@ -47,6 +47,7 @@ MonoBehaviour:
     m_AssetGUID: 2533b4b312854584c94563f280161de3
     m_SubObjectName: 
     m_SubObjectType: 
+  barra_vita_Player: {fileID: 0}
   boscaiolo_reference:
     m_AssetGUID: c4cb03c5362b061448ccc247e7b43d9c
     m_SubObjectName: 
