@@ -2,17 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Classe_attaccabrighe : MonoBehaviour
+public class Classe_attaccabrighe : Base_classi
 {
-    // Start is called before the first frame update
-    void Start()
+    public void Attaccabrighe()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Vita_classe = 200;
     }
 }

@@ -6,6 +6,6 @@ public class Classe_armaiolo : Base_classi
 {
     public void Armaiolo()
     {
-        int vita_armaiolo = 150;
+        Vita_classe = 150;
     }
 }

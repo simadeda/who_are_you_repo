@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Base_classi 
+public class Base_classi :MonoBehaviour
 {
     private string nome_classe;
     private int vita_classe;
 
-    public string Nome_classe
+    private void Start()
     {
-        get { return nome_classe;}
-        set { nome_classe = value; }
+        nome_classe = LettoreXML.Classe;
     }
+  
     public int Vita_classe
     {
         get { return vita_classe; }
