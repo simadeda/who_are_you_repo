@@ -2,17 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Classe_guerrafondaio : MonoBehaviour
+public class Classe_guerrafondaio : Base_classi
 {
-    // Start is called before the first frame update
-    void Start()
+    public void Guerrafondaio()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Vita_classe = 175;
     }
 }
+
+
