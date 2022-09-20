@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Classe_doc : Base_classi
 {
-    public void Doc()
+    public Classe_doc()
     {
         Vita_classe = 125;
     }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Classe_piromane : Base_classi
 {
-    public void Piromane()
+    public  Classe_piromane()
     {
         Vita_classe = 150;
     }
