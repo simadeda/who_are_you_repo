@@ -6145,6 +6145,7 @@ MonoBehaviour:
   txt_armamento: {fileID: 1515952208}
   txt_tipo: {fileID: 1684727890}
   txt_descrizione: {fileID: 331818959}
+  nome_classe: 
 --- !u!1 &1315853249
 GameObject:
   m_ObjectHideFlags: 0
@@ -7330,7 +7331,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1585129091
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8282,7 +8283,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1790772524
 RectTransform:
   m_ObjectHideFlags: 0

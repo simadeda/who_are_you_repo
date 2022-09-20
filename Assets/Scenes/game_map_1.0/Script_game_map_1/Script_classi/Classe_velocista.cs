@@ -2,17 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Classe_velocista : MonoBehaviour
+public class Classe_velocista : Base_classi
 {
-    // Start is called before the first frame update
-    void Start()
+    public void Velocista()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Vita_classe = 125;
     }
 }
