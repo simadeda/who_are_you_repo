@@ -118,6 +118,10 @@ public class LettoreXML : MonoBehaviour
                 Debug.Log("errore " + e);
             }
         }
+    }
+
+    public void Lettura_armi()
+    {
 
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Classe_armaiolo : Base_classi
 {
-    public void Armaiolo()
+    public Classe_armaiolo()
     {
         Vita_classe = 150;
     }

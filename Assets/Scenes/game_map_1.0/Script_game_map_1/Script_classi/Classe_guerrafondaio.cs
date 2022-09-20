@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Classe_guerrafondaio : Base_classi
 {
-    public void Guerrafondaio()
+    public Classe_guerrafondaio()
     {
         Vita_classe = 175;
     }

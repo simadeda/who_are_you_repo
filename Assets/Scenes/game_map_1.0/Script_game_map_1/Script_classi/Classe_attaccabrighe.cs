@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Classe_attaccabrighe : Base_classi
 {
-    public void Attaccabrighe()
+    public Classe_attaccabrighe()
     {
         Vita_classe = 200;
     }

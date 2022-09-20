@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Classe_velocista : Base_classi
 {
-    public void Velocista()
+    public Classe_velocista()
     {
         Vita_classe = 125;
     }
