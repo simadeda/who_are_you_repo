@@ -9,4 +9,3 @@ public class Classe_guerrafondaio : Base_classi
         Vita_classe = 175;
     }
 }
-
