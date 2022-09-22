@@ -12,9 +12,6 @@ public class Scegli_arma : MonoBehaviour
         TextMesH_arma_scelta = txt_arma_scelta.GetComponent<TextMeshProUGUI>();
         TextMesH_descrizione_arma = txt_descrizione_arma.GetComponent<TextMeshProUGUI>();
         TextMesH_armi_utilizzabili = txt_armi_utilizzabili.GetComponent<TextMeshProUGUI>();
-
-
-        
     }
    
 }

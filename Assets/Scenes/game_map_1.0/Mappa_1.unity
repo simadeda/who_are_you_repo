@@ -174,7 +174,7 @@ Transform:
   - {fileID: 1667874599}
   - {fileID: 2112138457}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &298774663 stripped
 MonoBehaviour:
@@ -1588,6 +1588,49 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4227855596871972991, guid: 97b4a4c0d43083d4088cec7119dded4c, type: 3}
   m_PrefabInstance: {fileID: 666138692}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &681374012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 681374014}
+  - component: {fileID: 681374013}
+  m_Layer: 0
+  m_Name: Gestore_classi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &681374013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681374012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615a8db572a0f354faf16483be2a4ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &681374014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681374012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &839804261 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6942119248637933143, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
@@ -1805,6 +1848,10 @@ PrefabInstance:
       propertyPath: segui_player
       value: 
       objectReference: {fileID: 298774663}
+    - target: {fileID: 8982202810489029888, guid: 559d4139b27f3584eb670e7bd5258af0, type: 3}
+      propertyPath: gestore_classi
+      value: 
+      objectReference: {fileID: 681374013}
     - target: {fileID: 8982202810489029888, guid: 559d4139b27f3584eb670e7bd5258af0, type: 3}
       propertyPath: camera_overword
       value: 
@@ -22574,7 +22621,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2112138457 stripped
 Transform:

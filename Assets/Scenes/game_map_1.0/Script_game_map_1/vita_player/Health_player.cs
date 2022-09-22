@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class Health_player : MonoBehaviour
 {
-    public Base_classi Classe_base;
+    public Gestore_classi Gestore_classi;
     public int num_max_vita;
     public int num_corrente_vita;
     int danno = 0;
    
     public Barra_vita barra_Vita;
         
-      
     void Start()
     {
-        num_max_vita = Classe_base.vita_classe;
+        num_max_vita = Gestore_classi.vita_max_classe;
         num_corrente_vita = num_max_vita;
         barra_Vita.Imposta_vita(num_corrente_vita);
     }
