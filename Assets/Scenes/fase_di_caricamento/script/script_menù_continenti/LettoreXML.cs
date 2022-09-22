@@ -122,7 +122,7 @@ public class LettoreXML : MonoBehaviour
 
     public void Lettura_armi()
     {
-
+        
     }
 }
 
