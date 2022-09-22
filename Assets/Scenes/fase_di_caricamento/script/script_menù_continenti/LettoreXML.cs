@@ -120,9 +120,26 @@ public class LettoreXML : MonoBehaviour
         }
     }
 
-    public void Lettura_armi()
+    public (string, string) Lettura_armi(string nome_arma, string descrizione_arma)
     {
-        
+        nome_arma = "";
+        descrizione_arma = "";
+
+        if (File.Exists("Assets/XML/armi.xml")) // vede se il path è "corretto" e se lo è entra
+        {
+            try
+            {
+                XmlDocument Doc = new XmlDocument(); //creazione di una variabile di tipo XmlDocument per lavorare con i file .XML
+                Doc.Load("Assets/XML/armi.xml"); //carica il file continenti.XML
+                nome_arma = Doc.SelectSingleNode("/tutte_le_armi/armi_inizio/arma_base[@id='" + ToString() + "']/nome_arma").InnerText; //tramite la funzione SelectSingleNode e num_rand ( un numero random) vien epreso un continente
+                descrizione_arma = Doc.SelectSingleNode("/tutte_le_armi/armi_inizio/arma_base[@id='" + ToString() + "']/descrizione_arma").InnerText;
+            }
+            catch (Exception e)
+            {
+                Debug.Log("errore " + e);
+            }
+        }
+        return (nome_arma, descrizione_arma);
     }
 }
 

@@ -3,7 +3,7 @@
 		<arma_base id = "0">
 			<nome_arma>G17</nome_arma>
 			<descrizione_arma>La Glock 17 è una pistola semiautomatica prodotta a partire dal 1983 dall'azienda austriaca Glock e è dotata di un caricatore da 17 colpi più 1 in canna. Il calibro è il 9mm, ottimo per scontri ravvicinati o per la media distanza. Purtroppo essendo semiautomatica il suo rateo di fuoco è limitato.
-			</descrizione_arma>
+			</descrizione_arma>t
 		</arma_base>
     <arma_base  id = "1">
 			<nome_arma>C96 Automatic</nome_arma>
@@ -46,9 +46,9 @@
   <fucili_semiautomatici>
     
   </fucili_semiautomatici>
-  <lancia_missili>
+  <lancia_razzi>
     
-  </lancia_missili>
+  </lancia_razzi>
   <lancia_granate>
     
   </lancia_granate>
