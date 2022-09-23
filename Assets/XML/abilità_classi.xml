@@ -2,18 +2,22 @@
   <classe id = "0">
     <nome_classe>Guerrafondaio</nome_classe>
     <nome_abilita>Scudo Balistico</nome_abilita>
-	<descrizione_classe>Il Guerrafondaio è specializzato nell'armamento pesante ed equipaggiamento antiproiettile, non per caso è sempre in prima linea. Ci vuole una certa stazza per spostarsi con tutto quell'equipaggiamento, infatti è una delle classi più lente ma in compenso ha 175 di vita. Al suo passaggio chiunque tremerebbe di fronte a lui, con lo scudo balistico e le sue armi pesanti riuscirai a vincere ogni battaglia. Con questa classe il divertimento è assicurato!
+	<descrizione_classe>Il Guerrafondaio è specializzato nell'armamento pesante ed equipaggiamento antiproiettile, non per caso è sempre in prima linea. Ci serve una certa stazza per riuscire a spostarsi con tutto quell'equipaggiamento, infatti è una delle classi più lente ma in compenso ha 175 di vita e con lo scudo balistico e le sue armi pesanti riuscirai a vincere ogni battaglia. Al suo passaggio chiunque andrebbe in preda al panico!
   </descrizione_classe>
 	<descrizione_abilita>Uno scudo balistico in polietilene in grado di parare proiettili e attacchi nemici, quasi "qualsiasi" colpo sarà inutile! Ma quando lo utilizzerai non potrai muoverti "Attenzione il prodotto non protegge a 360 gradi, Copritevi le spalle!"
   </descrizione_abilita>
+  <armamento>Lmg, Lanciarazzi, Lanciagranate, Fucili d'assalto, Fucili a pompa, Pistole
+  </armamento>
   </classe>
   <classe id = "1">
     <nome_classe>Velocista</nome_classe>
     <nome_abilita>Schivata</nome_abilita>
-	<descrizione_classe>Nel campo di battaglia conta solo la velocità nel sorprendere i tuoi nemici con attacchi veloci e letali. Il velocista è la classe più agile del gioco ed è ottima per uno stile di combattimento mordi e fuggi ma non è consigliato stare in prima linea, avendo poca vita rispetto alle altre classi. Per la loro leggerezza le sue armi preferite sono i fucili a pompa e le pistole mitragliatrici. Se riuscirai a stare al passo con la sua velocità, per te non ci saranno problemi...o forse no.
+	<descrizione_classe>Nel campo di battaglia conta solo la velocità nel sorprendere i tuoi nemici con attacchi veloci e letali. Il velocista è la classe più agile del gioco ed è ottima per uno stile di combattimento mordi e fuggi. Avendo poca vita rispetto alle altre classi non è consigliato stare in prima linea. Per la loro leggerezza le sue armi preferite sono i fucili a pompa e le pistole mitragliatrici. Se riuscirai a stare al passo con la sua velocità, per te non ci saranno problemi...o forse no.
   </descrizione_classe>
 	<descrizione_abilita>Come da copione la schivata permetterà al Velocista di essere intoccabile da attacchi avversari ma attenzione, se la userete più volte in un lasso di tempo limitato sarete più lenti per ben 5 secondi!
   </descrizione_abilita>
+  <armamento>Pistole mitragliatrici, Fucili a pompa, pistole, possibilità Akimbo
+  </armamento>
 	</classe>
   <classe id = "2">
     <nome_classe>Attaccabrighe</nome_classe>
@@ -22,22 +26,28 @@
   </descrizione_classe>
 	<descrizione_abilita>Un buon Attaccabrighe deve saper lanciare i propri nemici con energia. Questa abilità permette di lanciare i nemici lontani da te facendoli cadere come birilli, per ogni nemico colpito quello  successivo, che ne colpirà un altro, riceverà un danno aggiuntivo. Farsi strada con la forza bruta è sempre la risposta!
   </descrizione_abilita>
+    <armamento>Armi corpo a corpo, Fucili a pompa, pistole
+    </armamento>
   </classe>
   <classe id = "3">
     <nome_classe>Doc</nome_classe>
     <nome_abilita>Cura e Via</nome_abilita>
-	<descrizione_classe>Il Doc ha un carattere davvero tenebroso, un vero e proprio sadico, quando si trovava in sala operatoria Costringeva l'anestesista a sbagliare la dose così da far patire le pene dell' inferno ai suoi pazienti. Il Doc è l'unica classe che può rigenerare la vita nel tempo, aumentare la sua salute e può curare i suoi alleati...un Doc nel team è sempre gradito.
+	<descrizione_classe>Il Doc è una persona davvero tenebrosa, un vero e proprio sadico, quando si trovava in sala operatoria Costringeva l'anestesista a sbagliare la dose così da far patire le pene dell' inferno ai suoi pazienti. Il Doc è l'unica classe che può rigenerare la vita nel tempo rianimare e curare i propri alleati, può anche aumentare la sua salute. Un Doc nel team è sempre gradito ma non sottovalutatelo in battaglia! non vorrete mica farvi operare da lui...vero?.
   </descrizione_classe>
 	<descrizione_abilita>Per un dottore essere preciso e allo stesso tempo veloce nel suo lavoro è fondamentale, con questa abilità la tua velocità di movimento aumenterà e guadagnerai temporaneamente un bust alla vita ma anche i tuoi alleati lo riceveranno.
   </descrizione_abilita>
+  <armamento>Lmg, Dmr, Fucili d'assalto, pistole
+  </armamento>
   </classe>
   <classe id = "4">
     <nome_classe>Marksman</nome_classe>
     <nome_abilita>Big Shot</nome_abilita>
-	<descrizione_classe>Lo sai cosa hanno in comune un'artista e un Marksman? i dettagli... rendersi conto che un colore è fuori posto, un'ombra non dovrebbe essere li. Quando qualcuno da un incarico al Marksman lo porta sempre a termine, anche se fosse in fin di vita... è molto ligio nel suo dovere grazie al suo maestro (nessuno sa ancora chi è) che un giorno gli disse "in questo lavoro non morirai mai di fame, perchè alla fine della giornata finchè ci saranno almeno altre 2 persone nel pianeta terra, qualcuno vorrà l'altro morto".
+	<descrizione_classe>Lo sai cosa hanno in comune un'artista e un Marksman? i dettagli... rendersi conto che un colore è fuori posto, un'ombra non dovrebbe essere li. Quando qualcuno da un incarico al Marksman lo porta sempre a termine, anche se fosse in fin di vita... è molto ligio al suo dovere grazie al suo maestro (nessuno sa ancora chi è) che un giorno gli disse "in questo lavoro non morirai mai di fame, perchè alla fine della giornata finchè ci saranno almeno altre 2 persone nel pianeta terra, qualcuno vorrà l'altro morto".
     </descrizione_classe>
 	<descrizione_abilita>Dicono che un proiettile calibro .50 se ti prende in pieno non rimangono neanche le gambe, con questa abilità potrai sparare 3 colpi perforanti ad anima rigida che trapasseranno i tuoi nemici e non solo, potrai trapassare anche delle superfici.
   </descrizione_abilita>
+  <armamento>Cecchini bolt action, Dmr, Pistole come secondarie, Pistole mitraglaitrici come secondarie 
+  </armamento>
   </classe>
   <classe id ="5">
     <nome_classe>Armaiolo</nome_classe>
@@ -46,14 +56,17 @@
   </descrizione_classe>
 	<descrizione_abilita>Il kit in questione può essere posizionato dopo un lungo caricamento, ma permetterà di ripristinare di un 40% il proprio equipaggiamento. Questa grande abilità di supporto ti sarà di grande aiuto nei momenti difficili.
   </descrizione_abilita>
+  <armamento>Dmr, Fucili d'assalto, Pistole mitragliatrici, fucili a pompa, pistole, lancia razzi e lancia granate leggeri</armamento>
   </classe>
   <classe id ="6">
     <nome_classe>Piromane</nome_classe>
     <nome_abilita>Tanica</nome_abilita>
-	<descrizione_classe>Non molti hanno il coraggio di maneggiare il fuoco, ma il Piromane è un eccezione. Il suo nome è una garanzia, può dar fuoco ai propri nemici consumando lentamente la loro salute con i conseguenti danni da bruciatura. Questo pazzoide amante degli effetti speciali arrostirà chi osa sfidarlo, vi auguro di non trovarvi mai faccia a faccia con un' arma incendiaria del Piromane, più sarete vicini e maggiori saranno i danni. Contrattare con lui è totalmente inutile, vuole solo uccidere. Il suo motto la dice lunga "Benvenuti all'inferno!".
+	<descrizione_classe>Non in molti hanno il coraggio di giocare con il fuoco, ma il Piromane è un eccezione. Il suo nome è una garanzia, può dar fuoco ai propri nemici consumando lentamente la loro salute con i conseguenti danni da bruciatura. Questo pazzoide amante degli effetti speciali arrostirà chi osa sfidarlo, vi auguro di non trovarvi mai faccia a faccia con un' arma incendiaria del Piromane, più sarete vicini e maggiori saranno i danni! Volendo solo uccidere contrattare con lui è totalmente inutile. Il suo motto la dice lunga "Benvenuti all'inferno!"
   </descrizione_classe>
 	<descrizione_abilita>Un Piromane che si rispetti porta sempre con se la sua carissima tanica di benzina. Lancia contro i nemici questa tanica che a contatto con il terreno creerà un'area avvolta delle fiamme, non vorrei essere al loro posto.
   </descrizione_abilita>
+   <armamento>Armi incendiarie, Fucili d'assalto, pistole_mitragliatrici, pistole, mod armi di tipo incendiario
+   </armamento>
   </classe>
 </abilita_classi>
 
