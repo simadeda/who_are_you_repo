@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Base_classi :MonoBehaviour
+public class Base_classi
 {
-    //private string nome_classe;
     public int vita_classe;
 
     public int Vita_classe

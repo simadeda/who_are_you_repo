@@ -15,7 +15,6 @@ public class Gestore_classi : MonoBehaviour
 
     public static int vita_max_classe;
 
-
     void Start()
     {
         string nome_classe = LettoreXML.Classe;

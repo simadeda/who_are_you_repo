@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using System;
+using UnityEngine.Networking;
 
 public class bl_TypeWritter : MonoBehaviour {
 
@@ -43,7 +44,8 @@ public class bl_TypeWritter : MonoBehaviour {
     /// <returns></returns>
     IEnumerator GetTexts()
     {
-        WWW w = new WWW(TextsURL);
+        UnityWebRequest w = UnityWebRequest.Get(TextsURL);
+    
         yield return w;
 
         if (w.error != null)
@@ -53,7 +55,7 @@ public class bl_TypeWritter : MonoBehaviour {
         else
         {
             string[] separator = new string[] { "\n", "\r\n" };
-            string t = w.text;
+            string t = w.downloadHandler.text;
             string[] tsplit = t.Split(separator, StringSplitOptions.RemoveEmptyEntries);
 
             foreach (string str in tsplit)
