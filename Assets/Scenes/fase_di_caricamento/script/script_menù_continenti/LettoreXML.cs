@@ -124,15 +124,21 @@ public class LettoreXML : MonoBehaviour
     {
         nome_arma = "";
         descrizione_arma = "";
-
+        int n=0;
         if (File.Exists("Assets/XML/armi.xml")) // vede se il path è "corretto" e se lo è entra
         {
             try
             {
                 XmlDocument Doc = new XmlDocument(); //creazione di una variabile di tipo XmlDocument per lavorare con i file .XML
                 Doc.Load("Assets/XML/armi.xml"); //carica il file continenti.XML
-                nome_arma = Doc.SelectSingleNode("/tutte_le_armi/armi_inizio/arma_base[@id='" + ToString() + "']/nome_arma").InnerText; //tramite la funzione SelectSingleNode e num_rand ( un numero random) vien epreso un continente
-                descrizione_arma = Doc.SelectSingleNode("/tutte_le_armi/armi_inizio/arma_base[@id='" + ToString() + "']/descrizione_arma").InnerText;
+                if (Classe == "Attaccabrighe")              
+                    n = 2;
+                for (int i = n; i < n+2; i++)
+                {
+                    nome_arma = Doc.SelectSingleNode("/tutte_le_armi/armi_inizio/arma_base[@id='" + i.ToString() + "']/nome_arma").InnerText; //tramite la funzione SelectSingleNode e num_rand ( un numero random) vien epreso un continente
+                    descrizione_arma = Doc.SelectSingleNode("/tutte_le_armi/armi_inizio/arma_base[@id='" + i.ToString() + "']/descrizione_arma").InnerText;
+                    //nome arma e descrizione arma DEVONO essere array CAPITO?????
+                }
             }
             catch (Exception e)
             {
