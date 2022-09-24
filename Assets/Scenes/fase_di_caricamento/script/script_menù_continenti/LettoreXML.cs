@@ -128,6 +128,7 @@ public class LettoreXML : MonoBehaviour
     public (string[], string[]) Lettura_armi(string[] nome_arma, string[] descrizione_arma)
     {
         int n = 0;
+        int j = 0;
         if (File.Exists("Assets/XML/armi.xml")) // vede se il path è "corretto" e se lo è entra
         {
             try
@@ -138,10 +139,12 @@ public class LettoreXML : MonoBehaviour
                     n = 2;
                 for (int i = n; i < n + 2; i++)
                 {
-                    nome_arma[i] = Doc.SelectSingleNode("/tutte_le_armi/armi_inizio/arma_base[@id='" + i.ToString() + "']/nome_arma").InnerText; //tramite la funzione SelectSingleNode e num_rand ( un numero random) vien epreso un continente
-                    descrizione_arma[i] = Doc.SelectSingleNode("/tutte_le_armi/armi_inizio/arma_base[@id='" + i.ToString() + "']/descrizione_arma").InnerText;
+                    nome_arma[j] = Doc.SelectSingleNode("/tutte_le_armi/armi_inizio/arma_base[@id='" + i.ToString() + "']/nome_arma").InnerText; //tramite la funzione SelectSingleNode e num_rand ( un numero random) vien epreso un continente
+                    descrizione_arma[j] = Doc.SelectSingleNode("/tutte_le_armi/armi_inizio/arma_base[@id='" + i.ToString() + "']/descrizione_arma").InnerText;
+                    j++;
                     //nome arma e descrizione arma DEVONO essere array CAPITO?????
                 }
+                j = 0;
             }
             catch (Exception e)
             {
