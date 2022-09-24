@@ -42,7 +42,7 @@ public class Caratteristiche_personaggio : MonoBehaviour
     }  
     public void Anni_rnd(int[] giorno_mese_anno)
     {
-        Anni = 2021 - giorno_mese_anno[2];
+        Anni = 2022 - giorno_mese_anno[2];
         TextMesH_anni.text = Anni.ToString();
     }
 

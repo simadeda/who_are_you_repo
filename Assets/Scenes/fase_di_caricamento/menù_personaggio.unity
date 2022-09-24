@@ -3739,6 +3739,7 @@ MonoBehaviour:
   txt_arma_scelta: {fileID: 649450915}
   txt_descrizione_arma: {fileID: 202913756}
   txt_armi_utilizzabili: {fileID: 1227520697}
+  LettoreXMLgb: {fileID: 4561978239969240860}
 --- !u!1 &817409067
 GameObject:
   m_ObjectHideFlags: 0
