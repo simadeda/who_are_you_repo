@@ -9,7 +9,8 @@ public class Scegli_arma : MonoBehaviour
     LettoreXML LettoreXMLscript;
     private TextMeshProUGUI TextMesH_arma_scelta, TextMesH_descrizione_arma, TextMesH_armi_utilizzabili;
 
-    private string[] nome_arma, descrizione_arma; 
+    private string[] nome_arma = new string[2];
+    private string[] descrizione_arma = new string[2];
     void Start()
     {
         TextMesH_arma_scelta = txt_arma_scelta.GetComponent<TextMeshProUGUI>();
@@ -27,6 +28,7 @@ public class Scegli_arma : MonoBehaviour
     {
         TextMesH_armi_utilizzabili.text = armi_utilizzabili;
         TextMesH_arma_scelta.text = nome_arma[0];
+
     }
    
 }
