@@ -142,7 +142,6 @@ public class LettoreXML : MonoBehaviour
                     nome_arma[j] = Doc.SelectSingleNode("/tutte_le_armi/armi_inizio/arma_base[@id='" + i.ToString() + "']/nome_arma").InnerText; //tramite la funzione SelectSingleNode e num_rand ( un numero random) vien epreso un continente
                     descrizione_arma[j] = Doc.SelectSingleNode("/tutte_le_armi/armi_inizio/arma_base[@id='" + i.ToString() + "']/descrizione_arma").InnerText;
                     j++;
-                    //nome arma e descrizione arma DEVONO essere array CAPITO?????
                 }
                 j = 0;
             }

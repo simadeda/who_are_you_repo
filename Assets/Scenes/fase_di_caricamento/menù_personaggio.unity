@@ -445,8 +445,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 57.3916, y: -110.42234}
-  m_SizeDelta: {x: 472.2889, y: 158.8448}
+  m_AnchoredPosition: {x: 121.92001, y: -110.42234}
+  m_SizeDelta: {x: 600, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &101403270
 MonoBehaviour:
@@ -522,8 +522,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -508.14, y: -59.9}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -471.48947, y: -59.9}
+  m_SizeDelta: {x: 273.3011, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &157694599
 MonoBehaviour:
@@ -545,7 +545,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Armi future '
+  m_text: Armi future possibili
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3e48a39ec65cfa84c8fb59fcf9d3819c, type: 2}
   m_sharedMaterial: {fileID: -3606099151231098688, guid: 3e48a39ec65cfa84c8fb59fcf9d3819c, type: 2}
@@ -928,8 +928,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -18.0304, y: -14.752}
+  m_AnchoredPosition: {x: 0, y: -0.98339844}
+  m_SizeDelta: {x: -18.0304, y: -7.4981}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &202913758
 MonoBehaviour:
@@ -1175,7 +1175,7 @@ GameObject:
   - component: {fileID: 280499993}
   - component: {fileID: 280499995}
   m_Layer: 5
-  m_Name: cornice_C96
+  m_Name: cornice_arma2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1293,7 +1293,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: C96
+          m_StringArgument: C96*guantoni
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &287873295
@@ -2161,7 +2161,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 266, y: 105.9711}
+  m_SizeDelta: {x: 260, y: 105}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &463263435
 MonoBehaviour:
@@ -2183,7 +2183,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1997833863402506433, guid: 818e4468ba70c944989d74ad5023fd1e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2258,7 +2258,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7576350427863827826, guid: 2b00aecff89c16c448281ddd07e38757, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3117,7 +3117,7 @@ GameObject:
   - component: {fileID: 639844360}
   - component: {fileID: 639844362}
   m_Layer: 5
-  m_Name: cornice_G17
+  m_Name: cornice_arma1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3235,7 +3235,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: G17
+          m_StringArgument: G17*pala
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &649450915
@@ -3272,8 +3272,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 150.63843, y: 0}
-  m_SizeDelta: {x: 222.0768, y: 50}
+  m_AnchoredPosition: {x: 238.26901, y: 0}
+  m_SizeDelta: {x: 397.338, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &649450917
 MonoBehaviour:
@@ -3407,7 +3407,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 41.54004, y: -222.10004}
+  m_AnchoredPosition: {x: 3.9, y: -222.10004}
   m_SizeDelta: {x: 280, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &679503181
@@ -3856,8 +3856,15 @@ MonoBehaviour:
   txt_descrizione_arma: {fileID: 202913756}
   txt_armi_utilizzabili: {fileID: 1227520697}
   LettoreXMLgb: {fileID: 4561978239969240860}
-  selezione_c96: {fileID: 1218133199}
-  selezione_g17: {fileID: 860231869}
+  selezione_arma1: {fileID: 860231869}
+  selezione_arma2: {fileID: 1218133199}
+  arma_1: {fileID: 525493126}
+  arma_2: {fileID: 1973981807}
+  armi:
+  - {fileID: 551024533603277555, guid: cd1114f0ea8440842b72ee227f1cecc0, type: 3}
+  - {fileID: -6468163597834048792, guid: cd1114f0ea8440842b72ee227f1cecc0, type: 3}
+  - {fileID: -7938275432063195611, guid: cd1114f0ea8440842b72ee227f1cecc0, type: 3}
+  - {fileID: -7363809709035071005, guid: cd1114f0ea8440842b72ee227f1cecc0, type: 3}
 --- !u!1 &817409067
 GameObject:
   m_ObjectHideFlags: 0
@@ -5895,10 +5902,10 @@ RectTransform:
   m_Father: {fileID: 1849215734}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000026703, y: 0.000020862}
-  m_SizeDelta: {x: 451.602, y: 82.7287}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -17.4167, y: -6.1471}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1227520699
 MonoBehaviour:
@@ -7563,7 +7570,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 41.539978, y: -89.09999}
+  m_AnchoredPosition: {x: 3.9, y: -89.09999}
   m_SizeDelta: {x: 280, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1520810512
@@ -8596,7 +8603,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.219976, y: 31.15413}
+  m_AnchoredPosition: {x: -7.219976, y: 31.154}
   m_SizeDelta: {x: 1250.892, y: 706.8633}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1790772526
@@ -8986,8 +8993,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0001, y: -0.0021}
-  m_SizeDelta: {x: 266, y: 105.9711}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 260, y: 105}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1825462110
 MonoBehaviour:
@@ -9009,7 +9016,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 1134479965713808277, guid: 818e4468ba70c944989d74ad5023fd1e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9113,8 +9120,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 57.391, y: -78.9}
-  m_SizeDelta: {x: 472.2889, y: 100}
+  m_AnchoredPosition: {x: 120.903114, y: -78.9}
+  m_SizeDelta: {x: 600, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1849215735
 MonoBehaviour:
@@ -9555,7 +9562,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8039018725036138753, guid: 2b00aecff89c16c448281ddd07e38757, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -3,24 +3,21 @@
 		<arma_base id = "0">
 			<nome_arma>G17</nome_arma>
 			<descrizione_arma>La Glock 17 è una pistola semiautomatica dotata di un caricatore da 18 colpi. Il calibro è il 9mm, ottimo per scontri ravvicinati o per la media distanza. Purtroppo essendo semiautomatica il suo rateo di fuoco è limitato.
-			</descrizione_arma>t
+			</descrizione_arma>
 		</arma_base>
     <arma_base  id = "1">
 			<nome_arma>C96 Automatic</nome_arma>
-			<descrizione_arma>
-			
+			<descrizione_arma>La C96 Automatic è una pistola della seconda guerra mondiale, e come dice il nome è automatica. Ha un caricatore integrale da 10 colpi alimentato da stripper clip e Il calibro è il 7,63 × 25 mm Mauser, ottimo per scontri ravvicinati. Purtroppo essendo automatica c'è un spargimento di colpi maggiore.
 			</descrizione_arma>
 		</arma_base >
     <arma_base  id = "2">
 			<nome_arma>Pala da muratore</nome_arma>
-			<descrizione_arma>
-			
+			<descrizione_arma>Tè la sci mai n'collata la caldarella? no? beh allora ti consiglio di lasciar perdere la pala da muratore. Questa pala ha un raggio d'azione veramente ampio, però per colpa del suo peso è difficile maneggiarla... ma se riuscirai a non farti sopraffare dal suo peso spaccherai un bel pò di teste!
 			</descrizione_arma>
 		</arma_base>
     <arma_base  id = "3">
 			<nome_arma>Guantoni da boxe</nome_arma>
-			<descrizione_arma>
-			
+			<descrizione_arma>"Pungi come un'ape, vola come una farfalla" una delle frasi più celebri di Muhammad Ali, considerato il miglior pugile di tutti i tempi. Se non riesci a startene con le mani n'saccoccia è arrivata l'ora di mettere dei guantoni, perchè quando li indossi sei un combattente e in quel caso non pui tirati indietro.
 			</descrizione_arma>
 		</arma_base>
 	</armi_inizio>	
