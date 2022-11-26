@@ -6,10 +6,10 @@ TagManager:
   tags:
   - random_num
   - let_XML
-  - panel
   - btn_scegli
   - img_mp4
-  - mondo_tot
+  - panel
+  - porta
   layers:
   - Default
   - TransparentFX
@@ -50,7 +50,7 @@ TagManager:
   - name: base
     uniqueID: 585641583
     locked: 0
-  - name: player&ogetti
+  - name: player&oggetti
     uniqueID: 4146329019
     locked: 0
   - name: interazione

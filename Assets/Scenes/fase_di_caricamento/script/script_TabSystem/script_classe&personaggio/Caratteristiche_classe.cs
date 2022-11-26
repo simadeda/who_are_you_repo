@@ -9,8 +9,8 @@ public class Caratteristiche_classe : MonoBehaviour
     private TextMeshProUGUI TextMesH_classe, TextMesH_armamento, TextMesH_tipo, TextMesH_descr;
 
     string nome_classe ,descrizione_classe;
-    string[] tipo_classe = new string[3] { "Assalto", "Supporto","Demolitore"};
-    string[] armamento = new string[3] { "Pesante", "Leggero","Pesante & Leggero"};
+    string[] tipo_classe = new string[3] { "Assalto", "Supporto", "Demolitore"};
+    string[] armamento = new string[4] { "Pesante", "Leggero", "intermedio", "incendiario"};
 
     void Start()
     {
@@ -50,13 +50,13 @@ public class Caratteristiche_classe : MonoBehaviour
                 break;
 
             case "Doc":
-                TextMesH_armamento.text = armamento[1];
+                TextMesH_armamento.text = armamento[2];
                 TextMesH_tipo.text = tipo_classe[1];
                 TextMesH_descr.text = descrizione_classe;
                 break;
 
             case "Marksman":
-                TextMesH_armamento.text = armamento[0];
+                TextMesH_armamento.text = armamento[2];
                 TextMesH_tipo.text = tipo_classe[1];
                 TextMesH_descr.text = descrizione_classe;
                 break;
@@ -68,7 +68,7 @@ public class Caratteristiche_classe : MonoBehaviour
                 break;
 
             case "Piromane":
-                TextMesH_armamento.text = armamento[2];
+                TextMesH_armamento.text = armamento[3];
                 TextMesH_tipo.text = tipo_classe[2];
                 TextMesH_descr.text = descrizione_classe;
                 break;
