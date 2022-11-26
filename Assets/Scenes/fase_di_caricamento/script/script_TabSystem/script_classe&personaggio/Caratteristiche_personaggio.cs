@@ -32,7 +32,6 @@ public class Caratteristiche_personaggio : MonoBehaviour
         int random_num = Random_number.Rnd(12);
         Continente = LettoreXML.Nome_continente;
         Stato = LettoreXML.Stato_selezionato;
-        
         (Nome_personaggio, Cognome_personaggio) = Lettura_personaggi.Lettura_personaggi(random_num,Continente,Stato);
 
         Data_di_nascita_rnd();
@@ -43,7 +42,7 @@ public class Caratteristiche_personaggio : MonoBehaviour
     }  
     public void Anni_rnd(int[] giorno_mese_anno)
     {
-        Anni = 2021 - giorno_mese_anno[2];
+        Anni = 2022 - giorno_mese_anno[2];
         TextMesH_anni.text = Anni.ToString();
     }
 

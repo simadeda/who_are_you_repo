@@ -4,21 +4,18 @@ using UnityEngine;
 
 public class Health_player : MonoBehaviour
 {
+    public Gestore_classi Gestore_classi;
     public int num_max_vita;
     public int num_corrente_vita;
-    float danno = 0f;
+    int danno = 0;
    
     public Barra_vita barra_Vita;
         
-      
     void Start()
     {
-        
-        
-         num_max_vita = 100;
-         num_corrente_vita = num_max_vita;
-         //barra_Vita.barra_vita10(num_corrente_vita,danno);
-        
+        num_max_vita = Gestore_classi.vita_max_classe;
+        num_corrente_vita = num_max_vita;
+        barra_Vita.Imposta_vita(num_corrente_vita);
     }
 
    
@@ -26,14 +23,15 @@ public class Health_player : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            danno = 1;
+            danno = 15;
             Prendi_danno(danno);
             danno = 0;
         }
     }
 
-    void Prendi_danno(float danno)
+    void Prendi_danno(int danno)
     {
-        //num_corrente_vita = barra_Vita.
+        num_corrente_vita -= danno;
+        barra_Vita.Barra_corrente(num_corrente_vita);
     }
 }

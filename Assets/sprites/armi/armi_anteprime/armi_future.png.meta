@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 2b00aecff89c16c448281ddd07e38757
+guid: 818e4468ba70c944989d74ad5023fd1e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8039018725036138753
-    second: C96
+      213: 1134479965713808277
+    second: ump45
   - first:
-      213: 7576350427863827826
-    second: G17
+      213: -1997833863402506433
+    second: spas-12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: C96
+      name: ump45
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 181
-        height: 97
+        x: 8
+        y: 110
+        width: 141
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1012e7810f4509f60800000000000000
-      internalID: 8039018725036138753
+      spriteID: 59b3b21a48b7ebf00800000000000000
+      internalID: 1134479965713808277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: G17
+      name: spas-12
       rect:
         serializedVersion: 2
-        x: 224
-        y: 16
-        width: 131
-        height: 89
+        x: 11
+        y: 23
+        width: 141
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,8 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 275c3baa29a942960800000000000000
-      internalID: 7576350427863827826
+      spriteID: f37b5abafa44644e0800000000000000
+      internalID: -1997833863402506433
       vertices: []
       indices: 
       edges: []

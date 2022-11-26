@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class LettoreXML : MonoBehaviour
 {
-    public static string Nome_continente, Stato_selezionato, Classe, Abilita_classe, Abilita_stato, Descrizone_abilita_stato, Descrizone_abilita_classe, Descrizone_classe;
+    public static string Nome_continente, Stato_selezionato, Classe, Abilita_classe, Abilita_stato, Descrizone_abilita_stato, Descrizone_abilita_classe, Descrizone_classe ,Armi_utilizzabili;
     public void LetturaXML_continenti(int num_rnd, out int n_stati, out string nome_continente)
     {
         n_stati = 0;
@@ -48,10 +48,10 @@ public class LettoreXML : MonoBehaviour
             }
     }
 
-    public void Lettura_abilità_stato(int num_stato, string nome_continente, out string abilita_stato, out string descrizone_abilita_stato)
+    public void Lettura_abilità_stato(int num_stato, string nome_continente, out string abilita_stato)
     {
         abilita_stato = "";
-        descrizone_abilita_stato = "";
+        string descrizone_abilita_stato = "";
         if (File.Exists("Assets/XML/abilità_stati.xml"))
         {
             try
@@ -91,12 +91,13 @@ public class LettoreXML : MonoBehaviour
         return (Nome_personaggio, Cognome_personaggio);
     }
 
-    public void Lettura_abilita_classe(int num_rnd, out string nome_classe, out string abilita_classe, out string descrizione_classe, out string descrizione_abilita_classe)
+    public void Lettura_abilita_classe(int num_rnd, out string nome_classe, out string abilita_classe)
     {
         abilita_classe = "";
         nome_classe = "";
-        descrizione_classe = "";
-        descrizione_abilita_classe = "";
+        string descrizione_classe;
+        string descrizione_abilita_classe;
+        string armi_utilizzabili;
 
         if (File.Exists("Assets/XML/abilità_classi.xml"))
         {
@@ -108,10 +109,13 @@ public class LettoreXML : MonoBehaviour
                 nome_classe = Doc.SelectSingleNode("/abilita_classi/classe[@id='" + num_rnd.ToString() + "']/nome_classe").InnerText;
                 descrizione_classe = Doc.SelectSingleNode("/abilita_classi/classe[@id='" + num_rnd.ToString() + "']/descrizione_classe").InnerText;
                 descrizione_abilita_classe = Doc.SelectSingleNode("/abilita_classi/classe[@id='" + num_rnd.ToString() + "']/descrizione_abilita").InnerText;
+                armi_utilizzabili = Doc.SelectSingleNode("/abilita_classi/classe[@id='" + num_rnd.ToString() + "']/armamento").InnerText;
+
                 Classe = nome_classe;
                 Abilita_classe = abilita_classe;
                 Descrizone_abilita_classe = descrizione_abilita_classe;
                 Descrizone_classe = descrizione_classe;
+                Armi_utilizzabili = armi_utilizzabili;
             }
             catch (Exception e)
             {
@@ -120,5 +124,32 @@ public class LettoreXML : MonoBehaviour
         }
 
     }
-}
 
+    public (string[], string[]) Lettura_armi(string[] nome_arma, string[] descrizione_arma)
+    {
+        int n = 0;
+        int j = 0;
+        if (File.Exists("Assets/XML/armi.xml")) // vede se il path è "corretto" e se lo è entra
+        {
+            try
+            {
+                XmlDocument Doc = new XmlDocument(); //creazione di una variabile di tipo XmlDocument per lavorare con i file .XML
+                Doc.Load("Assets/XML/armi.xml"); //carica il file continenti.XML
+                if (Classe == "Attaccabrighe")
+                    n = 2;
+                for (int i = n; i < n + 2; i++)
+                {
+                    nome_arma[j] = Doc.SelectSingleNode("/tutte_le_armi/armi_inizio/arma_base[@id='" + i.ToString() + "']/nome_arma").InnerText; //tramite la funzione SelectSingleNode e num_rand ( un numero random) vien epreso un continente
+                    descrizione_arma[j] = Doc.SelectSingleNode("/tutte_le_armi/armi_inizio/arma_base[@id='" + i.ToString() + "']/descrizione_arma").InnerText;
+                    j++;
+                }
+                j = 0;
+            }
+            catch (Exception e)
+            {
+                Debug.Log("errore " + e);
+            }
+        }
+        return (nome_arma, descrizione_arma);
+    }
+}
