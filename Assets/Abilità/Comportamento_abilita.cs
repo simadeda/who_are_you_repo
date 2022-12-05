@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Comportamento_abilita 
+public class Comportamento_abilita : MonoBehaviour
 {
     private Informazioni_base_abilita info_basi;
     private Caratt_tempo_abilita tempo_inizio;
@@ -15,9 +15,9 @@ public class Comportamento_abilita
 
     public enum Caratt_tempo_abilita { inizio, durante, fine };
 
-    public virtual void comportamenti_in_azione()
+    public virtual void comportamento_in_azione(GameObject player)
     {
-
+        Debug.LogError("DEVI DEFINIRE UN COMPORTAMENTO, RICONTROLLA TUTTE LE FUNZIONI DEI COMPORTAMENTI PER LE ABILITA'");
     }
 
     public Informazioni_base_abilita Info_base_comport_abilita

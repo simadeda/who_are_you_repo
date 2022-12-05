@@ -23,6 +23,12 @@ public class Abilita
     private bool richiede_bersaglio;
     //se l'abilità ha degli utilizzi
     private bool utilizzabili;
+    
+    //tipi di abilità
+    public enum tipi_abilita
+    {
+        melee, famigli, lungo_raggio
+    }
 
     //costruttore per le abilità BUFF
     public Abilita(Informazioni_base_abilita ainfo_base ,int acooldown, List<Comportamento_abilita> acaratteristiche, int adurata, bool abuff)
