@@ -11,33 +11,35 @@ public class Elusione_caratteristica : Comportamento_abilita
     private const Caratt_tempo_abilita tempo_inizio = Caratt_tempo_abilita.inizio;
 
     private int danno_player; //il danno che riceve il player quando l'elusione è attiva
-    private Stopwatch temp_durata = new Stopwatch(); 
+    private Stopwatch temp_durata = new Stopwatch(); //conta i secondi
     private float dur_effetto; //quanto dura l'effetto sul palyer
     bool coll_attiva; //dice se il player è stato colpito da qualcosa
 
-    Elusione_caratteristica(int adanno, float ad_effetto) : base (new Informazioni_base_abilita(nome,descrizione), tempo_inizio)
+    Health_player vita_player;
+
+    public Elusione_caratteristica(int adanno, float ad_effetto) : base (new Informazioni_base_abilita(nome,descrizione), tempo_inizio) //questo costruttore viene chiamato dalle abilità che richiedo qusta caratteristica
     {
-        danno_player = adanno;
+        danno_player = adanno; 
         dur_effetto = ad_effetto;
     }
-    public override void comportamento_in_azione(GameObject player)
+    public override void comportamento_in_azione(GameObject player)//attenzione all' override
     {
         CircleCollider2D c_player = this.gameObject.GetComponent<CircleCollider2D>(); //questo collider deve essere di tipo trigger, quindi il player dovrà avaere 2 collider
-        StartCoroutine(elusione());
+        vita_player = player.GetComponent<Health_player>();
+        StartCoroutine(elusione(vita_player));
     }
 
-    private IEnumerator elusione()
+    private IEnumerator elusione(Health_player vita_player)
     {
         temp_durata.Start();
-
-        while(temp_durata.Elapsed.TotalSeconds <= dur_effetto)
+        
+        while (temp_durata.Elapsed.TotalSeconds <= dur_effetto)
         {
             if(coll_attiva)
             {
-                //chiamare funzione che imposta il danno per il player a 0
+                vita_player.Prendi_danno(danno_player); //chiama funzione che imposta il danno per il player a 0
             }
         }
-
         temp_durata.Stop();
         temp_durata.Reset();
 
@@ -53,7 +55,7 @@ public class Elusione_caratteristica : Comportamento_abilita
     {
         if(coll_attiva)
         {
-            //chiamare funzione che imposta il danno per il player a 0
+            vita_player.Prendi_danno(danno_player);//chiama funzione che imposta il danno per il player a 0
         }
         else
         coll_attiva = true;

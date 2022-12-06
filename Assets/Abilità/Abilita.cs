@@ -31,12 +31,12 @@ public class Abilita
     }
 
     //costruttore per le abilità BUFF
-    public Abilita(Informazioni_base_abilita ainfo_base ,int acooldown, List<Comportamento_abilita> acaratteristiche, int adurata, bool abuff)
+    public Abilita(Informazioni_base_abilita ainfo_base ,int acooldown, int adurata, bool abuff)
     {
         info_basi = ainfo_base;
         acooldown = 0;
         cooldown = acooldown;
-        caratteristiche = acaratteristiche;
+        caratteristiche = new List<Comportamento_abilita>();
         adurata = 45;
         durata = adurata;
         abuff = true;
@@ -44,23 +44,21 @@ public class Abilita
     }
 
     //costruttore per le abilità RIUTILIZZABILI
-    public Abilita(Informazioni_base_abilita ainfo_base, int acooldown, List<Comportamento_abilita> acaratteristiche, bool aablita_ancora_in_gioco)
+    public Abilita(Informazioni_base_abilita ainfo_base, int acooldown,bool aablita_ancora_in_gioco)
     {
         info_basi = ainfo_base;
         acooldown = 0;
         cooldown = acooldown;
         caratteristiche = new List<Comportamento_abilita>();
-        caratteristiche = acaratteristiche;
         aablita_ancora_in_gioco = false;
         abilita_ancora_in_gioco = aablita_ancora_in_gioco;
     }
 
     //costruttore per le abilità TEMPO DI UTILIZZO
-    public Abilita(Informazioni_base_abilita ainfo_base, int acooldown, List<Comportamento_abilita> acaratteristiche, bool abuff, bool arichiede_un_bersaglio, float atempo_di_utilizzo)
+    public Abilita(Informazioni_base_abilita ainfo_base, int acooldown,bool abuff, bool arichiede_un_bersaglio, float atempo_di_utilizzo)
     {
         info_basi = ainfo_base;
         caratteristiche = new List<Comportamento_abilita>();
-        caratteristiche = acaratteristiche;
         acooldown = 0;
         cooldown = acooldown;
         atempo_di_utilizzo = acooldown;
@@ -68,11 +66,10 @@ public class Abilita
         richiede_bersaglio = arichiede_un_bersaglio;
     }
     //costruttore per le abilià che RICHIEDONO UN BERSAGLIO
-    public Abilita(Informazioni_base_abilita ainfo_base, int acooldown, List<Comportamento_abilita> acaratteristiche, bool abuff, bool arichiede_un_bersaglio)
+    public Abilita(Informazioni_base_abilita ainfo_base, int acooldown,bool abuff, bool arichiede_un_bersaglio)
     {
         info_basi = ainfo_base;
         caratteristiche = new List<Comportamento_abilita>();
-        caratteristiche = acaratteristiche;
         acooldown = 0;
         cooldown = acooldown;
         arichiede_un_bersaglio = true;
@@ -81,11 +78,10 @@ public class Abilita
         buff = abuff;
     }
     //costruttore per le abilità TEMPO DI UTILIZZO
-    public Abilita(Informazioni_base_abilita ainfo_base, int acooldown, List<Comportamento_abilita> acaratteristiche, int atempo_di_utilizzo)
+    public Abilita(Informazioni_base_abilita ainfo_base, int acooldown,int atempo_di_utilizzo)
     {
         info_basi = ainfo_base; 
         caratteristiche = new List<Comportamento_abilita>();
-        caratteristiche = acaratteristiche;
         acooldown = 0;
         cooldown = acooldown;
         atempo_di_utilizzo = 0;
@@ -93,11 +89,10 @@ public class Abilita
     }
 
     //costruttore per le abilità UTILIZZABILI
-    public Abilita(Informazioni_base_abilita ainfo_base, int acooldown, List<Comportamento_abilita> acaratteristiche, bool aablita_ancora_in_gioco, bool autilizzabili, bool abuff)
+    public Abilita(Informazioni_base_abilita ainfo_base, int acooldown, bool aablita_ancora_in_gioco, bool autilizzabili, bool abuff)
     {
         info_basi = ainfo_base;
         caratteristiche = new List<Comportamento_abilita>();
-        caratteristiche = acaratteristiche;
         acooldown = 10;
         cooldown = acooldown;
         aablita_ancora_in_gioco = false;
