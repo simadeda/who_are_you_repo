@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Health_player : MonoBehaviour
-{
+{ 
+    //----#### IMPORTANTISSIMO, QUANDO MUORE IL PLAYER DEVI ASSOLUTAMENTE TOGLIERE LE CARATTERISTICHE ABILITA' DAL PLAYER CHE SONO STATE MESSE PER QUELLA PARTITA!!!! ####-----//
     public Gestore_classi Gestore_classi;
     public int num_max_vita;
     public int num_corrente_vita;

@@ -24,7 +24,6 @@ public class Rileva_porte : MonoBehaviour
             string scena_corrente = SceneManager.GetActiveScene().name;
             Gestore_indirizzabili.scene_precedenti[i] = scena_corrente;
             i++;
-
             indirizzabili.carica_scene_indirizzabili(nome_edificio); //parte da vedere quando il palyer è intenzionato ad uscire
         }
         else

@@ -16,19 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 8080da4cac9a9c345985c78d2e0f49dd
-  m_SerializeEntries:
-  - m_GUID: b702e7998020e394e83d9a036071d9e0
-    m_Address: Capitale_Roma
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 102900000, guid: b702e7998020e394e83d9a036071d9e0, type: 3}
-    m_TargetAsset: {fileID: 102900000, guid: b702e7998020e394e83d9a036071d9e0, type: 3}
-  - m_GUID: 115645e6201205a4c868c74f535bbf92
-    m_Address: armeria_edificio
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 2c06f878155668946838e859a72cdf0e, type: 2}
   m_SchemaSet:

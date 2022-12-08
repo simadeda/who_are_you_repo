@@ -16,13 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 40932b62050baeb43bffdba962692792
-  m_SerializeEntries:
-  - m_GUID: 01326acf307cadb4cbd753ca4de3cd5a
-    m_Address: Assets/PRESETS/presets_edifici/porta_pe_tutti.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 4042361322431120897, guid: 01326acf307cadb4cbd753ca4de3cd5a, type: 3}
-    m_TargetAsset: {fileID: 4042361322431120897, guid: 01326acf307cadb4cbd753ca4de3cd5a, type: 3}
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 2c06f878155668946838e859a72cdf0e, type: 2}
   m_SchemaSet:

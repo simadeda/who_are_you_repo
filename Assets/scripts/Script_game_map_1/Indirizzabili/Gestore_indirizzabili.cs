@@ -11,25 +11,25 @@ using UnityEngine.SceneManagement;
 
 public class Gestore_indirizzabili : MonoBehaviour
 {
-    [SerializeField]
-    private AssetReference player_reference;
-    [SerializeField]
-    private Barra_vita barra_vita_Player;
-    [SerializeField]
-    private Gestore_classi gestore_classi;
+    //[SerializeField]
+    //private AssetReference player_reference;
+    //[SerializeField]
+    //private Barra_vita barra_vita_Player;
+    //[SerializeField]
+    //private Gestore_classi gestore_classi;
     [SerializeField]
     private AssetReference boscaiolo_reference;
-    [SerializeField]
-    private AssetReference La_porta_uguale_pe_tutti;
+    //[SerializeField]
+    //private AssetReference La_porta_uguale_pe_tutti;
     [SerializeField]
     private AssetReference armeria;
-    [SerializeField]
-    private CinemachineVirtualCamera segui_player;
+    //SerializeField]
+    //private CinemachineVirtualCamera segui_player;
     [SerializeField]
     private Camera camera_overword;
-    
-    private GameObject Player_caricato;
-    private Interazioni Interazioni;
+   
+    //private GameObject Player_caricato;
+    //private Interazioni Interazioni;
 
     //carico scene
     static bool smonta_scena_prec = false;
@@ -45,17 +45,17 @@ public class Gestore_indirizzabili : MonoBehaviour
 
     private void Asset_indispensabili(AsyncOperationHandle<IResourceLocator> obj)
     {
-        player_reference.InstantiateAsync().Completed += (Player_completato) =>
-        {
-            segui_player.Follow = Player_completato.Result.transform;
-            var vita_player = Player_completato.Result.GetComponentInChildren<Health_player>();
-            vita_player.barra_Vita = barra_vita_Player;
-            vita_player.Gestore_classi = gestore_classi;
+        //player_reference.InstantiateAsync().Completed += (Player_completato) =>
+        
+            //segui_player.Follow = Player_completato.Result.transform;
+            //var vita_player = Player_completato.Result.GetComponentInChildren<Health_player>();
+           // vita_player.barra_Vita = barra_vita_Player;
+            //vita_player.Gestore_classi = gestore_classi;
 
-            var canvas = Player_completato.Result.GetComponentInChildren<Canvas>();
-            canvas.worldCamera = camera_overword;
+            //var canvas = Player_completato.Result.GetComponentInChildren<Canvas>();
+            //canvas.worldCamera = camera_overword;
 
-            Player_caricato = Player_completato.Result;
+            //Player_caricato = Player_completato.Result;
 
             scena_corrente = SceneManager.GetActiveScene().name;
 
@@ -69,26 +69,26 @@ public class Gestore_indirizzabili : MonoBehaviour
                     Carica_asset_armeria();
                     break;
             };
-        };
+       
              
     }
 
     private void Carica_asset_armeria()
     {
-        La_porta_uguale_pe_tutti.InstantiateAsync().Completed += (Porta_completata) =>
-        {
-            Transform Oggetto_bambino_porta = Porta_completata.Result.transform.GetChild(0);
-            Interazioni = Oggetto_bambino_porta.GetComponent<Interazioni>();
-            Interazioni.indirizzabili = this;
+        //La_porta_uguale_pe_tutti.InstantiateAsync().Completed += (Porta_completata) =>
+        //{
+            //Transform Oggetto_bambino_porta = Porta_completata.Result.transform.GetChild(0);
+            //Interazioni = Oggetto_bambino_porta.GetComponent<Interazioni>();
+            //Interazioni.indirizzabili = this;
 
-            Transform Oggetto_bambino_player = Player_caricato.transform.GetChild(0);
-            Interazioni_playerUI interazione = Oggetto_bambino_player.GetComponent<Interazioni_playerUI>();
+            //Transform Oggetto_bambino_player = Player_caricato.transform.GetChild(0);
+            //Interazioni_playerUI interazione = Oggetto_bambino_player.GetComponent<Interazioni_playerUI>();
 
-            Interazioni.interazioni_UI = interazione;
+            //Interazioni.interazioni_UI = interazione;
 
-            var rileva_porte = Porta_completata.Result.GetComponent<Rileva_porte>();
-            rileva_porte.indirizzabili = this;
-        };
+            //var rileva_porte = Porta_completata.Result.GetComponent<Rileva_porte>();
+            //rileva_porte.indirizzabili = this;
+        //};
             boscaiolo_reference.InstantiateAsync();
        
     }
@@ -101,13 +101,13 @@ public class Gestore_indirizzabili : MonoBehaviour
             var rileva_porte = Armeria_esterno_completata.Result.GetComponent<Rileva_porte>();
             rileva_porte.indirizzabili = this;
 
-            Interazioni = Oggetto_bambino_armeria.GetComponent<Interazioni>();
+            //Interazioni = Oggetto_bambino_armeria.GetComponent<Interazioni>();
 
-            Transform Oggetto_bambino_player = Player_caricato.transform.GetChild(0);
-            Interazioni_playerUI interazione = Oggetto_bambino_player.GetComponent<Interazioni_playerUI>();
+            //Transform Oggetto_bambino_player = Player_caricato.transform.GetChild(0);
+            //Interazioni_playerUI interazione = Oggetto_bambino_player.GetComponent<Interazioni_playerUI>();
 
-            Interazioni.interazioni_UI = interazione;
-            Interazioni.indirizzabili = this;
+            //Interazioni.interazioni_UI = interazione;
+            //Interazioni.indirizzabili = this;
         };
 
 
