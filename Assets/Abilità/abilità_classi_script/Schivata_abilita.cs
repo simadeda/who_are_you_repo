@@ -7,7 +7,7 @@ public class Schivata_abilita : Abilita
 {
     private Velocita_aumentata_diminuita vel_aum_dim;
     private Elusione_caratteristica elusione;
-    public GameObject player;
+    //public GameObject player;
 
     public float velocita_aumentata;
     public float velocita_diminuita;
@@ -22,10 +22,10 @@ public class Schivata_abilita : Abilita
             obj.AddComponent<Velocita_aumentata_diminuita>();
             obj.AddComponent<Elusione_caratteristica>();
         }
-        Movimenti_player velocità_player = player.GetComponent<Movimenti_player>(); //PRESA COMPONETE PER IL MOVIMENTO DEL PLAYER 
-        Debug.Log("schivata_abilita " + player.activeInHierarchy);
-        vel_aum_dim = player.GetComponent<Velocita_aumentata_diminuita>(); //VEL_AUM_DIM PRENDE I COMPONENTI DI VELOCITA_DIMINUITA_AUMENTATA DAL PLAYER
-        elusione = player.GetComponent<Elusione_caratteristica>(); //ELUSIONE PRENDE I COMPONENTI DI ELUSIONE_CARATTERISTICA DAL PLAYER
+        Movimenti_player velocità_player = obj.GetComponent<Movimenti_player>(); //PRESA COMPONETE PER IL MOVIMENTO DEL PLAYER 
+        obj.SetActive(true);
+        vel_aum_dim = obj.GetComponent<Velocita_aumentata_diminuita>(); //VEL_AUM_DIM PRENDE I COMPONENTI DI VELOCITA_DIMINUITA_AUMENTATA DAL PLAYER
+        elusione = obj.GetComponent<Elusione_caratteristica>(); //ELUSIONE PRENDE I COMPONENTI DI ELUSIONE_CARATTERISTICA DAL PLAYER
        
         vel_aum_dim.Max_vel_aumentata = velocita_aumentata; //SET PER LA FUNZIONE Max_vel_aumentata 
         vel_aum_dim.Max_vel_diminuita = velocita_diminuita; //SET PER LA FUNZIONE Max_vel_diminuita 
@@ -40,11 +40,10 @@ public class Schivata_abilita : Abilita
     }
 
     //ATTIVA L'ABILITA'
-    public override void TriggerAbility()
+    public override void TriggerAbility(GameObject obj)
     {
-        Debug.Log("schivata_abilita " + player.activeInHierarchy);
-        elusione.comportamento_in_azione(player);
-        vel_aum_dim.comportamento_in_azione(player);
+        //elusione.comportamento_in_azione(obj);
+        vel_aum_dim.comportamento_in_azione(obj);
     }
 
 }

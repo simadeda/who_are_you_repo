@@ -24,7 +24,7 @@ public abstract class Abilita : ScriptableObject
     public bool utilizzabili;
     
     public abstract void inizializza(GameObject obj);
-    public abstract void TriggerAbility();
+    public abstract void TriggerAbility(GameObject obj);
 
 }
 

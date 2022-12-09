@@ -1026,7 +1026,6 @@ GameObject:
   - component: {fileID: 1484728681693918116}
   - component: {fileID: 1484728681693918115}
   - component: {fileID: 5538525680080063846}
-  - component: {fileID: 590280207412845192}
   m_Layer: 5
   m_Name: btn_si
   m_TagString: Untagged
@@ -1136,8 +1135,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 590280207412845192}
-        m_TargetAssemblyTypeName: Carica_scene1, Assembly-CSharp
+      - m_Target: {fileID: 6043643124718363948, guid: 5087954b625607a42b197b77dd7415ec, type: 3}
+        m_TargetAssemblyTypeName: Carica_scene, Assembly-CSharp
         m_MethodName: caricatore
         m_Mode: 3
         m_Arguments:
@@ -1173,18 +1172,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LettoreContinenteStatoXML: {fileID: 0}
---- !u!114 &590280207412845192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1484728681693918113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dcd0195775c8bd49a6a5d1a4f3e715b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1484728681704829851
 GameObject:
   m_ObjectHideFlags: 0

@@ -21,7 +21,6 @@ MonoBehaviour:
   abilita_ancora_in_gioco: 0
   richiede_bersaglio: 0
   utilizzabili: 1
-  player: {fileID: 5446873925572969912, guid: 2533b4b312854584c94563f280161de3, type: 3}
   velocita_aumentata: 5
   velocita_diminuita: -7
   danno_elusione: 0

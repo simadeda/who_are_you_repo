@@ -322,7 +322,7 @@ MonoBehaviour:
   darkMask: {fileID: 8955901850088681061}
   abilita_classe: {fileID: 11400000, guid: d1e1970b2009628419aca41538f7ef9d, type: 2}
   abilita_stato: {fileID: 0}
-  player: {fileID: 5446873925572969912, guid: 2533b4b312854584c94563f280161de3, type: 3}
+  player: {fileID: 0}
 --- !u!1 &5623337991413145431
 GameObject:
   m_ObjectHideFlags: 0

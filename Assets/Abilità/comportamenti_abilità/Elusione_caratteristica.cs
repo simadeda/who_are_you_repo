@@ -19,23 +19,23 @@ public class Elusione_caratteristica : MonoBehaviour
         //CircleCollider2D c_player = this.gameObject.GetComponent<CircleCollider2D>(); //questo collider deve essere di tipo trigger, quindi il player dovrà avaere 2 collider
         UnityEngine.Debug.Log("Elusione_caratteristica_diminuita " + player.activeInHierarchy);
         vita_player = player.GetComponent<Health_player>();
-        colore_player = player.GetComponent<SpriteRenderer>();
-        StartCoroutine(elusione(vita_player,colore_player));
+        //colore_player = player.GetComponent<SpriteRenderer>();
+        StartCoroutine(elusione(vita_player));
     }
 
-    private IEnumerator elusione(Health_player vita_player, SpriteRenderer colore_player)
+    private IEnumerator elusione(Health_player vita_player)
     {
         temp_durata.Start();
         
         while (temp_durata.Elapsed.TotalSeconds <= dur_effetto)
         {
-            colore_player.color = new Color(231,0,255,255);
+            //colore_player.color = new Color(231,0,255,255);
             if (coll_attiva)
             {
                 vita_player.Prendi_danno(danno_player); //chiama funzione che imposta il danno per il player a 0
             }
         }
-        colore_player.color = new Color(255, 255, 255, 255);
+        //colore_player.color = new Color(255, 255, 255, 255);
         temp_durata.Stop();
         temp_durata.Reset();
 

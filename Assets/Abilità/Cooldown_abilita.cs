@@ -11,7 +11,7 @@ public class Cooldown_abilita : MonoBehaviour
     
     [SerializeField] private Abilita abilita_classe;
     [SerializeField] private Abilita abilita_stato;
-    [SerializeField] private GameObject player;
+    [SerializeField] private GameObject player_in_game;
 
     //private AudioSource abilitySource;
 
@@ -26,16 +26,16 @@ public class Cooldown_abilita : MonoBehaviour
 
     void Start()
     {
-        inizializza(abilita_classe, abilita_stato, player);
+        inizializza(abilita_classe, abilita_stato, player_in_game);
     }
 
-    public void inizializza(Abilita abl_classe, Abilita abl_stato, GameObject player)
+    public void inizializza(Abilita abl_classe, Abilita abl_stato, GameObject player_in_game)
     {
         abilita_classe = abl_classe;
         //abilita_stato = abl_stato;
         //abilitySource = GetComponent<AudioSource>();
         cooldown_abl_classe = abilita_classe.cooldown;
-        abl_classe.inizializza(player);
+        abl_classe.inizializza(player_in_game);
 
         AbilityReady();
     }
@@ -49,7 +49,7 @@ public class Cooldown_abilita : MonoBehaviour
             AbilityReady();
             if (Input.GetButtonDown(btn_abilita_classe))
             {
-                ButtonTriggered();
+                ButtonTriggered(player_in_game);
             }
         }
         else
@@ -69,7 +69,7 @@ public class Cooldown_abilita : MonoBehaviour
         darkMask.fillAmount = (cooldwon_abl_classe_rimanente / cooldown_abl_classe);
     }
 
-    private void ButtonTriggered()
+    private void ButtonTriggered(GameObject player_in_game)
     {
         abl_ready_classe = cooldown_abl_classe + Time.time;
         cooldwon_abl_classe_rimanente = cooldown_abl_classe;
@@ -77,7 +77,7 @@ public class Cooldown_abilita : MonoBehaviour
         
         //abilitySource.clip = ability.aSound;
         //abilitySource.Play();
-        abilita_classe.TriggerAbility();
+        abilita_classe.TriggerAbility(player_in_game);
     }
 
 }

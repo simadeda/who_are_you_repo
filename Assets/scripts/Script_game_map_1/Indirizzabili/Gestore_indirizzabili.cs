@@ -40,16 +40,17 @@ public class Gestore_indirizzabili : MonoBehaviour
 
     private void Start()
     {
-        Addressables.InitializeAsync().Completed += Asset_indispensabili;
+        Addressables.InitializeAsync().Completed += carica_parti_essenziali;
     }
 
-    private void Asset_indispensabili(AsyncOperationHandle<IResourceLocator> obj)
+    
+    private void carica_parti_essenziali(AsyncOperationHandle<IResourceLocator> obj)
     {
         //player_reference.InstantiateAsync().Completed += (Player_completato) =>
         
             //segui_player.Follow = Player_completato.Result.transform;
             //var vita_player = Player_completato.Result.GetComponentInChildren<Health_player>();
-           // vita_player.barra_Vita = barra_vita_Player;
+            // vita_player.barra_Vita = barra_vita_Player;
             //vita_player.Gestore_classi = gestore_classi;
 
             //var canvas = Player_completato.Result.GetComponentInChildren<Canvas>();
@@ -57,21 +58,20 @@ public class Gestore_indirizzabili : MonoBehaviour
 
             //Player_caricato = Player_completato.Result;
 
-            scena_corrente = SceneManager.GetActiveScene().name;
+        scena_corrente = SceneManager.GetActiveScene().name;
 
-            switch (scena_corrente)
-            {
-                case "Mappa_1":
-                    Carica_asset_mappa_1();
-                    break;
+        switch (scena_corrente)
+        {
+        case "Capitale_Roma":
+                Carica_asset_mappa_1();
+                break;
 
-                case "armeria":
-                    Carica_asset_armeria();
-                    break;
-            };
-       
-             
+            case "armeria":
+                Carica_asset_armeria();
+                break;
+        };             
     }
+    
 
     private void Carica_asset_armeria()
     {
@@ -99,7 +99,7 @@ public class Gestore_indirizzabili : MonoBehaviour
         {
             Transform Oggetto_bambino_armeria = Armeria_esterno_completata.Result.transform.GetChild(0);
             var rileva_porte = Armeria_esterno_completata.Result.GetComponent<Rileva_porte>();
-            rileva_porte.indirizzabili = this;
+            //rileva_porte.indirizzabili = this;
 
             //Interazioni = Oggetto_bambino_armeria.GetComponent<Interazioni>();
 

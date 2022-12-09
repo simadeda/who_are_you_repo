@@ -46,7 +46,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attivo: 0
   btn_interazione: 101
-  indirizzabili: {fileID: 0}
   interazioni_UI: {fileID: 0}
   evento_interazione:
     m_PersistentCalls:
@@ -103,7 +102,7 @@ GameObject:
   - component: {fileID: 6753532049576941736}
   - component: {fileID: 8592914272195804005}
   m_Layer: 7
-  m_Name: armeria
+  m_Name: armeria_edificio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -234,4 +233,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95a5dad482755e64b9cabfdbd0c5de7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  indirizzabili: {fileID: 0}
+  rileva_porte: {fileID: 0}
+  carica_scene: {fileID: 0}
