@@ -16,11 +16,11 @@ MonoBehaviour:
   cooldown: 15
   buff: 1
   sprite_abl: {fileID: -6285043853835289812, guid: 1ce56d299cb4a054cb4fc0b316aec3ac, type: 3}
-  durata: 15
+  durata: 10
   tempo_di_utilizzo: 0
   abilita_ancora_in_gioco: 0
   richiede_bersaglio: 0
   utilizzabili: 1
   velocita_aumentata: 5
-  velocita_diminuita: -7
+  velocita_diminuita: -5
   danno_elusione: 0

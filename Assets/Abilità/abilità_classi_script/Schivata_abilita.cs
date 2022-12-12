@@ -7,7 +7,6 @@ public class Schivata_abilita : Abilita
 {
     private Velocita_aumentata_diminuita vel_aum_dim;
     private Elusione_caratteristica elusione;
-    //public GameObject player;
 
     public float velocita_aumentata;
     public float velocita_diminuita;
@@ -16,14 +15,17 @@ public class Schivata_abilita : Abilita
 
     public override void inizializza(GameObject obj)
     {
-        if(obj.GetComponent<Velocita_aumentata_diminuita>() == null && obj.GetComponent<Elusione_caratteristica>() == null) //CONTROLLA SE LE DUE CARATTERISTICHE PER VELOCISTA SONO STATE AGGIUNTE AL PLAYER
+
+        //---------#### METTERE LA PRESA DEL COMPONENTE PER QUNTO RIGUARDA GLI UTILIZZI, E ATTIVARE O DISATTIAVRE IL GAME_OBJ IN BASE ALLA VARIABILE "UTILIZZABILE" NELLA SUPER CLASSE ABILIA' #### --------
+        //---------#### STESSA COSA PER QUNATO RIGUARDA LA VARIABILE BUFF #### --------
+
+        if (obj.GetComponent<Velocita_aumentata_diminuita>() == null && obj.GetComponent<Elusione_caratteristica>() == null) //CONTROLLA SE LE DUE CARATTERISTICHE PER VELOCISTA SONO STATE AGGIUNTE AL PLAYER
         {
             //AGGIUNTA COMPONENTI
             obj.AddComponent<Velocita_aumentata_diminuita>();
             obj.AddComponent<Elusione_caratteristica>();
         }
         Movimenti_player velocità_player = obj.GetComponent<Movimenti_player>(); //PRESA COMPONETE PER IL MOVIMENTO DEL PLAYER 
-        obj.SetActive(true);
         vel_aum_dim = obj.GetComponent<Velocita_aumentata_diminuita>(); //VEL_AUM_DIM PRENDE I COMPONENTI DI VELOCITA_DIMINUITA_AUMENTATA DAL PLAYER
         elusione = obj.GetComponent<Elusione_caratteristica>(); //ELUSIONE PRENDE I COMPONENTI DI ELUSIONE_CARATTERISTICA DAL PLAYER
        
@@ -42,8 +44,10 @@ public class Schivata_abilita : Abilita
     //ATTIVA L'ABILITA'
     public override void TriggerAbility(GameObject obj)
     {
-        //elusione.comportamento_in_azione(obj);
-        vel_aum_dim.comportamento_in_azione(obj);
+        elusione.comportamento_in_azione(obj); //chiama la caratteristica dell' abilità "elusione" che ti permette di schivare i colpi
+        vel_aum_dim.comportamento_in_azione(obj); //chiama la caratteristica dell' abilità "elusione" che ti permette un boost temporaneo della velcità
+        //count_utilizzabili -= 1;
+        //utilizzabile.text = count_utilizzabili.ToString();
     }
 
 }

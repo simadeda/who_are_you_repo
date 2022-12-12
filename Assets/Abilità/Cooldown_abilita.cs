@@ -26,26 +26,28 @@ public class Cooldown_abilita : MonoBehaviour
 
     void Start()
     {
-        inizializza(abilita_classe, abilita_stato, player_in_game);
+        inizializza_cooldown(abilita_classe, abilita_stato, player_in_game);
     }
 
-    public void inizializza(Abilita abl_classe, Abilita abl_stato, GameObject player_in_game)
+    public void inizializza_cooldown(Abilita abl_classe, Abilita abl_stato, GameObject player_in_game)
     {
         abilita_classe = abl_classe;
         //abilita_stato = abl_stato;
         //abilitySource = GetComponent<AudioSource>();
         cooldown_abl_classe = abilita_classe.cooldown;
-        abl_classe.inizializza(player_in_game);
+        abl_classe.inizializza(player_in_game); //qui vengono attivati tutti i dati relativi all' abilità
 
         AbilityReady();
     }
 
-    // Update is called once per frame
+ 
     void Update()
     {
         bool coolDownComplete = (Time.time > abl_ready_classe);
         if (coolDownComplete)
         {
+            //se è una abilità di tipo utilizzabile (es con 3 utilizzi), se n'è stato utilizzato 1 il player può continuare a
+            //premere il tasto finchè gli utilizzi non stanno a 0...quindi ogni volta che l'abilità sarà pronta bisogna vedere quanti utilizzi sono stati effettuati ed incrementarli se necessario
             AbilityReady();
             if (Input.GetButtonDown(btn_abilita_classe))
             {

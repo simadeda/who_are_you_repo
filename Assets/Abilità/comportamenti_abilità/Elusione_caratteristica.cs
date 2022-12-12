@@ -1,50 +1,50 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.Diagnostics;
 
 [RequireComponent(typeof(CircleCollider2D))]
 public class Elusione_caratteristica : MonoBehaviour
 {
     private int danno_player; //il danno che riceve il player quando l'elusione è attiva
-    private Stopwatch temp_durata = new Stopwatch(); //conta i secondi
     private float dur_effetto; //quanto dura l'effetto sul palyer
     bool coll_attiva = false; //dice se il player è stato colpito da qualcosa
+    private float tempo = 0f; //conta quanti secondi sono passati
 
     private Health_player vita_player;
-    private SpriteRenderer colore_player;
+    private Color colore_player;
+    private SpriteRenderer render;
+
 
     public void comportamento_in_azione(GameObject player)
     {
         //CircleCollider2D c_player = this.gameObject.GetComponent<CircleCollider2D>(); //questo collider deve essere di tipo trigger, quindi il player dovrà avaere 2 collider
-        UnityEngine.Debug.Log("Elusione_caratteristica_diminuita " + player.activeInHierarchy);
         vita_player = player.GetComponent<Health_player>();
-        //colore_player = player.GetComponent<SpriteRenderer>();
+        render = GetComponent<SpriteRenderer>();
+        colore_player = render.color;
         StartCoroutine(elusione(vita_player));
     }
 
     private IEnumerator elusione(Health_player vita_player)
     {
-        temp_durata.Start();
-        
-        while (temp_durata.Elapsed.TotalSeconds <= dur_effetto)
+        render.color = new Color(231, 0, 255, 255);
+        Debug.Log("elusione iniziata");
+        for(tempo = 0; tempo < dur_effetto; tempo++)
         {
-            //colore_player.color = new Color(231,0,255,255);
             if (coll_attiva)
             {
                 vita_player.Prendi_danno(danno_player); //chiama funzione che imposta il danno per il player a 0
             }
+            yield return new WaitForSeconds(1);
         }
-        //colore_player.color = new Color(255, 255, 255, 255);
-        temp_durata.Stop();
-        temp_durata.Reset();
-
+        Debug.Log("elusione finita");
+        tempo = 0;
+        render.color = colore_player;
         yield return null;
     }
 
     public float Dur_effetto
     {
-        set { dur_effetto = value; }
+       set { dur_effetto = value; }
     }
     public int Danno_elusione
     {
