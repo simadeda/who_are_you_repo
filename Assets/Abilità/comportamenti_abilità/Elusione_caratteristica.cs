@@ -14,21 +14,32 @@ public class Elusione_caratteristica : MonoBehaviour
     private Color colore_player;
     private SpriteRenderer render;
 
+    private GameObject UI_abilita;
+    private Abilita_utilizzabili_cooldown cooldown_abl_classe;
+
+    private void Start()
+    {
+        UI_abilita = GameObject.Find("UI_abilità");
+        cooldown_abl_classe = UI_abilita.GetComponent<Abilita_utilizzabili_cooldown>();
+    }
 
     public void comportamento_in_azione(GameObject player)
     {
         //CircleCollider2D c_player = this.gameObject.GetComponent<CircleCollider2D>(); //questo collider deve essere di tipo trigger, quindi il player dovrà avaere 2 collider
         vita_player = player.GetComponent<Health_player>();
+        int count_uti = cooldown_abl_classe.count_utilizzabili;
         render = GetComponent<SpriteRenderer>();
         colore_player = render.color;
-        StartCoroutine(elusione(vita_player));
+        if (count_uti == 0) //serve per le abilità che non sono utilizzabili
+            count_uti = 1;
+        StartCoroutine(elusione(vita_player, count_uti));
     }
 
-    private IEnumerator elusione(Health_player vita_player)
+    private IEnumerator elusione(Health_player vita_player, int count_uti)
     {
         render.color = new Color(231, 0, 255, 255);
-        Debug.Log("elusione iniziata");
-        for(tempo = 0; tempo < dur_effetto; tempo++)
+        //Debug.Log("elusione iniziata");
+        for(tempo = 0; tempo < dur_effetto*count_uti; tempo++)
         {
             if (coll_attiva)
             {
@@ -36,13 +47,13 @@ public class Elusione_caratteristica : MonoBehaviour
             }
             yield return new WaitForSeconds(1);
         }
-        Debug.Log("elusione finita");
+        //Debug.Log("elusione finita");
         tempo = 0;
         render.color = colore_player;
         yield return null;
     }
 
-    public float Dur_effetto
+    public float Durata_effetto
     {
        set { dur_effetto = value; }
     }
@@ -50,7 +61,7 @@ public class Elusione_caratteristica : MonoBehaviour
     {
         set { danno_player = value; }
     }
-     
+ 
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if(coll_attiva)

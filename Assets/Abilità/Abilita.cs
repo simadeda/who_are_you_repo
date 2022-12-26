@@ -22,6 +22,8 @@ public abstract class Abilita : ScriptableObject
     public  bool richiede_bersaglio;
     //se l'abilità ha degli utilizzi
     public bool utilizzabili;
+    //se l'abilità è di tipo utilizzabile, questa variabile ti dice quanti utilizzi massimi sono disponibili per quella abilità
+    public int max_utilizzabili;
     
     public abstract void inizializza(GameObject obj);
     public abstract void TriggerAbility(GameObject obj);

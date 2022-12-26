@@ -15,10 +15,6 @@ public class Schivata_abilita : Abilita
 
     public override void inizializza(GameObject obj)
     {
-
-        //---------#### METTERE LA PRESA DEL COMPONENTE PER QUNTO RIGUARDA GLI UTILIZZI, E ATTIVARE O DISATTIAVRE IL GAME_OBJ IN BASE ALLA VARIABILE "UTILIZZABILE" NELLA SUPER CLASSE ABILIA' #### --------
-        //---------#### STESSA COSA PER QUNATO RIGUARDA LA VARIABILE BUFF #### --------
-
         if (obj.GetComponent<Velocita_aumentata_diminuita>() == null && obj.GetComponent<Elusione_caratteristica>() == null) //CONTROLLA SE LE DUE CARATTERISTICHE PER VELOCISTA SONO STATE AGGIUNTE AL PLAYER
         {
             //AGGIUNTA COMPONENTI
@@ -35,7 +31,7 @@ public class Schivata_abilita : Abilita
 
         vel_aum_dim.Velocita_player_normale = velocita_attuale; //SET PER LA FUNZIONE Velocita_player_normale 
 
-        elusione.Dur_effetto = durata; //SET PER LA FUNZIONE Dur_effetto 
+        elusione.Durata_effetto = durata; //SET PER LA FUNZIONE Dur_effetto 
         vel_aum_dim.Durata_effetto = durata; //SET PER LA FUNZIONE Durata_effetto
 
         elusione.Danno_elusione = danno_elusione; //SET PER LA FUNZIONE Danno_elusione 
@@ -46,8 +42,6 @@ public class Schivata_abilita : Abilita
     {
         elusione.comportamento_in_azione(obj); //chiama la caratteristica dell' abilità "elusione" che ti permette di schivare i colpi
         vel_aum_dim.comportamento_in_azione(obj); //chiama la caratteristica dell' abilità "elusione" che ti permette un boost temporaneo della velcità
-        //count_utilizzabili -= 1;
-        //utilizzabile.text = count_utilizzabili.ToString();
     }
 
 }
