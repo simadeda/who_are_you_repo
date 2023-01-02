@@ -308,8 +308,8 @@ TextureImporter:
         y: 688
         width: 31
         height: 47
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.48387295, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -371,8 +371,8 @@ TextureImporter:
         y: 688
         width: 23
         height: 49
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.4777434, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -560,8 +560,8 @@ TextureImporter:
         y: 624
         width: 23
         height: 49
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.52174044, y: 0.0000012456154}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -623,8 +623,8 @@ TextureImporter:
         y: 624
         width: 31
         height: 47
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.51677877, y: 0.0004285447}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -640,12 +640,12 @@ TextureImporter:
       name: tutte_le_animazioni_pugile_new_26
       rect:
         serializedVersion: 2
-        x: 610
+        x: 609
         y: 624
         width: 30
         height: 47
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.53400266, y: 0.0004272461}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

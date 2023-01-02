@@ -1,0 +1,3 @@
+[submodule "who_are_you_image_repo"]
+	path = who_are_you_image_repo
+	url = https://github.com/simadeda/who_are_you_image_repo.git

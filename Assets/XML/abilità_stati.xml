@@ -15,18 +15,18 @@
     <stato id = "2">
       <!--abilità di Israele-->
       <nome_abilita>Bomba al Nokia</nome_abilita>
-      <descrizione>La Bomba al Nokia, più comunemente conosciuti come IED (Improvised Esplosive Device), utilizzati nel conflitto Israelo-Palestinese, sono ordigni realizzati alla buona tramite l'utilizzo di esplosivi recuperati da parti di ordigni convenzionali. Se fossi in te, mi terrei a debbita distanza.
+      <descrizione>La Bomba al Nokia, più comunemente conosciuti come IED (Improvised Esplosive Device), utilizzati in svariati conflitti da diversi anni, sono ordigni realizzati alla buona tramite l'utilizzo di esplosivi recuperati da parti di ordigni convenzionali. Se fossi in te, mi terrei a debbita distanza.
       </descrizione>
     </stato>
     <stato id = "3">
       <!--abilità dell' India-->
       <nome_abilita>Carica Regale</nome_abilita>
-      <descrizione></descrizione>
+      <descrizione>Per rappresentare l'India c'era bisogno della loro icona principale, L'Elefante! Carica Regale chiamerà nel campo di battaglia questa forza della natura, con la forza di un' elefante sarà molto difficile per i tuoi nemici disarcionarti. Il tuo compagno inseparabile ha ben 1000 di vita! e riesce a fare attachi a lungo raggio che a corto raggio.</descrizione>
     </stato>
     <stato id = "4">
       <!--abilità del Giappone-->
       <nome_abilita>Samurai</nome_abilita>
-      <descrizione></descrizione>
+      <descrizione>Il Giappone feudale è sempre stato un'epoca piena di cultura e storie, soprattutto se parliamo delle loro figure in battaglia. Il Samurai ti permetterà di vestire i panni dei guerrieri di quel tempo e imbracciare le loro armi, fatti strada con la forza e la grazia di un vero combattente</descrizione>
     </stato>
   </Asia>
   <America>
@@ -39,7 +39,7 @@
     <stato id = "1">
       <!--abilità del Messico-->
       <nome_abilita>La Marioneta</nome_abilita>
-      <descrizione></descrizione>
+      <descrizione>L'oscuro potere di chi ha origini messicane si riassume nella Marioneta. Il giocatore sarà in grado di prendere il possesso di un nemico che punterà e utilizzerà il suo corpo fino alla sua morte. Possedere questa abilità richiede del tempo, più il nemico e forte più il tempo impiegato per possederlo sarà lungo, fà attenzione!</descrizione>
     </stato>
     <stato id = "2">
       <!--abilità del Canada-->
@@ -50,8 +50,8 @@
     <stato id = "3">
       <!--abilità del Brasile-->
       <nome_abilita>Macumba</nome_abilita>
-      <descrizione>Quest' arma non è una semplice arma...è magica, utilizzata per pratiche religiose che fondono elementi pagani, di origine africana, con influssi di cristianesimo popolare. formato da un bastone ricavato dal legno rosso brasiliano alla cui estremita c'è una zampa di tacchino, e infine 3 piume rosse. Si vocifera che quando le piume diverrano nere, chi ha sfruttaro troppo il potere del Macumba verrà maledetto.
-    </descrizione>
+      <descrizione>Quest' arma non è una semplice arma...è magica. Utilizzata per pratiche religiose che fondono elementi pagani, di origine africana, con influssi di cristianesimo popolare Il Macumba è un bastone, ricavato dal legno rosso brasiliano alla cui estremita c'è una zampa di tacchino e 3 piume rosse. Si vocifera che quando le piume diverrano nere, chi ha sfruttaro troppo il potere del Macumba verrà maledetto.
+      </descrizione>
     </stato>
   </America>
   <Europa>
@@ -70,20 +70,20 @@
     <stato id = "2">
       <!--abilità dell' Italia-->
       <nome_abilita>La Famiglia</nome_abilita>
-      <descrizione>Per un italiano la Famiglia viene prima di ogni cosa, è un legame di sangue che non potrà mai esse reciso. Con questa abilità al tuo fianco non sarai mai da solo, i tuoi famigliari saranno sempre dalla tua parte e non ti tradiranno mai. morire per la famiglia come un vero Italiano.
+      <descrizione>Per un italiano la Famiglia viene prima di ogni cosa, è un legame di sangue che non potrà mai essere reciso. Con questa abilità al tuo fianco non sarai mai da solo, i tuoi famigliari saranno sempre dalla tua parte e non ti tradiranno mai. Morire per la famiglia come un vero Italiano.
       </descrizione>
     </stato>
     <stato id = "3">
       <!--abilità dell' Albania-->
       <nome_abilita>Vetro Albanese</nome_abilita>
-      <descrizione></descrizione>
+      <descrizione>Due parole per questa abilità "Semplice ed Efficace". All'attivazione il giocatore prenderà una bottiglia e la distruggerà, scagliato i frammenti di vetro ai nemici vicini infliggendo un discreto quantitativo di danni. Il colpo che distrugge la bottiglia è ASSOLUTAMENTE letale, non si fotte con l'Albania! </descrizione>
     </stato>
   </Europa>
   <Africa>
     <stato id = "0">
       <!--abilità dell' Egitto-->
       <nome_abilita>Furia degli Dei</nome_abilita>
-      <descrizione></descrizione>
+      <descrizione>Nell' antichità l'Antico Egitto è stato popolato da una grande e misteriosa popolazione. Veneravano questi antichi figuri dotati di inimmaginabili poteri. Furia degli dei ti permette di lanciare casualmente sui tuoi avversari una pioggia di fulmini, sfoltendo le forze nemiche.</descrizione>
     </stato>
     <stato id = "1">
       <!--abilità del marocco-->
