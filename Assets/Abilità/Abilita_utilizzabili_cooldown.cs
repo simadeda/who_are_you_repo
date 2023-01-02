@@ -29,11 +29,11 @@ public class Abilita_utilizzabili_cooldown : MonoBehaviour
 
     public void UI_utilizzabili_attiva(Abilita abilita_classe)
     {
-        utilizzabili_obj.SetActive(true);
+        utilizzabili_obj.SetActive(true); //attiva il counter degli utilizzabili nello UI
         txt_utilizzabbili = utilizzabili_obj.GetComponent<TextMeshProUGUI>();
-        max_uti = abilita_classe.max_utilizzabili;
-        count_utilizzabili = max_uti;
-        arr_fill_ammount = new int[max_uti];
+        max_uti = abilita_classe.max_utilizzabili; //prende il numero massimo di utilizzabili dalla abilità
+        count_utilizzabili = max_uti; 
+        arr_fill_ammount = new int[max_uti]; //array per contare quanti fillammount devono essere completati
         cooldown_abilita_classe_rimanente_uti = new float[max_uti];
         txt_utilizzabbili.text = max_uti.ToString();
     }
@@ -65,7 +65,7 @@ public class Abilita_utilizzabili_cooldown : MonoBehaviour
     public void cooldown_uti_finito(float cooldown_abl_classe, float cooldown_abl_classe_rimanente, Image darkMask, bool cooldown_rimanente_uti_nuovo)
     {
         
-        coolDownComplete = (cooldown_abl_classe_rimanente_temp <= 0);
+        coolDownComplete = (cooldown_abl_classe_rimanente_temp <= 0); //controlla se il cooldown è finito
         if (coolDownComplete)
         {
             cooldown_abilita_classe_rimanente_uti[count_fillAmmount] = 0;
@@ -90,7 +90,7 @@ public class Abilita_utilizzabili_cooldown : MonoBehaviour
 
     public void inizio_cooldown_abilita_uti(float cooldown_abl_classe, float cooldown_abl_classe_rimanente, Image darkMask, bool cooldown_rimanente_uti_nuovo)
     {
-        if (arr_fill_ammount[count_fillAmmount] != 0)//qui ci va tutte le altre volte
+        if (arr_fill_ammount[count_fillAmmount] != 0)//qui ci va tutte le volte che deve riempire il fillammount
         {
             cooldown_abl_classe_rimanente_temp -= Time.deltaTime;
             darkMask.fillAmount = (cooldown_abl_classe_rimanente_temp / cooldown_abl_classe);
@@ -98,13 +98,10 @@ public class Abilita_utilizzabili_cooldown : MonoBehaviour
 
         if (cooldown_rimanente_uti_nuovo || arr_fill_ammount[count_fillAmmount] == 0)//qui ci va tutte le volte che l'abilità è stata cliccata piu di 1 volta
         {
-            Debug.Log(arr_fill_ammount[count_fillAmmount] + "lezzo");
             cooldown_abilita_classe_rimanente_uti[count_fillAmmount] = cooldown_abl_classe_rimanente;
             if (cooldown_abl_classe_rimanente_temp <= 0 && !cooldown_rimanente_uti_nuovo)//da vedere bene 
             {
-                Debug.Log("u"+cooldown_abl_classe_rimanente_temp);
                 cooldown_abl_classe_rimanente_temp = cooldown_abilita_classe_rimanente_uti[count_fillAmmount];
-                Debug.Log("c"+cooldown_abl_classe_rimanente_temp);
             }
         }
     }
