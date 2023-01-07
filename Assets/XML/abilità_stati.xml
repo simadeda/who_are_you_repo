@@ -94,7 +94,8 @@
     <stato id = "2">
       <!--abilità dell' Algeria-->
       <nome_abilita>Afa del Deserto</nome_abilita>
-      <descrizione>Nessuno ti dirà che rimanere a secco di acqua e di cibo è stata una bella esperienza, soprattuto se ti trovi in un deserto dove fanno 50° gradi all'ombra (sempre se riesci a trovarla). Questa abilità non sarà come sedersi vicino ad una stufa nel deserto, per i tuoi nemici sarà un vero inferno a cielo aperto! chi non è abituato al sole cocente dell' Algeria se la vedrà davvero brutta.
+      <descrizione>
+        Nessuno ti dirà che rimanere a secco di acqua e di cibo è stata una bella esperienza, soprattuto se ti trovi in un deserto dove fanno 50° gradi all'ombra...sempre se l'ombra riesci a trovarla. Con questa abilità attiva sarà per i tuoi nemici un vero inferno a cielo aperto, come sedersi sopra ad una stufa accesa nel deserto, e chi non è abituato al sole cocente dell' Algeria se la vedrà davvero brutta.
       </descrizione>
     </stato>
   </Africa>

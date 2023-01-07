@@ -9,7 +9,10 @@ public class Elusione_caratteristica : MonoBehaviour
     private float dur_effetto; //quanto dura l'effetto sul palyer
     bool coll_attiva = false; //dice se il player è stato colpito da qualcosa
     private float tempo = 0f; //conta quanti secondi sono passati
-
+    private bool elusione_gia_attiva_uti = false;
+    private bool vita_presa = false;
+    private int max_uti; //riferimento agli utilizzabili massimi per un'abilità di tipo utilizzabile
+    
     private Health_player vita_player;
     private Color colore_player;
     private SpriteRenderer render;
@@ -17,39 +20,55 @@ public class Elusione_caratteristica : MonoBehaviour
     private GameObject UI_abilita;
     private Abilita_utilizzabili_cooldown cooldown_abl_classe;
 
+    IEnumerator elusione_attiva;
+
     private void Start()
     {
         UI_abilita = GameObject.Find("UI_abilità");
         cooldown_abl_classe = UI_abilita.GetComponent<Abilita_utilizzabili_cooldown>();
+        render = GetComponent<SpriteRenderer>();
+        colore_player = render.color;
+        max_uti = cooldown_abl_classe.max_uti;
     }
 
     public void comportamento_in_azione(GameObject player)
     {
         //CircleCollider2D c_player = this.gameObject.GetComponent<CircleCollider2D>(); //questo collider deve essere di tipo trigger, quindi il player dovrà avaere 2 collider
-        vita_player = player.GetComponent<Health_player>();
+        if(!vita_presa)
+        {
+            vita_player = player.GetComponent<Health_player>();
+            vita_presa = true;
+        }
+       
         int count_uti = cooldown_abl_classe.count_utilizzabili;
-        render = GetComponent<SpriteRenderer>();
-        colore_player = render.color;
-        if (count_uti == 0) //serve per le abilità che non sono utilizzabili
-            count_uti = 1;
-        StartCoroutine(elusione(vita_player, count_uti));
+        count_uti = max_uti - count_uti;
+
+        if (elusione_gia_attiva_uti)
+            StopCoroutine(elusione_attiva);
+
+        elusione_attiva = elusione(vita_player,count_uti);
+                
+        elusione_gia_attiva_uti = true;
+        StartCoroutine(elusione_attiva);
     }
 
-    private IEnumerator elusione(Health_player vita_player, int count_uti)
+    private IEnumerator elusione(Health_player vita_player ,int count_uti)
     {
         render.color = new Color(231, 0, 255, 255);
-        //Debug.Log("elusione iniziata");
-        for(tempo = 0; tempo < dur_effetto*count_uti; tempo++)
+        float temp_dur_effetto = dur_effetto * count_uti;
+        for(tempo = 0; tempo < temp_dur_effetto; tempo++)
         {
+            Debug.Log(tempo);
             if (coll_attiva)
             {
                 vita_player.Prendi_danno(danno_player); //chiama funzione che imposta il danno per il player a 0
             }
             yield return new WaitForSeconds(1);
         }
-        //Debug.Log("elusione finita");
+        Debug.Log("elusione finita" + temp_dur_effetto);
         tempo = 0;
         render.color = colore_player;
+        elusione_gia_attiva_uti = false;
         yield return null;
     }
 

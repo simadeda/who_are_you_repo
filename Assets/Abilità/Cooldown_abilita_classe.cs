@@ -24,7 +24,7 @@ public class Cooldown_abilita_classe : MonoBehaviour
  
     private float cooldown_classe_rimanente;
 
-    void Start()
+    void Awake()
     {
         is_utilizzabile = abilita_classe.utilizzabili;
         if (is_utilizzabile)
