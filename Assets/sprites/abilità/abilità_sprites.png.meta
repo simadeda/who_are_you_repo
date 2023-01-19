@@ -78,7 +78,7 @@ TextureImporter:
       213: 5138133110546699783
     second: "abilit\xE0_sprites_24"
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -99,6 +99,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -137,6 +138,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -152,6 +154,42 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -700,6 +738,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      "abilit\xE0_sprites_0": -4452006743488470800
+      "abilit\xE0_sprites_20": 1988668763417335947
+      "abilit\xE0_sprites_7": 3449185750421142068
+      "abilit\xE0_sprites_10": 4574077671492815913
+      "abilit\xE0_sprites_18": -5357966386808781303
+      "abilit\xE0_sprites_22": 9013396933865952758
+      "abilit\xE0_sprites_5": 8798398280078188866
+      "abilit\xE0_sprites_23": 695211807892857901
+      "abilit\xE0_sprites_11": 4323156169719534742
+      "abilit\xE0_sprites_13": -6625401166243697942
+      "abilit\xE0_sprites_16": 3949804736053849038
+      "abilit\xE0_sprites_1": -6285043853835289812
+      "abilit\xE0_sprites_6": 1973210425229599259
+      "abilit\xE0_sprites_14": 1196697716816998637
+      "abilit\xE0_sprites_9": -5761749356303935051
+      "abilit\xE0_sprites_17": 7330854339335453721
+      "abilit\xE0_sprites_3": -4613363753333885042
+      "abilit\xE0_sprites_24": 5138133110546699783
+      "abilit\xE0_sprites_21": 2667135569704420236
+      "abilit\xE0_sprites_8": -8512835914137209706
+      "abilit\xE0_sprites_19": 415385724323192624
+      "abilit\xE0_sprites_2": -6377281334731902586
+      "abilit\xE0_sprites_15": 4489841412561841505
+      "abilit\xE0_sprites_4": -2287480604017462750
+      "abilit\xE0_sprites_12": -6468988797979403232
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -3,7 +3,7 @@ guid: c96aa4ed37baa0e4c83fe3362cead31c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -24,6 +24,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -62,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -77,6 +79,42 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1192,6 +1230,59 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      tutte_le_animazioni_pugile_new_2: -7825649497317980124
+      tutte_le_animazioni_pugile_new_18: -3205498526939793428
+      tutte_le_animazioni_pugile_new_48: 975790914904787014
+      tutte_le_animazioni_pugile_new_44: -438143459712938430
+      tutte_le_animazioni_pugile_new_9: 5542104938295126533
+      tutte_le_animazioni_pugile_new_13: 6460530216882980541
+      tutte_le_animazioni_pugile_new_11: 6856579814827135374
+      tutte_le_animazioni_pugile_new_31: 7080038582817054966
+      tutte_le_animazioni_pugile_new_39: 305685634056506866
+      tutte_le_animazioni_pugile_new_40: -1511498299766063843
+      tutte_le_animazioni_pugile_new_41: 7090592252353424382
+      tutte_le_animazioni_pugile_new_49: -4713657971197072116
+      tutte_le_animazioni_pugile_new_50: 1938704990482654807
+      tutte_le_animazioni_pugile_new_27: 6147499091335485107
+      tutte_le_animazioni_pugile_new_45: -2125302414432074563
+      tutte_le_animazioni_pugile_new_35: -3272866700599407792
+      tutte_le_animazioni_pugile_new_7: -8409461927398601029
+      tutte_le_animazioni_pugile_new_33: -3339571396705573630
+      tutte_le_animazioni_pugile_new_4: -5203730574737775775
+      tutte_le_animazioni_pugile_new_19: -2639507931221235964
+      tutte_le_animazioni_pugile_new_34: 6409171426800473617
+      tutte_le_animazioni_pugile_new_51: 7582586715511783918
+      tutte_le_animazioni_pugile_new_32: -4826792450748109537
+      tutte_le_animazioni_pugile_new_46: 8758567172924865625
+      tutte_le_animazioni_pugile_new_15: -1679660879923172168
+      tutte_le_animazioni_pugile_new_14: 6637410163956490902
+      tutte_le_animazioni_pugile_new_38: 2613146032600785575
+      tutte_le_animazioni_pugile_new_47: -810983793284091501
+      tutte_le_animazioni_pugile_new_30: -7231261300250556127
+      tutte_le_animazioni_pugile_new_28: 8941242458293840266
+      tutte_le_animazioni_pugile_new_29: -1935780128308030021
+      tutte_le_animazioni_pugile_new_43: -8464348064381793206
+      tutte_le_animazioni_pugile_new_26: -2312529217770236434
+      tutte_le_animazioni_pugile_new_20: 3421051528907305315
+      tutte_le_animazioni_pugile_new_3: -2060018666917420646
+      tutte_le_animazioni_pugile_new_12: 2060789340836711796
+      tutte_le_animazioni_pugile_new_5: 3643355213853756534
+      tutte_le_animazioni_pugile_new_23: 1584322982770048894
+      tutte_le_animazioni_pugile_new_16: 5588999061311402936
+      tutte_le_animazioni_pugile_new_21: 5866532496214155746
+      tutte_le_animazioni_pugile_new_42: 8781420290692690879
+      tutte_le_animazioni_pugile_new_0: -1644617764348660342
+      tutte_le_animazioni_pugile_new_1: 5254930539017527315
+      tutte_le_animazioni_pugile_new_22: -3970052387830054886
+      tutte_le_animazioni_pugile_new_25: 4644517711419896951
+      tutte_le_animazioni_pugile_new_8: -6619269034661878211
+      tutte_le_animazioni_pugile_new_36: 940000312462369412
+      tutte_le_animazioni_pugile_new_10: -6192538902210931309
+      tutte_le_animazioni_pugile_new_24: 545707461928605423
+      tutte_le_animazioni_pugile_new_37: -1669471097783453318
+      tutte_le_animazioni_pugile_new_17: -4922087708302869164
+      tutte_le_animazioni_pugile_new_6: 4613319387905436287
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

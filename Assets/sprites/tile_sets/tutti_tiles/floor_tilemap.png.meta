@@ -231,7 +231,7 @@ TextureImporter:
       213: 8913225592602685755
     second: floor_tilemap_75
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -252,6 +252,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -290,6 +291,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -305,6 +307,42 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1924,6 +1962,83 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      floor_tilemap_46: 2991344532420562287
+      floor_tilemap_19: 5202185130122735338
+      floor_tilemap_8: 2734432003657932112
+      floor_tilemap_31: -3906457930463893660
+      floor_tilemap_57: 1057692788943188996
+      floor_tilemap_20: 8288841628777856695
+      floor_tilemap_42: 8230959658920280404
+      floor_tilemap_70: -9038922721727645945
+      floor_tilemap_37: -1121030451233352291
+      floor_tilemap_0: 2949621313600261208
+      floor_tilemap_44: -2706878865687109956
+      floor_tilemap_6: -1956804886041007818
+      floor_tilemap_10: 6400812091688639641
+      floor_tilemap_39: 9127888759323761279
+      floor_tilemap_55: 7164529849654089135
+      floor_tilemap_47: -5153288298871239684
+      floor_tilemap_54: -5804194494885783267
+      floor_tilemap_3: 8914422930122664068
+      floor_tilemap_9: 35982383665565765
+      floor_tilemap_73: 6480718050718594070
+      floor_tilemap_14: 5510777440402733776
+      floor_tilemap_50: 5166966616756193263
+      floor_tilemap_12: 5637829417710021436
+      floor_tilemap_65: -7830503365528368727
+      floor_tilemap_18: -6694599987006471137
+      floor_tilemap_22: -347543652520476365
+      floor_tilemap_32: -5335384965059246066
+      floor_tilemap_53: 6709185138801249486
+      floor_tilemap_72: -8161486407139777820
+      floor_tilemap_40: 7713766337680469448
+      floor_tilemap_62: 5843911872967015333
+      floor_tilemap_63: -6900725304648910395
+      floor_tilemap_68: -8124885014295625519
+      floor_tilemap_69: 2364250362604581450
+      floor_tilemap_45: 8905834886002227694
+      floor_tilemap_25: -908913932213756256
+      floor_tilemap_49: 811500436737944082
+      floor_tilemap_75: 8913225592602685755
+      floor_tilemap_11: 3420374535129502329
+      floor_tilemap_29: 1940335737031032665
+      floor_tilemap_23: 6442136087064849460
+      floor_tilemap_61: -1962244040679318052
+      floor_tilemap_34: 5423398853033560762
+      floor_tilemap_15: -3543742544711694222
+      floor_tilemap_1: -5448336343690386833
+      floor_tilemap_2: -9141450007156940581
+      floor_tilemap_30: 3178965699070518212
+      floor_tilemap_28: 231572844056533146
+      floor_tilemap_56: 4449358890860414419
+      floor_tilemap_17: -4439413113213297269
+      floor_tilemap_43: 6391485538823184375
+      floor_tilemap_41: -8089940612314784794
+      floor_tilemap_58: 8790396477154440680
+      floor_tilemap_27: 8114708981738803868
+      floor_tilemap_33: 4995818902472945746
+      floor_tilemap_26: 4275931542836614995
+      floor_tilemap_36: -250192925509954834
+      floor_tilemap_16: 3656793858479307974
+      floor_tilemap_60: -2435640030948199127
+      floor_tilemap_71: -1638289658861928308
+      floor_tilemap_21: 1637848085768471245
+      floor_tilemap_52: 3667619084005800394
+      floor_tilemap_74: 5939525909122351388
+      floor_tilemap_5: 2234067952986754309
+      floor_tilemap_7: 3301602117154637038
+      floor_tilemap_38: -7699173838402221628
+      floor_tilemap_51: -6324920588621775548
+      floor_tilemap_35: -4183892022213425392
+      floor_tilemap_67: 7315784877677421893
+      floor_tilemap_24: -1479355767509637427
+      floor_tilemap_13: 5248198601914807897
+      floor_tilemap_4: -1136736376340379156
+      floor_tilemap_48: -771391927856140880
+      floor_tilemap_59: 753347120910753598
+      floor_tilemap_66: 8982379674462714688
+      floor_tilemap_64: -8809394218439227211
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
