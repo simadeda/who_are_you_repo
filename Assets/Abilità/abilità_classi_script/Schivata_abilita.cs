@@ -38,7 +38,7 @@ public class Schivata_abilita : Abilita
     }
 
     //ATTIVA L'ABILITA'
-    public override void TriggerAbility(GameObject obj)
+    public override void TriggerAbility(GameObject obj)//override per l'abilità SCHIVATA
     {
         elusione.comportamento_in_azione(obj); //chiama la caratteristica dell' abilità "elusione" che ti permette di schivare i colpi
         vel_aum_dim.comportamento_in_azione(obj); //chiama la caratteristica dell' abilità "elusione" che ti permette un boost temporaneo della velcità

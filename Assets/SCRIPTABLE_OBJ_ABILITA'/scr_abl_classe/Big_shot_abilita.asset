@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Big_shot_abilita
   m_EditorClassIdentifier: 
   nome_abl: BigShot
-  cooldown: 60
+  cooldown: 120
   buff: 1
   sprite_abl: {fileID: 8798398280078188866, guid: 1ce56d299cb4a054cb4fc0b316aec3ac, type: 3}
   durata: 60
@@ -26,6 +26,5 @@ MonoBehaviour:
   caricatore: 10
   "velocit\xE0_proiettile": 100
   gittata: 100
-  animator: {fileID: 0}
   cooldawn_attacco: 0
   fire_rate: 2

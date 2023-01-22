@@ -40,7 +40,7 @@ public class Cooldown_abilita_classe : MonoBehaviour
         abilita_classe = abl_classe;
         //abilitySource = GetComponent<AudioSource>();
         cooldown_abl_classe = abilita_classe.cooldown;
-        abl_classe.inizializza(player_in_game); //qui vengono attivati tutti i dati relativi all' abilità
+        abl_classe.inizializza(player_in_game); //***********#### qui vengono attivati tutti i dati relativi all' abilità ####*********//
 
         AbilityReady();
     }
