@@ -30,4 +30,5 @@ public class Manager_scene : MonoBehaviour
     {
         carica_scene.caricatore_string(mappa);
     }
+
 }

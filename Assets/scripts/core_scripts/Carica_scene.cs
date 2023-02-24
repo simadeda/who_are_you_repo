@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Carica_scene : Manager_scene
+public class Carica_scene : MonoBehaviour
 {
     public void caricatore(int i)
     {

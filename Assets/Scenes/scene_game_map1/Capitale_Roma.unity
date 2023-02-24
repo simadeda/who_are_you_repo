@@ -2926,17 +2926,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
---- !u!114 &1103491684 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6043643124718363948, guid: 5087954b625607a42b197b77dd7415ec, type: 3}
-  m_PrefabInstance: {fileID: 1572067847}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c223525b4d914034e91644a02a2e484f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1127247200 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5446873925572969913, guid: 2533b4b312854584c94563f280161de3, type: 3}
@@ -3100,6 +3089,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5446873925572969914, guid: 2533b4b312854584c94563f280161de3, type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5446873925572969914, guid: 2533b4b312854584c94563f280161de3, type: 3}
+      propertyPath: m_Size.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5446873925572969914, guid: 2533b4b312854584c94563f280161de3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5446873925572969914, guid: 2533b4b312854584c94563f280161de3, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5446873925572969926, guid: 2533b4b312854584c94563f280161de3, type: 3}
       propertyPath: barra_Vita
       value: 
@@ -3192,7 +3197,7 @@ PrefabInstance:
     - target: {fileID: 8592914272195804005, guid: 115645e6201205a4c868c74f535bbf92, type: 3}
       propertyPath: carica_scene
       value: 
-      objectReference: {fileID: 1103491684}
+      objectReference: {fileID: 0}
     - target: {fileID: 8592914272195804005, guid: 115645e6201205a4c868c74f535bbf92, type: 3}
       propertyPath: rileva_porte
       value: 
@@ -67901,7 +67906,7 @@ PrefabInstance:
     - target: {fileID: 6043643124718363948, guid: 5087954b625607a42b197b77dd7415ec, type: 3}
       propertyPath: carica_scene
       value: 
-      objectReference: {fileID: 1103491684}
+      objectReference: {fileID: 0}
     - target: {fileID: 6043643124718363948, guid: 5087954b625607a42b197b77dd7415ec, type: 3}
       propertyPath: rileva_porte
       value: 
@@ -68137,7 +68142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rileva_porte: {fileID: 1667874602}
-  carica_scene: {fileID: 1103491684}
+  carica_scene: {fileID: 0}
 --- !u!212 &1667874603
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -68286,7 +68291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rileva_porte: {fileID: 1670210138}
-  carica_scene: {fileID: 1103491684}
+  carica_scene: {fileID: 0}
 --- !u!212 &1670210139
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -68564,7 +68569,7 @@ PrefabInstance:
     - target: {fileID: 3633673322416256598, guid: 7b6543fd853f62747b7c7c933dc66048, type: 3}
       propertyPath: carica_scene
       value: 
-      objectReference: {fileID: 1103491684}
+      objectReference: {fileID: 0}
     - target: {fileID: 3633673322416256598, guid: 7b6543fd853f62747b7c7c933dc66048, type: 3}
       propertyPath: rileva_porte
       value: 

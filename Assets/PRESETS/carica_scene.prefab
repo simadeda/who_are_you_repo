@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8037048528556980434}
-  - component: {fileID: 6043643124718363948}
+  - component: {fileID: 1212885796566486962}
   m_Layer: 0
   m_Name: carica_scene
   m_TagString: Untagged
@@ -27,11 +27,12 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 962.0587, y: 44.207005, z: -138.01831}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6043643124718363948
+--- !u!114 &1212885796566486962
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -43,3 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c223525b4d914034e91644a02a2e484f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rileva_porte: {fileID: 0}
+  carica_scene: {fileID: 0}
