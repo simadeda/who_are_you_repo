@@ -178,7 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96f750fc77276fe4ca1464554a23cd66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterBody: {fileID: 0}
+  characterBody: {fileID: 11400000, guid: 526a4aa76769be9428a66b1625d5703f, type: 2}
   bodyPartTypes:
   - ante_baffi
   - ante_cappello
@@ -11385,7 +11385,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -739639716, guid: 5f3c361ca17bbdd4d953f47332befcdc, type: 3}
+  m_Sprite: {fileID: -625367992, guid: b59e9823c212f1a4fab754ce087f1318, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

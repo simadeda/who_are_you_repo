@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0d429145a5c5a5748b894b4bf4873f35
+guid: dd9e3f48e2ce12b47bfc4d9d932920db
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,11 +101,35 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spritesheet_creazione_player-camminata_dx-sx_con_pistola_0
+      name: spritesheet_creazione_player-pala_idle_dx_sx_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fad77bbf35d3e6f43b249431a4408175
-      internalID: 1938929453
+      spriteID: ba75a79722bae5d4a9cc3693fc9efda4
+      internalID: -141775528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player-camminata_dx-sx_con_pistola_1
+      name: spritesheet_creazione_player-pala_idle_dx_sx_1
       rect:
         serializedVersion: 2
         x: 64
@@ -140,14 +164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c8ac11cfefb30b4b81e006952240ee4
-      internalID: 1311545611
+      spriteID: d7522e003083d024b85b1d5ea378d433
+      internalID: -593244801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player-camminata_dx-sx_con_pistola_2
+      name: spritesheet_creazione_player-pala_idle_dx_sx_2
       rect:
         serializedVersion: 2
         x: 128
@@ -161,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f26ede2c7051bab43acb73be31ce3047
-      internalID: -649923240
+      spriteID: 4a5a7f1fd6ae2a240be4ca1a4cf84bc9
+      internalID: 682650261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player-camminata_dx-sx_con_pistola_3
+      name: spritesheet_creazione_player-pala_idle_dx_sx_3
       rect:
         serializedVersion: 2
         x: 192
@@ -182,14 +206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ab8dc79f82b6b941820299002a9660f
-      internalID: -1515866785
+      spriteID: 88fcf51278fd9df4d9797beb5a82aec7
+      internalID: -881057021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player-camminata_dx-sx_con_pistola_4
+      name: spritesheet_creazione_player-pala_idle_dx_sx_4
       rect:
         serializedVersion: 2
         x: 256
@@ -203,14 +227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9224e24351ab3774c870028cbcf7ccc4
-      internalID: 363719511
+      spriteID: d188ce0eaa27e274180c597178ac628c
+      internalID: 2014716729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player-camminata_dx-sx_con_pistola_5
+      name: spritesheet_creazione_player-pala_idle_dx_sx_5
       rect:
         serializedVersion: 2
         x: 320
@@ -224,14 +248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76e50e0861cc2884c85c8aaba3e9f398
-      internalID: -850764869
+      spriteID: cf17a3c0ec68d3a49b21431843328007
+      internalID: -1871889933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player-camminata_dx-sx_con_pistola_6
+      name: spritesheet_creazione_player-pala_idle_dx_sx_6
       rect:
         serializedVersion: 2
         x: 384
@@ -245,14 +269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b034ad6ab47b5ec4ab39435e9723a772
-      internalID: -913702897
+      spriteID: 07fde562e7cf59340b641a5459d74049
+      internalID: 309485979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player-camminata_dx-sx_con_pistola_7
+      name: spritesheet_creazione_player-pala_idle_dx_sx_7
       rect:
         serializedVersion: 2
         x: 448
@@ -266,14 +290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b762cc0667a2c40449de14b80b721ffd
-      internalID: 60152989
+      spriteID: 2298bff2be0324141ad431787305b20a
+      internalID: -620203973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player-camminata_dx-sx_con_pistola_8
+      name: spritesheet_creazione_player-pala_idle_dx_sx_8
       rect:
         serializedVersion: 2
         x: 512
@@ -287,14 +311,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d7d0d8dc81fdd74ea8048c75c8ee7a4
-      internalID: -1520869230
+      spriteID: 55e32df5ec002894fa1c6918893c02b5
+      internalID: 1875186708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player-camminata_dx-sx_con_pistola_9
+      name: spritesheet_creazione_player-pala_idle_dx_sx_9
       rect:
         serializedVersion: 2
         x: 576
@@ -308,14 +332,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc92750337513c144b5a08a36525f6dd
-      internalID: 2029179234
+      spriteID: c39b1cde6e5b4634bb45c36cf0123796
+      internalID: -662399478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player-camminata_dx-sx_con_pistola_10
+      name: spritesheet_creazione_player-pala_idle_dx_sx_10
       rect:
         serializedVersion: 2
         x: 640
@@ -329,14 +353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad432655b75232646b26fb1d74495e1e
-      internalID: 1853295808
+      spriteID: c4c0cdd8af2abe64a88636bd56ac0fb4
+      internalID: 409029233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player-camminata_dx-sx_con_pistola_11
+      name: spritesheet_creazione_player-pala_idle_dx_sx_11
       rect:
         serializedVersion: 2
         x: 704
@@ -350,92 +374,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bb4a3efac4858943b975a42172a5305
-      internalID: 639843565
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player-camminata_dx-sx_con_pistola_12
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 0
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c7c25500f7663864b88b6974a9dcef17
-      internalID: -1355547786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player-camminata_dx-sx_con_pistola_13
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 0
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4bd554a3e2e76d4c9c68e03d7f3e8b9
-      internalID: 1836015581
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player-camminata_dx-sx_con_pistola_14
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 0
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbd98d4f6bfb1be43a4b1c445e1360c6
-      internalID: 1014468511
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player-camminata_dx-sx_con_pistola_15
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 0
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e596a45f772fbf4682590b2824c7694
-      internalID: -2049292479
+      spriteID: ee1dd91161055934da904b44d95da2ac
+      internalID: -1304929580
       vertices: []
       indices: 
       edges: []
@@ -451,22 +391,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_3: -1515866785
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_11: 639843565
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_7: 60152989
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_6: -913702897
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_1: 1311545611
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_2: -649923240
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_0: 1938929453
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_5: -850764869
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_10: 1853295808
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_15: -2049292479
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_12: -1355547786
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_4: 363719511
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_9: 2029179234
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_8: -1520869230
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_13: 1836015581
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_14: 1014468511
+      spritesheet_creazione_player-pala_idle_dx_sx_0: -141775528
+      spritesheet_creazione_player-pala_idle_dx_sx_7: -620203973
+      spritesheet_creazione_player-pala_idle_dx_sx_11: -1304929580
+      spritesheet_creazione_player-pala_idle_dx_sx_2: 682650261
+      spritesheet_creazione_player-pala_idle_dx_sx_6: 309485979
+      spritesheet_creazione_player-pala_idle_dx_sx_3: -881057021
+      spritesheet_creazione_player-pala_idle_dx_sx_4: 2014716729
+      spritesheet_creazione_player-pala_idle_dx_sx_1: -593244801
+      spritesheet_creazione_player-pala_idle_dx_sx_8: 1875186708
+      spritesheet_creazione_player-pala_idle_dx_sx_9: -662399478
+      spritesheet_creazione_player-pala_idle_dx_sx_10: 409029233
+      spritesheet_creazione_player-pala_idle_dx_sx_5: -1871889933
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
