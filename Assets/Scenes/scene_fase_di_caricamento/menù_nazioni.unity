@@ -498,7 +498,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1484728681693918115, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1484728681693918115, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -506,11 +506,15 @@ PrefabInstance:
       objectReference: {fileID: 862317878}
     - target: {fileID: 1484728681693918115, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: caricatore_string
+      value: caricatore
       objectReference: {fileID: 0}
     - target: {fileID: 1484728681693918115, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: Carica_scene, core_scripts_ass
+      objectReference: {fileID: 0}
+    - target: {fileID: 1484728681693918115, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1484728681693918115, guid: c5b660611b6a2d443a73476f60098d0f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument

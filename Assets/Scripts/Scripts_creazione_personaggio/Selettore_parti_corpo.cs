@@ -6,56 +6,56 @@ using UnityEngine.UI;
 public class Selettore_parti_corpo : MonoBehaviour
 {
     // Full Character Body
-    [SerializeField] private SO_corpo_personaggio characterBody;
+    [SerializeField] private SO_corpo_personaggio corpo_personaggio;
     // Body Part Selections
-    [SerializeField] private BodyPartSelection[] bodyPartSelections;
+    [SerializeField] private Selezione_parti_corpo[] Selezione_parti_corpo;
 
     private void Start()
     {
         // Get All Current Body Parts
-        for (int i = 0; i < bodyPartSelections.Length; i++)
+        for (int i = 0; i < Selezione_parti_corpo.Length; i++)
         {
-            GetCurrentBodyParts(i);
+            GetPartiCorpoCorrenti(i);
         }
     }
 
-    public void NextBodyPart(int partIndex)
+    public void ProssimaParteCorpo(int indice_parte_corpo)
     {
-        if (ValidateIndexValue(partIndex))
+        if (ConvalidaNumIdentificativo(indice_parte_corpo))
         {
-            if (bodyPartSelections[partIndex].bodyPartCurrentIndex < bodyPartSelections[partIndex].bodyPartOptions.Length - 1)
+            if (Selezione_parti_corpo[indice_parte_corpo].indice_parte_corpo_corrente < Selezione_parti_corpo[indice_parte_corpo].bodyPartOptions.Length - 1)
             {
-                bodyPartSelections[partIndex].bodyPartCurrentIndex++;
+                Selezione_parti_corpo[indice_parte_corpo].indice_parte_corpo_corrente++;
             }
             else
             {
-                bodyPartSelections[partIndex].bodyPartCurrentIndex = 0;
+                Selezione_parti_corpo[indice_parte_corpo].indice_parte_corpo_corrente = 0;
             }
 
-            UpdateCurrentPart(partIndex);
+            AggiornaParteCorrente(indice_parte_corpo);
         }
     }
 
-    public void PreviousBody(int partIndex)
+    public void CorpoPrecedente(int indice_parte_corpo)
     {
-        if (ValidateIndexValue(partIndex))
+        if (ConvalidaNumIdentificativo(indice_parte_corpo))
         {
-            if (bodyPartSelections[partIndex].bodyPartCurrentIndex > 0)
+            if (Selezione_parti_corpo[indice_parte_corpo].indice_parte_corpo_corrente > 0)
             {
-                bodyPartSelections[partIndex].bodyPartCurrentIndex--;
+                Selezione_parti_corpo[indice_parte_corpo].indice_parte_corpo_corrente--;
             }
             else
             {
-                bodyPartSelections[partIndex].bodyPartCurrentIndex = bodyPartSelections[partIndex].bodyPartOptions.Length - 1;
+                Selezione_parti_corpo[indice_parte_corpo].indice_parte_corpo_corrente = Selezione_parti_corpo[indice_parte_corpo].bodyPartOptions.Length - 1;
             }
 
-            UpdateCurrentPart(partIndex);
+            AggiornaParteCorrente(indice_parte_corpo);
         }    
     }
 
-    private bool ValidateIndexValue(int partIndex)
+    private bool ConvalidaNumIdentificativo(int indice_parte_corpo)
     {
-        if (partIndex > bodyPartSelections.Length || partIndex < 0)
+        if (indice_parte_corpo > Selezione_parti_corpo.Length || indice_parte_corpo < 0)
         {
             Debug.Log("Index value does not match any body parts!");
             return false;
@@ -66,28 +66,28 @@ public class Selettore_parti_corpo : MonoBehaviour
         }
     }
 
-    private void GetCurrentBodyParts(int partIndex)
+    private void GetPartiCorpoCorrenti(int indice_parte_corpo)
     {
         // Get Current Body Part Name
-        bodyPartSelections[partIndex].bodyPartNameTextComponent.text = characterBody.characterBodyParts[partIndex].bodyPart.bodyPartName;
+        Selezione_parti_corpo[indice_parte_corpo].testo_parte_corpo_componente.text = corpo_personaggio.characterBodyParts[indice_parte_corpo].bodyPart.bodyPartName;
         // Get Current Body Part Animation ID
-        bodyPartSelections[partIndex].bodyPartCurrentIndex = characterBody.characterBodyParts[partIndex].bodyPart.bodyPartAnimationID;
+        Selezione_parti_corpo[indice_parte_corpo].indice_parte_corpo_corrente = corpo_personaggio.characterBodyParts[indice_parte_corpo].bodyPart.bodyPartAnimationID;
     }
 
-    private void UpdateCurrentPart(int partIndex)
+    private void AggiornaParteCorrente(int indice_parte_corpo)
     {
         // Update Selection Name Text
-        bodyPartSelections[partIndex].bodyPartNameTextComponent.text = bodyPartSelections[partIndex].bodyPartOptions[bodyPartSelections[partIndex].bodyPartCurrentIndex].bodyPartName;
+        Selezione_parti_corpo[indice_parte_corpo].testo_parte_corpo_componente.text = Selezione_parti_corpo[indice_parte_corpo].bodyPartOptions[Selezione_parti_corpo[indice_parte_corpo].indice_parte_corpo_corrente].bodyPartName;
         // Update Character Body Part
-        characterBody.characterBodyParts[partIndex].bodyPart = bodyPartSelections[partIndex].bodyPartOptions[bodyPartSelections[partIndex].bodyPartCurrentIndex];
+        corpo_personaggio.characterBodyParts[indice_parte_corpo].bodyPart = Selezione_parti_corpo[indice_parte_corpo].bodyPartOptions[Selezione_parti_corpo[indice_parte_corpo].indice_parte_corpo_corrente];
     }
 }
 
 [System.Serializable]
-public class BodyPartSelection
+public class Selezione_parti_corpo
 {
-    public string bodyPartName;
+    public string Nome_parte_corpo;
     public SO_parti_del_corpo[] bodyPartOptions;
-    public Text bodyPartNameTextComponent;
-    [HideInInspector] public int bodyPartCurrentIndex;
+    public Text testo_parte_corpo_componente;
+    [HideInInspector] public int indice_parte_corpo_corrente;
 }

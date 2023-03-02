@@ -7,67 +7,66 @@ public class Manager_parti_corpo : MonoBehaviour
 {
     //--Aggiorna tutte le animazioni in modo che corrispondano alle selezioni del giocatore--
 
-    [SerializeField] private SO_corpo_personaggio characterBody;
+    [SerializeField] private SO_corpo_personaggio corpo_personaggio;
 
     // String Arrays
-    [SerializeField] private string[] bodyPartTypes;
-    [SerializeField] private string[] characterStates;
-    [SerializeField] private string[] characterDirections;
+    [SerializeField] private string[] tipi_parti_corpo;
+    [SerializeField] private string[] stato_personaggio;
+    [SerializeField] private string[] direzioni_personaggio;
     
     // Animation
     private Animator animator;
-    private AnimationClip animationClip;
-    private AnimatorOverrideController animatorOverrideController;
-    private AnimationClipOverrides defaultAnimationClips;
+    private AnimationClip clip_animazioni;
+    private AnimatorOverrideController animazioni_controller_override;
+    private AnimazioniClipOverride clip_animazioni_default;
 
     private void Start()
     {
         // Set animator
         animator = GetComponent<Animator>();
-        animatorOverrideController = new AnimatorOverrideController(animator.runtimeAnimatorController);
-        animator.runtimeAnimatorController = animatorOverrideController;
+        animazioni_controller_override = new AnimatorOverrideController(animator.runtimeAnimatorController);
+        animator.runtimeAnimatorController = animazioni_controller_override;
 
-        defaultAnimationClips = new AnimationClipOverrides(animatorOverrideController.overridesCount);
-        animatorOverrideController.GetOverrides(defaultAnimationClips);
+        clip_animazioni_default = new AnimazioniClipOverride(animazioni_controller_override.overridesCount);
+        animazioni_controller_override.GetOverrides(clip_animazioni_default);
 
         // Set body part animations
-        UpdateBodyParts();
+        Aggiorna_parti_corpo();
     }
 
-    public void UpdateBodyParts()
+    public void Aggiorna_parti_corpo()
     {
         // Override default animation clips with character body parts
-        for (int partIndex = 0; partIndex < bodyPartTypes.Length; partIndex++)
+        for (int i = 0; i < tipi_parti_corpo.Length; i++)
         {
             // Get current body part
-            string partType = bodyPartTypes[partIndex];
+            string parte_corpo = tipi_parti_corpo[i];
             // Get current body part ID
-            string partID = characterBody.characterBodyParts[partIndex].bodyPart.bodyPartAnimationID.ToString();
+            string ID_parte = corpo_personaggio.characterBodyParts[i].bodyPart.bodyPartAnimationID.ToString();
 
-            for (int stateIndex = 0; stateIndex < characterStates.Length; stateIndex++)
+            for (int indice_stato = 0; indice_stato < stato_personaggio.Length; indice_stato++)
             {
-                string state = characterStates[stateIndex];
-                for (int directionIndex = 0; directionIndex < characterDirections.Length; directionIndex++)
+                string state = stato_personaggio[indice_stato];
+                for (int directionIndex = 0; directionIndex < direzioni_personaggio.Length; directionIndex++)
                 {
-                    string direction = characterDirections[directionIndex];
+                    string direzione = direzioni_personaggio[directionIndex];
 
                     // Get players animation from player body
                     // ***NOTE: Unless Changed Here, Animation Naming Must Be: "[Type]_[Index]_[state]_[direction]" (Ex. Body_0_idle_down)
-                    animationClip = Resources.Load<AnimationClip>("Animazioni/Animazioni_player/" + partType + "/" + partType + "_" + partID + "_" + state + "_" + direction);
+                    clip_animazioni = Resources.Load<AnimationClip>("Animazioni/Animazioni_player/" + parte_corpo + "/" + parte_corpo + "_" + ID_parte + "_" + state + "_" + direzione);
 
                     // Override default animation
-                    defaultAnimationClips[partType + "_" + 0 + "_" + state + "_" + direction] = animationClip;
+                    clip_animazioni_default[parte_corpo + "_" + 0 + "_" + state + "_" + direzione] = clip_animazioni;
                 }
             }
         }
-
         // Apply updated animations
-        animatorOverrideController.ApplyOverrides(defaultAnimationClips);
+        animazioni_controller_override.ApplyOverrides(clip_animazioni_default);
     }
 
-    public class AnimationClipOverrides : List<KeyValuePair<AnimationClip, AnimationClip>>
+    public class AnimazioniClipOverride : List<KeyValuePair<AnimationClip, AnimationClip>>
     {
-        public AnimationClipOverrides(int capacity) : base(capacity) { }
+        public AnimazioniClipOverride(int capacity) : base(capacity) { }
 
         public AnimationClip this[string name]
         {
