@@ -101,6 +101,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -119,8 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44936b04e6e87b5489425f0a13084076
-      internalID: 740070771
+      spriteID: 24cfafab5ee7acf48971a7e0dfb1a619
+      internalID: -1297572910
       vertices: []
       indices: 
       edges: []
@@ -140,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b88815ddb2a0f04e85b1a27b2af3bfa
-      internalID: 268679873
+      spriteID: 97807bceb6601c643a8fdcfaa12cb422
+      internalID: -396885941
       vertices: []
       indices: 
       edges: []
@@ -161,8 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f8dce8fe828a984f8ec78f0bcc1b38e
-      internalID: -895612949
+      spriteID: 457c50790bedc5c4fbfc153e0413783e
+      internalID: 491755743
       vertices: []
       indices: 
       edges: []
@@ -182,8 +206,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5795d706f00c806469b54c5650076957
-      internalID: -2134820299
+      spriteID: e39c92560f846914ab614949df2463e5
+      internalID: -1014937623
       vertices: []
       indices: 
       edges: []
@@ -199,10 +223,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spritesheet_creazione_player-base_1: 268679873
-      spritesheet_creazione_player-base_0: 740070771
-      spritesheet_creazione_player-base_3: -2134820299
-      spritesheet_creazione_player-base_2: -895612949
+      spritesheet_creazione_player-base_1: -396885941
+      spritesheet_creazione_player-base_0: -1297572910
+      spritesheet_creazione_player-base_3: -1014937623
+      spritesheet_creazione_player-base_2: 491755743
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

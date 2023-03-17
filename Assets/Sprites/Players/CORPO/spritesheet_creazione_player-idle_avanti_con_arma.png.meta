@@ -101,6 +101,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -119,8 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fd7d43866843474386ae474eabc0357
-      internalID: 1108902225
+      spriteID: 5681f26f0c7e7b24ca9cd8ca86e3b947
+      internalID: -331087579
       vertices: []
       indices: 
       edges: []
@@ -140,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 275fbf3ece69f354390f3b76b2982ebb
-      internalID: 818592754
+      spriteID: a48a50d424060c641b640160ec54fddb
+      internalID: 2007487539
       vertices: []
       indices: 
       edges: []
@@ -161,8 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e04538cb4f7d4bc43b5fe27c7ad36c47
-      internalID: 539296754
+      spriteID: ec4d541c4f1b9134aa5a755d08385f83
+      internalID: -428225552
       vertices: []
       indices: 
       edges: []
@@ -182,8 +206,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29115b714f74d0a48adb62f1145b8e2f
-      internalID: 479152279
+      spriteID: 5f741e3958e0da749820c6de6a7735cf
+      internalID: -831059537
       vertices: []
       indices: 
       edges: []
@@ -203,8 +227,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7877466152cc7e54c913fe938c7a3088
-      internalID: 851221114
+      spriteID: 85ca60c08bc6b7940915a328b47cdc6a
+      internalID: 1496423259
       vertices: []
       indices: 
       edges: []
@@ -224,8 +248,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60b46b97c0290354eae3c1c7c0a24086
-      internalID: 703148648
+      spriteID: 1c7ba5ff2dc600a449e924fe5317681c
+      internalID: 543562222
       vertices: []
       indices: 
       edges: []
@@ -245,8 +269,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa7a5f99b53fa174694f5c4832454aff
-      internalID: -1785040939
+      spriteID: 3a3d1772ba6d7924bb9ad6be81d8ab88
+      internalID: 2139958403
       vertices: []
       indices: 
       edges: []
@@ -266,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e3c6ecdeca02ff4587093b4cec42c82
-      internalID: -505837156
+      spriteID: 0c5ff23381d8c0a48a9e95563ae8ca68
+      internalID: 1839809203
       vertices: []
       indices: 
       edges: []
@@ -287,8 +311,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d711e2b5e2347b48b674a222997e454
-      internalID: -1768922073
+      spriteID: aef3958db7c8277408009f9e93237a87
+      internalID: 1507541432
       vertices: []
       indices: 
       edges: []
@@ -308,8 +332,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30e1481fc997166418c8efeeeb7ea0a8
-      internalID: 904185944
+      spriteID: 590d582fb58118b43948806a7767b983
+      internalID: 404794602
       vertices: []
       indices: 
       edges: []
@@ -329,8 +353,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fb3a30f9a4a6214ba1a0f22751f34cb
-      internalID: -943541196
+      spriteID: 100fe915c717b7b4ebc0eb9689946115
+      internalID: -1699241921
       vertices: []
       indices: 
       edges: []
@@ -350,8 +374,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b426ae4ffb1741c4f9ee9113f2a76d5a
-      internalID: 490708556
+      spriteID: b9b96335fa4a7a44fa572f8bda8dc170
+      internalID: 1115180094
       vertices: []
       indices: 
       edges: []
@@ -367,18 +391,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spritesheet_creazione_player-idle_avanti_con_arma_7: -505837156
-      spritesheet_creazione_player-idle_avanti_con_arma_0: 1108902225
-      spritesheet_creazione_player-idle_avanti_con_arma_1: 818592754
-      spritesheet_creazione_player-idle_avanti_con_arma_8: -1768922073
-      spritesheet_creazione_player-idle_avanti_con_arma_11: 490708556
-      spritesheet_creazione_player-idle_avanti_con_arma_3: 479152279
-      spritesheet_creazione_player-idle_avanti_con_arma_4: 851221114
-      spritesheet_creazione_player-idle_avanti_con_arma_6: -1785040939
-      spritesheet_creazione_player-idle_avanti_con_arma_9: 904185944
-      spritesheet_creazione_player-idle_avanti_con_arma_2: 539296754
-      spritesheet_creazione_player-idle_avanti_con_arma_10: -943541196
-      spritesheet_creazione_player-idle_avanti_con_arma_5: 703148648
+      spritesheet_creazione_player-idle_avanti_con_arma_7: 1839809203
+      spritesheet_creazione_player-idle_avanti_con_arma_0: -331087579
+      spritesheet_creazione_player-idle_avanti_con_arma_1: 2007487539
+      spritesheet_creazione_player-idle_avanti_con_arma_8: 1507541432
+      spritesheet_creazione_player-idle_avanti_con_arma_11: 1115180094
+      spritesheet_creazione_player-idle_avanti_con_arma_3: -831059537
+      spritesheet_creazione_player-idle_avanti_con_arma_4: 1496423259
+      spritesheet_creazione_player-idle_avanti_con_arma_6: 2139958403
+      spritesheet_creazione_player-idle_avanti_con_arma_9: 404794602
+      spritesheet_creazione_player-idle_avanti_con_arma_2: -428225552
+      spritesheet_creazione_player-idle_avanti_con_arma_10: -1699241921
+      spritesheet_creazione_player-idle_avanti_con_arma_5: 543562222
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

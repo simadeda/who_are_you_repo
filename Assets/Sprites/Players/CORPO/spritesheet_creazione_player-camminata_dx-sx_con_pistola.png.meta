@@ -101,6 +101,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -119,8 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6516d6b777002cb47a58376c35a2bedc
-      internalID: 2039661529
+      spriteID: ea98ee844db8f114aa99d45b1121d617
+      internalID: 164524001
       vertices: []
       indices: 
       edges: []
@@ -140,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8c7942792167134684425b54f33ac20
-      internalID: 1580500543
+      spriteID: 7178edb631e89d8479567aa56763bc72
+      internalID: -271548555
       vertices: []
       indices: 
       edges: []
@@ -161,8 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a84f3213de3f1a34f8a90e704d8e2aec
-      internalID: 577222120
+      spriteID: 969983dc15e5d6e4b97d203fc9532748
+      internalID: 739066751
       vertices: []
       indices: 
       edges: []
@@ -182,8 +206,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c57cbd9cba7b8894bb3aaca57df0efd0
-      internalID: -1241832393
+      spriteID: 5f532529b2c17c74b8be00d6d66641b1
+      internalID: -2068880344
       vertices: []
       indices: 
       edges: []
@@ -203,8 +227,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e890fdb7d5c09c945b709c5c0dce0a3d
-      internalID: 2106096706
+      spriteID: 47559485291ae804d91def9758dc426b
+      internalID: -2133431806
       vertices: []
       indices: 
       edges: []
@@ -224,8 +248,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec4b413975774224ab5fcd938236ceec
-      internalID: 120628995
+      spriteID: f9af034044ef8594b8a1278744160481
+      internalID: -792479452
       vertices: []
       indices: 
       edges: []
@@ -245,8 +269,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0825f2b04a7ed3d4986846339457a200
-      internalID: -944778896
+      spriteID: 8ed9c91c73c330d48a0f448c52ffc4f9
+      internalID: -1317498438
       vertices: []
       indices: 
       edges: []
@@ -266,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dac23fa3ba5a30e4ea5c3bd1869f9c88
-      internalID: -2056258644
+      spriteID: ee6243931633b8541a93ecf810ce8b45
+      internalID: -610171357
       vertices: []
       indices: 
       edges: []
@@ -287,8 +311,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3c24a95e9a750a44ae674a92766ee5f
-      internalID: -1894539647
+      spriteID: df16fb3b14ecd284e9b3176b3fa1dcb2
+      internalID: 704614045
       vertices: []
       indices: 
       edges: []
@@ -308,8 +332,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5da4624fdd425442b42b3d59eb3e700
-      internalID: -2034910075
+      spriteID: 5ef86919d680b7544a1b0d48b7c31904
+      internalID: -818950045
       vertices: []
       indices: 
       edges: []
@@ -329,8 +353,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4775508c2e987fb46975dca5bd3df69c
-      internalID: -1011907037
+      spriteID: b9713a96be11c9f4886e07a40232e35f
+      internalID: -79143268
       vertices: []
       indices: 
       edges: []
@@ -350,8 +374,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f08803c517b26b14db4e06d6e7edc98a
-      internalID: -1409705931
+      spriteID: 6b3ab2e7a33499840adec48b80270b1c
+      internalID: -329425780
       vertices: []
       indices: 
       edges: []
@@ -371,8 +395,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eeafee16f996f9d4688062c2d5bcf5b3
-      internalID: 1314698634
+      spriteID: 8ad593fea6bcdab48bea010520fd21f8
+      internalID: -1102566952
       vertices: []
       indices: 
       edges: []
@@ -392,8 +416,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f07df85b71b45fc4eba11ad40360e549
-      internalID: -1384035710
+      spriteID: 834a9902555b3504289be7ee52a49aa9
+      internalID: -1438528374
       vertices: []
       indices: 
       edges: []
@@ -413,8 +437,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a946c8c149044db42bdcba8131d04ac2
-      internalID: 1591894303
+      spriteID: bb8cc9486ad5be7428e8464c8a77e336
+      internalID: 58304243
       vertices: []
       indices: 
       edges: []
@@ -434,8 +458,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c02aae9122e1c284da77c740311dc60e
-      internalID: -2023400164
+      spriteID: fdb36f79e6445cb4c9ff4b12a7db2dbd
+      internalID: 27875643
       vertices: []
       indices: 
       edges: []
@@ -451,22 +475,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_3: -1241832393
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_11: -1409705931
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_7: -2056258644
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_6: -944778896
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_1: 1580500543
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_2: 577222120
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_0: 2039661529
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_5: 120628995
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_10: -1011907037
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_15: -2023400164
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_12: 1314698634
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_4: 2106096706
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_9: -2034910075
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_8: -1894539647
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_13: -1384035710
-      spritesheet_creazione_player-camminata_dx-sx_con_pistola_14: 1591894303
+      spritesheet_creazione_player-camminata_dx-sx_con_pistola_3: -2068880344
+      spritesheet_creazione_player-camminata_dx-sx_con_pistola_11: -329425780
+      spritesheet_creazione_player-camminata_dx-sx_con_pistola_7: -610171357
+      spritesheet_creazione_player-camminata_dx-sx_con_pistola_6: -1317498438
+      spritesheet_creazione_player-camminata_dx-sx_con_pistola_1: -271548555
+      spritesheet_creazione_player-camminata_dx-sx_con_pistola_2: 739066751
+      spritesheet_creazione_player-camminata_dx-sx_con_pistola_0: 164524001
+      spritesheet_creazione_player-camminata_dx-sx_con_pistola_5: -792479452
+      spritesheet_creazione_player-camminata_dx-sx_con_pistola_10: -79143268
+      spritesheet_creazione_player-camminata_dx-sx_con_pistola_15: 27875643
+      spritesheet_creazione_player-camminata_dx-sx_con_pistola_12: -1102566952
+      spritesheet_creazione_player-camminata_dx-sx_con_pistola_4: -2133431806
+      spritesheet_creazione_player-camminata_dx-sx_con_pistola_9: -818950045
+      spritesheet_creazione_player-camminata_dx-sx_con_pistola_8: 704614045
+      spritesheet_creazione_player-camminata_dx-sx_con_pistola_13: -1438528374
+      spritesheet_creazione_player-camminata_dx-sx_con_pistola_14: 58304243
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

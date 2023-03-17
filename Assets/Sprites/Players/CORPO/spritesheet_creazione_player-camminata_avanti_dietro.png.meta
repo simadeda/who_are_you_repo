@@ -101,6 +101,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -119,8 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1b4f45daad522341a5fb83294bfd5e1
-      internalID: 1968024368
+      spriteID: a6caea64506c86f4fa58e18b48b7c1a2
+      internalID: -306938752
       vertices: []
       indices: 
       edges: []
@@ -140,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b51c5f51ef6e5044794ad5988ae58626
-      internalID: -959756390
+      spriteID: 69f87892481fb1843bb104d418655ec6
+      internalID: -1252434068
       vertices: []
       indices: 
       edges: []
@@ -161,8 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 938c6a7dbac89ae4aa6e60f6ff082621
-      internalID: -332173613
+      spriteID: 38478655d2cb6a743bb1f2a5ea139fc9
+      internalID: -376769197
       vertices: []
       indices: 
       edges: []
@@ -182,8 +206,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7320f683523668d44ab8972c76e01ff3
-      internalID: -1460586259
+      spriteID: ab17075a50433ea438a211c07131ebe7
+      internalID: -367258497
       vertices: []
       indices: 
       edges: []
@@ -203,8 +227,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ade6bed9c36e03440b031de98b56f9f6
-      internalID: -378394602
+      spriteID: 9dbb1c4065e197e458b659e53e2d8b9a
+      internalID: -30145047
       vertices: []
       indices: 
       edges: []
@@ -224,8 +248,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40a5ef7765f014a40926cc779011ed29
-      internalID: -1404512917
+      spriteID: 6645708dc8b6fa341b48eb17caf4d693
+      internalID: -1991936989
       vertices: []
       indices: 
       edges: []
@@ -245,8 +269,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 648d68667ccda44418f518fd420a3dfb
-      internalID: -225635072
+      spriteID: 6d6a6abde96a7b645930b12c603a634e
+      internalID: 1752176727
       vertices: []
       indices: 
       edges: []
@@ -266,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31c09e132f3d8124eac4847ffdc6f7c6
-      internalID: -1255222660
+      spriteID: ed4edfd04e5422143a0d9088526be7ec
+      internalID: 458562400
       vertices: []
       indices: 
       edges: []
@@ -287,8 +311,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c47da3e7200b7e94cb59a4aee0132002
-      internalID: 1010757052
+      spriteID: 11abea354aa110843bd16af42422d985
+      internalID: 1686873052
       vertices: []
       indices: 
       edges: []
@@ -308,8 +332,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9792addd3d2604d479bdadc60b534677
-      internalID: 437204069
+      spriteID: bd7c171eb27bf5e4faecde9b21c9bee7
+      internalID: 1790975389
       vertices: []
       indices: 
       edges: []
@@ -329,8 +353,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4413d09a74a7a8147a660ed70f3de425
-      internalID: -923592192
+      spriteID: f0ab9bfc0bd7a7745b2df55fb63bf00e
+      internalID: -820183407
       vertices: []
       indices: 
       edges: []
@@ -350,8 +374,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4a74c7304a280845817dd410bc76fba
-      internalID: -137200694
+      spriteID: e3ebcb781e4023048b7b17b0437953b9
+      internalID: -581448589
       vertices: []
       indices: 
       edges: []
@@ -367,18 +391,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spritesheet_creazione_player-camminata_avanti_dietro_10: -923592192
-      spritesheet_creazione_player-camminata_avanti_dietro_0: 1968024368
-      spritesheet_creazione_player-camminata_avanti_dietro_3: -1460586259
-      spritesheet_creazione_player-camminata_avanti_dietro_2: -332173613
-      spritesheet_creazione_player-camminata_avanti_dietro_9: 437204069
-      spritesheet_creazione_player-camminata_avanti_dietro_5: -1404512917
-      spritesheet_creazione_player-camminata_avanti_dietro_4: -378394602
-      spritesheet_creazione_player-camminata_avanti_dietro_8: 1010757052
-      spritesheet_creazione_player-camminata_avanti_dietro_7: -1255222660
-      spritesheet_creazione_player-camminata_avanti_dietro_6: -225635072
-      spritesheet_creazione_player-camminata_avanti_dietro_11: -137200694
-      spritesheet_creazione_player-camminata_avanti_dietro_1: -959756390
+      spritesheet_creazione_player-camminata_avanti_dietro_10: -820183407
+      spritesheet_creazione_player-camminata_avanti_dietro_0: -306938752
+      spritesheet_creazione_player-camminata_avanti_dietro_3: -367258497
+      spritesheet_creazione_player-camminata_avanti_dietro_2: -376769197
+      spritesheet_creazione_player-camminata_avanti_dietro_9: 1790975389
+      spritesheet_creazione_player-camminata_avanti_dietro_5: -1991936989
+      spritesheet_creazione_player-camminata_avanti_dietro_4: -30145047
+      spritesheet_creazione_player-camminata_avanti_dietro_8: 1686873052
+      spritesheet_creazione_player-camminata_avanti_dietro_7: 458562400
+      spritesheet_creazione_player-camminata_avanti_dietro_6: 1752176727
+      spritesheet_creazione_player-camminata_avanti_dietro_11: -581448589
+      spritesheet_creazione_player-camminata_avanti_dietro_1: -1252434068
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
