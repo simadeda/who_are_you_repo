@@ -14,4 +14,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bodyPartName: 
   bodyPartAnimationID: 0
-  allBodyPartAnimations: []
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: 1183775530af81a49a8db4d45a339b9f, type: 2}
+  - {fileID: 7400000, guid: 1310b42728b2a1b45a9a7461bfcc4fdf, type: 2}
+  - {fileID: 7400000, guid: d66c3d86bf43f3a40b53ea339283c158, type: 2}
+  - {fileID: 7400000, guid: d4442b8bfc0b2294c8f808db3dfabc25, type: 2}
+  - {fileID: 7400000, guid: 29a8a459c0fc28648a253d2fa6998805, type: 2}
+  - {fileID: 7400000, guid: e34daf684cc6d4c4484968b357d2b2f8, type: 2}
+  - {fileID: 7400000, guid: 1387255450e44474d9c73e0ba3d699c1, type: 2}
+  - {fileID: 7400000, guid: 517498155830c0045ba1754c0f0e67fa, type: 2}
+  - {fileID: 7400000, guid: fa9dd3192020dcb4aba294438029735c, type: 2}
+  - {fileID: 7400000, guid: b85efa64e55179f429441c569a498000, type: 2}
+  - {fileID: 7400000, guid: 5a1263a7bcf989542811196f76ba8418, type: 2}
+  - {fileID: 7400000, guid: f23b1abc87c51fb48a1dfffeecf0d6d6, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 7400000, guid: ebce0082369e1bb4fbd35750de9f0787, type: 2}

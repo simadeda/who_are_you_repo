@@ -7,6 +7,8 @@ public class Selettore_parti_corpo : MonoBehaviour
 {
     // Full Character Body
     [SerializeField] private SO_corpo_personaggio corpo_personaggio;
+    [SerializeField] private Manager_parti_corpo manager_parti_corpo;
+    [SerializeField] private Caratteristiche_personaggio caratteristiche_personaggio;
     // Body Part Selections
     [SerializeField] private Selezione_parti_corpo[] Selezione_parti_corpo;
 
@@ -19,6 +21,18 @@ public class Selettore_parti_corpo : MonoBehaviour
         }
     }
 
+    public void generazione_player()
+    {
+
+
+
+
+
+
+        manager_parti_corpo.Aggiorna_parti_corpo();
+    }
+
+    /*
     public void ProssimaParteCorpo(int indice_parte_corpo)
     {
         if (ConvalidaNumIdentificativo(indice_parte_corpo))
@@ -36,23 +50,6 @@ public class Selettore_parti_corpo : MonoBehaviour
         }
     }
 
-    public void CorpoPrecedente(int indice_parte_corpo)
-    {
-        if (ConvalidaNumIdentificativo(indice_parte_corpo))
-        {
-            if (Selezione_parti_corpo[indice_parte_corpo].indice_parte_corpo_corrente > 0)
-            {
-                Selezione_parti_corpo[indice_parte_corpo].indice_parte_corpo_corrente--;
-            }
-            else
-            {
-                Selezione_parti_corpo[indice_parte_corpo].indice_parte_corpo_corrente = Selezione_parti_corpo[indice_parte_corpo].bodyPartOptions.Length - 1;
-            }
-
-            AggiornaParteCorrente(indice_parte_corpo);
-        }    
-    }
-
     private bool ConvalidaNumIdentificativo(int indice_parte_corpo)
     {
         if (indice_parte_corpo > Selezione_parti_corpo.Length || indice_parte_corpo < 0)
@@ -65,7 +62,7 @@ public class Selettore_parti_corpo : MonoBehaviour
             return true;
         }
     }
-
+*/
     private void GetPartiCorpoCorrenti(int indice_parte_corpo)
     {
         // Get Current Body Part Name

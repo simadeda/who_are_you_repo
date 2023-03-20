@@ -153,9 +153,9 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 393638737}
-  - {fileID: 1180515825}
   - {fileID: 205533433}
   - {fileID: 1665162792}
+  - {fileID: 1180515825}
   - {fileID: 308617813}
   - {fileID: 194199264}
   m_Father: {fileID: 2122854166}
@@ -178,10 +178,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96f750fc77276fe4ca1464554a23cd66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  corpo_personaggio: {fileID: 0}
-  tipi_parti_corpo: []
-  stato_personaggio: []
-  direzioni_personaggio: []
+  corpo_personaggio: {fileID: 11400000, guid: 526a4aa76769be9428a66b1625d5703f, type: 2}
+  tipi_parti_corpo:
+  - Corpo
+  - Maglia
+  - Pantaloni
+  - Pantaloncini
+  - Scarpe
+  - Baffi
+  - Occhi
+  - Cappello
+  - Barba
+  - Capelli
+  stato_personaggio:
+  - idle
+  direzioni_personaggio:
+  - dietro
 --- !u!1 &5783141
 GameObject:
   m_ObjectHideFlags: 0
@@ -989,9 +1001,9 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 654167103}
+  - {fileID: 1835242978}
   - {fileID: 1472239547}
   - {fileID: 1454341532}
-  - {fileID: 1835242978}
   - {fileID: 351881445}
   - {fileID: 917319612}
   m_Father: {fileID: 3690480}
@@ -1168,7 +1180,7 @@ RectTransform:
   - {fileID: 286191572}
   - {fileID: 539471493}
   m_Father: {fileID: 3690480}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2892,6 +2904,7 @@ RectTransform:
   - {fileID: 23326663}
   - {fileID: 945532710}
   - {fileID: 2122854166}
+  - {fileID: 817756034}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3176,7 +3189,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &541802354
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3217,7 +3230,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 1029288733, guid: c7e8365c729bdb441afb84d8e3934d6b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4272,7 +4285,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &654167103
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4313,7 +4326,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1987502242, guid: 1b73e882205e5834e94a10c2dc1f7779, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5033,6 +5046,94 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 817571741}
   m_CullTransparentMesh: 1
+--- !u!1 &817756033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 817756034}
+  - component: {fileID: 817756035}
+  m_Layer: 0
+  m_Name: selettore_parti
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &817756034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817756033}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.0496235, y: -9.101396, z: 0.50662094}
+  m_LocalScale: {x: 1.9565215, y: 1.9565215, z: 1.9565215}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 535354067}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &817756035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817756033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6807c5f017275f418aaa5b7779f3a2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  corpo_personaggio: {fileID: 11400000, guid: 526a4aa76769be9428a66b1625d5703f, type: 2}
+  manager_parti_corpo: {fileID: 0}
+  caratteristiche_personaggio: {fileID: 0}
+  Selezione_parti_corpo:
+  - Nome_parte_corpo: 
+    bodyPartOptions: []
+    testo_parte_corpo_componente: {fileID: 0}
+    indice_parte_corpo_corrente: 0
+  - Nome_parte_corpo: 
+    bodyPartOptions: []
+    testo_parte_corpo_componente: {fileID: 0}
+    indice_parte_corpo_corrente: 0
+  - Nome_parte_corpo: 
+    bodyPartOptions: []
+    testo_parte_corpo_componente: {fileID: 0}
+    indice_parte_corpo_corrente: 0
+  - Nome_parte_corpo: 
+    bodyPartOptions: []
+    testo_parte_corpo_componente: {fileID: 0}
+    indice_parte_corpo_corrente: 0
+  - Nome_parte_corpo: 
+    bodyPartOptions: []
+    testo_parte_corpo_componente: {fileID: 0}
+    indice_parte_corpo_corrente: 0
+  - Nome_parte_corpo: 
+    bodyPartOptions: []
+    testo_parte_corpo_componente: {fileID: 0}
+    indice_parte_corpo_corrente: 0
+  - Nome_parte_corpo: 
+    bodyPartOptions: []
+    testo_parte_corpo_componente: {fileID: 0}
+    indice_parte_corpo_corrente: 0
+  - Nome_parte_corpo: 
+    bodyPartOptions: []
+    testo_parte_corpo_componente: {fileID: 0}
+    indice_parte_corpo_corrente: 0
+  - Nome_parte_corpo: 
+    bodyPartOptions: []
+    testo_parte_corpo_componente: {fileID: 0}
+    indice_parte_corpo_corrente: 0
+  - Nome_parte_corpo: 
+    bodyPartOptions: []
+    testo_parte_corpo_componente: {fileID: 0}
+    indice_parte_corpo_corrente: 0
 --- !u!1 &825328611
 GameObject:
   m_ObjectHideFlags: 0
@@ -7020,7 +7121,7 @@ RectTransform:
   - {fileID: 541802078}
   - {fileID: 541802354}
   m_Father: {fileID: 3690480}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8965,7 +9066,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 194199264}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9253,7 +9354,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 194199264}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10213,7 +10314,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3690480}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11327,7 +11428,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1835242978
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11341,7 +11442,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 194199264}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11368,7 +11469,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -625367992, guid: b59e9823c212f1a4fab754ce087f1318, type: 3}
+  m_Sprite: {fileID: -170573030, guid: b59e9823c212f1a4fab754ce087f1318, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
