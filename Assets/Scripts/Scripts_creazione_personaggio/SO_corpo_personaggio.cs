@@ -6,12 +6,12 @@
 public class SO_corpo_personaggio : ScriptableObject
 {
     //--Contiene dettagli sull'intero corpo del personaggio--
-    public BodyPart[] characterBodyParts;
+    public BodyPart[] parti_corpo_personaggio;
 }
 
 [System.Serializable]
 public class BodyPart
 {
-    public string bodyPartName;
-    public SO_parti_del_corpo bodyPart;
+    public string nome_parte_corpo;
+    public SO_parti_del_corpo parte_corpo;
 }

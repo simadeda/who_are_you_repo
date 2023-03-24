@@ -12,4 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 856777e0d94ce6249b54a172657be3ca, type: 3}
   m_Name: Corpo personaggio
   m_EditorClassIdentifier: 
-  characterBodyParts: []
+  parti_corpo_personaggio:
+  - nome_parte_corpo: Corpo
+    parte_corpo: {fileID: 0}
+  - nome_parte_corpo: Cappello
+    parte_corpo: {fileID: 0}
+  - nome_parte_corpo: Capelli
+    parte_corpo: {fileID: 0}
+  - nome_parte_corpo: Occhi
+    parte_corpo: {fileID: 0}
+  - nome_parte_corpo: Baffi
+    parte_corpo: {fileID: 0}
+  - nome_parte_corpo: Barba
+    parte_corpo: {fileID: 0}
+  - nome_parte_corpo: Maglia
+    parte_corpo: {fileID: 0}
+  - nome_parte_corpo: Pantaloni
+    parte_corpo: {fileID: 0}
+  - nome_parte_corpo: Pantaloncini
+    parte_corpo: {fileID: 0}
+  - nome_parte_corpo: Scarpe
+    parte_corpo: {fileID: 0}

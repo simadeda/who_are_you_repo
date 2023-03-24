@@ -7,7 +7,6 @@ public class Selettore_parti_corpo : MonoBehaviour
 {
     // Full Character Body
     [SerializeField] private SO_corpo_personaggio corpo_personaggio;
-    [SerializeField] private Manager_parti_corpo manager_parti_corpo;
     [SerializeField] private Caratteristiche_personaggio caratteristiche_personaggio;
     // Body Part Selections
     [SerializeField] private Selezione_parti_corpo[] Selezione_parti_corpo;
@@ -15,21 +14,17 @@ public class Selettore_parti_corpo : MonoBehaviour
     private void Start()
     {
         // Get All Current Body Parts
-        for (int i = 0; i < Selezione_parti_corpo.Length; i++)
+        for (int index_parte_corpo = 0; index_parte_corpo < Selezione_parti_corpo.Length; index_parte_corpo++)
         {
-            GetPartiCorpoCorrenti(i);
+            scelta_parti_player(index_parte_corpo);
         }
     }
 
-    public void generazione_player()
+    public void scelta_parti_player(int index)
     {
-
-
-
-
-
-
-        manager_parti_corpo.Aggiorna_parti_corpo();
+        int n_rand;
+        n_rand = Random_number1.Rnd(Selezione_parti_corpo[index].opzioni_parti_corpo.Length);
+        corpo_personaggio.parti_corpo_personaggio[index].parte_corpo = Selezione_parti_corpo[index].opzioni_parti_corpo[n_rand];
     }
 
     /*
@@ -65,26 +60,16 @@ public class Selettore_parti_corpo : MonoBehaviour
 */
     private void GetPartiCorpoCorrenti(int indice_parte_corpo)
     {
-        // Get Current Body Part Name
-        Selezione_parti_corpo[indice_parte_corpo].testo_parte_corpo_componente.text = corpo_personaggio.characterBodyParts[indice_parte_corpo].bodyPart.bodyPartName;
         // Get Current Body Part Animation ID
-        Selezione_parti_corpo[indice_parte_corpo].indice_parte_corpo_corrente = corpo_personaggio.characterBodyParts[indice_parte_corpo].bodyPart.bodyPartAnimationID;
+        Selezione_parti_corpo[indice_parte_corpo].indice_parte_corpo_corrente = corpo_personaggio.parti_corpo_personaggio[indice_parte_corpo].parte_corpo.ID_animazione_parte_corpo;
     }
 
-    private void AggiornaParteCorrente(int indice_parte_corpo)
-    {
-        // Update Selection Name Text
-        Selezione_parti_corpo[indice_parte_corpo].testo_parte_corpo_componente.text = Selezione_parti_corpo[indice_parte_corpo].bodyPartOptions[Selezione_parti_corpo[indice_parte_corpo].indice_parte_corpo_corrente].bodyPartName;
-        // Update Character Body Part
-        corpo_personaggio.characterBodyParts[indice_parte_corpo].bodyPart = Selezione_parti_corpo[indice_parte_corpo].bodyPartOptions[Selezione_parti_corpo[indice_parte_corpo].indice_parte_corpo_corrente];
-    }
 }
 
 [System.Serializable]
 public class Selezione_parti_corpo
 {
     public string Nome_parte_corpo;
-    public SO_parti_del_corpo[] bodyPartOptions;
-    public Text testo_parte_corpo_componente;
+    public SO_parti_del_corpo[] opzioni_parti_corpo;
     [HideInInspector] public int indice_parte_corpo_corrente;
 }
