@@ -15,6 +15,14 @@ MonoBehaviour:
   nome_parte_corpo: pelle_nera
   ID_animazione_parte_corpo: 0
   tutte_animazioni_corpo:
+  - {fileID: 7400000, guid: acdbb4e68c6b51e4cae6511dd4308e88, type: 2}
+  - {fileID: 7400000, guid: 97576c35facb95441982e9598fd3fcd1, type: 2}
+  - {fileID: 7400000, guid: ee70611c01c36e84b87cf35af0b3b862, type: 2}
+  - {fileID: 7400000, guid: ec791e51a7bbcb04f89a742c484e1f96, type: 2}
+  - {fileID: 7400000, guid: 6351cc428ebc182438f9f48de8140e0d, type: 2}
+  - {fileID: 7400000, guid: a50056e481572624686ca02e5408b37a, type: 2}
+  - {fileID: 7400000, guid: 16bdc04b1d285b1499e517d04d1b7e03, type: 2}
+  - {fileID: 7400000, guid: 2d3e86b42238ccd44b3581a303cd44e6, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -51,12 +59,4 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 7400000, guid: b414e5510e42b244a8ee218d13b86232, type: 2}

@@ -8845,6 +8845,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2122854166}
     m_Modifications:
+    - target: {fileID: 4086417264291370237, guid: 2533b4b312854584c94563f280161de3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5446873924382688516, guid: 2533b4b312854584c94563f280161de3, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 0
@@ -9604,17 +9608,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704643618}
   m_CullTransparentMesh: 1
---- !u!114 &1745988440 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1212885796566486962, guid: 5087954b625607a42b197b77dd7415ec, type: 3}
-  m_PrefabInstance: {fileID: 1583082456815267289}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c223525b4d914034e91644a02a2e484f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1770757544
 GameObject:
   m_ObjectHideFlags: 0
@@ -10435,6 +10428,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1849215733}
   m_CullTransparentMesh: 1
+--- !u!114 &1883213094 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6043643124718363948, guid: 5087954b625607a42b197b77dd7415ec, type: 3}
+  m_PrefabInstance: {fileID: 1583082456815267289}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c223525b4d914034e91644a02a2e484f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1909111733
 GameObject:
   m_ObjectHideFlags: 0
@@ -11340,7 +11344,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1745988440}
+      - m_Target: {fileID: 1883213094}
         m_TargetAssemblyTypeName: Carica_scene, core_scripts_ass
         m_MethodName: caricatore_string
         m_Mode: 5
@@ -11854,7 +11858,7 @@ PrefabInstance:
     - target: {fileID: 1212885796566486962, guid: 5087954b625607a42b197b77dd7415ec, type: 3}
       propertyPath: carica_scene
       value: 
-      objectReference: {fileID: 1745988440}
+      objectReference: {fileID: 0}
     - target: {fileID: 6043643124718363948, guid: 5087954b625607a42b197b77dd7415ec, type: 3}
       propertyPath: carica_scene
       value: 

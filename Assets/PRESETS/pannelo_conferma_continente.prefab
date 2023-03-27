@@ -1144,10 +1144,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1212885796566486962, guid: 5087954b625607a42b197b77dd7415ec, type: 3}
+      - m_Target: {fileID: 6043643124718363948, guid: 5087954b625607a42b197b77dd7415ec, type: 3}
         m_TargetAssemblyTypeName: Carica_scene, core_scripts_ass
-        m_MethodName: caricatore_string
-        m_Mode: 5
+        m_MethodName: caricatore
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1180,7 +1180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83bf758d3ad75b6499b91146d10df8e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LettoreContinenteStatoXML: {fileID: 0}
+  LettoreContinenteStatoXML: {fileID: 2221530270228205538, guid: 616bd621e2d38704b9d48f9b7b6a86af, type: 3}
 --- !u!1 &1484728681704829851
 GameObject:
   m_ObjectHideFlags: 0

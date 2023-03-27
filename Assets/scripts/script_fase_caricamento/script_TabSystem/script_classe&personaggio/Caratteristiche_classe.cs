@@ -8,10 +8,10 @@ public class Caratteristiche_classe : MonoBehaviour
     public GameObject txt_classe, txt_armamento, txt_tipo, txt_descrizione;
     private TextMeshProUGUI TextMesH_classe, TextMesH_armamento, TextMesH_tipo, TextMesH_descr;
 
-    public string nome_classe;
-    string descrizione_classe;
-    string[] tipo_classe = new string[3] { "Assalto", "Supporto", "Demolitore"};
-    string[] armamento = new string[4] { "Pesante", "Leggero", "intermedio", "incendiario"};
+    [HideInInspector] public string nome_classe;
+    private string descrizione_classe;
+    private string[] tipo_classe = new string[3] { "Assalto", "Supporto", "Demolitore"};
+    private string[] armamento = new string[4] { "Pesante", "Leggero", "intermedio", "incendiario"};
 
     void Start()
     {

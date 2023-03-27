@@ -74,7 +74,7 @@ public class Manager_parti_corpo : MonoBehaviour
                     string direction = characterDirections[directionindex];
                     // Get players animation from player body
                     // ***NOTE: Unless Changed Here, Animation Naming Must Be: "[Type]_[Index]_[state]_[direction]" (Ex. Body_0_idle_down)
-                    animationClip = Resources.Load<AnimationClip>("Player Animations/" + partType + "/" + partType + "_" + partID + "_" + state + "_" + direction);
+                    animationClip = Resources.Load<AnimationClip>("Animazioni/Animazioni_player/ANIM_" + partType + "/" + partType + "_" + partID + "_" + state + "_" + direction);
                     if (animationClip == null)
                         defaultAnimationClips["parte_corpo_vuota"] = animationClip;//se c'è una parte del corpo che non ha animazione (es senza capelli)
                     else

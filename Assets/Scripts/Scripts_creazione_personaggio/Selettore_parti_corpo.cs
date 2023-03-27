@@ -19,49 +19,45 @@ public class Selettore_parti_corpo : MonoBehaviour
             scelta_parti_player(index_parte_corpo);
         }
     }
-
+    public void scelta_occhi_player(int index)
+    {
+        var occhi_player = "occhi_";
+        int occhi_index;
+        occhi_player += caratteristiche_personaggio.Get_occhi;
+        for (occhi_index = 0; occhi_index < Selezione_parti_corpo[index].opzioni_parti_corpo.Length; occhi_index++)
+        {
+            if (occhi_player.Equals(Selezione_parti_corpo[index].opzioni_parti_corpo[occhi_index].nome_parte_corpo))
+            {
+                corpo_personaggio.parti_corpo_personaggio[index].parte_corpo = Selezione_parti_corpo[index].opzioni_parti_corpo[occhi_index];
+                break;
+            }
+        }
+    }
+    public void scelta_capelli_player(int index)
+    {
+        var capelli_player = "capelli_";
+        int capelli_index;
+        capelli_player += caratteristiche_personaggio.Get_occhi;
+        for (capelli_index = 0; capelli_index < Selezione_parti_corpo[index].opzioni_parti_corpo.Length; capelli_index++)
+        {
+            if (capelli_player.Equals(Selezione_parti_corpo[index].opzioni_parti_corpo[capelli_index].nome_parte_corpo))
+            {
+                corpo_personaggio.parti_corpo_personaggio[index].parte_corpo = Selezione_parti_corpo[index].opzioni_parti_corpo[capelli_index];
+                break;
+            }
+        }
+    }
     public void scelta_parti_player(int index)
     {
+        if (Selezione_parti_corpo[index].Nome_parte_corpo == "Occhi")
+            scelta_occhi_player(index);
+
+        if (Selezione_parti_corpo[index].Nome_parte_corpo == "Capelli")
+            scelta_capelli_player(index);
+
         int n_rand;
         n_rand = Random_number1.Rnd(Selezione_parti_corpo[index].opzioni_parti_corpo.Length);
         corpo_personaggio.parti_corpo_personaggio[index].parte_corpo = Selezione_parti_corpo[index].opzioni_parti_corpo[n_rand];
-    }
-
-    /*
-    public void ProssimaParteCorpo(int indice_parte_corpo)
-    {
-        if (ConvalidaNumIdentificativo(indice_parte_corpo))
-        {
-            if (Selezione_parti_corpo[indice_parte_corpo].indice_parte_corpo_corrente < Selezione_parti_corpo[indice_parte_corpo].bodyPartOptions.Length - 1)
-            {
-                Selezione_parti_corpo[indice_parte_corpo].indice_parte_corpo_corrente++;
-            }
-            else
-            {
-                Selezione_parti_corpo[indice_parte_corpo].indice_parte_corpo_corrente = 0;
-            }
-
-            AggiornaParteCorrente(indice_parte_corpo);
-        }
-    }
-
-    private bool ConvalidaNumIdentificativo(int indice_parte_corpo)
-    {
-        if (indice_parte_corpo > Selezione_parti_corpo.Length || indice_parte_corpo < 0)
-        {
-            Debug.Log("Index value does not match any body parts!");
-            return false;
-        }
-        else
-        {
-            return true;
-        }
-    }
-*/
-    private void GetPartiCorpoCorrenti(int indice_parte_corpo)
-    {
-        // Get Current Body Part Animation ID
-        Selezione_parti_corpo[indice_parte_corpo].indice_parte_corpo_corrente = corpo_personaggio.parti_corpo_personaggio[indice_parte_corpo].parte_corpo.ID_animazione_parte_corpo;
     }
 
 }

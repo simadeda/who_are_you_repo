@@ -9,14 +9,16 @@ public class Caratteristiche_personaggio : MonoBehaviour
 {
     public GameObject txt_anni,txt_data_di_nascita,txt_occhi,txt_altezza,lettoreXML,Generatore_num_rand,txt_nome,txt_capelli,txt_cognome;
     private TextMeshProUGUI TextMesH_anni,TextMesH_data,TextMesH_occhi,TextMesH_altezza,TextMesH_nome,TextMesH_capelli,TextMesH_cognome;
-    LettoreXML Lettura_personaggi; 
-    int Anni;
-    string Data_di_nascita, Nome_personaggio, Cognome_personaggio;
-    string Continente,Stato;
-    string[] Occhi = new string[4] {"Azzurri","Verdi","Neri","Marroni"};
-    string[] Colore_capelli = new string[6] {"Biondi","Castani","Neri","Marroni","Bianchi","Rossi"};
+    private LettoreXML Lettura_personaggi; 
+    private int Anni;
+    private string Data_di_nascita, Nome_personaggio, Cognome_personaggio;
+    private string Continente,Stato;
+    private string[] Occhi = new string[4] {"azzurri","verdi","neri","marroni"};
+    private string[] Colore_capelli = new string[6] {"biondi","castani","neri","marroni","bianchi","rossi"};
+    private string occhi_scelti;
+    private string capelli_scelti;
 
-    void Start()
+    void Awake()
     {
         TextMesH_anni = txt_anni.GetComponent<TextMeshProUGUI>();
         TextMesH_data = txt_data_di_nascita.GetComponent<TextMeshProUGUI>();
@@ -37,7 +39,17 @@ public class Caratteristiche_personaggio : MonoBehaviour
         Capelli(Colore_capelli);
         Altezza_personaggio();
         Nome_cognome_personaggio();
-    }  
+    }
+    public string Get_occhi
+    {
+        get { return occhi_scelti; }
+    }
+
+    public string Get_capelli
+    {
+        get { return capelli_scelti; }
+    }
+
     public void Anni_rnd(int[] giorno_mese_anno)
     {
         Anni = 2022 - giorno_mese_anno[2];
@@ -94,7 +106,8 @@ public class Caratteristiche_personaggio : MonoBehaviour
         int Scelta;
         Scelta = UnityEngine.Random.Range(0, Occhi.Length);
 
-        TextMesH_occhi.text = Occhi[Scelta].ToString();
+        occhi_scelti = Occhi[Scelta];
+        TextMesH_occhi.text = occhi_scelti;
     }
 
     public void Capelli(string[] colore_capelli)
@@ -105,7 +118,8 @@ public class Caratteristiche_personaggio : MonoBehaviour
             TextMesH_capelli.text = colore_capelli[4].ToString();
         }
         scelta = UnityEngine.Random.Range(0, 5);
-        TextMesH_capelli.text = colore_capelli[scelta].ToString();
+        capelli_scelti = colore_capelli[scelta];
+        TextMesH_capelli.text = capelli_scelti;
     }
     public void Altezza_personaggio()
     {
