@@ -9,6 +9,7 @@ TagManager:
   - img_mp4
   - panel
   - porta
+  - random_num
   layers:
   - Default
   - TransparentFX
@@ -49,7 +50,7 @@ TagManager:
   - name: base
     uniqueID: 585641583
     locked: 0
-  - name: player&oggetti
+  - name: player_oggetti
     uniqueID: 4146329019
     locked: 0
   - name: interazione

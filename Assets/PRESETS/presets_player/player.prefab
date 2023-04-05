@@ -821,10 +821,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5446873925572969913}
-  - component: {fileID: 5446873925572969915}
-  - component: {fileID: 5446873925572969925}
   - component: {fileID: 5446873925572969924}
+  - component: {fileID: 5446873925572969925}
   - component: {fileID: 5446873925572969926}
+  - component: {fileID: 3644829409697317837}
   - component: {fileID: 5446873925572969927}
   - component: {fileID: 3078365534247715218}
   - component: {fileID: -1506569464650847355}
@@ -857,32 +857,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5446873925572969915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5446873925572969912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cafe02bedd24504185649c6eb37a523, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attacco: {fileID: 5446873925572969925}
---- !u!114 &5446873925572969925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5446873925572969912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d557a16372c0e5d458331c53fa9180ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 5446873925572969924}
 --- !u!95 &5446873925572969924
 Animator:
   serializedVersion: 4
@@ -903,6 +877,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5446873925572969925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5446873925572969912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d557a16372c0e5d458331c53fa9180ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 5446873925572969924}
 --- !u!114 &5446873925572969926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -919,6 +906,19 @@ MonoBehaviour:
   num_max_vita: 0
   num_corrente_vita: 0
   barra_Vita: {fileID: 0}
+--- !u!114 &3644829409697317837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5446873925572969912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cafe02bedd24504185649c6eb37a523, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attacco: {fileID: 0}
 --- !u!50 &5446873925572969927
 Rigidbody2D:
   serializedVersion: 4
@@ -983,7 +983,15 @@ MonoBehaviour:
   characterStates:
   - idle
   - camminata
-  - attacco
+  - idlepistola
+  - idlearma
+  - idlemeleelunga
+  - idlemeleecorto
+  - attaccomeleecorto
+  - attaccomeleelungo
+  - camminatameleelunga
+  - camminataarma
+  - camminatapistola
   characterDirections:
   - dietro
   - avanti
