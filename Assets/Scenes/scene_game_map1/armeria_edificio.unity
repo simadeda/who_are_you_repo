@@ -270,7 +270,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 456160471}
-  m_BodyType: 1
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -281,7 +281,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &456160474
 BoxCollider2D:
@@ -438,7 +438,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!1 &594269160
 GameObject:
@@ -480,7 +480,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 594269160}
-  m_BodyType: 1
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -491,7 +491,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &594269163
 BoxCollider2D:
@@ -570,7 +570,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 755750019}
-  m_BodyType: 1
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -581,7 +581,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &755750022
 BoxCollider2D:
@@ -635,7 +635,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766566091}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.063, y: 0, z: 0}
+  m_LocalPosition: {x: -7.23, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1024331762}
@@ -649,7 +649,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766566091}
-  m_BodyType: 1
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -660,7 +660,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &766566094
 BoxCollider2D:
@@ -686,7 +686,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 9.5}
+  m_Size: {x: 0.8, y: 9.5}
   m_EdgeRadius: 0
 --- !u!4 &774423828 stripped
 Transform:
@@ -723,7 +723,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!212 &989828439
 SpriteRenderer:
@@ -784,7 +784,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989828438}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.02, y: 0.48, z: 0}
+  m_LocalPosition: {x: 3.008, y: 0.48, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -820,22 +820,22 @@ CompositeCollider2D:
         Y: -11879220
   - m_Collider: {fileID: 989828442}
     m_ColliderPaths:
-    - - X: 39687207
+    - - X: 35229735
         Y: -11882284
-      - X: 39687207
+      - X: 35229735
         Y: 1274383
-      - X: -41437444
+      - X: -36979976
         Y: 1274090
-      - X: -41437151
+      - X: -36979683
         Y: -11882284
   m_CompositePaths:
     m_Paths:
-    - - {x: 3.9686913, y: -1.1882284}
-      - {x: 3.9686913, y: 0.1274383}
-      - {x: -2.09371, y: 0.1274458}
+    - - {x: 3.522944, y: -1.1882284}
+      - {x: 3.522944, y: 0.1274383}
+      - {x: -2.09371, y: 0.12744491}
       - {x: -2.0937395, y: 1.1846383}
       - {x: -4.1437173, y: 1.1845797}
-      - {x: -4.143686, y: -1.1882284}
+      - {x: -4.1436586, y: -1.187922}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
 --- !u!61 &989828442
@@ -862,7 +862,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8.112494, y: 1.3156667}
+  m_Size: {x: 7.221, y: 1.3156667}
   m_EdgeRadius: 0
 --- !u!61 &989828443
 BoxCollider2D:
@@ -898,7 +898,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989828438}
-  m_BodyType: 1
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -951,7 +951,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1024297699}
-  m_BodyType: 1
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -962,7 +962,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &1024297702
 BoxCollider2D:
@@ -1263,7 +1263,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1083227672}
-  m_BodyType: 1
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -1274,7 +1274,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!1001 &1180880321
 PrefabInstance:
@@ -1466,7 +1466,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227082737}
-  m_BodyType: 1
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -1477,7 +1477,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &1227082740
 BoxCollider2D:
@@ -2014,7 +2014,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1877842003}
-  m_BodyType: 1
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -2025,7 +2025,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &1877842006
 BoxCollider2D:
@@ -2139,7 +2139,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2032835691
 Transform:
@@ -2149,7 +2149,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2032835690}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.437, y: 0, z: 0}
+  m_LocalPosition: {x: 6.63, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1024331762}
@@ -2163,7 +2163,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2032835690}
-  m_BodyType: 1
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -2174,7 +2174,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &2032835693
 BoxCollider2D:
@@ -2200,7 +2200,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 9.5}
+  m_Size: {x: 0.8, y: 9.5}
   m_EdgeRadius: 0
 --- !u!1001 &6942119248470345541
 PrefabInstance:
@@ -2269,6 +2269,18 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 774423828}
+    - target: {fileID: 6942119247851743310, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
+      propertyPath: m_Lens.FarClipPlane
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942119247851743310, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
+      propertyPath: m_Lens.NearClipPlane
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942119247851743310, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
+      propertyPath: m_Lens.OrthographicSize
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6942119247851743311, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
       propertyPath: m_Enabled
       value: 1

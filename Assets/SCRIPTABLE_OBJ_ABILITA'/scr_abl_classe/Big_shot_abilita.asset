@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8243bfaf695eb044a7f0377567a96d9, type: 3}
+  m_Name: Big_shot_abilita
+  m_EditorClassIdentifier: 
+  nome_abl: BigShot
+  cooldown: 120
+  buff: 1
+  sprite_abl: {fileID: 8798398280078188866, guid: 1ce56d299cb4a054cb4fc0b316aec3ac, type: 3}
+  durata: 60
+  tempo_di_utilizzo: 0
+  abilita_ancora_in_gioco: 0
+  richiede_bersaglio: 0
+  utilizzabili: 0
+  max_utilizzabili: 0
+  danno: 150
+  caricatore: 10
+  "velocit\xE0_proiettile": 100
+  gittata: 100
+  cooldawn_attacco: 0
+  fire_rate: 2

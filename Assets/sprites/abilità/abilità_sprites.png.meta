@@ -78,7 +78,7 @@ TextureImporter:
       213: 5138133110546699783
     second: "abilit\xE0_sprites_24"
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -99,6 +99,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -137,6 +138,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -162,11 +164,47 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_0"
+      name: "abilit\xE0_armaiolo"
       rect:
         serializedVersion: 2
         x: 0
@@ -174,7 +212,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,7 +225,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_1"
+      name: "abilit\xE0_velocista"
       rect:
         serializedVersion: 2
         x: 48
@@ -195,7 +233,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -208,7 +246,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_2"
+      name: "abilit\xE0_doc"
       rect:
         serializedVersion: 2
         x: 96
@@ -216,7 +254,7 @@ TextureImporter:
         width: 33
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -229,7 +267,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_3"
+      name: "abilit\xE0_armaioloo"
       rect:
         serializedVersion: 2
         x: 144
@@ -237,7 +275,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -250,7 +288,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_4"
+      name: "abilit\xE0_piromane"
       rect:
         serializedVersion: 2
         x: 192
@@ -258,7 +296,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -271,7 +309,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_5"
+      name: "abilit\xE0_marksman"
       rect:
         serializedVersion: 2
         x: 0
@@ -279,7 +317,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -292,7 +330,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_6"
+      name: "abilit\xE0_attaccabrighe"
       rect:
         serializedVersion: 2
         x: 48
@@ -300,7 +338,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -313,7 +351,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_7"
+      name: "abilit\xE0_italia"
       rect:
         serializedVersion: 2
         x: 0
@@ -321,7 +359,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -334,7 +372,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_8"
+      name: "abilit\xE0_albania"
       rect:
         serializedVersion: 2
         x: 48
@@ -342,7 +380,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -355,7 +393,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_9"
+      name: "abilit\xE0_germania"
       rect:
         serializedVersion: 2
         x: 96
@@ -363,7 +401,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -376,7 +414,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_10"
+      name: "abilit\xE0_UK"
       rect:
         serializedVersion: 2
         x: 144
@@ -384,7 +422,7 @@ TextureImporter:
         width: 33
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -397,7 +435,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_11"
+      name: "abilit\xE0_giappone"
       rect:
         serializedVersion: 2
         x: 0
@@ -405,7 +443,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -418,7 +456,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_12"
+      name: "abilit\xE0_cina"
       rect:
         serializedVersion: 2
         x: 48
@@ -426,7 +464,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -439,7 +477,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_13"
+      name: "abilit\xE0_india"
       rect:
         serializedVersion: 2
         x: 96
@@ -447,7 +485,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -460,7 +498,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_14"
+      name: "abilit\xE0_russia"
       rect:
         serializedVersion: 2
         x: 144
@@ -468,7 +506,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -481,7 +519,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_15"
+      name: "abilit\xE0_israele"
       rect:
         serializedVersion: 2
         x: 192
@@ -489,7 +527,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -502,7 +540,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_16"
+      name: "abilit\xE0_USA"
       rect:
         serializedVersion: 2
         x: 0
@@ -510,7 +548,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -523,7 +561,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_17"
+      name: "abilit\xE0_brasile"
       rect:
         serializedVersion: 2
         x: 48
@@ -531,7 +569,7 @@ TextureImporter:
         width: 60
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -544,7 +582,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_18"
+      name: "abilit\xE0_messico"
       rect:
         serializedVersion: 2
         x: 128
@@ -552,7 +590,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -565,7 +603,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_19"
+      name: "abilit\xE0_canada"
       rect:
         serializedVersion: 2
         x: 176
@@ -573,7 +611,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -586,7 +624,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_20"
+      name: "abilit\xE0_egitto"
       rect:
         serializedVersion: 2
         x: 0
@@ -594,7 +632,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -607,7 +645,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_21"
+      name: "abilit\xE0_algeria"
       rect:
         serializedVersion: 2
         x: 48
@@ -615,7 +653,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -628,7 +666,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "abilit\xE0_sprites_22"
+      name: "abilit\xE0_marocco"
       rect:
         serializedVersion: 2
         x: 96
@@ -636,7 +674,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -657,7 +695,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -678,7 +716,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -700,6 +738,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      "abilit\xE0_doc": -6377281334731902586
+      "abilit\xE0_italia": 3449185750421142068
+      "abilit\xE0_armaiolo": -4452006743488470800
+      "abilit\xE0_armaioloo": -4613363753333885042
+      "abilit\xE0_sprites_23": 695211807892857901
+      "abilit\xE0_UK": 4574077671492815913
+      "abilit\xE0_israele": 4489841412561841505
+      "abilit\xE0_messico": -5357966386808781303
+      "abilit\xE0_brasile": 7330854339335453721
+      "abilit\xE0_attaccabrighe": 1973210425229599259
+      "abilit\xE0_germania": -5761749356303935051
+      "abilit\xE0_india": -6625401166243697942
+      "abilit\xE0_velocista": -6285043853835289812
+      "abilit\xE0_USA": 3949804736053849038
+      "abilit\xE0_marksman": 8798398280078188866
+      "abilit\xE0_egitto": 1988668763417335947
+      "abilit\xE0_sprites_24": 5138133110546699783
+      "abilit\xE0_canada": 415385724323192624
+      "abilit\xE0_algeria": 2667135569704420236
+      "abilit\xE0_russia": 1196697716816998637
+      "abilit\xE0_giappone": 4323156169719534742
+      "abilit\xE0_piromane": -2287480604017462750
+      "abilit\xE0_albania": -8512835914137209706
+      "abilit\xE0_cina": -6468988797979403232
+      "abilit\xE0_marocco": 9013396933865952758
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

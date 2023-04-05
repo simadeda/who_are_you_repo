@@ -1,0 +1,4635 @@
+fileFormatVersion: 2
+guid: 1b73e882205e5834e94a10c2dc1f7779
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf98a2255d5804f4389998cc0d2e27f9
+      internalID: -1987502242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1680
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce9cd33003676e4b8889137c15bae18
+      internalID: -1569914130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1680
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03609e40adb44c2429b7497f17430cab
+      internalID: 979468033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86dc604a84d4ef144933745aff4c867a
+      internalID: 729983355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1600
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76430aa2ec2a5d044bf57e0f17d0d3b5
+      internalID: -1462073360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1600
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75ce09d1df94fa4b9f89d047dd513aa
+      internalID: -1238961977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1600
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff91013dae60804a87fe024f97bee74
+      internalID: 773593283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1600
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964a86419e5945e48a7066489d702978
+      internalID: -1022360947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1600
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305ec765e2729fa41bd4262534b4b461
+      internalID: 804240823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1600
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492c5b5257322ce48974ca8a9f1f8712
+      internalID: -1335175528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_10
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1600
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c60457efd712b4fa8043f00b568b5f
+      internalID: 539886059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1600
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2302ebcd80922014e857948b2e2194a8
+      internalID: -485009946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_12
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1600
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e00e81cb46f3a4eb190b9b16706edf
+      internalID: -1261798644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1600
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50b8bf72a75f2b46ad10b20b157ee3c
+      internalID: 1041259793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_14
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1600
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0942a0ea4cea5e048a9293d7bf1a9e59
+      internalID: -2138181945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1600
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32ffa5f13b276d4d8f019fa3fd9562a
+      internalID: 645165085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_16
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1600
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f127e8d82b3186f41a0138c6f2eac414
+      internalID: -862685517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_17
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1600
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5213af70742c1884cb9008b662f61497
+      internalID: 1244841228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_18
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1600
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d546824b93a0fa4cbcf514cae525d05
+      internalID: 405292022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1520
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce22bee8aaea6a54aa8ee81d197e705b
+      internalID: -334920715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1520
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a71a95843c4f754a90f6b96354473dc
+      internalID: -2057345478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1520
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212ae1bb39244034dbac4e8e99c51534
+      internalID: 1061600673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1520
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef8e439d2b64f445a0bbeaaa6dee8e6
+      internalID: 543096220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1520
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fcf51ea934f4d45a19b07462c579ee
+      internalID: 1249498578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_24
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1520
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdb751a7bb9cb4458c29aa232405640
+      internalID: -83341297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1520
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98364cb5654eca5439bd8b12375c8ef5
+      internalID: 1968150455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_26
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1520
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5650776c4754f48b2a1f6047998574
+      internalID: 1862323120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_27
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1520
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1565af34c0c50fa4d8d563e0a1812686
+      internalID: 1642050058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_28
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1520
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8918bbf1ec3c4649a8f2023bb9acbac
+      internalID: -1115783827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_29
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1520
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78a829101c776f4795864d6ef35e05d
+      internalID: 1430842948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_30
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1520
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2011c7d0ac16da04e8bc32296a4881c2
+      internalID: 474539552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666a2dc2aee89ca49bfec2e838a66b02
+      internalID: -1646260246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1440
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5443967cf8f80ee4ebed2e7e7ddc299e
+      internalID: 1669833023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1440
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374fd26cf89427443a504f0dea524d1d
+      internalID: -1095187279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1440
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60eef000eeb008e428af98acd01d1adc
+      internalID: 1265473591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_35
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1440
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291ed61acf9f4bf4bb3f93601785de35
+      internalID: -1477291504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_36
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1440
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada6c70d31940364ea67230736ebb3f6
+      internalID: 927255588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1360
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b13474930a749843bd810094b7e7a3f
+      internalID: -2119348678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1360
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0070ff96c101ae648a4a70fcae3a0226
+      internalID: -726903266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_39
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1360
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022d9d1f6d3215d469d495438d1372bb
+      internalID: -1580369520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_40
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1360
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387cbdfa057104040a59bff2924db6a6
+      internalID: 383186566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_41
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1360
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21e318b86586404d9b0aa94ec90ecb9
+      internalID: -1768456668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_42
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1360
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02788badc9d4024fbc132531451e2e6
+      internalID: 516639028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417a8b9f8691a6d45b0feb1225383dc1
+      internalID: 2002804455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edcfe126d5f2894ba0111d88d45a34d
+      internalID: -929037453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_45
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3092765c892f09a43acc300e91bcda79
+      internalID: -626208823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1bcbb463f1a0a4c8c9ae6ad9040262
+      internalID: 602375851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_47
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1280
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6ec140fb733ac42b906c9130dddd09
+      internalID: -764930659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_48
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1280
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08fb461c35a94e499022a52e6428320
+      internalID: -1331242613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9faa863c4edf7ef438a3cb50aedf0f82
+      internalID: 589216924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1200
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecb4cbc379c72648bd62033e772b64c
+      internalID: 1195774752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_51
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1200
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d24695ba6c55ee4ca1e9ecae970b432
+      internalID: 1378776029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_52
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1200
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755febe5cb840cd42a49a9b3be5f4bde
+      internalID: 506351582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_53
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1200
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9b471ac112f0d42a9669ced598f842
+      internalID: -1140548878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_54
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1200
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5b5ee75485f964c8ddce6adae5cd99
+      internalID: 498448896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1120
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336020160ab60414e8dcd415a028004f
+      internalID: -785765109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_56
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1120
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037f19066131e7e4f86ed0184ca7f3d1
+      internalID: -815578775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_57
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1120
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc83a4a03f631a64eac9af3232f60567
+      internalID: 1647129327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_58
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1120
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99ef9bf21e94e04eae80e61962926ae
+      internalID: 263397284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_59
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1120
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a4babae7fe94d4692091501037c8a6
+      internalID: 1584953046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_60
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1120
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71b20f5fdb729843971ff356c2e3d5c
+      internalID: 861231672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_61
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1120
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128dca195e4a4484cada0fab9f5a3c2d
+      internalID: -1717324467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1120
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9dae9cc285e4c468364a39ac210d68
+      internalID: 539697013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_63
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1120
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc54f7b31be17443ba79625b8539208
+      internalID: 772996193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_64
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1120
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd9c61833abc1f44a1540259146efb2
+      internalID: 100302682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_65
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1120
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb075a3965cb06b4facdf9d0fea4a218
+      internalID: 220229878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_66
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1120
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4dce7d523dd30469cd26a56620df94
+      internalID: 1965414575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_67
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1120
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44323c57cc195245bdeeb1e5e5ffca5
+      internalID: -1759893427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_68
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1120
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87c027f9423262478b65d88bba45161
+      internalID: -1444090733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_69
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1120
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39277844d59669e448fd357f7c73f8ce
+      internalID: 207239465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_70
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1120
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cf07f812619c34d811800ee60cdcff
+      internalID: -920551910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1040
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18440e271c956e7459177b5274a1e569
+      internalID: 486533618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_72
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1040
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012452ce2c887c646b2b324db7278987
+      internalID: 1820193751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_73
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1040
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238bb82bda871754f92f42c4ac6f2e89
+      internalID: -849753506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_74
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1040
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0a26e6931cc6843b2aee484c9b162d
+      internalID: 394884104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_75
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1040
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6986379bc994444aa8e81cf1cb82b3
+      internalID: -174908644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_76
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1040
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bdc96e9a9ba884b9932c34b79d052b
+      internalID: 1837199680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_77
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1040
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6305cb57628b523429c023225d9fc1a9
+      internalID: -1095764233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_78
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1040
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314d0ec087251b34389edea7e3d9a9cc
+      internalID: -853485058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_79
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1040
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7240fe9b945ca479f5814312f1276b
+      internalID: -923968703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_80
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1040
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35cc1c0dbbf152429e928ff43b2cd31
+      internalID: 1675187898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_81
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1040
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ede916988291ed40b8c30bebe8234dc
+      internalID: 323083964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_82
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1040
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772605a7b1e2fbc449b218243ea3db13
+      internalID: 1769321751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_83
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab333d5c8d0423428daaf077d637d13
+      internalID: 1416552954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_84
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 960
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c689c211132f8ae45ad5ed20f216c30a
+      internalID: 1830999155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_85
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b43e08278b9cb45a922f8f6c285c74
+      internalID: 602882923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a311c59afbb5247873ab964952018e
+      internalID: -1642637068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_87
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 960
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7527e5106ebc74e94409ab9462d09c
+      internalID: 252768868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_88
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac1b9b6fa0d0704eafd5baf8e7a3c3e
+      internalID: -2048745012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_89
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 960
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea433230537ca4c47bf55e335a2e6409
+      internalID: 823885653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_90
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 960
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f1fb59733a0f84187c6c9e35d5c7b0
+      internalID: -1084732425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_91
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 960
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b0518ce67199b4c88c89c55c787084
+      internalID: -804136404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_92
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 960
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2f75155f8bb9942b1f339797a77772
+      internalID: 829979364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_93
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b66c9778f3cad246b8421c94bc91218
+      internalID: -2118621275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_94
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 960
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c108c0672695046b015b489a157942
+      internalID: -956292628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_95
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 880
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829df3407c775f945bc1dbe24ea83de1
+      internalID: 1001928154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_96
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 880
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6807cd03493ced42897b62663bef5ea
+      internalID: -626250751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_97
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 880
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc0fa7f776c56343a5b6d08d117f307
+      internalID: 1228466088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_98
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 880
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d73bd3b933526e419d7e112bbeb0643
+      internalID: 1330925498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_99
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 880
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e27556b68108194592a4a626196d76f
+      internalID: -1803139991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_100
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 880
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a94f1098e2b5454cb1f7db2df944743
+      internalID: 619983331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_101
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527653e5956d6d848aac57ae59cddf88
+      internalID: -584228059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_102
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 800
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3cf9755a1e51546b00848f5d40ee3a
+      internalID: -1886215462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_103
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 800
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8afed433ef519e44aac9449910df573
+      internalID: -2056650271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_104
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 800
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191da475f046c6b4f9b485ade03f6350
+      internalID: 1638231103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_105
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 800
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de182e416f538d743a1c9a26d0d308c5
+      internalID: 1971087645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_106
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 800
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26b2a247ce5fc34abb81ab53c0cdd14
+      internalID: -444399486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_107
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91a840c4d86c0c40b030e7fee08f44a
+      internalID: -1794870340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_108
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 720
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8166d7ee1e9f5ce478aec0cd1a1e1071
+      internalID: 1185602235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_109
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 720
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4f6245ee3a79f4dbb9aadd75f75169
+      internalID: -288497653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_110
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 720
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db66a3655565a74a89b24b8a0f51f5f
+      internalID: 68044720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_111
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 720
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3034754fc69936d4f8ade4837a18cc1c
+      internalID: 965290215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_112
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 720
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40e9128dd086504c9884ae713301eb7
+      internalID: 1354676643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_113
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9101ba64cd5202743b834b3db2b4d6ca
+      internalID: 951459029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_114
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807814309a748364e86f45ce58dfb480
+      internalID: 1434991330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_115
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0529d028f5f51349a3d374067fea94e
+      internalID: -864976859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_116
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8827f8983689c8d40a88810fde7be187
+      internalID: 674813966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_117
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe3c8412d10a9c42b54f2769bb324dd
+      internalID: -1386329947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_118
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79d1865816313e41b883f9e11e701ea
+      internalID: -752073763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_119
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d551ed5e087977346bf707536c96379f
+      internalID: -270094735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_120
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18876a4d36486543ab1f81088b74ed9
+      internalID: -1828825080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_121
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8eb64bc57f485469a7823a7efe26ad
+      internalID: -2049885006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_122
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bb16d23f427544fb69620dc093b5d3
+      internalID: 1658639146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_123
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10fa9f2507729b49a3be3acfb5b2f84
+      internalID: 1804958963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_124
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f9828baad6420438c3ebcbcb687a0c
+      internalID: 2062600634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_125
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365fbe1a8c5dd974ca0f1b80250cfa6a
+      internalID: 1867588017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_126
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbc018fbc9c2ae46ad93920b23faa62
+      internalID: -1239382932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_127
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338a808278f30a646a89fd8d7773df94
+      internalID: 801048329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_128
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31cc634d93b59d43878b9995c80e69e
+      internalID: 119143648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_129
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa7ce9b25b2a7c4883151f891721d8d
+      internalID: -230917456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_130
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 560
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebcc1a84e67019469f84c9f0334dc35
+      internalID: 512256757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_131
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 560
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014f8001f6c9f8a46bcc051f4efde628
+      internalID: -1527407195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_132
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 560
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94b138a82425f0478656bdbe1595b9b
+      internalID: -1825171709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_133
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 560
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496a3fe197da2474e95f2abc2f2a61bc
+      internalID: -1047580311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_134
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 560
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a341a2adf9c97d4fb8dae2f94f3644a
+      internalID: 1306060523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f212fa460f808e24aac7358b54495154
+      internalID: 1823395068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_136
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 480
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fad483ef8892745a4338c050c6fdb8
+      internalID: -868831729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_137
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 480
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2afe84e07c614b4db3afc0ca6efb7e9
+      internalID: -1770925049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_138
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c254079c1fd71a4fa539ff7ca61b6bb
+      internalID: -1543438392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_139
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 480
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f6a73ed2d23bc4dba7821265412b26
+      internalID: 1387947637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_140
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca27f5daf5915e44ca36b749f13176d4
+      internalID: -1622525904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_141
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38b69a1203c98f4097b6794dbd14471
+      internalID: 147794889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_142
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 480
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedfccc423bc2b042995cdd06034036f
+      internalID: -1807147630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_143
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 480
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac0d481f0a45d7458efea0d583e81d3
+      internalID: 1754029423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_144
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 480
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3509b42b1f8a54a8174adaaa2b400f
+      internalID: -1125824783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_145
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253b7f834cbcaa349846b9acb3d5f06f
+      internalID: 1875554728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_146
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 480
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989dfb474ae77d248ac72a6306eab1cc
+      internalID: 2073481681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750925552d89d8147b50398ea99cf7c6
+      internalID: -194749136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_148
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 400
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc01e3bca35b32243886f309018df7e4
+      internalID: 1994162366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_149
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 400
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aece2734428ca8479edde7158b5ac9a
+      internalID: -1027050745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_150
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 400
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd2e1025ff6f594498073c9b56d5483
+      internalID: 2130296083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_151
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 400
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5a3debec211e74c88ca305ad179157
+      internalID: 302065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_152
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 400
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06d2fe55ed904e49a44d124f77dc875
+      internalID: -488599559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_153
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 400
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d031af0455b0f544bd8e9687ea506ae
+      internalID: 544336333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_154
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 400
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72397ea2f196e43458f45cdf137d62e4
+      internalID: 1236405740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_155
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 400
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6228aac28c9702b49b17b8c1fda83ab7
+      internalID: -475768268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_156
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 400
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ec6a703c6af7f4aabec2fb7c38b829
+      internalID: 586133163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_157
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 400
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3670e38b3850f4798d8e0db3111eb8
+      internalID: 517137667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_158
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 400
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b2fe477d9eb8145af3a378d899451d
+      internalID: -1964512923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6cb9a06d225e34a99b23ba1835516f
+      internalID: -1753205634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_160
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0328ed7703e1b724596a076a89dce750
+      internalID: 1647324361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_161
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6456bbd70c1c07e49bef026d1720b8f9
+      internalID: 1022533362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_162
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889d9811777168847917426b1a36a9c3
+      internalID: 829702805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_163
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd035d0381d6d34db80ed0fd7c513be
+      internalID: 1955557063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_164
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45079f5235a2ca74985f22bf936d6835
+      internalID: -2037982077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_165
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395f45efa92c2d2409976587f308ed29
+      internalID: -1318644870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_166
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3517c3803319b42a007f7dabc7b0e8
+      internalID: 5225098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_167
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfe0f2bc8639614f8fe7de85fa7e24a
+      internalID: -1782721982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_168
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a018e14b35641fb4fac7a362c2a86d4c
+      internalID: -1717617626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_169
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d7dd2033779984f8b758a9f7cee647
+      internalID: 341559036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_170
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362c8add750f234408de535dde8a7a10
+      internalID: -1206819779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_171
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 320
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75af489e334eef94c817020214f8a8b5
+      internalID: -66105947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_172
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 320
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd4c566c09a81341910820e3c1f843a
+      internalID: 2095288889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_173
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 320
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d42b2f8a48f1ff4ea179f097cb13a25
+      internalID: -775123514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_174
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 320
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ac4bb27e41e224c9750b5511824542
+      internalID: -932796323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_175
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b479277eaaa4a34ea6f370580ecf9c3
+      internalID: 920485952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_176
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7cbe27bf8b3464ebd5553e6f3ccbef
+      internalID: -898429217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_177
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 240
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30f495ae36ba664d9c7552c1fdf9c66
+      internalID: -611814175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_178
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 240
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045fe5a6a226ba244a012333e1867be4
+      internalID: -2102946544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_179
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 240
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5020e3acafeb0fc4baf5793d4a237ac0
+      internalID: -1616316576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_180
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 240
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65322e4868d373d4f89a1869d54e86c6
+      internalID: 1960449750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_181
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6331af5b0c317419aad62c610530e5
+      internalID: -130333494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_182
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8b052010f5c224e88154420830bf02
+      internalID: -1310564228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_183
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76820c265b857684b93f8410bf298cb0
+      internalID: 331322930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_184
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2cb7c800ccdca4c8496da7471a6ce9
+      internalID: 1957281786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_185
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 160
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc12d759b89da03469e49b93927ffcfa
+      internalID: -751294352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_186
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 160
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150619252790f274fa337cb64db2d42c
+      internalID: 1489008712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_187
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c960c15aeeaf4449f1b4038c8a498e
+      internalID: 1881067359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_188
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4653d978279dab649b325303935146a5
+      internalID: 2070319890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_189
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4414d7bfe37154490184ea33fc09dc
+      internalID: -448462182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_190
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b981fd7ca2e88d64cab01188ece50e7f
+      internalID: 1770324087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_191
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 80
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f5c4372f3072a45964c5d5f84d46f8
+      internalID: 794113695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_192
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4ab5e26825c6c49acd7077cfd753e9
+      internalID: 1985913316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_193
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 80
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54599632f5b9cd147a545d4015d34662
+      internalID: 396899900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_194
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 80
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac46bc49e4c361459c9008ca28fb6ae
+      internalID: -1626965543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_195
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 80
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa0cab15affa7645b44c3967a24ec66
+      internalID: 1824520426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_196
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 80
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f84a4cc8ebfd14fb55cf4650009fed
+      internalID: -1288760037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_197
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 80
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cd4337e8596784d880758745e92f26
+      internalID: -1269615314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_198
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 80
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1eca5d4c97e3a34ea71f61d150359c6
+      internalID: -553834222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_199
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6642ac9ed05eeaa4cad670777fd5dede
+      internalID: 633623960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_200
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a84ab566e59d14fba6bcef6f35fcfb
+      internalID: -559214597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_201
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91131aeec000c5d4190b2ee8066cdb71
+      internalID: 1598843828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_202
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2709d68b844e3469a3790ded6826e4
+      internalID: -99157222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_creazione_player_baffi_marroni_203
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac7fe1e72478be4aa5cee9f12528673
+      internalID: 697714570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spritesheet_creazione_player_baffi_marroni_183: 331322930
+      spritesheet_creazione_player_baffi_marroni_39: -1580369520
+      spritesheet_creazione_player_baffi_marroni_31: -1646260246
+      spritesheet_creazione_player_baffi_marroni_129: -230917456
+      spritesheet_creazione_player_baffi_marroni_80: 1675187898
+      spritesheet_creazione_player_baffi_marroni_52: 506351582
+      spritesheet_creazione_player_baffi_marroni_4: -1462073360
+      spritesheet_creazione_player_baffi_marroni_34: 1265473591
+      spritesheet_creazione_player_baffi_marroni_57: 1647129327
+      spritesheet_creazione_player_baffi_marroni_143: 1754029423
+      spritesheet_creazione_player_baffi_marroni_62: 539697013
+      spritesheet_creazione_player_baffi_marroni_38: -726903266
+      spritesheet_creazione_player_baffi_marroni_23: 1249498578
+      spritesheet_creazione_player_baffi_marroni_26: 1862323120
+      spritesheet_creazione_player_baffi_marroni_20: -2057345478
+      spritesheet_creazione_player_baffi_marroni_123: 1804958963
+      spritesheet_creazione_player_baffi_marroni_134: 1306060523
+      spritesheet_creazione_player_baffi_marroni_5: -1238961977
+      spritesheet_creazione_player_baffi_marroni_172: 2095288889
+      spritesheet_creazione_player_baffi_marroni_15: 645165085
+      spritesheet_creazione_player_baffi_marroni_47: -764930659
+      spritesheet_creazione_player_baffi_marroni_63: 772996193
+      spritesheet_creazione_player_baffi_marroni_159: -1753205634
+      spritesheet_creazione_player_baffi_marroni_2: 979468033
+      spritesheet_creazione_player_baffi_marroni_12: -1261798644
+      spritesheet_creazione_player_baffi_marroni_71: 486533618
+      spritesheet_creazione_player_baffi_marroni_137: -1770925049
+      spritesheet_creazione_player_baffi_marroni_42: 516639028
+      spritesheet_creazione_player_baffi_marroni_14: -2138181945
+      spritesheet_creazione_player_baffi_marroni_83: 1416552954
+      spritesheet_creazione_player_baffi_marroni_141: 147794889
+      spritesheet_creazione_player_baffi_marroni_140: -1622525904
+      spritesheet_creazione_player_baffi_marroni_128: 119143648
+      spritesheet_creazione_player_baffi_marroni_196: -1288760037
+      spritesheet_creazione_player_baffi_marroni_70: -920551910
+      spritesheet_creazione_player_baffi_marroni_107: -1794870340
+      spritesheet_creazione_player_baffi_marroni_162: 829702805
+      spritesheet_creazione_player_baffi_marroni_175: 920485952
+      spritesheet_creazione_player_baffi_marroni_182: -1310564228
+      spritesheet_creazione_player_baffi_marroni_77: -1095764233
+      spritesheet_creazione_player_baffi_marroni_67: -1759893427
+      spritesheet_creazione_player_baffi_marroni_147: -194749136
+      spritesheet_creazione_player_baffi_marroni_1: -1569914130
+      spritesheet_creazione_player_baffi_marroni_101: -584228059
+      spritesheet_creazione_player_baffi_marroni_65: 220229878
+      spritesheet_creazione_player_baffi_marroni_104: 1638231103
+      spritesheet_creazione_player_baffi_marroni_13: 1041259793
+      spritesheet_creazione_player_baffi_marroni_139: 1387947637
+      spritesheet_creazione_player_baffi_marroni_108: 1185602235
+      spritesheet_creazione_player_baffi_marroni_111: 965290215
+      spritesheet_creazione_player_baffi_marroni_56: -815578775
+      spritesheet_creazione_player_baffi_marroni_157: 517137667
+      spritesheet_creazione_player_baffi_marroni_87: 252768868
+      spritesheet_creazione_player_baffi_marroni_150: 2130296083
+      spritesheet_creazione_player_baffi_marroni_169: 341559036
+      spritesheet_creazione_player_baffi_marroni_181: -130333494
+      spritesheet_creazione_player_baffi_marroni_116: 674813966
+      spritesheet_creazione_player_baffi_marroni_6: 773593283
+      spritesheet_creazione_player_baffi_marroni_145: 1875554728
+      spritesheet_creazione_player_baffi_marroni_89: 823885653
+      spritesheet_creazione_player_baffi_marroni_7: -1022360947
+      spritesheet_creazione_player_baffi_marroni_194: -1626965543
+      spritesheet_creazione_player_baffi_marroni_61: -1717324467
+      spritesheet_creazione_player_baffi_marroni_197: -1269615314
+      spritesheet_creazione_player_baffi_marroni_155: -475768268
+      spritesheet_creazione_player_baffi_marroni_152: -488599559
+      spritesheet_creazione_player_baffi_marroni_154: 1236405740
+      spritesheet_creazione_player_baffi_marroni_43: 2002804455
+      spritesheet_creazione_player_baffi_marroni_19: -334920715
+      spritesheet_creazione_player_baffi_marroni_27: 1642050058
+      spritesheet_creazione_player_baffi_marroni_9: -1335175528
+      spritesheet_creazione_player_baffi_marroni_103: -2056650271
+      spritesheet_creazione_player_baffi_marroni_25: 1968150455
+      spritesheet_creazione_player_baffi_marroni_18: 405292022
+      spritesheet_creazione_player_baffi_marroni_113: 951459029
+      spritesheet_creazione_player_baffi_marroni_180: 1960449750
+      spritesheet_creazione_player_baffi_marroni_16: -862685517
+      spritesheet_creazione_player_baffi_marroni_125: 1867588017
+      spritesheet_creazione_player_baffi_marroni_166: 5225098
+      spritesheet_creazione_player_baffi_marroni_114: 1434991330
+      spritesheet_creazione_player_baffi_marroni_138: -1543438392
+      spritesheet_creazione_player_baffi_marroni_81: 323083964
+      spritesheet_creazione_player_baffi_marroni_153: 544336333
+      spritesheet_creazione_player_baffi_marroni_124: 2062600634
+      spritesheet_creazione_player_baffi_marroni_191: 794113695
+      spritesheet_creazione_player_baffi_marroni_72: 1820193751
+      spritesheet_creazione_player_baffi_marroni_160: 1647324361
+      spritesheet_creazione_player_baffi_marroni_187: 1881067359
+      spritesheet_creazione_player_baffi_marroni_46: 602375851
+      spritesheet_creazione_player_baffi_marroni_36: 927255588
+      spritesheet_creazione_player_baffi_marroni_185: -751294352
+      spritesheet_creazione_player_baffi_marroni_99: -1803139991
+      spritesheet_creazione_player_baffi_marroni_95: 1001928154
+      spritesheet_creazione_player_baffi_marroni_11: -485009946
+      spritesheet_creazione_player_baffi_marroni_174: -932796323
+      spritesheet_creazione_player_baffi_marroni_21: 1061600673
+      spritesheet_creazione_player_baffi_marroni_149: -1027050745
+      spritesheet_creazione_player_baffi_marroni_51: 1378776029
+      spritesheet_creazione_player_baffi_marroni_22: 543096220
+      spritesheet_creazione_player_baffi_marroni_102: -1886215462
+      spritesheet_creazione_player_baffi_marroni_142: -1807147630
+      spritesheet_creazione_player_baffi_marroni_58: 263397284
+      spritesheet_creazione_player_baffi_marroni_203: 697714570
+      spritesheet_creazione_player_baffi_marroni_109: -288497653
+      spritesheet_creazione_player_baffi_marroni_28: -1115783827
+      spritesheet_creazione_player_baffi_marroni_84: 1830999155
+      spritesheet_creazione_player_baffi_marroni_146: 2073481681
+      spritesheet_creazione_player_baffi_marroni_0: -1987502242
+      spritesheet_creazione_player_baffi_marroni_161: 1022533362
+      spritesheet_creazione_player_baffi_marroni_127: 801048329
+      spritesheet_creazione_player_baffi_marroni_112: 1354676643
+      spritesheet_creazione_player_baffi_marroni_148: 1994162366
+      spritesheet_creazione_player_baffi_marroni_50: 1195774752
+      spritesheet_creazione_player_baffi_marroni_37: -2119348678
+      spritesheet_creazione_player_baffi_marroni_179: -1616316576
+      spritesheet_creazione_player_baffi_marroni_30: 474539552
+      spritesheet_creazione_player_baffi_marroni_164: -2037982077
+      spritesheet_creazione_player_baffi_marroni_86: -1642637068
+      spritesheet_creazione_player_baffi_marroni_59: 1584953046
+      spritesheet_creazione_player_baffi_marroni_49: 589216924
+      spritesheet_creazione_player_baffi_marroni_158: -1964512923
+      spritesheet_creazione_player_baffi_marroni_168: -1717617626
+      spritesheet_creazione_player_baffi_marroni_91: -804136404
+      spritesheet_creazione_player_baffi_marroni_10: 539886059
+      spritesheet_creazione_player_baffi_marroni_55: -785765109
+      spritesheet_creazione_player_baffi_marroni_199: 633623960
+      spritesheet_creazione_player_baffi_marroni_198: -553834222
+      spritesheet_creazione_player_baffi_marroni_184: 1957281786
+      spritesheet_creazione_player_baffi_marroni_201: 1598843828
+      spritesheet_creazione_player_baffi_marroni_193: 396899900
+      spritesheet_creazione_player_baffi_marroni_119: -270094735
+      spritesheet_creazione_player_baffi_marroni_76: 1837199680
+      spritesheet_creazione_player_baffi_marroni_156: 586133163
+      spritesheet_creazione_player_baffi_marroni_170: -1206819779
+      spritesheet_creazione_player_baffi_marroni_136: -868831729
+      spritesheet_creazione_player_baffi_marroni_88: -2048745012
+      spritesheet_creazione_player_baffi_marroni_90: -1084732425
+      spritesheet_creazione_player_baffi_marroni_163: 1955557063
+      spritesheet_creazione_player_baffi_marroni_94: -956292628
+      spritesheet_creazione_player_baffi_marroni_173: -775123514
+      spritesheet_creazione_player_baffi_marroni_24: -83341297
+      spritesheet_creazione_player_baffi_marroni_115: -864976859
+      spritesheet_creazione_player_baffi_marroni_29: 1430842948
+      spritesheet_creazione_player_baffi_marroni_44: -929037453
+      spritesheet_creazione_player_baffi_marroni_74: 394884104
+      spritesheet_creazione_player_baffi_marroni_176: -898429217
+      spritesheet_creazione_player_baffi_marroni_190: 1770324087
+      spritesheet_creazione_player_baffi_marroni_48: -1331242613
+      spritesheet_creazione_player_baffi_marroni_144: -1125824783
+      spritesheet_creazione_player_baffi_marroni_33: -1095187279
+      spritesheet_creazione_player_baffi_marroni_68: -1444090733
+      spritesheet_creazione_player_baffi_marroni_54: 498448896
+      spritesheet_creazione_player_baffi_marroni_120: -1828825080
+      spritesheet_creazione_player_baffi_marroni_41: -1768456668
+      spritesheet_creazione_player_baffi_marroni_151: 302065
+      spritesheet_creazione_player_baffi_marroni_188: 2070319890
+      spritesheet_creazione_player_baffi_marroni_130: 512256757
+      spritesheet_creazione_player_baffi_marroni_96: -626250751
+      spritesheet_creazione_player_baffi_marroni_64: 100302682
+      spritesheet_creazione_player_baffi_marroni_17: 1244841228
+      spritesheet_creazione_player_baffi_marroni_3: 729983355
+      spritesheet_creazione_player_baffi_marroni_106: -444399486
+      spritesheet_creazione_player_baffi_marroni_122: 1658639146
+      spritesheet_creazione_player_baffi_marroni_35: -1477291504
+      spritesheet_creazione_player_baffi_marroni_189: -448462182
+      spritesheet_creazione_player_baffi_marroni_79: -923968703
+      spritesheet_creazione_player_baffi_marroni_97: 1228466088
+      spritesheet_creazione_player_baffi_marroni_192: 1985913316
+      spritesheet_creazione_player_baffi_marroni_195: 1824520426
+      spritesheet_creazione_player_baffi_marroni_135: 1823395068
+      spritesheet_creazione_player_baffi_marroni_100: 619983331
+      spritesheet_creazione_player_baffi_marroni_105: 1971087645
+      spritesheet_creazione_player_baffi_marroni_8: 804240823
+      spritesheet_creazione_player_baffi_marroni_66: 1965414575
+      spritesheet_creazione_player_baffi_marroni_85: 602882923
+      spritesheet_creazione_player_baffi_marroni_92: 829979364
+      spritesheet_creazione_player_baffi_marroni_131: -1527407195
+      spritesheet_creazione_player_baffi_marroni_93: -2118621275
+      spritesheet_creazione_player_baffi_marroni_177: -611814175
+      spritesheet_creazione_player_baffi_marroni_53: -1140548878
+      spritesheet_creazione_player_baffi_marroni_82: 1769321751
+      spritesheet_creazione_player_baffi_marroni_165: -1318644870
+      spritesheet_creazione_player_baffi_marroni_45: -626208823
+      spritesheet_creazione_player_baffi_marroni_110: 68044720
+      spritesheet_creazione_player_baffi_marroni_133: -1047580311
+      spritesheet_creazione_player_baffi_marroni_178: -2102946544
+      spritesheet_creazione_player_baffi_marroni_60: 861231672
+      spritesheet_creazione_player_baffi_marroni_73: -849753506
+      spritesheet_creazione_player_baffi_marroni_75: -174908644
+      spritesheet_creazione_player_baffi_marroni_126: -1239382932
+      spritesheet_creazione_player_baffi_marroni_78: -853485058
+      spritesheet_creazione_player_baffi_marroni_69: 207239465
+      spritesheet_creazione_player_baffi_marroni_40: 383186566
+      spritesheet_creazione_player_baffi_marroni_202: -99157222
+      spritesheet_creazione_player_baffi_marroni_32: 1669833023
+      spritesheet_creazione_player_baffi_marroni_118: -752073763
+      spritesheet_creazione_player_baffi_marroni_186: 1489008712
+      spritesheet_creazione_player_baffi_marroni_167: -1782721982
+      spritesheet_creazione_player_baffi_marroni_132: -1825171709
+      spritesheet_creazione_player_baffi_marroni_121: -2049885006
+      spritesheet_creazione_player_baffi_marroni_117: -1386329947
+      spritesheet_creazione_player_baffi_marroni_98: 1330925498
+      spritesheet_creazione_player_baffi_marroni_171: -66105947
+      spritesheet_creazione_player_baffi_marroni_200: -559214597
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
