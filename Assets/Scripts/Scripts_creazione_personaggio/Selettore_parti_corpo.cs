@@ -11,6 +11,7 @@ public class Selettore_parti_corpo : MonoBehaviour
     // Body Part Selections
     [SerializeField] private Selezione_parti_corpo[] Selezione_parti_corpo;
 
+
     private void Start()
     {
         // Get All Current Body Parts
@@ -19,9 +20,10 @@ public class Selettore_parti_corpo : MonoBehaviour
             scelta_parti_player(index_parte_corpo);
         }
     }
+
     public void scelta_occhi_player(int index)
     {
-        var occhi_player = "occhi_";
+        string occhi_player = "occhi_";
         int occhi_index;
         occhi_player += caratteristiche_personaggio.Get_occhi;
         for (occhi_index = 0; occhi_index < Selezione_parti_corpo[index].opzioni_parti_corpo.Length; occhi_index++)
@@ -35,7 +37,7 @@ public class Selettore_parti_corpo : MonoBehaviour
     }
     public void scelta_capelli_player(int index)
     {
-        var capelli_player = "capelli_";
+        string capelli_player = "capelli_";
         int capelli_index;
         capelli_player += caratteristiche_personaggio.Get_occhi;
         for (capelli_index = 0; capelli_index < Selezione_parti_corpo[index].opzioni_parti_corpo.Length; capelli_index++)
@@ -47,6 +49,7 @@ public class Selettore_parti_corpo : MonoBehaviour
             }
         }
     }
+
     public void scelta_parti_player(int index)
     {
         if (Selezione_parti_corpo[index].Nome_parte_corpo == "Occhi")
@@ -59,13 +62,12 @@ public class Selettore_parti_corpo : MonoBehaviour
         n_rand = Random_number1.Rnd(Selezione_parti_corpo[index].opzioni_parti_corpo.Length);
         corpo_personaggio.parti_corpo_personaggio[index].parte_corpo = Selezione_parti_corpo[index].opzioni_parti_corpo[n_rand];
     }
-
 }
 
 [System.Serializable]
 public class Selezione_parti_corpo
 {
     public string Nome_parte_corpo;
-    public SO_parti_del_corpo[] opzioni_parti_corpo;
+    public SO_parti_corpo_sprite[] opzioni_parti_corpo;
     [HideInInspector] public int indice_parte_corpo_corrente;
 }

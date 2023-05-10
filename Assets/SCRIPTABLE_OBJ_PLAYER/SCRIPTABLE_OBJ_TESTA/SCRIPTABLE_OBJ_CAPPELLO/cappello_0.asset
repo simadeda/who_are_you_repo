@@ -9,66 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a37cc4a73677fe4c8a2f329007d3954, type: 3}
-  m_Name: cappello_0
+  m_Script: {fileID: 11500000, guid: 05ce80505ad043d46907646e12459137, type: 3}
+  m_Name: CAPPELLO_0
   m_EditorClassIdentifier: 
-  nome_parte_corpo: cappello da boxe
+  nome_parte_corpo: cappello da pugile
   ID_animazione_parte_corpo: 0
-  tutte_animazioni_corpo:
-  - {fileID: 7400000, guid: ad639af22f31c07418eadc8860326edb, type: 2}
-  - {fileID: 7400000, guid: aa63c73fa1281634485cdbf8dcc3d99d, type: 2}
-  - {fileID: 7400000, guid: 60a33aeb59344e947980952624e0580b, type: 2}
-  - {fileID: 7400000, guid: 693708ed8c7b7e844b0047c3b216a3a6, type: 2}
-  - {fileID: 7400000, guid: 38b01b7215a343b4d84e8d77a176b205, type: 2}
-  - {fileID: 7400000, guid: bd9533c8fe6f1ef4da471f69cea0a94f, type: 2}
-  - {fileID: 7400000, guid: 736e09efb55f7e34bbc5a0fad1a698cb, type: 2}
-  - {fileID: 7400000, guid: b9ee67ac1312bd84cb872d601b86bfdd, type: 2}
-  - {fileID: 7400000, guid: bc7f4ebef135db941ab2db4054eaf744, type: 2}
-  - {fileID: 7400000, guid: 15f6ab2dcd9af5d409da57177a96deed, type: 2}
-  - {fileID: 7400000, guid: 7302e0de69d455b4fa8bde7a975631c9, type: 2}
-  - {fileID: 7400000, guid: d1153c6e3822bb5439c24b67b4c671c4, type: 2}
-  - {fileID: 7400000, guid: c4072554168052d4ba417f860b86aa65, type: 2}
-  - {fileID: 7400000, guid: 5b54d78c3e6aa3b488ebd4c59c507deb, type: 2}
-  - {fileID: 7400000, guid: f68edb505c65b064f83561635732e617, type: 2}
-  - {fileID: 7400000, guid: a78e53893f9bc4a4a971af298e06d979, type: 2}
-  - {fileID: 7400000, guid: 90bfe92fcc051ba4d9f019365c3357d5, type: 2}
-  - {fileID: 7400000, guid: 6aa28111f45275141b885276742ad2cd, type: 2}
-  - {fileID: 7400000, guid: cb8b0704cb321f843a8d027081a6c42f, type: 2}
-  - {fileID: 7400000, guid: 606916f4dc679764b91ac78b7e107d80, type: 2}
-  - {fileID: 7400000, guid: c2b99185361e9ed4ca65383a04a1e208, type: 2}
-  - {fileID: 7400000, guid: cb094e04820efdf4d9eb49f5dfc9b43c, type: 2}
-  - {fileID: 7400000, guid: 010c49ce9d7062d43b036dcd114c2032, type: 2}
-  - {fileID: 7400000, guid: c347391418e3e8f44b03beeb0d3d895e, type: 2}
-  - {fileID: 7400000, guid: f704965a33e67534c9ac5f0ba8fde58f, type: 2}
-  - {fileID: 7400000, guid: 585a43822ad1a1b4d9f78ce634d03f4f, type: 2}
-  - {fileID: 7400000, guid: 1976e985c9b924a48879effcea4bb72d, type: 2}
-  - {fileID: 7400000, guid: 154a1fab09ae6a944a7f5ded8bb39b70, type: 2}
-  - {fileID: 7400000, guid: c310b6469557cd242b7c6ba43e14f3bb, type: 2}
-  - {fileID: 7400000, guid: 05df93b5daba4954abce9cffbb4c7cbf, type: 2}
-  - {fileID: 7400000, guid: 4005aad26103b764b9a7e17b1e073bfb, type: 2}
-  - {fileID: 7400000, guid: a73c1eda13eaf6648a8ef92fadcd17ef, type: 2}
-  - {fileID: 7400000, guid: 8a79da4203e6aa74790df38095a437da, type: 2}
-  - {fileID: 7400000, guid: 48a55792cc8f59e42b011c2da3763406, type: 2}
-  - {fileID: 7400000, guid: 79ded13fa4351cd40867c841956c81a5, type: 2}
-  - {fileID: 7400000, guid: 2470a99f911058245885ea2ce4090eed, type: 2}
-  - {fileID: 7400000, guid: d853516ffbf73ca43be00bdcd38c7720, type: 2}
-  - {fileID: 7400000, guid: 9f4d914dcd0d1594386171483e8008a6, type: 2}
-  - {fileID: 7400000, guid: 49e2a09a06f3de74881d187a29757935, type: 2}
-  - {fileID: 7400000, guid: 2c827d16eb173d645aea4fab74d4a71e, type: 2}
-  - {fileID: 7400000, guid: 5255263424ffb794e8b823af80715f88, type: 2}
-  - {fileID: 7400000, guid: 66a801312fd2b8d49bc7775a02e4740e, type: 2}
-  - {fileID: 7400000, guid: 2772a07ffc93581438977fe0a37e1305, type: 2}
-  - {fileID: 7400000, guid: 5d311543fd2906c4c8327cc519db5496, type: 2}
-  - {fileID: 7400000, guid: d7186c90e91dbaa408e28d5e08747b2f, type: 2}
-  - {fileID: 7400000, guid: da927407d6f01df4498f895e7155e84d, type: 2}
-  - {fileID: 7400000, guid: 9092597ca6340244d9001af10ad31af2, type: 2}
-  - {fileID: 7400000, guid: 1a69ae59183cb494cabd093bed4aa3a1, type: 2}
-  - {fileID: 7400000, guid: cfedfe2e17630574eb2957b2ebdf0121, type: 2}
-  - {fileID: 7400000, guid: 0e09a57f7bff42d498ef389309739666, type: 2}
-  - {fileID: 7400000, guid: a20ef2925ea3e3a429a16dec0ee22d80, type: 2}
-  - {fileID: 7400000, guid: 998905c74b7e95b49b89a6fcddcd6d60, type: 2}
-  - {fileID: 7400000, guid: afa4e58bd17acd54da0375d0e29707f0, type: 2}
-  - {fileID: 7400000, guid: cf6d4ad257b88874f9447b6f291d4bef, type: 2}
-  - {fileID: 7400000, guid: 699348d4a559e6149a8757640f36e724, type: 2}
-  - {fileID: 7400000, guid: a89d132c550bfd241b654b07e258640f, type: 2}
-  - {fileID: 7400000, guid: 593de26abf557c24a995d7d12871a174, type: 2}
+  tutti_sprite_corpo: []

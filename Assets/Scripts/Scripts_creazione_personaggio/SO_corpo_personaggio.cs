@@ -13,5 +13,5 @@ public class SO_corpo_personaggio : ScriptableObject
 public class BodyPart
 {
     public string nome_parte_corpo;
-    public SO_parti_del_corpo parte_corpo;
+    public SO_parti_corpo_sprite parte_corpo;
 }

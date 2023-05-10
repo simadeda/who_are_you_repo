@@ -11,8 +11,6 @@ public class Movimenti_player : MonoBehaviour
     static float muoviti_orizzontale = 0;
     static float muoviti_verticale = 0;
     private new Rigidbody2D rigidbody;
-    private string stato_corrente;
-    private string animazione_corrente;
 
     private Vector3 direzione = new Vector3(0, 0, 0);
     
@@ -20,11 +18,6 @@ public class Movimenti_player : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rigidbody = GetComponent<Rigidbody2D>();
-    }
-
-    private void cambia_stato_player(string nuovo_stato)
-    {
-
     }
 
     private void Update()
