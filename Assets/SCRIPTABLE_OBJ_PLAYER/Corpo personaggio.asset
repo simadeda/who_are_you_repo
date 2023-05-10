@@ -14,22 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parti_corpo_personaggio:
   - nome_parte_corpo: Corpo
-    parte_corpo: {fileID: 0}
+    parte_corpo: {fileID: 11400000, guid: c221ff7d2c55e0240997aced0110185b, type: 2}
   - nome_parte_corpo: Cappello
-    parte_corpo: {fileID: 0}
+    parte_corpo: {fileID: 11400000, guid: 92818a8a8f68bc0488382cc96739feb4, type: 2}
   - nome_parte_corpo: Capelli
-    parte_corpo: {fileID: 0}
+    parte_corpo: {fileID: 11400000, guid: 1070217ca89bcbb4bb0877882ae682cc, type: 2}
   - nome_parte_corpo: Occhi
-    parte_corpo: {fileID: 0}
+    parte_corpo: {fileID: 11400000, guid: b507f4f837e9b5c468eaa5641e3a0278, type: 2}
   - nome_parte_corpo: Baffi
-    parte_corpo: {fileID: 0}
+    parte_corpo: {fileID: 11400000, guid: e60eac8b86ce83d40824fb38a7409932, type: 2}
   - nome_parte_corpo: Barba
-    parte_corpo: {fileID: 0}
+    parte_corpo: {fileID: 11400000, guid: 938711616569a954195d043cd91f8866, type: 2}
   - nome_parte_corpo: Maglia
-    parte_corpo: {fileID: 0}
+    parte_corpo: {fileID: 11400000, guid: b4ecd9f261ddc144da058e8bfb28c6c4, type: 2}
   - nome_parte_corpo: Pantaloni
-    parte_corpo: {fileID: 0}
+    parte_corpo: {fileID: 11400000, guid: 78a8bda558bce0045956a9bd3a82b3ed, type: 2}
   - nome_parte_corpo: Pantaloncini
-    parte_corpo: {fileID: 0}
+    parte_corpo: {fileID: 11400000, guid: 304bd78246cf8a24688e7fb9658357d8, type: 2}
   - nome_parte_corpo: Scarpe
-    parte_corpo: {fileID: 0}
+    parte_corpo: {fileID: 11400000, guid: 4d44b87e2de6ff54fa74808ae6c943be, type: 2}

@@ -11,6 +11,7 @@ namespace FarrokhGames.SpriteAnimation.Sprite
         SpriteRenderer _spriteRenderer;
         IAnimator[] _children;
         int _originalSortingOrder;
+        private static int indice = 0;
 
         [SerializeField] private SO_corpo_personaggio corpo_completo;
 
@@ -25,16 +26,18 @@ namespace FarrokhGames.SpriteAnimation.Sprite
 
         protected void fill_Sprites()
         {
-            for (int i = 0; i < corpo_completo.parti_corpo_personaggio.Length; i++)
-            {
-                if (corpo_completo.parti_corpo_personaggio[i].parte_corpo.tutti_sprite_corpo.Count == 0)
+             //indice; indice < corpo_completo.parti_corpo_personaggio.Length;
+             if(indice < corpo_completo.parti_corpo_personaggio.Length)
+             {
+                if (corpo_completo.parti_corpo_personaggio[indice].parte_corpo.tutti_sprite_corpo.Count == 0)
                     this.gameObject.SetActive(false);
                 else
-                for (int j = 0; j < corpo_completo.parti_corpo_personaggio[i].parte_corpo.tutti_sprite_corpo.Count; j++)
+                for (int j = 0; j < corpo_completo.parti_corpo_personaggio[indice].parte_corpo.tutti_sprite_corpo.Count; j++)
                 {
-                    _sprites[j] = corpo_completo.parti_corpo_personaggio[i].parte_corpo.tutti_sprite_corpo[j];
+                    _sprites[j] = corpo_completo.parti_corpo_personaggio[indice].parte_corpo.tutti_sprite_corpo[j];
                 }
-            }
+                indice++;
+             }            
         }
         /// <inheritdoc />
         protected override void HandleFrameChanged(int index)

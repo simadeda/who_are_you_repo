@@ -4491,45 +4491,44 @@ MonoBehaviour:
   Selezione_parti_corpo:
   - Nome_parte_corpo: Corpo
     opzioni_parti_corpo:
-    - {fileID: 11400000, guid: 6e39d2a59c4c1a24aafc28fba5c41ef4, type: 2}
+    - {fileID: 11400000, guid: c221ff7d2c55e0240997aced0110185b, type: 2}
     indice_parte_corpo_corrente: 0
   - Nome_parte_corpo: Cappello
     opzioni_parti_corpo:
-    - {fileID: 11400000, guid: 0b34d5d523949334e941809a54dff311, type: 2}
-    - {fileID: 11400000, guid: b9aa8168e11d43840b6eb7d6f3576629, type: 2}
+    - {fileID: 11400000, guid: 92818a8a8f68bc0488382cc96739feb4, type: 2}
+    - {fileID: 11400000, guid: 501d748b54472bf45b6e8fe7dcfee8d8, type: 2}
     indice_parte_corpo_corrente: 0
   - Nome_parte_corpo: Capelli
     opzioni_parti_corpo:
-    - {fileID: 11400000, guid: db07fd4b34e8db8478cb10f9531893cd, type: 2}
+    - {fileID: 11400000, guid: 1070217ca89bcbb4bb0877882ae682cc, type: 2}
     indice_parte_corpo_corrente: 0
   - Nome_parte_corpo: Occhi
     opzioni_parti_corpo:
-    - {fileID: 11400000, guid: f21625354731bf14e92812e9b53044fd, type: 2}
+    - {fileID: 11400000, guid: b507f4f837e9b5c468eaa5641e3a0278, type: 2}
     indice_parte_corpo_corrente: 0
   - Nome_parte_corpo: Baffi
     opzioni_parti_corpo:
-    - {fileID: 11400000, guid: 68db7d060c15f7243913766bd95b49e8, type: 2}
-    - {fileID: 11400000, guid: 42d7c795f80aaff4b9d7afaaa8703ad4, type: 2}
+    - {fileID: 11400000, guid: e60eac8b86ce83d40824fb38a7409932, type: 2}
     indice_parte_corpo_corrente: 0
   - Nome_parte_corpo: Barba
     opzioni_parti_corpo:
-    - {fileID: 11400000, guid: f7c20cd98323e8141b053b5019cfcf9e, type: 2}
+    - {fileID: 11400000, guid: 938711616569a954195d043cd91f8866, type: 2}
     indice_parte_corpo_corrente: 0
   - Nome_parte_corpo: Maglia
     opzioni_parti_corpo:
-    - {fileID: 11400000, guid: e6b458ad48a173f4ca1c9f5097982aa9, type: 2}
+    - {fileID: 11400000, guid: b4ecd9f261ddc144da058e8bfb28c6c4, type: 2}
     indice_parte_corpo_corrente: 0
   - Nome_parte_corpo: Pantaloni
     opzioni_parti_corpo:
-    - {fileID: 11400000, guid: 2930f10debe3e6246a5fbeea72a125e0, type: 2}
+    - {fileID: 11400000, guid: 78a8bda558bce0045956a9bd3a82b3ed, type: 2}
     indice_parte_corpo_corrente: 0
   - Nome_parte_corpo: Pantaloncini
     opzioni_parti_corpo:
-    - {fileID: 11400000, guid: c09eaaf50bc271a4581942f67b630c52, type: 2}
+    - {fileID: 11400000, guid: 304bd78246cf8a24688e7fb9658357d8, type: 2}
     indice_parte_corpo_corrente: 0
   - Nome_parte_corpo: Scarpe
     opzioni_parti_corpo:
-    - {fileID: 11400000, guid: 1141676fcf32a3d498b3a6ae73789b24, type: 2}
+    - {fileID: 11400000, guid: 4d44b87e2de6ff54fa74808ae6c943be, type: 2}
     indice_parte_corpo_corrente: 0
 --- !u!1 &825328611
 GameObject:

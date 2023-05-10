@@ -11,8 +11,7 @@ public class Selettore_parti_corpo : MonoBehaviour
     // Body Part Selections
     [SerializeField] private Selezione_parti_corpo[] Selezione_parti_corpo;
 
-
-    private void Start()
+    private void Awake()
     {
         // Get All Current Body Parts
         for (int index_parte_corpo = 0; index_parte_corpo < Selezione_parti_corpo.Length; index_parte_corpo++)

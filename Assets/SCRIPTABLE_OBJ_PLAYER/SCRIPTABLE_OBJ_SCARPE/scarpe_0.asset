@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05ce80505ad043d46907646e12459137, type: 3}
-  m_Name: SCARPE_0
+  m_Name: scarpe_0
   m_EditorClassIdentifier: 
   nome_parte_corpo: scarpe blu
   ID_animazione_parte_corpo: 0

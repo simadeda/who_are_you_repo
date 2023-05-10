@@ -38,35 +38,6 @@ public class Controller_movimenti_player : MonoBehaviour
 		direzione.y = Input.GetAxisRaw("Vertical");
 
 		animazioni_movimenti_player(direzione.x, direzione.y);
-
-		//mettere tutte le animazioni che il player ha a disposizone
-		//il walk e l'idle che sono stati forniti non sono necessari per animare il player correttamente
-		//qui i
-
-		//idle dietro
-		//if (walk_ver <= 0)
-		//{
-			//_animator.play("idle_verticale_dietro");
-			//walk_hor = 0;
-		//}
-		//idle avanti
-		//else
-        //{
-			//_animator.play("idle_verticale_avanti");
-			//walk_hor = 0;
-		//}
-
-		//if (walk_hor == 0)
-		//{
-			//_animator.play("idle");
-		//}
-
-		//else
-		//{
-			//_animator.play("walk");
-			//if (_spriteanimator != null) { _spriteanimator.flip = walk_hor < 0; }
-		//}
-
 	}
 
 	public void animazioni_movimenti_player(float muoviti_verticale, float muoviti_orizzontale)
