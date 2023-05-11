@@ -4,13 +4,12 @@ using UnityEngine;
 /// <summary>
 /// Example class for playing animations, flipping artwork, and playing sounds on triggers
 /// </summary>
-public class Controller_movimenti_player : MonoBehaviour
+public class AnimationController : MonoBehaviour
 {
 	[SerializeField] AudioClip[] _footsteps;
 
 	IAnimator _animator;
 	AudioSource _audioSource;
-	//ISpriteAnimator _spriteAnimator;
 	public bool anteprima_personaggio;
 
 	private float velocita = 10f;
@@ -27,7 +26,6 @@ public class Controller_movimenti_player : MonoBehaviour
 		_animator = GetComponent<IAnimator>();
 		_animator.OnTrigger += HandleTrigger;
 		_audioSource = GetComponent<AudioSource>();
-		//_spriteAnimator = _animator as ISpriteAnimator;
 	}
 
 	void Update()

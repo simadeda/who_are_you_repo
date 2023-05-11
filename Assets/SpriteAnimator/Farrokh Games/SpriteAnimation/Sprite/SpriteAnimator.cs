@@ -13,12 +13,13 @@ namespace FarrokhGames.SpriteAnimation.Sprite
         int _originalSortingOrder;
         private static int indice = 0;
 
-        [SerializeField] private SO_corpo_personaggio corpo_completo;
+        private SO_corpo_personaggio corpo_completo;
 
         /// <inheritdoc />
         protected override void Init()
         {
             _spriteRenderer = GetComponent<SpriteRenderer>();
+            corpo_completo = (SO_corpo_personaggio)ScriptableObject.CreateInstance(typeof(SO_corpo_personaggio));
             _originalSortingOrder = _spriteRenderer.sortingOrder;
             _children = GetComponentsInChildren<IAnimator>().Where(x => !x.Equals(this)).ToArray();
             fill_Sprites();
