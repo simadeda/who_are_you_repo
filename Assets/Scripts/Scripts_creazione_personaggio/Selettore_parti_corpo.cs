@@ -1,8 +1,11 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.UI;
 
 // codice scrittoda da tutmo (youtube.com/tutmo) 
 //reciclato da daniele iapadre per who are you
+
 namespace FarrokhGames.SpriteAnimation.Sprite
 {
     public class Selettore_parti_corpo : MonoBehaviour
@@ -10,18 +13,34 @@ namespace FarrokhGames.SpriteAnimation.Sprite
         // Full Character Body
         [SerializeField] private SO_corpo_personaggio corpo_personaggio;
         [SerializeField] private Caratteristiche_personaggio caratteristiche_personaggio;
+        [SerializeField] private UnityEngine.Transform parti_corpo_player;
         // Body Part Selections
         [SerializeField] private Selezione_parti_corpo[] Selezione_parti_corpo;
         [SerializeField] private SpriteAnimator sprite_animator;
-      
+
+        private List<UnityEngine.Transform> figli_player = new List<UnityEngine.Transform>();
+
         private void Awake()
         {
             // Get All Current Body Parts
+            figli_player = prendi_figlio(parti_corpo_player);
+
             for (int index_parte_corpo = 0; index_parte_corpo < Selezione_parti_corpo.Length; index_parte_corpo++)
             {
                 scelta_parti_player(index_parte_corpo);
             }
-            spedisci_corpo_personaggio(corpo_personaggio);
+            spedisci_corpo_personaggio(corpo_personaggio,figli_player);
+        }
+
+        public List<UnityEngine.Transform> prendi_figlio(UnityEngine.Transform padre)
+        {
+            List<UnityEngine.Transform> figli = new List<UnityEngine.Transform>();
+
+            foreach(UnityEngine.Transform figlio in padre)
+            {
+                figli.Add(figlio);
+            }
+            return figli;
         }
     
         public void scelta_occhi_player(int index)
@@ -71,10 +90,10 @@ namespace FarrokhGames.SpriteAnimation.Sprite
             get { return  corpo_personaggio; }
         }
 
-        private void spedisci_corpo_personaggio(SO_corpo_personaggio personaggio)
+        private void spedisci_corpo_personaggio(SO_corpo_personaggio personaggio, List<UnityEngine.Transform> figli_player)
         {
             sprite_animator.Corpo_personaggio = personaggio;
-            sprite_animator.fill_Sprites();
+            sprite_animator.fill_Sprites(figli_player);
         }
     }
     

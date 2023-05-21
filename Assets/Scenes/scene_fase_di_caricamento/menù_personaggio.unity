@@ -1885,6 +1885,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 331818959}
   m_CullTransparentMesh: 1
+--- !u!4 &376993600 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7105731106405118878, guid: 2533b4b312854584c94563f280161de3, type: 3}
+  m_PrefabInstance: {fileID: 200926055}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &378974443
 GameObject:
   m_ObjectHideFlags: 0
@@ -4504,6 +4509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   corpo_personaggio: {fileID: 11400000, guid: 526a4aa76769be9428a66b1625d5703f, type: 2}
   caratteristiche_personaggio: {fileID: 1294237869}
+  parti_corpo_player: {fileID: 376993600}
   Selezione_parti_corpo:
   - Nome_parte_corpo: Corpo
     opzioni_parti_corpo:

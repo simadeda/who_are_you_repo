@@ -13,7 +13,7 @@ public class SO_parti_corpo_sprite : ScriptableObject
     // Body Part Details
     public string nome_parte_corpo;
     public int ID_animazione_parte_corpo;
-
+    
     // List Containing All Body Part Animations
     public List<Sprite> tutti_sprite_corpo = new List<Sprite>();
 

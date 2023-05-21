@@ -1,5 +1,7 @@
 using FarrokhGames.SpriteAnimation.Shared;
 using System.Linq;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace FarrokhGames.SpriteAnimation.Sprite
@@ -21,22 +23,22 @@ namespace FarrokhGames.SpriteAnimation.Sprite
             _originalSortingOrder = _spriteRenderer.sortingOrder;
             _children = GetComponentsInChildren<IAnimator>().Where(x => !x.Equals(this)).ToArray();
         }
-
-        public void fill_Sprites()
+        public void fill_Sprites(List<UnityEngine.Transform> figli_player)
         {
-             //indice; indice < corpo_completo.parti_corpo_personaggio.Length;
-             if(indice < corpo_completo.parti_corpo_personaggio.Length)
-             {
-                if (corpo_completo.parti_corpo_personaggio[indice].parte_corpo.tutti_sprite_corpo.Count == 0)
-                    this.gameObject.SetActive(false);
+            inizio_ciclo:
+            if (indice < corpo_completo.parti_corpo_personaggio.Length)
+            {
+                if (corpo_completo.parti_corpo_personaggio[indice].parte_corpo.tutti_sprite_corpo.Count == 0 && indice != 0)
+                    figli_player[indice - 1].gameObject.SetActive(false);
                 else
-                for (int j = 0; j < corpo_completo.parti_corpo_personaggio[indice].parte_corpo.tutti_sprite_corpo.Count; j++)
-                {
-                    _sprites[j] = corpo_completo.parti_corpo_personaggio[indice].parte_corpo.tutti_sprite_corpo[j];
-                }
+                    for (int j = 0; j < corpo_completo.parti_corpo_personaggio[indice].parte_corpo.tutti_sprite_corpo.Count; j++)
+                    {
+                        _sprites[j] = corpo_completo.parti_corpo_personaggio[indice].parte_corpo.tutti_sprite_corpo[j];
+                    }
                 indice++;
-             }            
-        }
+                goto inizio_ciclo;
+            } 
+        } 
         /// <inheritdoc />
         protected override void HandleFrameChanged(int index)
         {
@@ -68,7 +70,6 @@ namespace FarrokhGames.SpriteAnimation.Sprite
                         }
                     }
                 }
-
                 _spriteRenderer.sortingOrder = value + _originalSortingOrder;
             }
         }
@@ -88,7 +89,6 @@ namespace FarrokhGames.SpriteAnimation.Sprite
                         if (child != null) { child.Flip = value; }
                     }
                 }
-
                 if (_allowFlipping) { _spriteRenderer.flipX = value; }
             }
         }
