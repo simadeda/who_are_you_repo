@@ -11,21 +11,18 @@ namespace FarrokhGames.SpriteAnimation.Sprite
         SpriteRenderer _spriteRenderer;
         IAnimator[] _children;
         int _originalSortingOrder;
+
         private static int indice = 0;
-
         private SO_corpo_personaggio corpo_completo;
-
         /// <inheritdoc />
         protected override void Init()
         {
             _spriteRenderer = GetComponent<SpriteRenderer>();
-            corpo_completo = (SO_corpo_personaggio)ScriptableObject.CreateInstance(typeof(SO_corpo_personaggio));
             _originalSortingOrder = _spriteRenderer.sortingOrder;
             _children = GetComponentsInChildren<IAnimator>().Where(x => !x.Equals(this)).ToArray();
-            fill_Sprites();
         }
 
-        protected void fill_Sprites()
+        public void fill_Sprites()
         {
              //indice; indice < corpo_completo.parti_corpo_personaggio.Length;
              if(indice < corpo_completo.parti_corpo_personaggio.Length)
@@ -94,6 +91,11 @@ namespace FarrokhGames.SpriteAnimation.Sprite
 
                 if (_allowFlipping) { _spriteRenderer.flipX = value; }
             }
+        }
+
+        public SO_corpo_personaggio Corpo_personaggio
+        {
+            set { corpo_completo = value; }
         }
     }
 }
