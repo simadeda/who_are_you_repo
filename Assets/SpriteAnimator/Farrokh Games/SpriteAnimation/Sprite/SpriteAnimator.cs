@@ -14,7 +14,7 @@ namespace FarrokhGames.SpriteAnimation.Sprite
         IAnimator[] _children;
         int _originalSortingOrder;
 
-        private static int indice = 0;
+        private static int indice = 1;
         private SO_corpo_personaggio corpo_completo;
         /// <inheritdoc />
         protected override void Init()
@@ -25,16 +25,32 @@ namespace FarrokhGames.SpriteAnimation.Sprite
         }
         public void fill_Sprites(List<UnityEngine.Transform> figli_player)
         {
-            inizio_ciclo:
-            if (indice < corpo_completo.parti_corpo_personaggio.Length)
+            int size_sprite = corpo_completo.parti_corpo_personaggio[indice-1].parte_corpo.tutti_sprite_corpo.Count;
+            _sprites = new UnityEngine.Sprite[size_sprite];
+
+            //riempimneto sprites per il corpo
+            for (int j = 0; j < corpo_completo.parti_corpo_personaggio[0].parte_corpo.tutti_sprite_corpo.Count; j++) 
             {
-                if (corpo_completo.parti_corpo_personaggio[indice].parte_corpo.tutti_sprite_corpo.Count == 0 && indice != 0)
-                    figli_player[indice - 1].gameObject.SetActive(false);
+                _sprites[j] = corpo_completo.parti_corpo_personaggio[0].parte_corpo.tutti_sprite_corpo[j];
+            }
+
+            //riempimneto sprites per le parti del corpo: capelli,occhi,barba ecc ecc
+            inizio_ciclo:
+            if(indice < corpo_completo.parti_corpo_personaggio.Length)
+            {
+                if (corpo_completo.parti_corpo_personaggio[indice].parte_corpo.tutti_sprite_corpo.Count == 0)
+                    figli_player[indice-1].gameObject.SetActive(false);
                 else
+                {
+                    var prova = figli_player[indice-1].GetComponent<SpriteAnimator>();
+                    size_sprite = corpo_completo.parti_corpo_personaggio[indice].parte_corpo.tutti_sprite_corpo.Count;
+                    prova._sprites = new UnityEngine.Sprite[size_sprite];
+
                     for (int j = 0; j < corpo_completo.parti_corpo_personaggio[indice].parte_corpo.tutti_sprite_corpo.Count; j++)
                     {
-                        _sprites[j] = corpo_completo.parti_corpo_personaggio[indice].parte_corpo.tutti_sprite_corpo[j];
+                        prova._sprites[j] = corpo_completo.parti_corpo_personaggio[indice].parte_corpo.tutti_sprite_corpo[j];
                     }
+                }           
                 indice++;
                 goto inizio_ciclo;
             } 

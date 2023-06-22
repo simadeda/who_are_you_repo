@@ -977,9 +977,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6736894623070826924, guid: 2533b4b312854584c94563f280161de3, type: 3}
+      propertyPath: _sprites.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736894623070826924, guid: 2533b4b312854584c94563f280161de3, type: 3}
       propertyPath: selettore_parti_corpo
       value: 
       objectReference: {fileID: 817756035}
+    - target: {fileID: 6932638961626947413, guid: 2533b4b312854584c94563f280161de3, type: 3}
+      propertyPath: _sprites.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7282859834850613614, guid: 2533b4b312854584c94563f280161de3, type: 3}
       propertyPath: m_Sprite
       value: 
