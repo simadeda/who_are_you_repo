@@ -400,6 +400,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _sprites: []
   _clips:
+  - _name: idle_dietro
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 26
+      _speed: 1
+      _triggerName: 
+    - _index: 28
+      _speed: 1
+      _triggerName: 
+    - _index: 30
+      _speed: 1
+      _triggerName: 
+    - _index: 32
+      _speed: 1
+      _triggerName: 
+    - _index: 34
+      _speed: 1
+      _triggerName: 
+    - _index: 36
+      _speed: 1
+      _triggerName: 
   - _name: camminata_sx_dx
     _loop: 1
     _randomStart: 0
@@ -460,19 +483,19 @@ MonoBehaviour:
     - _index: 14
       _speed: 1
       _triggerName: 
-    - _index: 15
-      _speed: 1
-      _triggerName: footstep
     - _index: 16
       _speed: 1
-      _triggerName: 
-    - _index: 17
-      _speed: 1
-      _triggerName: 
+      _triggerName: footstep
     - _index: 18
       _speed: 1
       _triggerName: 
-    - _index: 19
+    - _index: 20
+      _speed: 1
+      _triggerName: 
+    - _index: 22
+      _speed: 1
+      _triggerName: 
+    - _index: 24
       _speed: 1
       _triggerName: footstep
   - _name: camminata_avanti
@@ -480,65 +503,42 @@ MonoBehaviour:
     _randomStart: 0
     _frameRate: 10
     _frames:
-    - _index: 20
+    - _index: 15
+      _speed: 1
+      _triggerName: 
+    - _index: 17
+      _speed: 1
+      _triggerName: footstep
+    - _index: 19
       _speed: 1
       _triggerName: 
     - _index: 21
-      _speed: 1
-      _triggerName: footstep
-    - _index: 22
       _speed: 1
       _triggerName: 
     - _index: 23
       _speed: 1
       _triggerName: 
-    - _index: 24
-      _speed: 1
-      _triggerName: 
     - _index: 25
       _speed: 1
       _triggerName: footstep
-  - _name: idle_dietro
-    _loop: 1
-    _randomStart: 0
-    _frameRate: 10
-    _frames:
-    - _index: 26
-      _speed: 1
-      _triggerName: 
-    - _index: 27
-      _speed: 1
-      _triggerName: 
-    - _index: 28
-      _speed: 1
-      _triggerName: 
-    - _index: 29
-      _speed: 1
-      _triggerName: 
-    - _index: 30
-      _speed: 1
-      _triggerName: 
-    - _index: 31
-      _speed: 1
-      _triggerName: 
   - _name: idle_avanti
     _loop: 1
     _randomStart: 0
     _frameRate: 10
     _frames:
-    - _index: 32
+    - _index: 27
+      _speed: 1
+      _triggerName: 
+    - _index: 29
+      _speed: 1
+      _triggerName: 
+    - _index: 31
       _speed: 1
       _triggerName: 
     - _index: 33
       _speed: 1
       _triggerName: 
-    - _index: 34
-      _speed: 1
-      _triggerName: 
     - _index: 35
-      _speed: 1
-      _triggerName: 
-    - _index: 36
       _speed: 1
       _triggerName: 
     - _index: 37
@@ -552,19 +552,19 @@ MonoBehaviour:
     - _index: 38
       _speed: 1
       _triggerName: 
-    - _index: 39
-      _speed: 1
-      _triggerName: footstep
     - _index: 40
       _speed: 1
-      _triggerName: 
-    - _index: 41
-      _speed: 1
-      _triggerName: 
+      _triggerName: footstep
     - _index: 42
       _speed: 1
       _triggerName: 
-    - _index: 43
+    - _index: 44
+      _speed: 1
+      _triggerName: 
+    - _index: 46
+      _speed: 1
+      _triggerName: 
+    - _index: 48
       _speed: 1
       _triggerName: footstep
   - _name: camminata_con_pistola_avanti
@@ -572,19 +572,19 @@ MonoBehaviour:
     _randomStart: 0
     _frameRate: 10
     _frames:
-    - _index: 44
+    - _index: 39
+      _speed: 1
+      _triggerName: 
+    - _index: 41
+      _speed: 1
+      _triggerName: footstep
+    - _index: 43
       _speed: 1
       _triggerName: 
     - _index: 45
       _speed: 1
-      _triggerName: footstep
-    - _index: 46
-      _speed: 1
       _triggerName: 
     - _index: 47
-      _speed: 1
-      _triggerName: 
-    - _index: 48
       _speed: 1
       _triggerName: 
     - _index: 49
@@ -598,19 +598,19 @@ MonoBehaviour:
     - _index: 50
       _speed: 1
       _triggerName: 
-    - _index: 51
-      _speed: 1
-      _triggerName: 
     - _index: 52
-      _speed: 1
-      _triggerName: 
-    - _index: 53
       _speed: 1
       _triggerName: 
     - _index: 54
       _speed: 1
       _triggerName: 
-    - _index: 55
+    - _index: 56
+      _speed: 1
+      _triggerName: 
+    - _index: 58
+      _speed: 1
+      _triggerName: 
+    - _index: 60
       _speed: 1
       _triggerName: 
   - _name: idle_con_pistola_avanti
@@ -618,19 +618,19 @@ MonoBehaviour:
     _randomStart: 0
     _frameRate: 10
     _frames:
-    - _index: 56
+    - _index: 51
+      _speed: 1
+      _triggerName: 
+    - _index: 53
+      _speed: 1
+      _triggerName: 
+    - _index: 55
       _speed: 1
       _triggerName: 
     - _index: 57
       _speed: 1
       _triggerName: 
-    - _index: 58
-      _speed: 1
-      _triggerName: 
     - _index: 59
-      _speed: 1
-      _triggerName: 
-    - _index: 60
       _speed: 1
       _triggerName: 
     - _index: 61
@@ -692,97 +692,460 @@ MonoBehaviour:
     _loop: 1
     _randomStart: 0
     _frameRate: 10
-    _frames: []
+    _frames:
+    - _index: 76
+      _speed: 1
+      _triggerName: 
+    - _index: 77
+      _speed: 1
+      _triggerName: 
+    - _index: 78
+      _speed: 1
+      _triggerName: 
+    - _index: 79
+      _speed: 1
+      _triggerName: 
+    - _index: 80
+      _speed: 1
+      _triggerName: 
+    - _index: 81
+      _speed: 1
+      _triggerName: 
   - _name: attacco_melee_corto_dietro
     _loop: 1
     _randomStart: 0
     _frameRate: 10
-    _frames: []
+    _frames:
+    - _index: 83
+      _speed: 1
+      _triggerName: 
+    - _index: 85
+      _speed: 1
+      _triggerName: 
+    - _index: 87
+      _speed: 1
+      _triggerName: 
+    - _index: 89
+      _speed: 1
+      _triggerName: 
+    - _index: 91
+      _speed: 1
+      _triggerName: 
+    - _index: 93
+      _speed: 1
+      _triggerName: 
   - _name: attacco_melee_corto_avanti
     _loop: 1
     _randomStart: 0
     _frameRate: 10
-    _frames: []
+    _frames:
+    - _index: 82
+      _speed: 1
+      _triggerName: 
+    - _index: 84
+      _speed: 1
+      _triggerName: 
+    - _index: 86
+      _speed: 1
+      _triggerName: 
+    - _index: 88
+      _speed: 1
+      _triggerName: 
+    - _index: 90
+      _speed: 1
+      _triggerName: 
+    - _index: 92
+      _speed: 1
+      _triggerName: 
   - _name: attacco_melee_lungo_dietro
     _loop: 1
     _randomStart: 0
     _frameRate: 10
-    _frames: []
+    _frames:
+    - _index: 95
+      _speed: 1
+      _triggerName: 
+    - _index: 97
+      _speed: 1
+      _triggerName: 
+    - _index: 99
+      _speed: 1
+      _triggerName: 
+    - _index: 101
+      _speed: 1
+      _triggerName: 
+    - _index: 103
+      _speed: 1
+      _triggerName: 
+    - _index: 105
+      _speed: 1
+      _triggerName: 
   - _name: attacco_melee_lungo_avanti
     _loop: 1
     _randomStart: 0
     _frameRate: 10
-    _frames: []
+    _frames:
+    - _index: 94
+      _speed: 1
+      _triggerName: 
+    - _index: 96
+      _speed: 1
+      _triggerName: 
+    - _index: 98
+      _speed: 1
+      _triggerName: 
+    - _index: 100
+      _speed: 1
+      _triggerName: 
+    - _index: 102
+      _speed: 1
+      _triggerName: 
+    - _index: 104
+      _speed: 0
+      _triggerName: 
   - _name: 'camminata_dietro_con_melee_lunga '
     _loop: 1
     _randomStart: 0
-    _frameRate: 0
-    _frames: []
+    _frameRate: 10
+    _frames:
+    - _index: 106
+      _speed: 1
+      _triggerName: 
+    - _index: 108
+      _speed: 1
+      _triggerName: 
+    - _index: 110
+      _speed: 1
+      _triggerName: 
+    - _index: 112
+      _speed: 1
+      _triggerName: 
+    - _index: 114
+      _speed: 1
+      _triggerName: 
+    - _index: 116
+      _speed: 1
+      _triggerName: 
   - _name: 'camminata_avanti_con_melee_lunga '
     _loop: 1
     _randomStart: 0
     _frameRate: 10
-    _frames: []
+    _frames:
+    - _index: 107
+      _speed: 1
+      _triggerName: 
+    - _index: 109
+      _speed: 1
+      _triggerName: footstep
+    - _index: 111
+      _speed: 1
+      _triggerName: 
+    - _index: 113
+      _speed: 1
+      _triggerName: 
+    - _index: 115
+      _speed: 1
+      _triggerName: 
+    - _index: 117
+      _speed: 1
+      _triggerName: footstep
   - _name: 'camminata_sx_dx_con_melee_lunga '
     _loop: 1
     _randomStart: 0
     _frameRate: 10
-    _frames: []
-  - _name: idle_mele_lunga_dietro
+    _frames:
+    - _index: 118
+      _speed: 1
+      _triggerName: 
+    - _index: 119
+      _speed: 1
+      _triggerName: footstep
+    - _index: 120
+      _speed: 1
+      _triggerName: 
+    - _index: 121
+      _speed: 1
+      _triggerName: 
+    - _index: 122
+      _speed: 1
+      _triggerName: 
+    - _index: 123
+      _speed: 1
+      _triggerName: footstep
+    - _index: 124
+      _speed: 1
+      _triggerName: 
+    - _index: 125
+      _speed: 1
+      _triggerName: 
+  - _name: idle_melee_lunga_dietro
     _loop: 1
     _randomStart: 0
     _frameRate: 10
-    _frames: []
+    _frames:
+    - _index: 126
+      _speed: 1
+      _triggerName: 
+    - _index: 128
+      _speed: 1
+      _triggerName: 
+    - _index: 130
+      _speed: 1
+      _triggerName: 
+    - _index: 132
+      _speed: 1
+      _triggerName: 
+    - _index: 134
+      _speed: 1
+      _triggerName: 
+    - _index: 136
+      _speed: 1
+      _triggerName: 
   - _name: idle_mele_lunga_avanti
     _loop: 1
     _randomStart: 0
     _frameRate: 10
-    _frames: []
+    _frames:
+    - _index: 127
+      _speed: 1
+      _triggerName: 
+    - _index: 129
+      _speed: 1
+      _triggerName: 
+    - _index: 131
+      _speed: 1
+      _triggerName: 
+    - _index: 133
+      _speed: 1
+      _triggerName: 
+    - _index: 135
+      _speed: 1
+      _triggerName: 
+    - _index: 137
+      _speed: 1
+      _triggerName: 
   - _name: idle_mele_lunga_xs_dx
     _loop: 1
     _randomStart: 0
     _frameRate: 10
-    _frames: []
+    _frames:
+    - _index: 137
+      _speed: 1
+      _triggerName: 
+    - _index: 138
+      _speed: 1
+      _triggerName: 
+    - _index: 139
+      _speed: 1
+      _triggerName: 
+    - _index: 140
+      _speed: 1
+      _triggerName: 
+    - _index: 141
+      _speed: 1
+      _triggerName: 
+    - _index: 142
+      _speed: 1
+      _triggerName: 
   - _name: attacco_melee_lunga_sx_dx
     _loop: 1
     _randomStart: 0
     _frameRate: 10
-    _frames: []
+    _frames:
+    - _index: 143
+      _speed: 1
+      _triggerName: 
+    - _index: 144
+      _speed: 1
+      _triggerName: 
+    - _index: 145
+      _speed: 1
+      _triggerName: 
+    - _index: 146
+      _speed: 1
+      _triggerName: 
+    - _index: 147
+      _speed: 1
+      _triggerName: 
+    - _index: 148
+      _speed: 1
+      _triggerName: 
   - _name: camminata_sx_dx_con_arma
     _loop: 1
     _randomStart: 0
     _frameRate: 10
-    _frames: []
+    _frames:
+    - _index: 149
+      _speed: 1
+      _triggerName: 
+    - _index: 150
+      _speed: 1
+      _triggerName: footstep
+    - _index: 151
+      _speed: 1
+      _triggerName: 
+    - _index: 152
+      _speed: 1
+      _triggerName: 
+    - _index: 153
+      _speed: 1
+      _triggerName: 
+    - _index: 154
+      _speed: 1
+      _triggerName: footstep
+    - _index: 155
+      _speed: 1
+      _triggerName: 
+    - _index: 156
+      _speed: 1
+      _triggerName: 
   - _name: camminata_dietro_con_arma
     _loop: 1
     _randomStart: 0
     _frameRate: 10
-    _frames: []
+    _frames:
+    - _index: 158
+      _speed: 1
+      _triggerName: 
+    - _index: 160
+      _speed: 1
+      _triggerName: footstep
+    - _index: 162
+      _speed: 1
+      _triggerName: 
+    - _index: 164
+      _speed: 1
+      _triggerName: 
+    - _index: 166
+      _speed: 1
+      _triggerName: 
+    - _index: 168
+      _speed: 1
+      _triggerName: footstep
   - _name: camminata_avanti_con_arma
     _loop: 1
     _randomStart: 0
     _frameRate: 10
-    _frames: []
+    _frames:
+    - _index: 159
+      _speed: 1
+      _triggerName: 
+    - _index: 161
+      _speed: 1
+      _triggerName: footstep
+    - _index: 163
+      _speed: 1
+      _triggerName: 
+    - _index: 165
+      _speed: 1
+      _triggerName: 
+    - _index: 167
+      _speed: 1
+      _triggerName: 
+    - _index: 169
+      _speed: 1
+      _triggerName: footstep
   - _name: idle_dietro_con_arma
     _loop: 1
     _randomStart: 0
     _frameRate: 10
-    _frames: []
+    _frames:
+    - _index: 170
+      _speed: 1
+      _triggerName: 
+    - _index: 172
+      _speed: 1
+      _triggerName: 
+    - _index: 174
+      _speed: 1
+      _triggerName: 
+    - _index: 176
+      _speed: 1
+      _triggerName: 
+    - _index: 178
+      _speed: 1
+      _triggerName: 
+    - _index: 180
+      _speed: 1
+      _triggerName: 
   - _name: idle_avanti_con_arma
     _loop: 1
     _randomStart: 0
     _frameRate: 10
-    _frames: []
+    _frames:
+    - _index: 171
+      _speed: 1
+      _triggerName: 
+    - _index: 173
+      _speed: 1
+      _triggerName: 
+    - _index: 175
+      _speed: 1
+      _triggerName: 
+    - _index: 177
+      _speed: 1
+      _triggerName: 
+    - _index: 179
+      _speed: 1
+      _triggerName: 
+    - _index: 181
+      _speed: 1
+      _triggerName: 
   - _name: idle_sx_dx_con_arma
     _loop: 1
     _randomStart: 0
     _frameRate: 10
-    _frames: []
+    _frames:
+    - _index: 181
+      _speed: 1
+      _triggerName: 
+    - _index: 182
+      _speed: 1
+      _triggerName: 
+    - _index: 183
+      _speed: 1
+      _triggerName: 
+    - _index: 184
+      _speed: 1
+      _triggerName: 
+    - _index: 185
+      _speed: 1
+      _triggerName: 
+    - _index: 186
+      _speed: 1
+      _triggerName: 
   - _name: morte
     _loop: 0
     _randomStart: 0
     _frameRate: 10
-    _frames: []
+    _frames:
+    - _index: 187
+      _speed: 1
+      _triggerName: 
+    - _index: 189
+      _speed: 1
+      _triggerName: 
+    - _index: 190
+      _speed: 1
+      _triggerName: 
+    - _index: 191
+      _speed: 1
+      _triggerName: 
+    - _index: 192
+      _speed: 1
+      _triggerName: 
+    - _index: 193
+      _speed: 1
+      _triggerName: 
+    - _index: 194
+      _speed: 1
+      _triggerName: 
+    - _index: 195
+      _speed: 1
+      _triggerName: 
+    - _index: 196
+      _speed: 0
+      _triggerName: 
   _animateChildren: 1
   _childMode: 0
   _allowFlipping: 1
@@ -899,6 +1262,7 @@ GameObject:
   - component: {fileID: 5687887296121604929}
   - component: {fileID: 5903980132540581283}
   - component: {fileID: 6932638961626947413}
+  - component: {fileID: 4455563921282764602}
   m_Layer: 0
   m_Name: Pantaloncini
   m_TagString: Untagged
@@ -987,6 +1351,769 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _sprites: []
   _clips: []
+  _animateChildren: 1
+  _childMode: 0
+  _allowFlipping: 1
+--- !u!114 &4455563921282764602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2763803272031393093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01abf617a76f740e7a816d4451e842ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sprites: []
+  _clips:
+  - _name: idle_dietro
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 26
+      _speed: 1
+      _triggerName: 
+    - _index: 28
+      _speed: 1
+      _triggerName: 
+    - _index: 30
+      _speed: 1
+      _triggerName: 
+    - _index: 32
+      _speed: 1
+      _triggerName: 
+    - _index: 34
+      _speed: 1
+      _triggerName: 
+    - _index: 36
+      _speed: 1
+      _triggerName: 
+  - _name: camminata_sx_dx
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 0
+      _speed: 1
+      _triggerName: 
+    - _index: 1
+      _speed: 1
+      _triggerName: footstep
+    - _index: 2
+      _speed: 1
+      _triggerName: 
+    - _index: 3
+      _speed: 1
+      _triggerName: 
+    - _index: 4
+      _speed: 1
+      _triggerName: 
+    - _index: 5
+      _speed: 1
+      _triggerName: footstep
+    - _index: 6
+      _speed: 1
+      _triggerName: 
+    - _index: 7
+      _speed: 1
+      _triggerName: 
+  - _name: idle_sx_dx
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 8
+      _speed: 1
+      _triggerName: 
+    - _index: 9
+      _speed: 1
+      _triggerName: 
+    - _index: 10
+      _speed: 1
+      _triggerName: 
+    - _index: 11
+      _speed: 1
+      _triggerName: 
+    - _index: 12
+      _speed: 1
+      _triggerName: 
+    - _index: 13
+      _speed: 1
+      _triggerName: 
+  - _name: camminata_dietro
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 14
+      _speed: 1
+      _triggerName: 
+    - _index: 16
+      _speed: 1
+      _triggerName: footstep
+    - _index: 18
+      _speed: 1
+      _triggerName: 
+    - _index: 20
+      _speed: 1
+      _triggerName: 
+    - _index: 22
+      _speed: 1
+      _triggerName: 
+    - _index: 24
+      _speed: 1
+      _triggerName: footstep
+  - _name: camminata_avanti
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 15
+      _speed: 1
+      _triggerName: 
+    - _index: 17
+      _speed: 1
+      _triggerName: footstep
+    - _index: 19
+      _speed: 1
+      _triggerName: 
+    - _index: 21
+      _speed: 1
+      _triggerName: 
+    - _index: 23
+      _speed: 1
+      _triggerName: 
+    - _index: 25
+      _speed: 1
+      _triggerName: footstep
+  - _name: idle_avanti
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 27
+      _speed: 1
+      _triggerName: 
+    - _index: 29
+      _speed: 1
+      _triggerName: 
+    - _index: 31
+      _speed: 1
+      _triggerName: 
+    - _index: 33
+      _speed: 1
+      _triggerName: 
+    - _index: 35
+      _speed: 1
+      _triggerName: 
+    - _index: 37
+      _speed: 1
+      _triggerName: 
+  - _name: camminata_con_pistola_dietro
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 38
+      _speed: 1
+      _triggerName: 
+    - _index: 40
+      _speed: 1
+      _triggerName: footstep
+    - _index: 42
+      _speed: 1
+      _triggerName: 
+    - _index: 44
+      _speed: 1
+      _triggerName: 
+    - _index: 46
+      _speed: 1
+      _triggerName: 
+    - _index: 48
+      _speed: 1
+      _triggerName: footstep
+  - _name: camminata_con_pistola_avanti
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 39
+      _speed: 1
+      _triggerName: 
+    - _index: 41
+      _speed: 1
+      _triggerName: footstep
+    - _index: 43
+      _speed: 1
+      _triggerName: 
+    - _index: 45
+      _speed: 1
+      _triggerName: 
+    - _index: 47
+      _speed: 1
+      _triggerName: 
+    - _index: 49
+      _speed: 1
+      _triggerName: footstep
+  - _name: idle_con_pistola_dietro
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 50
+      _speed: 1
+      _triggerName: 
+    - _index: 52
+      _speed: 1
+      _triggerName: 
+    - _index: 54
+      _speed: 1
+      _triggerName: 
+    - _index: 56
+      _speed: 1
+      _triggerName: 
+    - _index: 58
+      _speed: 1
+      _triggerName: 
+    - _index: 60
+      _speed: 1
+      _triggerName: 
+  - _name: idle_con_pistola_avanti
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 51
+      _speed: 1
+      _triggerName: 
+    - _index: 53
+      _speed: 1
+      _triggerName: 
+    - _index: 55
+      _speed: 1
+      _triggerName: 
+    - _index: 57
+      _speed: 1
+      _triggerName: 
+    - _index: 59
+      _speed: 1
+      _triggerName: 
+    - _index: 61
+      _speed: 1
+      _triggerName: 
+  - _name: camminata_sx_dx_con_pistola
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 62
+      _speed: 1
+      _triggerName: 
+    - _index: 63
+      _speed: 1
+      _triggerName: footstep
+    - _index: 64
+      _speed: 1
+      _triggerName: 
+    - _index: 65
+      _speed: 1
+      _triggerName: 
+    - _index: 66
+      _speed: 1
+      _triggerName: 
+    - _index: 67
+      _speed: 1
+      _triggerName: footstep
+    - _index: 68
+      _speed: 1
+      _triggerName: 
+    - _index: 69
+      _speed: 1
+      _triggerName: 
+  - _name: idle_con_pistola_sx_dx
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 70
+      _speed: 1
+      _triggerName: 
+    - _index: 71
+      _speed: 1
+      _triggerName: 
+    - _index: 72
+      _speed: 1
+      _triggerName: 
+    - _index: 73
+      _speed: 1
+      _triggerName: 
+    - _index: 74
+      _speed: 1
+      _triggerName: 
+    - _index: 75
+      _speed: 1
+      _triggerName: 
+  - _name: attacco_melee_corto_sx_dx
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 76
+      _speed: 1
+      _triggerName: 
+    - _index: 77
+      _speed: 1
+      _triggerName: 
+    - _index: 78
+      _speed: 1
+      _triggerName: 
+    - _index: 79
+      _speed: 1
+      _triggerName: 
+    - _index: 80
+      _speed: 1
+      _triggerName: 
+    - _index: 81
+      _speed: 1
+      _triggerName: 
+  - _name: attacco_melee_corto_dietro
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 83
+      _speed: 1
+      _triggerName: 
+    - _index: 85
+      _speed: 1
+      _triggerName: 
+    - _index: 87
+      _speed: 1
+      _triggerName: 
+    - _index: 89
+      _speed: 1
+      _triggerName: 
+    - _index: 91
+      _speed: 1
+      _triggerName: 
+    - _index: 93
+      _speed: 1
+      _triggerName: 
+  - _name: attacco_melee_corto_avanti
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 82
+      _speed: 1
+      _triggerName: 
+    - _index: 84
+      _speed: 1
+      _triggerName: 
+    - _index: 86
+      _speed: 1
+      _triggerName: 
+    - _index: 88
+      _speed: 1
+      _triggerName: 
+    - _index: 90
+      _speed: 1
+      _triggerName: 
+    - _index: 92
+      _speed: 1
+      _triggerName: 
+  - _name: attacco_melee_lungo_dietro
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 95
+      _speed: 1
+      _triggerName: 
+    - _index: 97
+      _speed: 1
+      _triggerName: 
+    - _index: 99
+      _speed: 1
+      _triggerName: 
+    - _index: 101
+      _speed: 1
+      _triggerName: 
+    - _index: 103
+      _speed: 1
+      _triggerName: 
+    - _index: 105
+      _speed: 1
+      _triggerName: 
+  - _name: attacco_melee_lungo_avanti
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 94
+      _speed: 1
+      _triggerName: 
+    - _index: 96
+      _speed: 1
+      _triggerName: 
+    - _index: 98
+      _speed: 1
+      _triggerName: 
+    - _index: 100
+      _speed: 1
+      _triggerName: 
+    - _index: 102
+      _speed: 1
+      _triggerName: 
+    - _index: 104
+      _speed: 0
+      _triggerName: 
+  - _name: 'camminata_dietro_con_melee_lunga '
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 106
+      _speed: 1
+      _triggerName: 
+    - _index: 108
+      _speed: 1
+      _triggerName: 
+    - _index: 110
+      _speed: 1
+      _triggerName: 
+    - _index: 112
+      _speed: 1
+      _triggerName: 
+    - _index: 114
+      _speed: 1
+      _triggerName: 
+    - _index: 116
+      _speed: 1
+      _triggerName: 
+  - _name: 'camminata_avanti_con_melee_lunga '
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 107
+      _speed: 1
+      _triggerName: 
+    - _index: 109
+      _speed: 1
+      _triggerName: footstep
+    - _index: 111
+      _speed: 1
+      _triggerName: 
+    - _index: 113
+      _speed: 1
+      _triggerName: 
+    - _index: 115
+      _speed: 1
+      _triggerName: 
+    - _index: 117
+      _speed: 1
+      _triggerName: footstep
+  - _name: 'camminata_sx_dx_con_melee_lunga '
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 118
+      _speed: 1
+      _triggerName: 
+    - _index: 119
+      _speed: 1
+      _triggerName: footstep
+    - _index: 120
+      _speed: 1
+      _triggerName: 
+    - _index: 121
+      _speed: 1
+      _triggerName: 
+    - _index: 122
+      _speed: 1
+      _triggerName: 
+    - _index: 123
+      _speed: 1
+      _triggerName: footstep
+    - _index: 124
+      _speed: 1
+      _triggerName: 
+    - _index: 125
+      _speed: 1
+      _triggerName: 
+  - _name: idle_melee_lunga_dietro
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 126
+      _speed: 1
+      _triggerName: 
+    - _index: 128
+      _speed: 1
+      _triggerName: 
+    - _index: 130
+      _speed: 1
+      _triggerName: 
+    - _index: 132
+      _speed: 1
+      _triggerName: 
+    - _index: 134
+      _speed: 1
+      _triggerName: 
+    - _index: 136
+      _speed: 1
+      _triggerName: 
+  - _name: idle_mele_lunga_avanti
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 127
+      _speed: 1
+      _triggerName: 
+    - _index: 129
+      _speed: 1
+      _triggerName: 
+    - _index: 131
+      _speed: 1
+      _triggerName: 
+    - _index: 133
+      _speed: 1
+      _triggerName: 
+    - _index: 135
+      _speed: 1
+      _triggerName: 
+    - _index: 137
+      _speed: 1
+      _triggerName: 
+  - _name: idle_mele_lunga_xs_dx
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 137
+      _speed: 1
+      _triggerName: 
+    - _index: 138
+      _speed: 1
+      _triggerName: 
+    - _index: 139
+      _speed: 1
+      _triggerName: 
+    - _index: 140
+      _speed: 1
+      _triggerName: 
+    - _index: 141
+      _speed: 1
+      _triggerName: 
+    - _index: 142
+      _speed: 1
+      _triggerName: 
+  - _name: attacco_melee_lunga_sx_dx
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 143
+      _speed: 1
+      _triggerName: 
+    - _index: 144
+      _speed: 1
+      _triggerName: 
+    - _index: 145
+      _speed: 1
+      _triggerName: 
+    - _index: 146
+      _speed: 1
+      _triggerName: 
+    - _index: 147
+      _speed: 1
+      _triggerName: 
+    - _index: 148
+      _speed: 1
+      _triggerName: 
+  - _name: camminata_sx_dx_con_arma
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 149
+      _speed: 1
+      _triggerName: 
+    - _index: 150
+      _speed: 1
+      _triggerName: footstep
+    - _index: 151
+      _speed: 1
+      _triggerName: 
+    - _index: 152
+      _speed: 1
+      _triggerName: 
+    - _index: 153
+      _speed: 1
+      _triggerName: 
+    - _index: 154
+      _speed: 1
+      _triggerName: footstep
+    - _index: 155
+      _speed: 1
+      _triggerName: 
+    - _index: 156
+      _speed: 1
+      _triggerName: 
+  - _name: camminata_dietro_con_arma
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 158
+      _speed: 1
+      _triggerName: 
+    - _index: 160
+      _speed: 1
+      _triggerName: footstep
+    - _index: 162
+      _speed: 1
+      _triggerName: 
+    - _index: 164
+      _speed: 1
+      _triggerName: 
+    - _index: 166
+      _speed: 1
+      _triggerName: 
+    - _index: 168
+      _speed: 1
+      _triggerName: footstep
+  - _name: camminata_avanti_con_arma
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 159
+      _speed: 1
+      _triggerName: 
+    - _index: 161
+      _speed: 1
+      _triggerName: footstep
+    - _index: 163
+      _speed: 1
+      _triggerName: 
+    - _index: 165
+      _speed: 1
+      _triggerName: 
+    - _index: 167
+      _speed: 1
+      _triggerName: 
+    - _index: 169
+      _speed: 1
+      _triggerName: footstep
+  - _name: idle_dietro_con_arma
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 170
+      _speed: 1
+      _triggerName: 
+    - _index: 172
+      _speed: 1
+      _triggerName: 
+    - _index: 174
+      _speed: 1
+      _triggerName: 
+    - _index: 176
+      _speed: 1
+      _triggerName: 
+    - _index: 178
+      _speed: 1
+      _triggerName: 
+    - _index: 180
+      _speed: 1
+      _triggerName: 
+  - _name: idle_avanti_con_arma
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 171
+      _speed: 1
+      _triggerName: 
+    - _index: 173
+      _speed: 1
+      _triggerName: 
+    - _index: 175
+      _speed: 1
+      _triggerName: 
+    - _index: 177
+      _speed: 1
+      _triggerName: 
+    - _index: 179
+      _speed: 1
+      _triggerName: 
+    - _index: 181
+      _speed: 1
+      _triggerName: 
+  - _name: idle_sx_dx_con_arma
+    _loop: 1
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 181
+      _speed: 1
+      _triggerName: 
+    - _index: 182
+      _speed: 1
+      _triggerName: 
+    - _index: 183
+      _speed: 1
+      _triggerName: 
+    - _index: 184
+      _speed: 1
+      _triggerName: 
+    - _index: 185
+      _speed: 1
+      _triggerName: 
+    - _index: 186
+      _speed: 1
+      _triggerName: 
+  - _name: morte
+    _loop: 0
+    _randomStart: 0
+    _frameRate: 10
+    _frames:
+    - _index: 187
+      _speed: 1
+      _triggerName: 
+    - _index: 189
+      _speed: 1
+      _triggerName: 
+    - _index: 190
+      _speed: 1
+      _triggerName: 
+    - _index: 191
+      _speed: 1
+      _triggerName: 
+    - _index: 192
+      _speed: 1
+      _triggerName: 
+    - _index: 193
+      _speed: 1
+      _triggerName: 
+    - _index: 194
+      _speed: 1
+      _triggerName: 
+    - _index: 195
+      _speed: 1
+      _triggerName: 
+    - _index: 196
+      _speed: 0
+      _triggerName: 
   _animateChildren: 1
   _childMode: 0
   _allowFlipping: 1
