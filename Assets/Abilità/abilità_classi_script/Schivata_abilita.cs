@@ -21,7 +21,8 @@ public class Schivata_abilita : Abilita
             obj.AddComponent<Velocita_aumentata_diminuita>();
             obj.AddComponent<Elusione_caratteristica>();
         }
-        Movimenti_player velocità_player = obj.GetComponent<Movimenti_player>(); //PRESA COMPONETE PER IL MOVIMENTO DEL PLAYER 
+        AnimationController velocità_player = obj.GetComponent<AnimationController>(); //PRESA COMPONETE PER IL MOVIMENTO DEL PLAYER 
+        
         vel_aum_dim = obj.GetComponent<Velocita_aumentata_diminuita>(); //VEL_AUM_DIM PRENDE I COMPONENTI DI VELOCITA_DIMINUITA_AUMENTATA DAL PLAYER
         elusione = obj.GetComponent<Elusione_caratteristica>(); //ELUSIONE PRENDE I COMPONENTI DI ELUSIONE_CARATTERISTICA DAL PLAYER
        

@@ -10,11 +10,12 @@ public class AnimationController : MonoBehaviour
 
 	IAnimator _animator;
 	AudioSource _audioSource;
+	ISpriteAnimator _spriteAnimator;
 	public bool anteprima_personaggio;
 
 	private float velocita = 10f;
 	private bool si_muove = false;
-	private int arma_equipagiata = 0;
+	private int arma_equipaggiata = 0;
 
 	[SerializeField]
 	private new Rigidbody2D rigidbody;
@@ -26,6 +27,7 @@ public class AnimationController : MonoBehaviour
 		_animator = GetComponent<IAnimator>();
 		_animator.OnTrigger += HandleTrigger;
 		_audioSource = GetComponent<AudioSource>();
+		_spriteAnimator = _animator as ISpriteAnimator;
 	}
 
 	void Update()
@@ -40,180 +42,155 @@ public class AnimationController : MonoBehaviour
 
 	public void animazioni_movimenti_player(float muoviti_verticale, float muoviti_orizzontale)
     {
+
+		//se la scena corrente e quella del menù personaggio non andare a muovi_player
+		if (!anteprima_personaggio)
+			muovi_player();
+
 		//idle melee corto
-		if (muoviti_verticale < 0 && !si_muove && arma_equipagiata == 0)
+		if (muoviti_verticale < 0 && !si_muove && arma_equipaggiata == 0)
 		{
-			_animator.Play("idle_verticale_dietro_melee_corto");
+			_animator.Play("idle_avanti");
 			muoviti_orizzontale = 0;
 		}
-		if (muoviti_verticale > 0 && !si_muove && arma_equipagiata == 0)
+		if (muoviti_verticale > 0 && !si_muove && arma_equipaggiata == 0)
 		{
-			_animator.Play("idle_verticale_avanti_melee_corto");
+			_animator.Play("idle_dietro");
 			muoviti_orizzontale = 0;
 		}
-		if (muoviti_orizzontale < 0 && !si_muove && arma_equipagiata == 0)
+		if ((muoviti_orizzontale > 0 || muoviti_orizzontale < 0) && !si_muove && arma_equipaggiata == 0)
 		{
-			_animator.Play("idle_orizzontale_sx_melee_corto");
+			_animator.Play("idle_sx_dx");
+			if (_spriteAnimator != null) { _spriteAnimator.Flip = muoviti_orizzontale < 0; }
 			muoviti_verticale = 0;
 		}
-		if (muoviti_orizzontale > 0 && !si_muove && arma_equipagiata == 0)
-		{
-			_animator.Play("idle_orizzontale_dx_melee_corto");
-			muoviti_verticale = 0;
-		}
+	
 		//movimento melee corto
-		if (muoviti_verticale < 0 && si_muove && arma_equipagiata == 0)
+		if (muoviti_verticale < 0 && si_muove && arma_equipaggiata == 0)
 		{
-			_animator.Play("camminata_verticale_dietro_melee_corto");
+			_animator.Play("camminata_avanti");
 			muoviti_orizzontale = 0;
 		}
-		if (muoviti_verticale > 0 && si_muove && arma_equipagiata == 0)
+		if (muoviti_verticale > 0 && si_muove && arma_equipaggiata == 0)
 		{
-			_animator.Play("camminata_verticale_avanti_melee_corto");
+			_animator.Play("camminata_dietro");
 			muoviti_orizzontale = 0;
 		}
-		if (muoviti_orizzontale < 0 && si_muove && arma_equipagiata == 0)
+		if ((muoviti_orizzontale > 0 || muoviti_orizzontale < 0) && !si_muove && arma_equipaggiata == 0)
 		{
-			_animator.Play("camminata_idle_orizzontale_sx_melee_corto");
-			muoviti_verticale = 0;
-		}
-		if (muoviti_orizzontale > 0 && si_muove && arma_equipagiata == 0)
-		{
-			_animator.Play("camminata_idle_orizzontale_dx_melee_corto");
+			_animator.Play("camminata_sx_dx");
+			if (_spriteAnimator != null) { _spriteAnimator.Flip = muoviti_orizzontale < 0; }
 			muoviti_verticale = 0;
 		}
 
 		//idle pistola
-		if (muoviti_verticale < 0 && !si_muove && arma_equipagiata == 1)
+		if (muoviti_verticale < 0 && !si_muove && arma_equipaggiata == 1)
 		{
-			_animator.Play("idle_verticale_dietro_pistola");
+			_animator.Play("idle_con_pistola_avanti");
 			muoviti_orizzontale = 0;
 		}
-		if (muoviti_verticale > 0 && !si_muove && arma_equipagiata == 1)
+		if (muoviti_verticale > 0 && !si_muove && arma_equipaggiata == 1)
 		{
-			_animator.Play("idle_verticale_avanti_pistola");
+			_animator.Play("idle_con_pistola_dietro");
 			muoviti_orizzontale = 0;
 		}
-		if (muoviti_orizzontale < 0 && !si_muove && arma_equipagiata == 1)
+	    if ((muoviti_orizzontale > 0 || muoviti_orizzontale < 0) && !si_muove && arma_equipaggiata == 1)
 		{
-			_animator.Play("idle_orizzontale_sx_pistola");
+			_animator.Play("idle_con_pistola_sx_dx");
+			if (_spriteAnimator != null) { _spriteAnimator.Flip = muoviti_orizzontale < 0; }
 			muoviti_verticale = 0;
 		}
-		if (muoviti_orizzontale > 0 && !si_muove && arma_equipagiata == 1)
-		{
-			_animator.Play("idle_orizzontale_dx_pistola");
-			muoviti_verticale = 0;
-		}
+
 		//muoviti pistola
-		if (muoviti_verticale < 0 && si_muove && arma_equipagiata == 1)
+		if (muoviti_verticale < 0 && si_muove && arma_equipaggiata == 1)
 		{
-			_animator.Play("camminata_verticale_dietro_pistola");
+			_animator.Play("camminata_con_pistola_avanti");
 			muoviti_orizzontale = 0;
 		}
-		if (muoviti_verticale > 0 && si_muove && arma_equipagiata == 1)
+		if (muoviti_verticale > 0 && si_muove && arma_equipaggiata == 1)
 		{
-			_animator.Play("camminata_verticale_avanti_pistola");
+			_animator.Play("camminata_con_pistola_dietro");
 			muoviti_orizzontale = 0;
 		}
-		if (muoviti_orizzontale < 0 && si_muove && arma_equipagiata == 1)
+		if ((muoviti_orizzontale > 0 || muoviti_orizzontale < 0) && !si_muove && arma_equipaggiata == 1)
 		{
-			_animator.Play("camminata_idle_orizzontale_sx_pistola");
-			muoviti_verticale = 0;
-		}
-		if (muoviti_orizzontale > 0 && si_muove && arma_equipagiata == 1)
-		{
-			_animator.Play("camminata_idle_orizzontale_dx_pistola");
+			_animator.Play("camminata_sx_dx_con_pistola");
+			if (_spriteAnimator != null) { _spriteAnimator.Flip = muoviti_orizzontale < 0; }
 			muoviti_verticale = 0;
 		}
 
 		//idle arma
-		if (muoviti_verticale < 0 && !si_muove && arma_equipagiata == 2)
+		if (muoviti_verticale < 0 && !si_muove && arma_equipaggiata == 2)
 		{
-			_animator.Play("idle_verticale_dietro_arma");
+			_animator.Play("idle_avanti_con_arma");
 			muoviti_orizzontale = 0;
 		}
-		if (muoviti_verticale > 0 && !si_muove && arma_equipagiata == 2)
+		if (muoviti_verticale > 0 && !si_muove && arma_equipaggiata == 2)
 		{
-			_animator.Play("idle_verticale_avanti_arma");
+			_animator.Play("idle_dietro_con_arma");
 			muoviti_orizzontale = 0;
 		}
-		if (muoviti_orizzontale < 0 && !si_muove && arma_equipagiata == 2)
+		if ((muoviti_orizzontale > 0 || muoviti_orizzontale < 0) && !si_muove && arma_equipaggiata == 2)
 		{
-			_animator.Play("idle_orizzontale_sx_arma");
+			_animator.Play("idle_sx_dx_con_arma");
+			if (_spriteAnimator != null) { _spriteAnimator.Flip = muoviti_orizzontale < 0; }
 			muoviti_verticale = 0;
 		}
-		if (muoviti_orizzontale > 0 && !si_muove && arma_equipagiata == 2)
-		{
-			_animator.Play("idle_orizzontale_dx_arma");
-			muoviti_verticale = 0;
-		}
+
 		//muoviti arma
-		if (muoviti_verticale < 0 && si_muove && arma_equipagiata == 2)
+		if (muoviti_verticale < 0 && si_muove && arma_equipaggiata == 2)
 		{
-			_animator.Play("camminata_verticale_dietro_arma");
+			_animator.Play("camminata_avanti_con_arma");
 			muoviti_orizzontale = 0;
 		}
-		if (muoviti_verticale > 0 && si_muove && arma_equipagiata == 2)
+		if (muoviti_verticale > 0 && si_muove && arma_equipaggiata == 2)
 		{
-			_animator.Play("camminata_verticale_avanti_arma");
+			_animator.Play("camminata_dietro_con_arma");
 			muoviti_orizzontale = 0;
 		}
-		if (muoviti_orizzontale < 0 && si_muove && arma_equipagiata == 2)
+		if ((muoviti_orizzontale > 0 || muoviti_orizzontale < 0) && !si_muove && arma_equipaggiata == 2)
 		{
-			_animator.Play("camminata_idle_orizzontale_sx_arma");
-			muoviti_verticale = 0;
-		}
-		if (muoviti_orizzontale > 0 && si_muove && arma_equipagiata == 2)
-		{
-			_animator.Play("camminata_idle_orizzontale_dx_arma");
+			_animator.Play("camminata_sx_dx_con_arma");
+			if (_spriteAnimator != null) { _spriteAnimator.Flip = muoviti_orizzontale < 0; }
 			muoviti_verticale = 0;
 		}
 
 		//idle melee lungo
-		if (muoviti_verticale < 0 && !si_muove && arma_equipagiata == 3)
+		if (muoviti_verticale < 0 && !si_muove && arma_equipaggiata == 3)
 		{
-			_animator.Play("idle_verticale_dietro_melee_lungo");
+			_animator.Play("idle_melee_lunga_dietro");
 			muoviti_orizzontale = 0;
 		}
-		if (muoviti_verticale > 0 && !si_muove && arma_equipagiata == 3)
+		if (muoviti_verticale > 0 && !si_muove && arma_equipaggiata == 3)
 		{
-			_animator.Play("idle_verticale_avanti_melee_lungo");
+			_animator.Play("idle_melee_lunga_avanti");
 			muoviti_orizzontale = 0;
 		}
-		if (muoviti_orizzontale < 0 && !si_muove && arma_equipagiata == 3)
+		if ((muoviti_orizzontale > 0 || muoviti_orizzontale < 0) && !si_muove && arma_equipaggiata == 3)
 		{
-			_animator.Play("idle_orizzontale_sx_melee_lungo");
+			_animator.Play("idle_melee_lunga_sx_dx");
+			if (_spriteAnimator != null) { _spriteAnimator.Flip = muoviti_orizzontale < 0; }
 			muoviti_verticale = 0;
 		}
-		if (muoviti_orizzontale > 0 && !si_muove && arma_equipagiata == 3)
-		{
-			_animator.Play("idle_orizzontale_dx_melee_lungo");
-			muoviti_verticale = 0;
-		}
+
 		//muoviti melee lungo
-		if (muoviti_verticale < 0 && si_muove && arma_equipagiata == 3)
+		if (muoviti_verticale < 0 && si_muove && arma_equipaggiata == 3)
 		{
-			_animator.Play("camminata_verticale_dietro_melee_lungo");
+			_animator.Play("camminata_avanti_con_melee_lunga");
 			muoviti_orizzontale = 0;
 		}
-		if (muoviti_verticale > 0 && si_muove && arma_equipagiata == 3)
+		if (muoviti_verticale > 0 && si_muove && arma_equipaggiata == 3)
 		{
-			_animator.Play("camminata_verticale_avanti_melee_lungo");
+			_animator.Play("camminata_dietro_con_melee_lunga");
 			muoviti_orizzontale = 0;
 		}
-		if (muoviti_orizzontale < 0 && si_muove && arma_equipagiata == 3)
+		if ((muoviti_orizzontale > 0 || muoviti_orizzontale < 0) && !si_muove && arma_equipaggiata == 3)
 		{
-			_animator.Play("camminata_idle_orizzontale_sx_melee_lungo");
+			_animator.Play("camminata_sx_dx_con_melee_lunga");
+			if (_spriteAnimator != null) { _spriteAnimator.Flip = muoviti_orizzontale < 0; }
 			muoviti_verticale = 0;
 		}
-		if (muoviti_orizzontale > 0 && si_muove && arma_equipagiata == 3)
-		{
-			_animator.Play("camminata_idle_orizzontale_dx_melee_lungo");
-			muoviti_verticale = 0;
-		}
-		//se la scena corrente e quella del menù personaggio non andare a muovi_player
-		if(!anteprima_personaggio)
-			muovi_player();
+
 	}
 
 	private void muovi_player()

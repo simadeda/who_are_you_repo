@@ -24,7 +24,7 @@ public class Velocita_aumentata_diminuita : MonoBehaviour
 
     public void comportamento_in_azione(GameObject player) //forse bisogna farlo diventare override, tieni d'occhio Movimenti_player
     {
-        Movimenti_player vel_player = player.GetComponent<Movimenti_player>();
+        AnimationController vel_player = player.GetComponent<AnimationController>();
         int count_uti = cooldown_abl_classe.count_utilizzabili;
         count_uti = max_uti - count_uti;
 
@@ -41,7 +41,7 @@ public class Velocita_aumentata_diminuita : MonoBehaviour
         StartCoroutine(velocita_aum_attiva);
     }
 
-    private IEnumerator velocita_aum(Movimenti_player vel_player, int count_uti)
+    private IEnumerator velocita_aum(AnimationController vel_player, int count_uti)
     {
         Debug.Log("velocità iniziata ");
         float vel_temp_aumentata = velocita_player_normale + velocita_aumentata;
@@ -50,7 +50,7 @@ public class Velocita_aumentata_diminuita : MonoBehaviour
         StartCoroutine(velocita_dim(vel_player, count_uti));
     }
 
-    private IEnumerator velocita_dim(Movimenti_player vel_player, int count_uti)
+    private IEnumerator velocita_dim(AnimationController vel_player, int count_uti)
     {
         //Debug.Log("velocità finita " + count_corroutine_fine);
         float vel_temp_diminuita = velocita_player_normale + velocita_diminuita;
