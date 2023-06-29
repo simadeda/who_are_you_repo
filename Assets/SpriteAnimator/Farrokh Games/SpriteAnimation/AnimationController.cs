@@ -21,6 +21,7 @@ public class AnimationController : MonoBehaviour
 	private new Rigidbody2D rigidbody;
 
 	private Vector3 direzione = new Vector3(0, 0, 0);
+	private Vector3 direzione_idle = new Vector3(0, 0, 0);
 
 	void Awake()
 	{
@@ -37,50 +38,81 @@ public class AnimationController : MonoBehaviour
 		direzione.x = Input.GetAxisRaw("Horizontal");
 		direzione.y = Input.GetAxisRaw("Vertical");
 
-		animazioni_movimenti_player(direzione.x, direzione.y);
+		if (direzione.x > 0 || direzione.y > 0)
+        {
+			si_muove = true;
+			direzione_idle.x = direzione.x;
+			direzione_idle.y = direzione.y;
+		}
+		else
+        {
+			si_muove = false;
+		}
+			
+		animazioni_movimenti_player(direzione.x, direzione_idle.x, direzione.y, direzione_idle.y, si_muove);
 	}
 
-	public void animazioni_movimenti_player(float muoviti_verticale, float muoviti_orizzontale)
+	public void animazioni_movimenti_player(float muoviti_verticale, float direzione_idle_verticale, float muoviti_orizzontale, float direzione_idle_orizzontale ,bool si_muove)
     {
 
 		//se la scena corrente e quella del menù personaggio non andare a muovi_player
 		if (!anteprima_personaggio)
 			muovi_player();
 
+		Debug.Log(muoviti_verticale);
+		Debug.Log(direzione_idle_verticale);
+		Debug.Log(muoviti_orizzontale);
+		Debug.Log(direzione_idle_orizzontale);
+
 		//idle melee corto
-		if (muoviti_verticale < 0 && !si_muove && arma_equipaggiata == 0)
-		{
-			_animator.Play("idle_avanti");
-			muoviti_orizzontale = 0;
-		}
-		if (muoviti_verticale > 0 && !si_muove && arma_equipaggiata == 0)
-		{
+		if (direzione_idle_verticale > 0 && !si_muove)
+        {
 			_animator.Play("idle_dietro");
-			muoviti_orizzontale = 0;
+			direzione_idle_orizzontale = 0;
+			Debug.Log("fai l'idle dietro");
 		}
-		if ((muoviti_orizzontale > 0 || muoviti_orizzontale < 0) && !si_muove && arma_equipaggiata == 0)
+
+		if (direzione_idle_verticale < 0 && !si_muove)
+        {
+			_animator.Play("idle_avanti");
+			direzione_idle_orizzontale = 0;
+			Debug.Log("fai l'idle avanti");
+		}
+				
+		if ((direzione_idle_orizzontale > 0 || direzione_idle_orizzontale < 0) && si_muove)
 		{
+			Debug.Log("fai l'idle sx");
 			_animator.Play("idle_sx_dx");
-			if (_spriteAnimator != null) { _spriteAnimator.Flip = muoviti_orizzontale < 0; }
+			if (_spriteAnimator != null)
+			{
+				Debug.Log("fai l'idle dx");
+				_spriteAnimator.Flip = muoviti_orizzontale < 0; 
+			}
 			muoviti_verticale = 0;
 		}
 	
 		//movimento melee corto
-		if (muoviti_verticale < 0 && si_muove && arma_equipaggiata == 0)
-		{
-			_animator.Play("camminata_avanti");
-			muoviti_orizzontale = 0;
-		}
-		if (muoviti_verticale > 0 && si_muove && arma_equipaggiata == 0)
-		{
+		if (muoviti_verticale < 0 && !si_muove)
+        {
+			Debug.Log("fai cammianta dietro");
 			_animator.Play("camminata_dietro");
-			muoviti_orizzontale = 0;
 		}
-		if ((muoviti_orizzontale > 0 || muoviti_orizzontale < 0) && !si_muove && arma_equipaggiata == 0)
+
+		if (muoviti_verticale > 0 && !si_muove)
+        {
+			Debug.Log("fai cammianta avanti");
+			_animator.Play("camminata_avanti");
+		}
+
+		if ((muoviti_orizzontale > 0 || muoviti_orizzontale < 0) && si_muove)
 		{
+			Debug.Log("fai cammianta sx");
 			_animator.Play("camminata_sx_dx");
-			if (_spriteAnimator != null) { _spriteAnimator.Flip = muoviti_orizzontale < 0; }
-			muoviti_verticale = 0;
+			if (_spriteAnimator != null) 
+			{
+				Debug.Log("fai cammianta dx");
+				_spriteAnimator.Flip = muoviti_orizzontale < 0; 
+			}
 		}
 
 		//idle pistola
