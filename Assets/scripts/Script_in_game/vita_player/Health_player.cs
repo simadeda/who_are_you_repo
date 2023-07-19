@@ -18,14 +18,13 @@ public class Health_player : MonoBehaviour
         num_corrente_vita = num_max_vita;
         barra_Vita.Imposta_vita(num_corrente_vita);
     }
-
    
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
             danno = 15;
-            //qui bisogan mettere un' if per verificare se la caratteristica ELUSIONE nelle abilità è attiva oppure no
+            //qui bisogan mettere un if per verificare se la caratteristica ELUSIONE nelle abilità è attiva oppure no
             //se è attiva qualsiasi danno che il plaeyr riceve verrà messo a 0
             Prendi_danno(danno);
             danno = 0;

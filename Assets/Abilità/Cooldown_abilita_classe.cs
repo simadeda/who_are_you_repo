@@ -26,6 +26,8 @@ public class Cooldown_abilita_classe : MonoBehaviour
 
     void Awake()
     {
+        player_in_game = GameObject.Find("Player");
+
         is_utilizzabile = abilita_classe.utilizzabili;
         if (is_utilizzabile)
         {

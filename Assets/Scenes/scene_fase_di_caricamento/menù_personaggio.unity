@@ -908,6 +908,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 156525028127790763, guid: 2533b4b312854584c94563f280161de3, type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 200926056}
     - target: {fileID: 1563024585740046803, guid: 2533b4b312854584c94563f280161de3, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -973,6 +977,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4133804809518686227, guid: 2533b4b312854584c94563f280161de3, type: 3}
+      propertyPath: arma_equipaggiata
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4133804809518686227, guid: 2533b4b312854584c94563f280161de3, type: 3}
       propertyPath: anteprima_personaggio
       value: 1
       objectReference: {fileID: 0}
@@ -984,6 +992,10 @@ PrefabInstance:
       propertyPath: selettore_parti_corpo
       value: 
       objectReference: {fileID: 817756035}
+    - target: {fileID: 6736894623070826924, guid: 2533b4b312854584c94563f280161de3, type: 3}
+      propertyPath: _clips.Array.data[17]._name
+      value: camminata_dietro_con_melee_lunga
+      objectReference: {fileID: 0}
     - target: {fileID: 6932638961626947413, guid: 2533b4b312854584c94563f280161de3, type: 3}
       propertyPath: _sprites.Array.size
       value: 0
@@ -998,11 +1010,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8945083984758148617, guid: 2533b4b312854584c94563f280161de3, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 8945083984758148617, guid: 2533b4b312854584c94563f280161de3, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2533b4b312854584c94563f280161de3, type: 3}
+--- !u!4 &200926056 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1563024585740046803, guid: 2533b4b312854584c94563f280161de3, type: 3}
+  m_PrefabInstance: {fileID: 200926055}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &202913756
 GameObject:
   m_ObjectHideFlags: 0
@@ -11769,7 +11785,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -650.6002, y: 43}
+  m_AnchoredPosition: {x: -650.60034, y: 43}
   m_SizeDelta: {x: -1301.2, y: -262.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2122854167

@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace FarrokhGames.SpriteAnimation.Sprite
 {
-    /// <inheritdoc />
+    /// <inheritdoc/>
     [RequireComponent(typeof(SpriteRenderer))]
     public class SpriteAnimator : AbstractSpriteAnimator, ISpriteAnimator
     {

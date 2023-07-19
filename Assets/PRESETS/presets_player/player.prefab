@@ -264,6 +264,8 @@ Transform:
   - {fileID: 87052805147424932}
   - {fileID: 7105731106405118878}
   - {fileID: 6560690620120520622}
+  - {fileID: 156525028127790764}
+  - {fileID: 1374805019348855974}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -274,12 +276,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1717929201752432305}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a16c94df4eba09946a4e259c0017e240, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Gestore_classi: {fileID: 0}
+  Gestore_classi: {fileID: 1374805019348855973}
   num_max_vita: 0
   num_corrente_vita: 0
   barra_Vita: {fileID: 0}
@@ -333,7 +335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _footsteps: []
-  anteprima_personaggio: 0
+  arma_equipaggiata: 1
   rigidbody: {fileID: 770843345929943401}
 --- !u!212 &7282859834850613614
 SpriteRenderer:
@@ -804,7 +806,7 @@ MonoBehaviour:
     - _index: 104
       _speed: 0
       _triggerName: 
-  - _name: 'camminata_dietro_con_melee_lunga '
+  - _name: camminata_dietro_con_melee_lunga
     _loop: 1
     _randomStart: 0
     _frameRate: 10
@@ -827,7 +829,7 @@ MonoBehaviour:
     - _index: 116
       _speed: 1
       _triggerName: 
-  - _name: 'camminata_avanti_con_melee_lunga '
+  - _name: camminata_avanti_con_melee_lunga
     _loop: 1
     _randomStart: 0
     _frameRate: 10
@@ -850,7 +852,7 @@ MonoBehaviour:
     - _index: 117
       _speed: 1
       _triggerName: footstep
-  - _name: 'camminata_sx_dx_con_melee_lunga '
+  - _name: camminata_sx_dx_con_melee_lunga
     _loop: 1
     _randomStart: 0
     _frameRate: 10
@@ -902,7 +904,7 @@ MonoBehaviour:
     - _index: 136
       _speed: 1
       _triggerName: 
-  - _name: idle_mele_lunga_avanti
+  - _name: idle_melee_lunga_avanti
     _loop: 1
     _randomStart: 0
     _frameRate: 10
@@ -925,14 +927,11 @@ MonoBehaviour:
     - _index: 137
       _speed: 1
       _triggerName: 
-  - _name: idle_melee_lunga_xs_dx
+  - _name: idle_melee_lunga_sx_dx
     _loop: 1
     _randomStart: 0
     _frameRate: 10
     _frames:
-    - _index: 137
-      _speed: 1
-      _triggerName: 
     - _index: 138
       _speed: 1
       _triggerName: 
@@ -946,6 +945,9 @@ MonoBehaviour:
       _speed: 1
       _triggerName: 
     - _index: 142
+      _speed: 1
+      _triggerName: 
+    - _index: 143
       _speed: 1
       _triggerName: 
   - _name: attacco_melee_lunga_sx_dx
@@ -976,15 +978,12 @@ MonoBehaviour:
     _randomStart: 0
     _frameRate: 10
     _frames:
-    - _index: 149
-      _speed: 1
-      _triggerName: 
     - _index: 150
       _speed: 1
-      _triggerName: footstep
+      _triggerName: 
     - _index: 151
       _speed: 1
-      _triggerName: 
+      _triggerName: footstep
     - _index: 152
       _speed: 1
       _triggerName: 
@@ -993,11 +992,14 @@ MonoBehaviour:
       _triggerName: 
     - _index: 154
       _speed: 1
-      _triggerName: footstep
+      _triggerName: 
     - _index: 155
       _speed: 1
-      _triggerName: 
+      _triggerName: footstep
     - _index: 156
+      _speed: 1
+      _triggerName: 
+    - _index: 157
       _speed: 1
       _triggerName: 
   - _name: camminata_dietro_con_arma
@@ -1097,9 +1099,6 @@ MonoBehaviour:
     _randomStart: 0
     _frameRate: 10
     _frames:
-    - _index: 181
-      _speed: 1
-      _triggerName: 
     - _index: 182
       _speed: 1
       _triggerName: 
@@ -1113,6 +1112,9 @@ MonoBehaviour:
       _speed: 1
       _triggerName: 
     - _index: 186
+      _speed: 1
+      _triggerName: 
+    - _index: 187
       _speed: 1
       _triggerName: 
   - _name: morte
@@ -2938,3 +2940,146 @@ MonoBehaviour:
   _animateChildren: 1
   _childMode: 0
   _allowFlipping: 1
+--- !u!1001 &4180350528552858968
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1563024585740046803}
+    m_Modifications:
+    - target: {fileID: 2961080788112906748, guid: f0a26518bb156dd45baeeb9567152fb2, type: 3}
+      propertyPath: m_Name
+      value: Gestore_classi
+      objectReference: {fileID: 0}
+    - target: {fileID: 2961080788112906750, guid: f0a26518bb156dd45baeeb9567152fb2, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2961080788112906750, guid: f0a26518bb156dd45baeeb9567152fb2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2961080788112906750, guid: f0a26518bb156dd45baeeb9567152fb2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2961080788112906750, guid: f0a26518bb156dd45baeeb9567152fb2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2961080788112906750, guid: f0a26518bb156dd45baeeb9567152fb2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2961080788112906750, guid: f0a26518bb156dd45baeeb9567152fb2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2961080788112906750, guid: f0a26518bb156dd45baeeb9567152fb2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2961080788112906750, guid: f0a26518bb156dd45baeeb9567152fb2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2961080788112906750, guid: f0a26518bb156dd45baeeb9567152fb2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2961080788112906750, guid: f0a26518bb156dd45baeeb9567152fb2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2961080788112906750, guid: f0a26518bb156dd45baeeb9567152fb2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f0a26518bb156dd45baeeb9567152fb2, type: 3}
+--- !u!114 &1374805019348855973 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2961080788112906749, guid: f0a26518bb156dd45baeeb9567152fb2, type: 3}
+  m_PrefabInstance: {fileID: 4180350528552858968}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615a8db572a0f354faf16483be2a4ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1374805019348855974 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2961080788112906750, guid: f0a26518bb156dd45baeeb9567152fb2, type: 3}
+  m_PrefabInstance: {fileID: 4180350528552858968}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7096347017828974309
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1563024585740046803}
+    m_Modifications:
+    - target: {fileID: 6942119247851743305, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942119247851743305, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942119247851743305, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942119247851743305, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942119247851743305, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942119247851743305, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942119247851743305, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942119247851743305, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942119247851743305, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942119247851743305, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942119247851743305, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942119247851743308, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
+      propertyPath: m_Name
+      value: CM_vcam
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942119247851743310, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 1563024585740046803}
+    - target: {fileID: 6996398943630350910, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1563024585740046803}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
+--- !u!4 &156525028127790764 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6942119247851743305, guid: c12266c7ec9af864db60c638a2dddb33, type: 3}
+  m_PrefabInstance: {fileID: 7096347017828974309}
+  m_PrefabAsset: {fileID: 0}
