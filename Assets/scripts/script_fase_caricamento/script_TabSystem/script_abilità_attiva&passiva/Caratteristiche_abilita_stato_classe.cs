@@ -6,7 +6,7 @@ using TMPro;
 
 public class Caratteristiche_abilita_stato_classe : MonoBehaviour
 {
-    public GameObject txt_abilita_stato, txt_abilita_classe, lettoreXML,img_abilita_classe,img_abilita_stato,descrizione_abilità_stato,descrizione_abilità_classe;
+    public UnityEngine.GameObject txt_abilita_stato, txt_abilita_classe, lettoreXML,img_abilita_classe,img_abilita_stato,descrizione_abilità_stato,descrizione_abilità_classe;
     TextMeshProUGUI textMesh_abilita_stato, textMesh_abilita_classe, textMesh_desc_abilita_classe, textMesh_desc_abilita_stato;
     public Sprite[] arr_abilita_classe = new Sprite[7];
     public Sprite[] arr_abilita_stato = new Sprite[18];

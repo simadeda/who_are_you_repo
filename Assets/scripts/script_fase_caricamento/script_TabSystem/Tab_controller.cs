@@ -6,7 +6,7 @@ using UnityEngine;
 public class Tab_controller : MonoBehaviour
 {
     public List<Tab_bottone> Tab_bottoni = new List<Tab_bottone>(); //lista di gameobj che hanno al loro interno lo script "Tab_bottone" (i bottoni) o almeno quesso è quello che so capito
-    public List<GameObject> Tab_pannello; //lista di gameobj per il pannello
+    public List<UnityEngine.GameObject> Tab_pannello; //lista di gameobj per il pannello
            
     public void Tab_enter(Tab_bottone Bottone) //funzione per il click deju mouse
     {

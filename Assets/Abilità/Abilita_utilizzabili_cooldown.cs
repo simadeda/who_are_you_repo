@@ -7,7 +7,7 @@ using TMPro;
 
 public class Abilita_utilizzabili_cooldown : MonoBehaviour
 {
-    public GameObject utilizzabili_obj;
+    public UnityEngine.GameObject utilizzabili_obj;
 
     public string btn_attiva_abl_classe = "btn_abilità_classe";
 
@@ -39,7 +39,7 @@ public class Abilita_utilizzabili_cooldown : MonoBehaviour
     }
 
     //*****#### FUNZIONE CHE VIENE CHIAMATA DALL' UPDATE NELLA CLASSE COOLDOWN_ABILITA_CLASSE ####******//
-    public void cooldown_uti(float cooldown_abl_classe ,float cooldown_abl_classe_rimanente, Image darkMask, GameObject player_in_game, bool cooldown_rimanente_uti_nuovo)
+    public void cooldown_uti(float cooldown_abl_classe ,float cooldown_abl_classe_rimanente, Image darkMask, UnityEngine.GameObject player_in_game, bool cooldown_rimanente_uti_nuovo)
     {
         cooldown_uti_finito(cooldown_abl_classe,cooldown_abl_classe_rimanente,darkMask, cooldown_rimanente_uti_nuovo);
         if (count_utilizzabili != 0)//mettere un' altra condizione che quando count_utilizzabili == 0 bisogna aspettare che gli utilizzi ritornino a 3 altrimenti non è possibile usarla di nuovo 

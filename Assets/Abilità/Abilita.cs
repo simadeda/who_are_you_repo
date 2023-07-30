@@ -25,8 +25,8 @@ public abstract class Abilita : ScriptableObject
     //se l'abilità è di tipo utilizzabile, questa variabile ti dice quanti utilizzi massimi sono disponibili per quella abilità
     public int max_utilizzabili;
     
-    public abstract void inizializza(GameObject obj);
-    public abstract void TriggerAbility(GameObject obj);
+    public abstract void inizializza(UnityEngine.GameObject obj);
+    public abstract void TriggerAbility(UnityEngine.GameObject obj);
 
 }
 

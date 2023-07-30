@@ -5,11 +5,11 @@ using Cinemachine;
 public class Mimetismo_caratteristica : MonoBehaviour
 {
     private int durata_mimetismo;
-    private GameObject virtual_cam;
+    private UnityEngine.GameObject virtual_cam;
     private CinemachineVirtualCamera camera_in_gioco_attiva;
     private void Awake()
     {
-        virtual_cam = GameObject.Find("CM_vcam");
+        virtual_cam = UnityEngine.GameObject.Find("CM_vcam");
         camera_in_gioco_attiva = virtual_cam.GetComponent<CinemachineVirtualCamera>();
     }
     public void comportamento_in_azione()

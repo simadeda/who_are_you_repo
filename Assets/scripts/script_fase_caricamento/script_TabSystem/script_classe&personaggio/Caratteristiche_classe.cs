@@ -5,7 +5,7 @@ using TMPro;
 
 public class Caratteristiche_classe : MonoBehaviour
 {
-    public GameObject txt_classe, txt_armamento, txt_tipo, txt_descrizione;
+    public UnityEngine.GameObject txt_classe, txt_armamento, txt_tipo, txt_descrizione;
     private TextMeshProUGUI TextMesH_classe, TextMesH_armamento, TextMesH_tipo, TextMesH_descr;
 
     [HideInInspector] public string nome_classe;

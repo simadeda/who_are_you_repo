@@ -6,7 +6,7 @@ using UnityEngine.Video;
 
 public class Cambio_immagini_script : MonoBehaviour
 {
-    public GameObject video_img_intermittenza;
+    public UnityEngine.GameObject video_img_intermittenza;
     public VideoClip[] clip_video_mappe;
     private VideoPlayer video;
 

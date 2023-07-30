@@ -13,7 +13,7 @@ public class Schivata_abilita : Abilita
     private float velocita_attuale;
     public int danno_elusione;
 
-    public override void inizializza(GameObject obj)
+    public override void inizializza(UnityEngine.GameObject obj)
     {
         if (obj.GetComponent<Velocita_aumentata_diminuita>() == null && obj.GetComponent<Elusione_caratteristica>() == null) //CONTROLLA SE LE DUE CARATTERISTICHE PER VELOCISTA SONO STATE AGGIUNTE AL PLAYER
         {
@@ -39,7 +39,7 @@ public class Schivata_abilita : Abilita
     }
 
     //ATTIVA L'ABILITA'
-    public override void TriggerAbility(GameObject obj)//override per l'abilità SCHIVATA
+    public override void TriggerAbility(UnityEngine.GameObject obj)//override per l'abilità SCHIVATA
     {
         elusione.comportamento_in_azione(obj); //chiama la caratteristica dell' abilità "elusione" che ti permette di schivare i colpi
         vel_aum_dim.comportamento_in_azione(obj); //chiama la caratteristica dell' abilità "elusione" che ti permette un boost temporaneo della velcità

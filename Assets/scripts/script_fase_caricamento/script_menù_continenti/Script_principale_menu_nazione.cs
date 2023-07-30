@@ -8,7 +8,7 @@ using System.Xml;
 
 public class Script_principale_menu_nazione : MonoBehaviour
 {
-    public GameObject btn_scegli,rnd_numb,lettoreXML,video_img;
+    public UnityEngine.GameObject btn_scegli,rnd_numb,lettoreXML,video_img;
     LettoreXML lettoreXMLscript;
     Cambio_immagini_script video_img_script;
     

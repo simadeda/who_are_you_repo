@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 52fe8373582e0bc44835e4fac30c674d
+guid: 4e58333dee1c7cd40b07a7f1d1486919
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pantalonci_0_0
+      name: pantaloncini_0.1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,35 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09496a273847645448d5664475cdb7ab
-      internalID: 1227072704
+      spriteID: c3347357f43930645beaadfd31e74ba3
+      internalID: -179325639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 1600
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b433e4fda97a2914285d8a97b67710f3
-      internalID: 1471711580
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_2
+      name: pantaloncini_0.1_1
       rect:
         serializedVersion: 2
         x: 128
@@ -161,35 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74b800b98ea239a49af72e76181f436a
-      internalID: -1197056281
+      spriteID: 7145b9df1a69cb2459166c26dad35a3c
+      internalID: -1074704122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 1600
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f1d4ba346d314e4193a96060e7f64c9
-      internalID: 1381319264
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_4
+      name: pantaloncini_0.1_2
       rect:
         serializedVersion: 2
         x: 256
@@ -203,35 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b463c52f9ff13024187975ce6b1f59d0
-      internalID: -374145659
+      spriteID: b6ba92e34654c974994aa23ef66b4367
+      internalID: 218186865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 1600
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d2ce64a42de9fc4fba8d01141eff9e2
-      internalID: -1497898041
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_6
+      name: pantaloncini_0.1_3
       rect:
         serializedVersion: 2
         x: 384
@@ -245,35 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08e08ed40ec9b6a4c8f2daf1b3ee8ecf
-      internalID: 787064903
+      spriteID: d2b19c67f45c4e645b81f7a964a2f345
+      internalID: -956745479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_7
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 1600
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df223f7550535ff44aee19ce78c96422
-      internalID: 1970899951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_8
+      name: pantaloncini_0.1_4
       rect:
         serializedVersion: 2
         x: 512
@@ -287,35 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6d166fb8c9f8b347bc236ace8a49e01
-      internalID: 989602079
+      spriteID: 7865e55bfd62236419ddae6aabd7b7d2
+      internalID: -2109024037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_9
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 1600
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0486c71d446207d408298d2b781beb04
-      internalID: 357564835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_10
+      name: pantaloncini_0.1_5
       rect:
         serializedVersion: 2
         x: 640
@@ -329,35 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c45afb13a393629489e5c320006721e2
-      internalID: -1132941634
+      spriteID: be6991d7e9dff354a8bd808ffd03283c
+      internalID: -687389548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_11
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 1600
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4555fa79abd43df4fa485ef867a570ef
-      internalID: -1127065021
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_12
+      name: pantaloncini_0.1_6
       rect:
         serializedVersion: 2
         x: 768
@@ -371,35 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f0de057bebf8ce4f96af87eddff8ed2
-      internalID: 1661103861
+      spriteID: 9fa63fb66abdc1949803b767e6aba1ec
+      internalID: -1295664712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_13
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 1600
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 657a90793f2c03543ab1bfa5c1665cc0
-      internalID: -1604180482
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_14
+      name: pantaloncini_0.1_7
       rect:
         serializedVersion: 2
         x: 896
@@ -413,35 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 677c53820b9cc174499f4b693998ee68
-      internalID: 305448297
+      spriteID: 3015c74134d97b34ba00cc7aec27ec66
+      internalID: -1797318531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_15
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 1600
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f320e0f4a07a2542afd3a2b3339280f
-      internalID: -990007351
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_16
+      name: pantaloncini_0.1_8
       rect:
         serializedVersion: 2
         x: 0
@@ -455,35 +287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a491fabf4b6bc784c89448d030e2d46f
-      internalID: -1929536311
+      spriteID: 2feb0e53f3842b04f8849cf0e5721d10
+      internalID: 77781176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_17
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 1520
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87e350abf339a3344b866f0c966ed85b
-      internalID: -1848875414
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_18
+      name: pantaloncini_0.1_9
       rect:
         serializedVersion: 2
         x: 128
@@ -497,35 +308,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8244f68cebb7c2d4c8d5d43f8cd5ebf1
-      internalID: 365568962
+      spriteID: 7afc67108a5fd624c80d8865a8baea52
+      internalID: -655847179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_19
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 1520
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b19d790dc3ca6c4b82edd05337f9d99
-      internalID: -522436235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_20
+      name: pantaloncini_0.1_10
       rect:
         serializedVersion: 2
         x: 256
@@ -539,35 +329,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af4ae5647c9e0ab48adf43c2ba37bed4
-      internalID: 1065766190
+      spriteID: 39be5876ccbc7a04b87d83a1c00f374a
+      internalID: -1329597080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_21
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 1520
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3884d8d1c7203ca438c5e4f970d2ec82
-      internalID: 1365418731
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_22
+      name: pantaloncini_0.1_11
       rect:
         serializedVersion: 2
         x: 384
@@ -581,35 +350,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ed484a974722d841b4a2f3c09620f1f
-      internalID: 1041768964
+      spriteID: c97145533f3da7e47975f3102d7e3dc3
+      internalID: 1314031462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_23
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 1520
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1834a47270ce90e4885e5ec69ca25ac6
-      internalID: 180989003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_24
+      name: pantaloncini_0.1_12
       rect:
         serializedVersion: 2
         x: 512
@@ -623,35 +371,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe58b4e12f1e04647a6d971566aaa560
-      internalID: 165756052
+      spriteID: 526206d182380e34aa30ebfde6d3b425
+      internalID: -300926467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_25
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 1520
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1651fe187013a9f4aa7adf300e4351ca
-      internalID: -1757682744
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_26
+      name: pantaloncini_0.1_13
       rect:
         serializedVersion: 2
         x: 640
@@ -665,35 +392,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbcecb3a594a7ad48b8b46f2488fb6c4
-      internalID: -2106636198
+      spriteID: 89689adfa839682448193a6092747fa2
+      internalID: 26197151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_27
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 1520
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60fbe45d289e56b4da2fad3b41d5c1e2
-      internalID: 877278633
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_28
+      name: pantaloncini_0.1_14
       rect:
         serializedVersion: 2
         x: 0
@@ -707,14 +413,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98c83041db3949141982c790f9159783
-      internalID: -316965254
+      spriteID: 672a61c6bb5c2b24982fe311ca349660
+      internalID: 1505176388
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_29
+      name: pantaloncini_0.1_15
       rect:
         serializedVersion: 2
         x: 64
@@ -728,14 +434,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f146e2031d5535c43b801fd7bb72d037
-      internalID: 1762756718
+      spriteID: bf2db00192a173e46af09f71d6f98201
+      internalID: 2117424693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_30
+      name: pantaloncini_0.1_16
       rect:
         serializedVersion: 2
         x: 128
@@ -749,14 +455,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52b9053a7e36b19468d8d823997e01df
-      internalID: 1803776305
+      spriteID: f26d5c385851d46458ca08495be322db
+      internalID: 1586032794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_31
+      name: pantaloncini_0.1_17
       rect:
         serializedVersion: 2
         x: 192
@@ -770,14 +476,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18db4e65c9c0acf4bbd7810c9e8ede00
-      internalID: -1759556921
+      spriteID: 719f0f4bc1e689540ab663ef8574b758
+      internalID: 496752823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_32
+      name: pantaloncini_0.1_18
       rect:
         serializedVersion: 2
         x: 256
@@ -791,14 +497,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ef21d5ef454537498ddde6c1c68b569
-      internalID: 875252949
+      spriteID: 27c541319bc551648881a32b35ce94a9
+      internalID: -1641736320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_33
+      name: pantaloncini_0.1_19
       rect:
         serializedVersion: 2
         x: 320
@@ -812,14 +518,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb2417e6742795f4cbe1e2ff0686f88c
-      internalID: 1281511735
+      spriteID: 305ae5b03e2d91945a0a4028d0c11e83
+      internalID: 1501582352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_34
+      name: pantaloncini_0.1_20
       rect:
         serializedVersion: 2
         x: 384
@@ -833,14 +539,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb55f4e9a1ffce94da791c5c33dfcdb4
-      internalID: 1237242404
+      spriteID: dadaaaf41da7226459e2c2efacb1c9df
+      internalID: 255704579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_35
+      name: pantaloncini_0.1_21
       rect:
         serializedVersion: 2
         x: 448
@@ -854,14 +560,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5544e48e7f4fd0f4fb8b93e4ba7f4bb0
-      internalID: -394169034
+      spriteID: e3eb21ac80b22ab4a92160afdbe53874
+      internalID: 488638689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_36
+      name: pantaloncini_0.1_22
       rect:
         serializedVersion: 2
         x: 512
@@ -875,14 +581,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93996a254fc452245b671a7e703b076e
-      internalID: -862485681
+      spriteID: 3b27bad9ed1bc2a4db8ee03e123b6c0c
+      internalID: 497993417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_37
+      name: pantaloncini_0.1_23
       rect:
         serializedVersion: 2
         x: 576
@@ -896,14 +602,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0714228374b3af14993e54891159bcc1
-      internalID: 874631291
+      spriteID: 83bdd275bf2fb03478869e217560df56
+      internalID: 1005766807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_38
+      name: pantaloncini_0.1_24
       rect:
         serializedVersion: 2
         x: 640
@@ -917,14 +623,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18e8d35d526a5db4daa6e0d78c24ef62
-      internalID: -499488471
+      spriteID: ed13f98543a4005448faee5ea497c75c
+      internalID: -1569616452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_39
+      name: pantaloncini_0.1_25
       rect:
         serializedVersion: 2
         x: 704
@@ -938,14 +644,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff20c9fb4e5a1e840b5eab6e640fd3fb
-      internalID: -1452358887
+      spriteID: 93d806c3d7c62a14281b223d6cabe689
+      internalID: 582814132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_40
+      name: pantaloncini_0.1_26
       rect:
         serializedVersion: 2
         x: 0
@@ -959,14 +665,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1abed65e4fe90b4cbd5a4e0085f29ce
-      internalID: 13837774
+      spriteID: 479b37ac9f2baed46be36118e238d9b6
+      internalID: 1085319597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_41
+      name: pantaloncini_0.1_27
       rect:
         serializedVersion: 2
         x: 64
@@ -980,14 +686,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83b083af4c7d4774daf678e5bf664041
-      internalID: -1324688458
+      spriteID: c6b4c3b162899e8439d0f9425c77fd88
+      internalID: 2139638344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_42
+      name: pantaloncini_0.1_28
       rect:
         serializedVersion: 2
         x: 128
@@ -1001,14 +707,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea2e41aed6fd5ff448bfb375dd09c3b9
-      internalID: 1983391842
+      spriteID: c0a3631b5e07e4b48a5a0c37d318e0b3
+      internalID: -838170860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_43
+      name: pantaloncini_0.1_29
       rect:
         serializedVersion: 2
         x: 192
@@ -1022,14 +728,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41db8ba136b38224483ccb0530de67aa
-      internalID: 1950764976
+      spriteID: c5b1b68965288cc43a97e7cf79b80cfb
+      internalID: 368502474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_44
+      name: pantaloncini_0.1_30
       rect:
         serializedVersion: 2
         x: 256
@@ -1043,14 +749,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be6ed74bc5f8286439064ac0c6cf267d
-      internalID: 104214744
+      spriteID: 46e646cd37f2cd34c875442fbc43bbbc
+      internalID: 1631595392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_45
+      name: pantaloncini_0.1_31
       rect:
         serializedVersion: 2
         x: 320
@@ -1064,14 +770,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36b0b728a38df42428b1c6b844276927
-      internalID: 1402934299
+      spriteID: 840c88f5004a85f418a4d09d42f9d8f2
+      internalID: -889844271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_46
+      name: pantaloncini_0.1_32
       rect:
         serializedVersion: 2
         x: 384
@@ -1085,14 +791,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8eb3f62f758f81b40952a6e6927f32e4
-      internalID: -349569394
+      spriteID: e70af51034ddc0647b9f4dec6f8b03b7
+      internalID: 810877224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_47
+      name: pantaloncini_0.1_33
       rect:
         serializedVersion: 2
         x: 448
@@ -1106,14 +812,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc1f3e48ef7b2b94a9d49dd0e9c5a9cf
-      internalID: -1586969501
+      spriteID: 2ed1106c49248654498fd6bb00a0c17e
+      internalID: -1154190950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_48
+      name: pantaloncini_0.1_34
       rect:
         serializedVersion: 2
         x: 512
@@ -1127,14 +833,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cfb16d6d19e1394db78fd50e9d3d156
-      internalID: -2144594320
+      spriteID: 93b71c7b802db2847bdd28ad86a4bc09
+      internalID: 2091416526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_49
+      name: pantaloncini_0.1_35
       rect:
         serializedVersion: 2
         x: 576
@@ -1148,14 +854,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5778b397c833d4a46be8be3f280c623b
-      internalID: 1445527329
+      spriteID: b4be869002a31a5499933297b11fa29a
+      internalID: -1670350487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_50
+      name: pantaloncini_0.1_36
       rect:
         serializedVersion: 2
         x: 640
@@ -1169,14 +875,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fedd37430a0339d45b8f9a35203fa674
-      internalID: -109114904
+      spriteID: 5a7a16c98f3b6814f93d632c5c559edd
+      internalID: -1078909353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_51
+      name: pantaloncini_0.1_37
       rect:
         serializedVersion: 2
         x: 704
@@ -1190,14 +896,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62a12fd813873cc40bda54c00926f3be
-      internalID: -1492317417
+      spriteID: 2bc0e0b2b3f9040488f0a7c424a9062b
+      internalID: -1773701069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_52
+      name: pantaloncini_0.1_38
       rect:
         serializedVersion: 2
         x: 0
@@ -1211,14 +917,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d13c5bd2f979e64cbf4fe3800eb69e9
-      internalID: 1272475790
+      spriteID: 269e86c6b63011c4082726057c1b49d4
+      internalID: -2086142722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_53
+      name: pantaloncini_0.1_39
       rect:
         serializedVersion: 2
         x: 64
@@ -1232,14 +938,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 478b76502804e9044b247254723eccdf
-      internalID: -1235963147
+      spriteID: 6f42261d181f56f4eb8aca6dcdefa508
+      internalID: 454957621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_54
+      name: pantaloncini_0.1_40
       rect:
         serializedVersion: 2
         x: 128
@@ -1253,14 +959,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac818e894c733f54f8d5281e06b11573
-      internalID: 281378733
+      spriteID: eed12ebe17d1ae64dbc7726351b4db6f
+      internalID: -409719717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_55
+      name: pantaloncini_0.1_41
       rect:
         serializedVersion: 2
         x: 192
@@ -1274,14 +980,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42e847a09303ed44681b67c12b955c83
-      internalID: -1890155023
+      spriteID: d2888c7a1b30aa04d82fdbce7d7694b3
+      internalID: -593623354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_56
+      name: pantaloncini_0.1_42
       rect:
         serializedVersion: 2
         x: 256
@@ -1295,14 +1001,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ba6b3fc58c091a488fcf10d1677f9db
-      internalID: -195960023
+      spriteID: ced93da5f2f6ae3428eb8134eed906de
+      internalID: 244756319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_57
+      name: pantaloncini_0.1_43
       rect:
         serializedVersion: 2
         x: 320
@@ -1316,14 +1022,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b607152c0a3c3d44ac1560413822984
-      internalID: -473351028
+      spriteID: a3440acc21739cb4290e325530db7ccf
+      internalID: -589775543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_58
+      name: pantaloncini_0.1_44
       rect:
         serializedVersion: 2
         x: 384
@@ -1337,14 +1043,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebb06484684f793499e6472625e12541
-      internalID: 1583429175
+      spriteID: dde4d7843de4c634091d7bcc4fd3dfc8
+      internalID: 2026350526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_59
+      name: pantaloncini_0.1_45
       rect:
         serializedVersion: 2
         x: 448
@@ -1358,14 +1064,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: affedc65ba4489447926bace8a5ee0f5
-      internalID: 1820212354
+      spriteID: 2b7d6fb72c6a81d4b831257a746f8e32
+      internalID: -1949797760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_60
+      name: pantaloncini_0.1_46
       rect:
         serializedVersion: 2
         x: 512
@@ -1379,14 +1085,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54c5c4272e78e9046ae8bb9c93b53730
-      internalID: 1454392468
+      spriteID: 34edb5d036e46974ea0f75cf36ab100f
+      internalID: 42587441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_61
+      name: pantaloncini_0.1_47
       rect:
         serializedVersion: 2
         x: 576
@@ -1400,14 +1106,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4a9205d9f205da4ca56735d59a6d389
-      internalID: 1686878611
+      spriteID: 5e949a7368bcc2d479fcb7c273749233
+      internalID: 1940906571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_62
+      name: pantaloncini_0.1_48
       rect:
         serializedVersion: 2
         x: 640
@@ -1421,14 +1127,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c180aaf90dad9ed49b369f5eccb97aae
-      internalID: 714623741
+      spriteID: 8b558c526c31ce64abace37668b79824
+      internalID: 1867623434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_63
+      name: pantaloncini_0.1_49
       rect:
         serializedVersion: 2
         x: 704
@@ -1442,14 +1148,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fe53fdff366048419479b6f262fb923
-      internalID: 1362838021
+      spriteID: 79df3c0412a61a847a65b3efe419b35e
+      internalID: 1351160367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_64
+      name: pantaloncini_0.1_50
       rect:
         serializedVersion: 2
         x: 0
@@ -1463,14 +1169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: decad5802d35f9644a6a01f65dd9c133
-      internalID: 70079786
+      spriteID: 7346eb32c441e6149990b4039b7edd2d
+      internalID: 852733923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_65
+      name: pantaloncini_0.1_51
       rect:
         serializedVersion: 2
         x: 64
@@ -1484,14 +1190,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d16c8b5fa84d08040b655205cc372aba
-      internalID: 712318967
+      spriteID: c5f0cc74d3853094d8c777c3966b8290
+      internalID: -693983367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_66
+      name: pantaloncini_0.1_52
       rect:
         serializedVersion: 2
         x: 128
@@ -1505,14 +1211,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 737fbb1242cbcee4da3c7c2d8f78c6d8
-      internalID: 875445454
+      spriteID: 0f722de147106f84daf27bff6db48d0a
+      internalID: 1979329363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_67
+      name: pantaloncini_0.1_53
       rect:
         serializedVersion: 2
         x: 192
@@ -1526,14 +1232,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd4aab3f45ee93741b9c500867ea31c1
-      internalID: 2024856675
+      spriteID: ea7c0b5ae7940f6429c4af06b5cea063
+      internalID: 1499704585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_68
+      name: pantaloncini_0.1_54
       rect:
         serializedVersion: 2
         x: 256
@@ -1547,14 +1253,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b995deac85622274281a414b7187ae05
-      internalID: 797020690
+      spriteID: 25f788da7ff91a845a9c27e22ea5c6c1
+      internalID: -572255346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_69
+      name: pantaloncini_0.1_55
       rect:
         serializedVersion: 2
         x: 320
@@ -1568,14 +1274,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c267b824ba32f8f42acb2f7d5200dd9f
-      internalID: -808565936
+      spriteID: 16be93059e9e41248997158df8c87dc0
+      internalID: -921940557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_70
+      name: pantaloncini_0.1_56
       rect:
         serializedVersion: 2
         x: 384
@@ -1589,14 +1295,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04de26b133bce2c459ac6cbaae215715
-      internalID: -1978108624
+      spriteID: c72a26acc5efc7143b3169af558760de
+      internalID: -937782062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_71
+      name: pantaloncini_0.1_57
       rect:
         serializedVersion: 2
         x: 448
@@ -1610,14 +1316,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f94c89a76ac05642a55ba8cebaaf42b
-      internalID: 378686130
+      spriteID: 24eb4bc46cd5dec46a328694ff85e797
+      internalID: -457252035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_72
+      name: pantaloncini_0.1_58
       rect:
         serializedVersion: 2
         x: 512
@@ -1631,14 +1337,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74b21a692f50cff47b512c46bd35666d
-      internalID: 1098830241
+      spriteID: 1ad863cefab7b4e4bb7d22512ffe96a2
+      internalID: -18504865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_73
+      name: pantaloncini_0.1_59
       rect:
         serializedVersion: 2
         x: 576
@@ -1652,14 +1358,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b74981304021a4948b19378d6837cc49
-      internalID: -1076953699
+      spriteID: 7cfffa09d929fda4a9a874014dcaf74b
+      internalID: -1356033008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_74
+      name: pantaloncini_0.1_60
       rect:
         serializedVersion: 2
         x: 640
@@ -1673,14 +1379,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0503322ee3e68b5479c1cb89969fad4f
-      internalID: -2116453084
+      spriteID: 1b70d2851e8923543959ee20d182ebe7
+      internalID: 876603374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_75
+      name: pantaloncini_0.1_61
       rect:
         serializedVersion: 2
         x: 704
@@ -1694,14 +1400,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a93e052d863d6b049a3722734f134152
-      internalID: 35593579
+      spriteID: 20c568c8c58727641bc90f1d937724e0
+      internalID: 241813386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_76
+      name: pantaloncini_0.1_62
       rect:
         serializedVersion: 2
         x: 0
@@ -1715,35 +1421,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c937a0fe479d7b498bad3efef7ce05d
-      internalID: 602520070
+      spriteID: 94ef3a228605c21469b8e1f8c6424046
+      internalID: 1040861967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_77
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 1120
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79c42ac38c749ed44b146a0dd643192e
-      internalID: 1864132090
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_78
+      name: pantaloncini_0.1_63
       rect:
         serializedVersion: 2
         x: 128
@@ -1757,35 +1442,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36cbc129f2acc0645a8a8f6cd2d6e322
-      internalID: 640476644
+      spriteID: 0089295e1d245fd49bf1ba77a857bcea
+      internalID: -1285151010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_79
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 1120
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 489908dc69227c040864b3c9d9d07efd
-      internalID: -360673425
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_80
+      name: pantaloncini_0.1_64
       rect:
         serializedVersion: 2
         x: 256
@@ -1799,35 +1463,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 478120ea19c779b4293cf3819c6ebfe7
-      internalID: 2086355406
+      spriteID: 36ae30eac5185694dafe466fbd123083
+      internalID: 1984695889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_81
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 1120
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78fbe56d685cd7f43849863e2a8486ca
-      internalID: 1465117776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_82
+      name: pantaloncini_0.1_65
       rect:
         serializedVersion: 2
         x: 384
@@ -1841,35 +1484,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33128846a01f6f54f8cbc315dc803c86
-      internalID: -1170898125
+      spriteID: 8b8da612ec7b06c45bebae629806b747
+      internalID: -1397404122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_83
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 1120
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea18f3852be5ae24d99d12fcf31f2a5f
-      internalID: 591610698
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_84
+      name: pantaloncini_0.1_66
       rect:
         serializedVersion: 2
         x: 512
@@ -1883,35 +1505,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f192c9f6feba0944595cad26b696901a
-      internalID: -930650514
+      spriteID: c9a7ddabb9bc51446b56a5b724ea0eaf
+      internalID: 1205588443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_85
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 1120
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f46277064be9bb54cbe557539a6a38ab
-      internalID: -694120798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_86
+      name: pantaloncini_0.1_67
       rect:
         serializedVersion: 2
         x: 640
@@ -1925,35 +1526,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a374b192318494469451f7167f17870
-      internalID: 1459995597
+      spriteID: f3f813a4c8eb6f64f9e20a9f948cb3ba
+      internalID: 2069820789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_87
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 1120
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 202040c3f0908bf4b8eb0d597f97c00c
-      internalID: -1250655323
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_88
+      name: pantaloncini_0.1_68
       rect:
         serializedVersion: 2
         x: 768
@@ -1967,35 +1547,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c4a99462e491864c9002bc79f806ec1
-      internalID: -1114179190
+      spriteID: dd6d9f180f76aaf4c91986be31cd9479
+      internalID: 1194669830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_89
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 1120
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b06b24da1205864096597236a68b20f
-      internalID: 617822101
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_90
+      name: pantaloncini_0.1_69
       rect:
         serializedVersion: 2
         x: 896
@@ -2009,35 +1568,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d06b6831345c0a4a92bd739ac2fbf50
-      internalID: 1797455886
+      spriteID: 5f88e8e70aeb8fa4aa9ee7b6054a6c54
+      internalID: -320107493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_91
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 1120
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be75b3b2bc3d90f4fa122311ab9a0d1a
-      internalID: -743254651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_92
+      name: pantaloncini_0.1_70
       rect:
         serializedVersion: 2
         x: 0
@@ -2051,35 +1589,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebe48a35ef79ecf4f800e458a0ab9a1a
-      internalID: 1006538753
+      spriteID: 0a302384a2c1fd845ab045c7a4ed2fcc
+      internalID: -2946255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_93
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 1040
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66753cc9e05847a41b5532024f6162bc
-      internalID: -1331641175
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_94
+      name: pantaloncini_0.1_71
       rect:
         serializedVersion: 2
         x: 128
@@ -2093,35 +1610,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e6aa900a57a9d8408518841d28f9e11
-      internalID: 2105706850
+      spriteID: 2ee53b3b9b62c6346938666531462fa4
+      internalID: 1968316590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_95
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 1040
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf3ef4d7cf9f01b4fb121bb86de22827
-      internalID: -1177232850
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_96
+      name: pantaloncini_0.1_72
       rect:
         serializedVersion: 2
         x: 256
@@ -2135,35 +1631,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7defcbe047ea3ca45aa4c568da8c848d
-      internalID: 1436084627
+      spriteID: f6d7a6ade1b897f458b47b538ff23265
+      internalID: 738742676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_97
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 1040
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 727f8ff23f006684ba1760bc8581767d
-      internalID: 1935428543
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_98
+      name: pantaloncini_0.1_73
       rect:
         serializedVersion: 2
         x: 384
@@ -2177,35 +1652,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee2994a576f23104885a926d97a5fe30
-      internalID: 235736264
+      spriteID: 5d7663ee1d823e34684f7ec846f20acf
+      internalID: 173008682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_99
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 1040
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 290aba67f77461f4bb133b025a18e9ee
-      internalID: -1118990201
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_100
+      name: pantaloncini_0.1_74
       rect:
         serializedVersion: 2
         x: 512
@@ -2219,35 +1673,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c7ce7a74da9a734faf42943f1945f41
-      internalID: 1520160889
+      spriteID: 8ab54118698bbf24b9e3aaf3cad40af1
+      internalID: -459764139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_101
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 1040
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2583822c0d8709448f1bf2f2f675d9d
-      internalID: -943798763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_102
+      name: pantaloncini_0.1_75
       rect:
         serializedVersion: 2
         x: 640
@@ -2261,35 +1694,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b35373379431224a8987f833196b84b
-      internalID: 612987588
+      spriteID: ce51224773ae83242b81c2172419684e
+      internalID: -590594405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_103
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 1040
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85be399cc7fbeb341b64ab2255a94c45
-      internalID: -1659499500
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_104
+      name: pantaloncini_0.1_76
       rect:
         serializedVersion: 2
         x: 0
@@ -2303,35 +1715,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bd5251d7c0463747a2c2379daf2d964
-      internalID: -878154355
+      spriteID: 8b6abf704b4a34b49a5bb2b3af2f10c7
+      internalID: 2112312875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_105
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 960
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e19b189c41397cb49a884c8ba91d9712
-      internalID: 1204797949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_106
+      name: pantaloncini_0.1_77
       rect:
         serializedVersion: 2
         x: 128
@@ -2345,35 +1736,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 617159e145bec894db8ccd48b48dd1bb
-      internalID: 1469420728
+      spriteID: a4a2b5890c328ca4b893629092d8cb58
+      internalID: 427583220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_107
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 960
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8eabe8409008d5841a9d12f2eb299e5b
-      internalID: -2108731326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_108
+      name: pantaloncini_0.1_78
       rect:
         serializedVersion: 2
         x: 256
@@ -2387,35 +1757,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 351d723d0125b6e4da9dd9556449c28b
-      internalID: 2123900184
+      spriteID: af99ab4e3f65ecd4687ec80f6fc8b148
+      internalID: 1223528889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_109
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 960
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92d06902707b03048b9d8978587d1976
-      internalID: 2125796911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_110
+      name: pantaloncini_0.1_79
       rect:
         serializedVersion: 2
         x: 384
@@ -2429,35 +1778,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 281036eb607f5654caef197403349e41
-      internalID: -809959312
+      spriteID: d18890c94a7598b46aeb6f7dac58167f
+      internalID: -1744949671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_111
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 960
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 149ac445eed650242bd5ec34137471a8
-      internalID: 1966240192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_112
+      name: pantaloncini_0.1_80
       rect:
         serializedVersion: 2
         x: 512
@@ -2471,35 +1799,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4dcd5c2998bc004a9219a7d25078deb
-      internalID: 384441840
+      spriteID: 15edb25cdbdf1f546b8c52264b92b7b1
+      internalID: 38706346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_113
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 960
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bdc5b8d5441f2964c9a858a531a06db2
-      internalID: 182395316
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_114
+      name: pantaloncini_0.1_81
       rect:
         serializedVersion: 2
         x: 640
@@ -2513,35 +1820,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a38e486f061f724e9389aabd37b5c9e
-      internalID: 708981180
+      spriteID: 46b7f45f6d8db5047909b3ceaf0cff4c
+      internalID: 508958099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_115
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 960
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be8eeebc7a3ab0446b56a6545f13ddaa
-      internalID: -986375949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_116
+      name: pantaloncini_0.1_82
       rect:
         serializedVersion: 2
         x: 0
@@ -2555,14 +1841,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95233029b4c3cde47922dacf9513d239
-      internalID: -1739792076
+      spriteID: 4066c2b130d89e14b868c218ed05fb07
+      internalID: -2000034530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_117
+      name: pantaloncini_0.1_83
       rect:
         serializedVersion: 2
         x: 64
@@ -2576,14 +1862,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89c3221126e27124985852830ac75a68
-      internalID: 1338074879
+      spriteID: 5942a60ce6e89ac46acc0fcc90642e86
+      internalID: 612347608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_118
+      name: pantaloncini_0.1_84
       rect:
         serializedVersion: 2
         x: 128
@@ -2597,14 +1883,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba77d6c0121e70448a75133f1c653f13
-      internalID: -638837433
+      spriteID: 9029d1c4805c2f14e9773daa02a04036
+      internalID: 1947033531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_119
+      name: pantaloncini_0.1_85
       rect:
         serializedVersion: 2
         x: 192
@@ -2618,14 +1904,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6e1194b7d7019d48aeb296657c84e00
-      internalID: -1684063389
+      spriteID: 251a2aa40c84c7f43a5cec6b53bacd40
+      internalID: 855165176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_120
+      name: pantaloncini_0.1_86
       rect:
         serializedVersion: 2
         x: 256
@@ -2639,14 +1925,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a85b1f3e4134e64ebc17ac06b730e00
-      internalID: -619782364
+      spriteID: 84d2f584ccc4f31488341f5d22f43a3f
+      internalID: -952651058
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_121
+      name: pantaloncini_0.1_87
       rect:
         serializedVersion: 2
         x: 320
@@ -2660,14 +1946,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15d22d42fbc85264589b1f76c83783d4
-      internalID: -1472719041
+      spriteID: d1bb7108765903e40bb494e7a4a5dd2d
+      internalID: 455471220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_122
+      name: pantaloncini_0.1_88
       rect:
         serializedVersion: 2
         x: 384
@@ -2681,14 +1967,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 876aab6963253c343bd1bb2fa8769e5c
-      internalID: 1683624107
+      spriteID: 15ae533b26d4d1549889e8d1252ce3cb
+      internalID: 33279712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_123
+      name: pantaloncini_0.1_89
       rect:
         serializedVersion: 2
         x: 448
@@ -2702,14 +1988,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4266a49891d062418ef6515e20f5ffd
-      internalID: 1248265704
+      spriteID: e2b574561f25a514fbfe6162b269ddd4
+      internalID: 1741097055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_124
+      name: pantaloncini_0.1_90
       rect:
         serializedVersion: 2
         x: 512
@@ -2723,14 +2009,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b193cdbb283cee34b8bdc07dc120b8b0
-      internalID: 151899158
+      spriteID: 811294e82ebea8b41a16b599ceebb707
+      internalID: 1973996923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_125
+      name: pantaloncini_0.1_91
       rect:
         serializedVersion: 2
         x: 576
@@ -2744,14 +2030,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1db62555542301a48857e6219b433644
-      internalID: 312500361
+      spriteID: 599e21c115a90b64699407b677433b89
+      internalID: -2101528663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_126
+      name: pantaloncini_0.1_92
       rect:
         serializedVersion: 2
         x: 640
@@ -2765,14 +2051,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68ee562ad7f1c304c98a8a069112b7be
-      internalID: 2047677718
+      spriteID: ec981ee776ff7c9478e844fc71fd1553
+      internalID: 83186181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_127
+      name: pantaloncini_0.1_93
       rect:
         serializedVersion: 2
         x: 704
@@ -2786,14 +2072,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef2fcd6fd0f3cfa4fbe204facd56e982
-      internalID: -1946766004
+      spriteID: fa38574412ee93c4386bb2493231d132
+      internalID: -1846801498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_128
+      name: pantaloncini_0.1_94
       rect:
         serializedVersion: 2
         x: 0
@@ -2807,14 +2093,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f3bad91619727240966a7733ea10eec
-      internalID: -743985125
+      spriteID: dc39edcc4fcb0b044834b6c884be255d
+      internalID: -169982063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_129
+      name: pantaloncini_0.1_95
       rect:
         serializedVersion: 2
         x: 64
@@ -2828,14 +2114,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f47e9c222ccfd2469fb105edd2d891b
-      internalID: -2047963876
+      spriteID: 6cfd5af6a7df3aa449b28f361bde2f92
+      internalID: -867967231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_130
+      name: pantaloncini_0.1_96
       rect:
         serializedVersion: 2
         x: 128
@@ -2849,14 +2135,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1df794a7e4d860346bf713101bf346ba
-      internalID: -1813605060
+      spriteID: ccc0042fd7631f54eb4377f2dc5a7f3f
+      internalID: 924391738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_131
+      name: pantaloncini_0.1_97
       rect:
         serializedVersion: 2
         x: 192
@@ -2870,14 +2156,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddb44828cb07a2543bbc510a60eb22bb
-      internalID: -832955956
+      spriteID: 0659186e56ac51c4391889d30b71665f
+      internalID: 962454042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_132
+      name: pantaloncini_0.1_98
       rect:
         serializedVersion: 2
         x: 256
@@ -2891,14 +2177,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 122567c4d6a5fa24993e38fbd152ddd2
-      internalID: 600517784
+      spriteID: 30bdface6caeddb4e852f625925ce714
+      internalID: 1321972526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_133
+      name: pantaloncini_0.1_99
       rect:
         serializedVersion: 2
         x: 320
@@ -2912,14 +2198,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaecc290524b26942a0808bc73c69e28
-      internalID: 1272560658
+      spriteID: 715671111a9810649894ee149503d0c4
+      internalID: -306823594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_134
+      name: pantaloncini_0.1_100
       rect:
         serializedVersion: 2
         x: 384
@@ -2933,14 +2219,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c0abe8aab9a1574787b7aeb09aa1ba8
-      internalID: -1498469326
+      spriteID: c015190b7f43e084a8181271f907c9f2
+      internalID: -582046402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_135
+      name: pantaloncini_0.1_101
       rect:
         serializedVersion: 2
         x: 448
@@ -2954,14 +2240,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19dde3ab43528e941801da2f18037747
-      internalID: -513058491
+      spriteID: d19c4b47171774f4b9cfe8d4ba6a344b
+      internalID: -797876484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_136
+      name: pantaloncini_0.1_102
       rect:
         serializedVersion: 2
         x: 512
@@ -2975,14 +2261,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e98ac98896f36c4ab5ee35a89ecf0ce
-      internalID: 1553008698
+      spriteID: 2b0c64285cee0a64ead312e3a3636128
+      internalID: -231279501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_137
+      name: pantaloncini_0.1_103
       rect:
         serializedVersion: 2
         x: 576
@@ -2996,14 +2282,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 501caa8fc1fc5ed41b12438e4452b4ea
-      internalID: -1887062740
+      spriteID: 3d7232f04deedbf43adca18949af504c
+      internalID: -2090114624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_138
+      name: pantaloncini_0.1_104
       rect:
         serializedVersion: 2
         x: 640
@@ -3017,14 +2303,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e3f73d6540426542a7e93c70d69953f
-      internalID: -1909828425
+      spriteID: f584beb38abb4044d91053693f089401
+      internalID: -1132941367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_139
+      name: pantaloncini_0.1_105
       rect:
         serializedVersion: 2
         x: 704
@@ -3038,14 +2324,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa2e6a2ba822b564dbddea8109aeadc6
-      internalID: -866090408
+      spriteID: c849c825ebbb85d43808bd5da5899d98
+      internalID: -1046139969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_140
+      name: pantaloncini_0.1_106
       rect:
         serializedVersion: 2
         x: 0
@@ -3059,14 +2345,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b265c4facd1bf4b47995658f3847e424
-      internalID: 810545987
+      spriteID: 172c6bdfb34839242998b099c0ebec8e
+      internalID: 399567392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_141
+      name: pantaloncini_0.1_107
       rect:
         serializedVersion: 2
         x: 64
@@ -3080,14 +2366,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d313e2b292d27f7468fd29bff6e13651
-      internalID: -935277167
+      spriteID: e025d1a2021449f468cf1de30bcb0ffa
+      internalID: -2071882872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_142
+      name: pantaloncini_0.1_108
       rect:
         serializedVersion: 2
         x: 128
@@ -3101,14 +2387,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0a934469d92651489747a035940c24a
-      internalID: -338967721
+      spriteID: 732ea5cd703c0e44ebaeb3d4a9db37bd
+      internalID: -1106351264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_143
+      name: pantaloncini_0.1_109
       rect:
         serializedVersion: 2
         x: 192
@@ -3122,14 +2408,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3cc7d137aca63543940ba6398d9174c
-      internalID: 1853269862
+      spriteID: f93d575b20f0d384987f4401d2916b4e
+      internalID: -616263063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_144
+      name: pantaloncini_0.1_110
       rect:
         serializedVersion: 2
         x: 256
@@ -3143,14 +2429,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0587df24717b741418c8c6dfa801f3f2
-      internalID: -548776936
+      spriteID: 3c4034f6fe5e1914b9f88b9965c4ec27
+      internalID: -1726308351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_145
+      name: pantaloncini_0.1_111
       rect:
         serializedVersion: 2
         x: 320
@@ -3164,14 +2450,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a55bc704877e094abdb9352c1295eca
-      internalID: 2076746762
+      spriteID: 7be9e7cb0e478964ca3952a2c464dd0c
+      internalID: 1679999723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_146
+      name: pantaloncini_0.1_112
       rect:
         serializedVersion: 2
         x: 384
@@ -3185,14 +2471,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0880f93cc814300499116b975bfaf3ec
-      internalID: 981955700
+      spriteID: 190ec5bce2f5b3e4daedf18faaf97f31
+      internalID: -661122664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_147
+      name: pantaloncini_0.1_113
       rect:
         serializedVersion: 2
         x: 448
@@ -3206,14 +2492,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aecad978e42141f41a09f879e143deaf
-      internalID: 48260839
+      spriteID: dd557c02c92232f44a49ee66130fd061
+      internalID: 1172715440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_148
+      name: pantaloncini_0.1_114
       rect:
         serializedVersion: 2
         x: 512
@@ -3227,14 +2513,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a654c7c2807e494e91a44fe62c8784d
-      internalID: 1699228274
+      spriteID: 22df6326ec7f8ae41b1946c5e89a0b08
+      internalID: -691024289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_149
+      name: pantaloncini_0.1_115
       rect:
         serializedVersion: 2
         x: 576
@@ -3248,14 +2534,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dd04d6c0f966574780be349e8222712
-      internalID: 1044857570
+      spriteID: 8802f2245abd1684ea60fc9e7fe2cbe0
+      internalID: 1921259628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_150
+      name: pantaloncini_0.1_116
       rect:
         serializedVersion: 2
         x: 640
@@ -3269,14 +2555,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f72665e1ad3d7454b99bde5d7b8df203
-      internalID: 1483409921
+      spriteID: 0f92cded45f09f943886cc708ffddb38
+      internalID: -836228909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_151
+      name: pantaloncini_0.1_117
       rect:
         serializedVersion: 2
         x: 704
@@ -3290,14 +2576,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1535d5669db9b3f4ea81b60386c67afa
-      internalID: 1483897466
+      spriteID: 8fddb97d34266884583ff9c6115bb295
+      internalID: 1927774275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_152
+      name: pantaloncini_0.1_118
       rect:
         serializedVersion: 2
         x: 0
@@ -3311,35 +2597,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac318d82432b7314ead489666004bf04
-      internalID: 276870422
+      spriteID: 10d02072035f6e44da7409371bd44ad8
+      internalID: 582420373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_153
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 640
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9dff044050069654494a4af1f139cf1f
-      internalID: -628283621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_154
+      name: pantaloncini_0.1_119
       rect:
         serializedVersion: 2
         x: 128
@@ -3353,35 +2618,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab6f8a1d174e87649929677d26acf228
-      internalID: 216038980
+      spriteID: ce787cdf8c467804ea8c50185411f96a
+      internalID: -295234873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_155
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 640
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42b68ba7420969249a6398ba1064b486
-      internalID: 602203972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_156
+      name: pantaloncini_0.1_120
       rect:
         serializedVersion: 2
         x: 256
@@ -3395,35 +2639,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10a2bf6528d96234ea2fb1ce83bc197b
-      internalID: -475055695
+      spriteID: 5c88ade90191205498aecf28661fdacc
+      internalID: 1442182434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_157
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 640
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c74b95ca4cbd1ac49a14117cbc2523cb
-      internalID: -1063253498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_158
+      name: pantaloncini_0.1_121
       rect:
         serializedVersion: 2
         x: 384
@@ -3437,35 +2660,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83436ad0d5d9aff408de18c1e910a913
-      internalID: -1556660525
+      spriteID: 7fc0e63d665a4a24db295b4a731c82f7
+      internalID: 951521555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_159
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 640
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7bd6d8a1ba3e00e4996ea40a041fbc08
-      internalID: 174948837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_160
+      name: pantaloncini_0.1_122
       rect:
         serializedVersion: 2
         x: 512
@@ -3479,35 +2681,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 459784afa3ab80e46b44dcc814c4bd7a
-      internalID: 168761041
+      spriteID: 9a2478e92a19d664fbae2717134e9968
+      internalID: 1944377813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_161
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 640
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9df12c508837d74c92deddf8cdefacd
-      internalID: 1297799158
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_162
+      name: pantaloncini_0.1_123
       rect:
         serializedVersion: 2
         x: 640
@@ -3521,35 +2702,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb48434ee970c80479fcecea0082a786
-      internalID: -789966205
+      spriteID: fbe6a74939bcf384c99ea67227995315
+      internalID: -1301529858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_163
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 640
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc3e17e7fb904034f8b30b3a94829bf9
-      internalID: -970130450
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_164
+      name: pantaloncini_0.1_124
       rect:
         serializedVersion: 2
         x: 768
@@ -3563,35 +2723,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dafaeebe46970db44b4d822a0e02d898
-      internalID: 1686744121
+      spriteID: 0a131c8d831dfae4ba4afdc480f84f76
+      internalID: 1984402431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_165
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 640
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 852b28385824c01458c91c10166ba7f8
-      internalID: 1031520077
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_166
+      name: pantaloncini_0.1_125
       rect:
         serializedVersion: 2
         x: 896
@@ -3605,35 +2744,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 840e99af56c2b5d46ab7c76d8d8deb96
-      internalID: -1288637093
+      spriteID: ee269027273f7ab47a22b3319549de46
+      internalID: -1848654130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_167
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 640
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 34c2a73ee0a91ff44a90fcb7114d09c4
-      internalID: -765082452
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_168
+      name: pantaloncini_0.1_126
       rect:
         serializedVersion: 2
         x: 0
@@ -3647,14 +2765,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de4811af0521f1d4491be77b532ce1ae
-      internalID: 1884759144
+      spriteID: 09e4c4f17d6f16c4a916d2f93a8bc315
+      internalID: 621177070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_169
+      name: pantaloncini_0.1_127
       rect:
         serializedVersion: 2
         x: 64
@@ -3668,14 +2786,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63c52d8821e758f48baa681a8953bd42
-      internalID: -1746785620
+      spriteID: 7134986df69e301459441d406a9a8bb3
+      internalID: 1612171723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_170
+      name: pantaloncini_0.1_128
       rect:
         serializedVersion: 2
         x: 128
@@ -3689,14 +2807,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07f854e0a0163fd47865bd50cc2e87c9
-      internalID: -971454403
+      spriteID: a4497363acb1d944692b97150dee381c
+      internalID: -972494282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_171
+      name: pantaloncini_0.1_129
       rect:
         serializedVersion: 2
         x: 192
@@ -3710,14 +2828,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bb7535f6844f22439d8d7ee9aaa98d7
-      internalID: 1924077851
+      spriteID: fd6bd0806bf9b364b8e3c4243e558ccc
+      internalID: 150890177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_172
+      name: pantaloncini_0.1_130
       rect:
         serializedVersion: 2
         x: 256
@@ -3731,14 +2849,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d3771252a9134b41915c3f358f5cfd2
-      internalID: -1311415803
+      spriteID: 715dadeff5a9fe745b808eb75059613b
+      internalID: 416246040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_173
+      name: pantaloncini_0.1_131
       rect:
         serializedVersion: 2
         x: 320
@@ -3752,14 +2870,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a2d0712fcb0ec740a33326a740fe3d1
-      internalID: 1286768602
+      spriteID: 37ef7c95890f8f14f8996b1cfc95ce51
+      internalID: 38727891
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_174
+      name: pantaloncini_0.1_132
       rect:
         serializedVersion: 2
         x: 384
@@ -3773,14 +2891,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0788409361b618243a22a5f8d6aa1987
-      internalID: -186837884
+      spriteID: ea1e182fc30607b42848e91473a806cf
+      internalID: 1244227287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_175
+      name: pantaloncini_0.1_133
       rect:
         serializedVersion: 2
         x: 448
@@ -3794,14 +2912,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9277ec06bdd8e041a96fd7296b01f24
-      internalID: 1745610765
+      spriteID: 3b227c4038fa59c45be1d8b78b7e8ccc
+      internalID: 1448941765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_176
+      name: pantaloncini_0.1_134
       rect:
         serializedVersion: 2
         x: 512
@@ -3815,14 +2933,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01f5b84c5d995ac4e8a15f6b79bd2892
-      internalID: -110292460
+      spriteID: 5bda693cc112a3c43a76e3a43a45d9bc
+      internalID: 1806323009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_177
+      name: pantaloncini_0.1_135
       rect:
         serializedVersion: 2
         x: 576
@@ -3836,14 +2954,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27a84e6d0198a624e98b61022571c743
-      internalID: 1360640334
+      spriteID: f2be986883be045428245f4ba0e87412
+      internalID: -2053256205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_178
+      name: pantaloncini_0.1_136
       rect:
         serializedVersion: 2
         x: 640
@@ -3857,14 +2975,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8735c8302f5f6b14684a5b8453c79e79
-      internalID: -1197444831
+      spriteID: 38c1efad80300d747936ea6b92077a0b
+      internalID: 1328875213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_179
+      name: pantaloncini_0.1_137
       rect:
         serializedVersion: 2
         x: 704
@@ -3878,14 +2996,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7f5302d7414afe45ade42c56f987290
-      internalID: -116186575
+      spriteID: a39ebc0a5058b484ebe8bed48767188b
+      internalID: 1428704969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_180
+      name: pantaloncini_0.1_138
       rect:
         serializedVersion: 2
         x: 0
@@ -3899,35 +3017,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06532044f56806640b2c4ac292da8870
-      internalID: 23271694
+      spriteID: 6a1284e7e26a6c74da6c7fc1268a76a0
+      internalID: 65122539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_181
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 480
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 76b06493177810548aa86dd0d491efa5
-      internalID: -1723545681
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_182
+      name: pantaloncini_0.1_139
       rect:
         serializedVersion: 2
         x: 128
@@ -3941,35 +3038,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 288252c5c416d814b8195593997698af
-      internalID: -963362232
+      spriteID: 19e9501abd155514e8213e95a0bcf6b2
+      internalID: 871300298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_183
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 480
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a55033cf3d522841b9dbe70b692ea2a
-      internalID: 662085719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_184
+      name: pantaloncini_0.1_140
       rect:
         serializedVersion: 2
         x: 256
@@ -3983,35 +3059,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6a9278b7e9ec5047a8b5d2c4ea5cd8a
-      internalID: -424429081
+      spriteID: aa58dc0179989ad4e923e76f8682df8c
+      internalID: 712405003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_185
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 480
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1363039abb8a3bc4d9a23770b323df3e
-      internalID: 724567628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_186
+      name: pantaloncini_0.1_141
       rect:
         serializedVersion: 2
         x: 384
@@ -4025,35 +3080,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f491fca2bb0305046abbaa59c634fb2e
-      internalID: -545047030
+      spriteID: 736785df1b07a524a88a2cf1db88daec
+      internalID: 676845669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_187
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 480
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5bc9c63e94000de47b0d4399090eccb3
-      internalID: 161332339
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_188
+      name: pantaloncini_0.1_142
       rect:
         serializedVersion: 2
         x: 512
@@ -4067,35 +3101,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1eb6caad7ce23aa49a92300a16d00855
-      internalID: 269396974
+      spriteID: 84957f4f00e61084f9f084bbf96be927
+      internalID: -1271554508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_189
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 480
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3260a73186665234890c4ba1e313ec6c
-      internalID: 1524492673
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_190
+      name: pantaloncini_0.1_143
       rect:
         serializedVersion: 2
         x: 640
@@ -4109,35 +3122,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9986fac768e74ee4c8198447e769f34f
-      internalID: -1381040623
+      spriteID: 0840c8c035ef08548aa509f1361db7db
+      internalID: -1792347408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_191
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 480
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c535e7dce46771443b1a33d21135a4ad
-      internalID: -1448433500
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_192
+      name: pantaloncini_0.1_144
       rect:
         serializedVersion: 2
         x: 0
@@ -4151,35 +3143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32ad69c6e8fdd634da7fdfb9b4b76938
-      internalID: 280644979
+      spriteID: ec668fe76247d51429309460e7c935ee
+      internalID: -1066090524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_193
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 400
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1636c242c5bf88644b4e44c154beaeeb
-      internalID: 355041648
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_194
+      name: pantaloncini_0.1_145
       rect:
         serializedVersion: 2
         x: 128
@@ -4193,35 +3164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11cb6a98eed123140a6da824fd4b7591
-      internalID: -1571120236
+      spriteID: 59a3b29afb84e1743b22a258bd38dceb
+      internalID: -1301723270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_195
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 400
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a2f3e14564d41c4da9f884acdfd0d90
-      internalID: -917239305
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_196
+      name: pantaloncini_0.1_146
       rect:
         serializedVersion: 2
         x: 256
@@ -4235,35 +3185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4607259703056254b9a50115d697e77c
-      internalID: -1459081234
+      spriteID: 4b75fa231aa58be4b9e2495d131f86c5
+      internalID: -233936093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_197
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 400
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1659bbfd68148f243a002f49918d95d4
-      internalID: -1980344763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_198
+      name: pantaloncini_0.1_147
       rect:
         serializedVersion: 2
         x: 384
@@ -4277,35 +3206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f7c4f6e7f07ad449a08e2b8e5c06917
-      internalID: -1340914767
+      spriteID: ab46674920d1a4e47b87b68c1644ec7b
+      internalID: 1452718266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_199
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 400
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 37edde38130c6a745a7da8903e0e6197
-      internalID: -175872916
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_200
+      name: pantaloncini_0.1_148
       rect:
         serializedVersion: 2
         x: 512
@@ -4319,35 +3227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75ea51f77dda30a4aa8395e65074ce48
-      internalID: 1113128043
+      spriteID: 828a44983a3ec06449a05ed8cae56f40
+      internalID: 1831034707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_201
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 400
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c17487d1d9915de46aab38a00b85bcaa
-      internalID: 1813228399
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_202
+      name: pantaloncini_0.1_149
       rect:
         serializedVersion: 2
         x: 640
@@ -4361,35 +3248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8660c1633199ed48aa2dc48bf799c69
-      internalID: -474683090
+      spriteID: 64fc48b7a9322fa44a8c1bb65dd25baa
+      internalID: -1920457995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_203
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 400
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f7172eb6108707489a0bee938e1805c
-      internalID: -183466923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_204
+      name: pantaloncini_0.1_150
       rect:
         serializedVersion: 2
         x: 0
@@ -4403,35 +3269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6759867abfe2e8445b4e5b10fd71eacd
-      internalID: -699720645
+      spriteID: 1daf6f3ccc05fb847be49e25a4c53f10
+      internalID: 1327665128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_205
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 320
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1401f1b2d6ff5d54c99e286e4d0430ff
-      internalID: 180435288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_206
+      name: pantaloncini_0.1_151
       rect:
         serializedVersion: 2
         x: 128
@@ -4445,35 +3290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b66739edbe4dcd14595cd8cb6d638dbd
-      internalID: 1478364027
+      spriteID: 0bf8c1642f153e548b1f7b613a3cb58b
+      internalID: 2116465817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_207
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 320
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1c52ea223f9a6b4e93d6f6d64359f6b
-      internalID: 876976593
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_208
+      name: pantaloncini_0.1_152
       rect:
         serializedVersion: 2
         x: 256
@@ -4487,35 +3311,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b675a7da6d44e248904b14b90871540
-      internalID: -1758921781
+      spriteID: 13f7ea68b42605c4dad9e334d2072c83
+      internalID: -2052295974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_209
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 320
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c84957c500332044d8796325fe5c1ec3
-      internalID: 722370306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_210
+      name: pantaloncini_0.1_153
       rect:
         serializedVersion: 2
         x: 384
@@ -4529,35 +3332,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2257a78078abea4b930e433014144ad
-      internalID: 982065526
+      spriteID: 07286bf144bf8454da863bc59ee9b93b
+      internalID: 1007833948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_211
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 320
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54bdecfd61785ab4fbaac1653dfa1eed
-      internalID: -110435625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_212
+      name: pantaloncini_0.1_154
       rect:
         serializedVersion: 2
         x: 512
@@ -4571,35 +3353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8efbeb8a51d351e429a73fab9144e1c3
-      internalID: 696104374
+      spriteID: 9eee6dc5f512a644b8187a7233e09b6c
+      internalID: -1158717498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_213
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 320
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a4a55a62c50f5041ba84b2c3eeb9228
-      internalID: 341887729
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_214
+      name: pantaloncini_0.1_155
       rect:
         serializedVersion: 2
         x: 640
@@ -4613,35 +3374,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ca12cac9c77023428b5cc4ef3223b34
-      internalID: 407507484
+      spriteID: 445c0b8984d3cb347849415a37333ec0
+      internalID: -1361399556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_215
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 320
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 86b1eba34f1668849870c2edf4ea47f7
-      internalID: -133751666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_216
+      name: pantaloncini_0.1_156
       rect:
         serializedVersion: 2
         x: 768
@@ -4655,35 +3395,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dab19daaf6d67964ebf29f72727aa80c
-      internalID: -380415945
+      spriteID: fb9e3063a5c03bd48b701a7624a65085
+      internalID: 1139985227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_217
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 320
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74970efb1fa0bf14487db823cc8e4a22
-      internalID: 1575870178
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_218
+      name: pantaloncini_0.1_157
       rect:
         serializedVersion: 2
         x: 896
@@ -4697,35 +3416,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bfa190f595012847a426aa6478a57d8
-      internalID: -1712493737
+      spriteID: fde4b11602995ed4b9a015cbc35442b8
+      internalID: 1582523616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_219
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 320
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f29d7a37ff87a849a442e1697ba8d00
-      internalID: -788670324
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_220
+      name: pantaloncini_0.1_158
       rect:
         serializedVersion: 2
         x: 0
@@ -4739,14 +3437,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55da61a47e7bbc241916e5cebe8d5607
-      internalID: -342276344
+      spriteID: 1cbe028979f992943afd3f96646b6bd6
+      internalID: -316286917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_221
+      name: pantaloncini_0.1_159
       rect:
         serializedVersion: 2
         x: 64
@@ -4760,14 +3458,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82b9c4ef87d705f4e9cee22d152d74e0
-      internalID: -104012281
+      spriteID: 6334d583f32581243a37850a16f2505d
+      internalID: -1838629961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_222
+      name: pantaloncini_0.1_160
       rect:
         serializedVersion: 2
         x: 128
@@ -4781,14 +3479,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6018f00aab5e2345bd8704cbb7146bd
-      internalID: 1224545403
+      spriteID: fbe238aeeabb9f848bd4e0d669262754
+      internalID: 1458434779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_223
+      name: pantaloncini_0.1_161
       rect:
         serializedVersion: 2
         x: 192
@@ -4802,14 +3500,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84a0e9978a0e946429afc974752ef5a7
-      internalID: -1614135491
+      spriteID: e42a53b829996954781d7d4cb96dc02d
+      internalID: -1176005524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_224
+      name: pantaloncini_0.1_162
       rect:
         serializedVersion: 2
         x: 256
@@ -4823,14 +3521,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5860e022e0d689f4f8c119311585851b
-      internalID: -601941555
+      spriteID: cc0b60ad446b8fc45a2b3e513c830e97
+      internalID: -1181954886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_225
+      name: pantaloncini_0.1_163
       rect:
         serializedVersion: 2
         x: 320
@@ -4844,14 +3542,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efa8b9ed342ad2c42bcf5cfca8e03150
-      internalID: 1168164413
+      spriteID: 6b1d041c157f6dd439c3c8b8d3759cdb
+      internalID: 172980173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_226
+      name: pantaloncini_0.1_164
       rect:
         serializedVersion: 2
         x: 384
@@ -4865,14 +3563,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 714d962d761335d419b5a53b0594ff2f
-      internalID: 1674855353
+      spriteID: 814dd09ec33f9494293b79b08777ea08
+      internalID: 2083915542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_227
+      name: pantaloncini_0.1_165
       rect:
         serializedVersion: 2
         x: 448
@@ -4886,14 +3584,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb2167d4d507dd647bcb861c35db2119
-      internalID: -859837765
+      spriteID: da0600847e34dea4f833b0962a9abbae
+      internalID: 135583911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_228
+      name: pantaloncini_0.1_166
       rect:
         serializedVersion: 2
         x: 512
@@ -4907,14 +3605,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3350f4520fbd544292a8bf0bb927b39
-      internalID: 1379028021
+      spriteID: 786ec33aa4fd55a4f863cc547ab95581
+      internalID: -1639548403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_229
+      name: pantaloncini_0.1_167
       rect:
         serializedVersion: 2
         x: 576
@@ -4928,14 +3626,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d13b6ecfcc27574da9fecead3692ae4
-      internalID: 854561810
+      spriteID: c5dbe0d773dda314fb75f8c3ece80ad6
+      internalID: 371868334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_230
+      name: pantaloncini_0.1_168
       rect:
         serializedVersion: 2
         x: 640
@@ -4949,14 +3647,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 446dda8c109490c4c904848e67bd9ffd
-      internalID: -1174419969
+      spriteID: 9d00b03d232f6a347a59373c704e26f6
+      internalID: -1472363653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_231
+      name: pantaloncini_0.1_169
       rect:
         serializedVersion: 2
         x: 704
@@ -4970,14 +3668,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15a016689f3742343b1106b708e496f1
-      internalID: 546717307
+      spriteID: 8dcba649a32b2b94599946da2dc34a65
+      internalID: 1955479377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_232
+      name: pantaloncini_0.1_170
       rect:
         serializedVersion: 2
         x: 0
@@ -4991,14 +3689,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4af6a7174d024f4a91ae618f6f45e83
-      internalID: -682958541
+      spriteID: 36c43e97e21d49a45be91c187426c2c1
+      internalID: 2020445799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_233
+      name: pantaloncini_0.1_171
       rect:
         serializedVersion: 2
         x: 64
@@ -5012,14 +3710,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b05e907aee4b2547a77b86a20d359b1
-      internalID: 1863533658
+      spriteID: 32a513b7d5ab656448a0ff49733e03d4
+      internalID: -1387921175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_234
+      name: pantaloncini_0.1_172
       rect:
         serializedVersion: 2
         x: 128
@@ -5033,14 +3731,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 047b0f37579ce5f4788b36cccec4e90c
-      internalID: -135002158
+      spriteID: 9e8465c9c46c04b4998925f88a547832
+      internalID: 267372036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_235
+      name: pantaloncini_0.1_173
       rect:
         serializedVersion: 2
         x: 192
@@ -5054,14 +3752,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb6accc94308c9f479012a93404e76ab
-      internalID: -1342578083
+      spriteID: d25bd870a5875f3478d6c2faf4e3ad58
+      internalID: 271036415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_236
+      name: pantaloncini_0.1_174
       rect:
         serializedVersion: 2
         x: 256
@@ -5075,14 +3773,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 447638c58b8b8b749a9f366203e057fb
-      internalID: -101476671
+      spriteID: ab1f715955a34d54cb1b9be8944da1fa
+      internalID: -1420781870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_237
+      name: pantaloncini_0.1_175
       rect:
         serializedVersion: 2
         x: 320
@@ -5096,14 +3794,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dca8f262111eeb84e991a373fe01e487
-      internalID: 2120928417
+      spriteID: c39f947b7ff237f4db312fc9461462d1
+      internalID: 671663102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_238
+      name: pantaloncini_0.1_176
       rect:
         serializedVersion: 2
         x: 384
@@ -5117,14 +3815,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1117c28625c8fc04e8a8f041bc565040
-      internalID: 1331899426
+      spriteID: a36fe0a4e63069f43a36c0ac38c113b9
+      internalID: -1777646592
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_239
+      name: pantaloncini_0.1_177
       rect:
         serializedVersion: 2
         x: 448
@@ -5138,14 +3836,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a87e11ddb902894a8d960d2df2020a4
-      internalID: -433052188
+      spriteID: daf6e7caef5788546a3188172a485758
+      internalID: 534498219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_240
+      name: pantaloncini_0.1_178
       rect:
         serializedVersion: 2
         x: 512
@@ -5159,14 +3857,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae7a3f98569c40b41b9e79d2de5d5967
-      internalID: -112940273
+      spriteID: 65e236dac02886649901fcf48b4fb59f
+      internalID: 1365929263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_241
+      name: pantaloncini_0.1_179
       rect:
         serializedVersion: 2
         x: 576
@@ -5180,14 +3878,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14ff0830abcfe714e9275731fc0eaee3
-      internalID: 1569149278
+      spriteID: bc4ea16c8df3f4048b456cd0264de569
+      internalID: -1950378731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_242
+      name: pantaloncini_0.1_180
       rect:
         serializedVersion: 2
         x: 640
@@ -5201,14 +3899,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 040b9575378735b43bcafe6d6987f207
-      internalID: -988589886
+      spriteID: d0552f05b1743154dace10e1dc2b946d
+      internalID: -89155146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_243
+      name: pantaloncini_0.1_181
       rect:
         serializedVersion: 2
         x: 704
@@ -5222,14 +3920,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6d27d81843c91345904058a65b5152f
-      internalID: -1027349824
+      spriteID: c973bea3e2b505145b453a0c5d944cea
+      internalID: -1580987658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_244
+      name: pantaloncini_0.1_182
       rect:
         serializedVersion: 2
         x: 0
@@ -5243,35 +3941,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6782245c0b36e3d44a80c8ab2055723a
-      internalID: 1420472616
+      spriteID: d864c8aada19a434d924c0c9d2bebb4b
+      internalID: 1988046904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_245
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 80
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a054c54f8a254454ab51b67fc617d928
-      internalID: -582594348
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_246
+      name: pantaloncini_0.1_183
       rect:
         serializedVersion: 2
         x: 128
@@ -5285,35 +3962,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0454da3e7ff818d489029ae3ce2f4152
-      internalID: -196620197
+      spriteID: bec0ab2473ac3d64f8958094a0f619b5
+      internalID: 1498124545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_247
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 80
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d51b770db5609649843efce06eea4b7
-      internalID: 910792943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_248
+      name: pantaloncini_0.1_184
       rect:
         serializedVersion: 2
         x: 256
@@ -5327,35 +3983,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5609041b2fbd2dc469f19da78a573144
-      internalID: -2070904187
+      spriteID: 4d0653ab91b97be499ce6d58207d26c1
+      internalID: 1437821346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_249
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 80
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a03b8ce0e8d5f2e40b358ee41ebd3512
-      internalID: 1376617949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_250
+      name: pantaloncini_0.1_185
       rect:
         serializedVersion: 2
         x: 384
@@ -5369,35 +4004,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 257096d178e7d954bb96a586ace812fa
-      internalID: -100310400
+      spriteID: 31fd28ebc3a92954387e642f4a427b88
+      internalID: -242278920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_251
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 80
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ea36c65945d39a47be34b916135dbdf
-      internalID: -844640923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_252
+      name: pantaloncini_0.1_186
       rect:
         serializedVersion: 2
         x: 512
@@ -5411,35 +4025,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce887404693f88345b9c27303dfc7e55
-      internalID: 833627064
+      spriteID: 3acc17454192e384e9a1e015eb6245ce
+      internalID: -783537493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_253
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 80
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c747939890d6ff42a1a503e282398f1
-      internalID: 979022751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_254
+      name: pantaloncini_0.1_187
       rect:
         serializedVersion: 2
         x: 640
@@ -5453,35 +4046,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 329694dd290ec4047a37b6db33f24013
-      internalID: -804745139
+      spriteID: d3fb969286fe9b045988fff2daa262b5
+      internalID: 624811941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_255
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 80
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae5f9043d330ea141a4f1aa3882e021f
-      internalID: -249629886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantalonci_0_256
+      name: pantaloncini_0.1_188
       rect:
         serializedVersion: 2
         x: 0
@@ -5495,14 +4067,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38ad43a2d5a23ad44bc17fb5f82c8693
-      internalID: 221008193
+      spriteID: 3ef32791e9fdc1347a8bdd1af7a75c99
+      internalID: -1552457467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_257
+      name: pantaloncini_0.1_189
       rect:
         serializedVersion: 2
         x: 128
@@ -5516,14 +4088,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8fbfd0bd5056e64291347a745fa46ca
-      internalID: 611441037
+      spriteID: b10c24ca69080504eb29679776e4c87d
+      internalID: 9033192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_258
+      name: pantaloncini_0.1_190
       rect:
         serializedVersion: 2
         x: 256
@@ -5537,14 +4109,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36c879584693cce498c94b81452b0c96
-      internalID: -648376734
+      spriteID: b94089179dacb13429e8d2cdfb1a7413
+      internalID: -1020666861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pantalonci_0_259
+      name: pantaloncini_0.1_191
       rect:
         serializedVersion: 2
         x: 384
@@ -5558,8 +4130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 008e94da5513d2140b13d9c6bc687098
-      internalID: 618683814
+      spriteID: 02dcf0b9d55d6994fa9d4341af10b245
+      internalID: 1127130756
       vertices: []
       indices: 
       edges: []
@@ -5575,266 +4147,198 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pantalonci_0_39: -1452358887
-      pantalonci_0_80: 2086355406
-      pantalonci_0_219: -788670324
-      pantalonci_0_249: 1376617949
-      pantalonci_0_41: -1324688458
-      pantalonci_0_165: 1031520077
-      pantalonci_0_129: -2047963876
-      pantalonci_0_98: 235736264
-      pantalonci_0_137: -1887062740
-      pantalonci_0_84: -930650514
-      pantalonci_0_248: -2070904187
-      pantalonci_0_251: -844640923
-      pantalonci_0_12: 1661103861
-      pantalonci_0_85: -694120798
-      pantalonci_0_181: -1723545681
-      pantalonci_0_103: -1659499500
-      pantalonci_0_230: -1174419969
-      pantalonci_0_37: 874631291
-      pantalonci_0_6: 787064903
-      pantalonci_0_127: -1946766004
-      pantalonci_0_120: -619782364
-      pantalonci_0_10: -1132941634
-      pantalonci_0_77: 1864132090
-      pantalonci_0_190: -1381040623
-      pantalonci_0_176: -110292460
-      pantalonci_0_157: -1063253498
-      pantalonci_0_140: 810545987
-      pantalonci_0_162: -789966205
-      pantalonci_0_220: -342276344
-      pantalonci_0_254: -804745139
-      pantalonci_0_124: 151899158
-      pantalonci_0_240: -112940273
-      pantalonci_0_117: 1338074879
-      pantalonci_0_83: 591610698
-      pantalonci_0_194: -1571120236
-      pantalonci_0_119: -1684063389
-      pantalonci_0_141: -935277167
-      pantalonci_0_87: -1250655323
-      pantalonci_0_222: 1224545403
-      pantalonci_0_155: 602203972
-      pantalonci_0_189: 1524492673
-      pantalonci_0_113: 182395316
-      pantalonci_0_22: 1041768964
-      pantalonci_0_51: -1492317417
-      pantalonci_0_56: -195960023
-      pantalonci_0_224: -601941555
-      pantalonci_0_60: 1454392468
-      pantalonci_0_147: 48260839
-      pantalonci_0_13: -1604180482
-      pantalonci_0_88: -1114179190
-      pantalonci_0_153: -628283621
-      pantalonci_0_247: 910792943
-      pantalonci_0_163: -970130450
-      pantalonci_0_212: 696104374
-      pantalonci_0_48: -2144594320
-      pantalonci_0_9: 357564835
-      pantalonci_0_109: 2125796911
-      pantalonci_0_105: 1204797949
-      pantalonci_0_206: 1478364027
-      pantalonci_0_107: -2108731326
-      pantalonci_0_139: -866090408
-      pantalonci_0_81: 1465117776
-      pantalonci_0_82: -1170898125
-      pantalonci_0_42: 1983391842
-      pantalonci_0_164: 1686744121
-      pantalonci_0_125: 312500361
-      pantalonci_0_158: -1556660525
-      pantalonci_0_192: 280644979
-      pantalonci_0_30: 1803776305
-      pantalonci_0_142: -338967721
-      pantalonci_0_49: 1445527329
-      pantalonci_0_198: -1340914767
-      pantalonci_0_134: -1498469326
-      pantalonci_0_211: -110435625
-      pantalonci_0_233: 1863533658
-      pantalonci_0_108: 2123900184
-      pantalonci_0_250: -100310400
-      pantalonci_0_160: 168761041
-      pantalonci_0_210: 982065526
-      pantalonci_0_89: 617822101
-      pantalonci_0_213: 341887729
-      pantalonci_0_239: -433052188
-      pantalonci_0_25: -1757682744
-      pantalonci_0_15: -990007351
-      pantalonci_0_110: -809959312
-      pantalonci_0_252: 833627064
-      pantalonci_0_209: 722370306
-      pantalonci_0_27: 877278633
-      pantalonci_0_259: 618683814
-      pantalonci_0_182: -963362232
-      pantalonci_0_19: -522436235
-      pantalonci_0_126: 2047677718
-      pantalonci_0_36: -862485681
-      pantalonci_0_257: 611441037
-      pantalonci_0_0: 1227072704
-      pantalonci_0_76: 602520070
-      pantalonci_0_227: -859837765
-      pantalonci_0_114: 708981180
-      pantalonci_0_237: 2120928417
-      pantalonci_0_256: 221008193
-      pantalonci_0_38: -499488471
-      pantalonci_0_202: -474683090
-      pantalonci_0_4: -374145659
-      pantalonci_0_185: 724567628
-      pantalonci_0_106: 1469420728
-      pantalonci_0_133: 1272560658
-      pantalonci_0_197: -1980344763
-      pantalonci_0_24: 165756052
-      pantalonci_0_52: 1272475790
-      pantalonci_0_217: 1575870178
-      pantalonci_0_86: 1459995597
-      pantalonci_0_196: -1459081234
-      pantalonci_0_207: 876976593
-      pantalonci_0_61: 1686878611
-      pantalonci_0_225: 1168164413
-      pantalonci_0_149: 1044857570
-      pantalonci_0_63: 1362838021
-      pantalonci_0_75: 35593579
-      pantalonci_0_144: -548776936
-      pantalonci_0_161: 1297799158
-      pantalonci_0_100: 1520160889
-      pantalonci_0_169: -1746785620
-      pantalonci_0_243: -1027349824
-      pantalonci_0_96: 1436084627
-      pantalonci_0_59: 1820212354
-      pantalonci_0_231: 546717307
-      pantalonci_0_218: -1712493737
-      pantalonci_0_179: -116186575
-      pantalonci_0_201: 1813228399
-      pantalonci_0_168: 1884759144
-      pantalonci_0_104: -878154355
-      pantalonci_0_234: -135002158
-      pantalonci_0_121: -1472719041
-      pantalonci_0_228: 1379028021
-      pantalonci_0_173: 1286768602
-      pantalonci_0_255: -249629886
-      pantalonci_0_180: 23271694
-      pantalonci_0_175: 1745610765
-      pantalonci_0_1: 1471711580
-      pantalonci_0_29: 1762756718
-      pantalonci_0_184: -424429081
-      pantalonci_0_151: 1483897466
-      pantalonci_0_242: -988589886
-      pantalonci_0_205: 180435288
-      pantalonci_0_166: -1288637093
-      pantalonci_0_28: -316965254
-      pantalonci_0_167: -765082452
-      pantalonci_0_191: -1448433500
-      pantalonci_0_33: 1281511735
-      pantalonci_0_46: -349569394
-      pantalonci_0_95: -1177232850
-      pantalonci_0_16: -1929536311
-      pantalonci_0_18: 365568962
-      pantalonci_0_68: 797020690
-      pantalonci_0_178: -1197444831
-      pantalonci_0_170: -971454403
-      pantalonci_0_74: -2116453084
-      pantalonci_0_11: -1127065021
-      pantalonci_0_31: -1759556921
-      pantalonci_0_40: 13837774
-      pantalonci_0_17: -1848875414
-      pantalonci_0_70: -1978108624
-      pantalonci_0_67: 2024856675
-      pantalonci_0_221: -104012281
-      pantalonci_0_20: 1065766190
-      pantalonci_0_66: 875445454
-      pantalonci_0_199: -175872916
-      pantalonci_0_97: 1935428543
-      pantalonci_0_115: -986375949
-      pantalonci_0_26: -2106636198
-      pantalonci_0_183: 662085719
-      pantalonci_0_21: 1365418731
-      pantalonci_0_148: 1699228274
-      pantalonci_0_258: -648376734
-      pantalonci_0_156: -475055695
-      pantalonci_0_238: 1331899426
-      pantalonci_0_47: -1586969501
-      pantalonci_0_91: -743254651
-      pantalonci_0_253: 979022751
-      pantalonci_0_174: -186837884
-      pantalonci_0_150: 1483409921
-      pantalonci_0_55: -1890155023
-      pantalonci_0_138: -1909828425
-      pantalonci_0_65: 712318967
-      pantalonci_0_236: -101476671
-      pantalonci_0_32: 875252949
-      pantalonci_0_62: 714623741
-      pantalonci_0_92: 1006538753
-      pantalonci_0_78: 640476644
-      pantalonci_0_14: 305448297
-      pantalonci_0_246: -196620197
-      pantalonci_0_122: 1683624107
-      pantalonci_0_101: -943798763
-      pantalonci_0_43: 1950764976
-      pantalonci_0_5: -1497898041
-      pantalonci_0_215: -133751666
-      pantalonci_0_188: 269396974
-      pantalonci_0_23: 180989003
-      pantalonci_0_208: -1758921781
-      pantalonci_0_235: -1342578083
-      pantalonci_0_64: 70079786
-      pantalonci_0_50: -109114904
-      pantalonci_0_172: -1311415803
-      pantalonci_0_58: 1583429175
-      pantalonci_0_203: -183466923
-      pantalonci_0_216: -380415945
-      pantalonci_0_229: 854561810
-      pantalonci_0_111: 1966240192
-      pantalonci_0_3: 1381319264
-      pantalonci_0_128: -743985125
-      pantalonci_0_159: 174948837
-      pantalonci_0_94: 2105706850
-      pantalonci_0_187: 161332339
-      pantalonci_0_200: 1113128043
-      pantalonci_0_73: -1076953699
-      pantalonci_0_93: -1331641175
-      pantalonci_0_152: 276870422
-      pantalonci_0_241: 1569149278
-      pantalonci_0_123: 1248265704
-      pantalonci_0_112: 384441840
-      pantalonci_0_146: 981955700
-      pantalonci_0_214: 407507484
-      pantalonci_0_245: -582594348
-      pantalonci_0_154: 216038980
-      pantalonci_0_244: 1420472616
-      pantalonci_0_143: 1853269862
-      pantalonci_0_2: -1197056281
-      pantalonci_0_53: -1235963147
-      pantalonci_0_69: -808565936
-      pantalonci_0_130: -1813605060
-      pantalonci_0_116: -1739792076
-      pantalonci_0_72: 1098830241
-      pantalonci_0_71: 378686130
-      pantalonci_0_8: 989602079
-      pantalonci_0_186: -545047030
-      pantalonci_0_132: 600517784
-      pantalonci_0_57: -473351028
-      pantalonci_0_204: -699720645
-      pantalonci_0_223: -1614135491
-      pantalonci_0_145: 2076746762
-      pantalonci_0_136: 1553008698
-      pantalonci_0_177: 1360640334
-      pantalonci_0_102: 612987588
-      pantalonci_0_35: -394169034
-      pantalonci_0_45: 1402934299
-      pantalonci_0_34: 1237242404
-      pantalonci_0_226: 1674855353
-      pantalonci_0_135: -513058491
-      pantalonci_0_7: 1970899951
-      pantalonci_0_79: -360673425
-      pantalonci_0_44: 104214744
-      pantalonci_0_54: 281378733
-      pantalonci_0_131: -832955956
-      pantalonci_0_90: 1797455886
-      pantalonci_0_99: -1118990201
-      pantalonci_0_171: 1924077851
-      pantalonci_0_193: 355041648
-      pantalonci_0_195: -917239305
-      pantalonci_0_232: -682958541
-      pantalonci_0_118: -638837433
+      pantaloncini_0.1_157: 1582523616
+      pantaloncini_0.1_163: 172980173
+      pantaloncini_0.1_127: 1612171723
+      pantaloncini_0.1_16: 1586032794
+      pantaloncini_0.1_70: -2946255
+      pantaloncini_0.1_135: -2053256205
+      pantaloncini_0.1_108: -1106351264
+      pantaloncini_0.1_121: 951521555
+      pantaloncini_0.1_120: 1442182434
+      pantaloncini_0.1_140: 712405003
+      pantaloncini_0.1_13: 26197151
+      pantaloncini_0.1_92: 83186181
+      pantaloncini_0.1_61: 241813386
+      pantaloncini_0.1_136: 1328875213
+      pantaloncini_0.1_158: -316286917
+      pantaloncini_0.1_15: 2117424693
+      pantaloncini_0.1_119: -295234873
+      pantaloncini_0.1_26: 1085319597
+      pantaloncini_0.1_35: -1670350487
+      pantaloncini_0.1_165: 135583911
+      pantaloncini_0.1_85: 855165176
+      pantaloncini_0.1_67: 2069820789
+      pantaloncini_0.1_100: -582046402
+      pantaloncini_0.1_71: 1968316590
+      pantaloncini_0.1_139: 871300298
+      pantaloncini_0.1_54: -572255346
+      pantaloncini_0.1_151: 2116465817
+      pantaloncini_0.1_43: -589775543
+      pantaloncini_0.1_63: -1285151010
+      pantaloncini_0.1_47: 1940906571
+      pantaloncini_0.1_128: -972494282
+      pantaloncini_0.1_94: -169982063
+      pantaloncini_0.1_143: -1792347408
+      pantaloncini_0.1_178: 1365929263
+      pantaloncini_0.1_105: -1046139969
+      pantaloncini_0.1_164: 2083915542
+      pantaloncini_0.1_81: 508958099
+      pantaloncini_0.1_167: 371868334
+      pantaloncini_0.1_73: 173008682
+      pantaloncini_0.1_78: 1223528889
+      pantaloncini_0.1_10: -1329597080
+      pantaloncini_0.1_0: -179325639
+      pantaloncini_0.1_97: 962454042
+      pantaloncini_0.1_176: -1777646592
+      pantaloncini_0.1_125: -1848654130
+      pantaloncini_0.1_172: 267372036
+      pantaloncini_0.1_30: 1631595392
+      pantaloncini_0.1_96: 924391738
+      pantaloncini_0.1_131: 38727891
+      pantaloncini_0.1_187: 624811941
+      pantaloncini_0.1_42: 244756319
+      pantaloncini_0.1_12: -300926467
+      pantaloncini_0.1_155: -1361399556
+      pantaloncini_0.1_22: 497993417
+      pantaloncini_0.1_83: 612347608
+      pantaloncini_0.1_106: 399567392
+      pantaloncini_0.1_173: 271036415
+      pantaloncini_0.1_98: 1321972526
+      pantaloncini_0.1_153: 1007833948
+      pantaloncini_0.1_3: -956745479
+      pantaloncini_0.1_111: 1679999723
+      pantaloncini_0.1_129: 150890177
+      pantaloncini_0.1_69: -320107493
+      pantaloncini_0.1_77: 427583220
+      pantaloncini_0.1_114: -691024289
+      pantaloncini_0.1_66: 1205588443
+      pantaloncini_0.1_138: 65122539
+      pantaloncini_0.1_31: -889844271
+      pantaloncini_0.1_149: -1920457995
+      pantaloncini_0.1_49: 1351160367
+      pantaloncini_0.1_20: 255704579
+      pantaloncini_0.1_9: -655847179
+      pantaloncini_0.1_53: 1499704585
+      pantaloncini_0.1_7: -1797318531
+      pantaloncini_0.1_80: 38706346
+      pantaloncini_0.1_87: 455471220
+      pantaloncini_0.1_60: 876603374
+      pantaloncini_0.1_103: -2090114624
+      pantaloncini_0.1_133: 1448941765
+      pantaloncini_0.1_29: 368502474
+      pantaloncini_0.1_90: 1973996923
+      pantaloncini_0.1_65: -1397404122
+      pantaloncini_0.1_185: -242278920
+      pantaloncini_0.1_191: 1127130756
+      pantaloncini_0.1_156: 1139985227
+      pantaloncini_0.1_21: 488638689
+      pantaloncini_0.1_154: -1158717498
+      pantaloncini_0.1_25: 582814132
+      pantaloncini_0.1_72: 738742676
+      pantaloncini_0.1_177: 534498219
+      pantaloncini_0.1_144: -1066090524
+      pantaloncini_0.1_188: -1552457467
+      pantaloncini_0.1_32: 810877224
+      pantaloncini_0.1_55: -921940557
+      pantaloncini_0.1_117: 1927774275
+      pantaloncini_0.1_68: 1194669830
+      pantaloncini_0.1_113: 1172715440
+      pantaloncini_0.1_116: -836228909
+      pantaloncini_0.1_118: 582420373
+      pantaloncini_0.1_18: -1641736320
+      pantaloncini_0.1_24: -1569616452
+      pantaloncini_0.1_186: -783537493
+      pantaloncini_0.1_38: -2086142722
+      pantaloncini_0.1_107: -2071882872
+      pantaloncini_0.1_74: -459764139
+      pantaloncini_0.1_182: 1988046904
+      pantaloncini_0.1_57: -457252035
+      pantaloncini_0.1_2: 218186865
+      pantaloncini_0.1_84: 1947033531
+      pantaloncini_0.1_162: -1181954886
+      pantaloncini_0.1_39: 454957621
+      pantaloncini_0.1_170: 2020445799
+      pantaloncini_0.1_169: 1955479377
+      pantaloncini_0.1_91: -2101528663
+      pantaloncini_0.1_50: 852733923
+      pantaloncini_0.1_33: -1154190950
+      pantaloncini_0.1_48: 1867623434
+      pantaloncini_0.1_101: -797876484
+      pantaloncini_0.1_37: -1773701069
+      pantaloncini_0.1_6: -1295664712
+      pantaloncini_0.1_62: 1040861967
+      pantaloncini_0.1_79: -1744949671
+      pantaloncini_0.1_5: -687389548
+      pantaloncini_0.1_8: 77781176
+      pantaloncini_0.1_171: -1387921175
+      pantaloncini_0.1_124: 1984402431
+      pantaloncini_0.1_181: -1580987658
+      pantaloncini_0.1_175: 671663102
+      pantaloncini_0.1_95: -867967231
+      pantaloncini_0.1_4: -2109024037
+      pantaloncini_0.1_17: 496752823
+      pantaloncini_0.1_40: -409719717
+      pantaloncini_0.1_36: -1078909353
+      pantaloncini_0.1_41: -593623354
+      pantaloncini_0.1_23: 1005766807
+      pantaloncini_0.1_126: 621177070
+      pantaloncini_0.1_115: 1921259628
+      pantaloncini_0.1_148: 1831034707
+      pantaloncini_0.1_34: 2091416526
+      pantaloncini_0.1_180: -89155146
+      pantaloncini_0.1_134: 1806323009
+      pantaloncini_0.1_147: 1452718266
+      pantaloncini_0.1_19: 1501582352
+      pantaloncini_0.1_58: -18504865
+      pantaloncini_0.1_142: -1271554508
+      pantaloncini_0.1_27: 2139638344
+      pantaloncini_0.1_64: 1984695889
+      pantaloncini_0.1_130: 416246040
+      pantaloncini_0.1_152: -2052295974
+      pantaloncini_0.1_160: 1458434779
+      pantaloncini_0.1_168: -1472363653
+      pantaloncini_0.1_190: -1020666861
+      pantaloncini_0.1_76: 2112312875
+      pantaloncini_0.1_45: -1949797760
+      pantaloncini_0.1_44: 2026350526
+      pantaloncini_0.1_123: -1301529858
+      pantaloncini_0.1_161: -1176005524
+      pantaloncini_0.1_145: -1301723270
+      pantaloncini_0.1_179: -1950378731
+      pantaloncini_0.1_183: 1498124545
+      pantaloncini_0.1_109: -616263063
+      pantaloncini_0.1_88: 33279712
+      pantaloncini_0.1_174: -1420781870
+      pantaloncini_0.1_14: 1505176388
+      pantaloncini_0.1_122: 1944377813
+      pantaloncini_0.1_184: 1437821346
+      pantaloncini_0.1_112: -661122664
+      pantaloncini_0.1_93: -1846801498
+      pantaloncini_0.1_89: 1741097055
+      pantaloncini_0.1_59: -1356033008
+      pantaloncini_0.1_110: -1726308351
+      pantaloncini_0.1_1: -1074704122
+      pantaloncini_0.1_56: -937782062
+      pantaloncini_0.1_11: 1314031462
+      pantaloncini_0.1_159: -1838629961
+      pantaloncini_0.1_146: -233936093
+      pantaloncini_0.1_132: 1244227287
+      pantaloncini_0.1_166: -1639548403
+      pantaloncini_0.1_150: 1327665128
+      pantaloncini_0.1_82: -2000034530
+      pantaloncini_0.1_104: -1132941367
+      pantaloncini_0.1_189: 9033192
+      pantaloncini_0.1_141: 676845669
+      pantaloncini_0.1_46: 42587441
+      pantaloncini_0.1_86: -952651058
+      pantaloncini_0.1_137: 1428704969
+      pantaloncini_0.1_75: -590594405
+      pantaloncini_0.1_102: -231279501
+      pantaloncini_0.1_52: 1979329363
+      pantaloncini_0.1_51: -693983367
+      pantaloncini_0.1_28: -838170860
+      pantaloncini_0.1_99: -306823594
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

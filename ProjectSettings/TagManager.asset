@@ -10,6 +10,7 @@ TagManager:
   - panel
   - porta
   - random_num
+  - vita_player
   layers:
   - Default
   - TransparentFX

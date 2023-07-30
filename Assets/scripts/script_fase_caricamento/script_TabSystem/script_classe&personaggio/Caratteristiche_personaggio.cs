@@ -7,7 +7,7 @@ using TMPro;
 
 public class Caratteristiche_personaggio : MonoBehaviour
 {
-    public GameObject txt_anni,txt_data_di_nascita,txt_occhi,txt_altezza,lettoreXML,Generatore_num_rand,txt_nome,txt_capelli,txt_cognome;
+    public UnityEngine.GameObject txt_anni,txt_data_di_nascita,txt_occhi,txt_altezza,lettoreXML,Generatore_num_rand,txt_nome,txt_capelli,txt_cognome;
     private TextMeshProUGUI TextMesH_anni,TextMesH_data,TextMesH_occhi,TextMesH_altezza,TextMesH_nome,TextMesH_capelli,TextMesH_cognome;
     private LettoreXML Lettura_personaggi; 
     private int Anni;

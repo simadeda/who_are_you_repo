@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Interazioni_playerUI : MonoBehaviour
 {
-    [SerializeField] private GameObject premi_e;
+    [SerializeField] private UnityEngine.GameObject premi_e;
 
     public bool attivo = false;
     public void attiva_interazione()

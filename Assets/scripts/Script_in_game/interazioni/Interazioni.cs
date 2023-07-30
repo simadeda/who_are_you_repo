@@ -11,7 +11,6 @@ public class Interazioni : MonoBehaviour
     [SerializeField]
     private KeyCode btn_interazione;
 
-    //public Gestore_indirizzabili indirizzabili;
     public Interazioni_playerUI interazioni_UI;
     public UnityEvent<string> evento_interazione;
     

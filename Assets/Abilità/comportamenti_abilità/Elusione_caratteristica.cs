@@ -17,21 +17,21 @@ public class Elusione_caratteristica : MonoBehaviour
     private Color colore_player;
     private SpriteRenderer render;
 
-    private GameObject UI_abilita;
+    private UnityEngine.GameObject UI_abilita;
     private Abilita_utilizzabili_cooldown cooldown_abl_classe;
 
     IEnumerator elusione_attiva;
 
     private void Start()
     {
-        UI_abilita = GameObject.Find("UI_abilità");
+        UI_abilita = UnityEngine.GameObject.Find("UI_abilità");
         cooldown_abl_classe = UI_abilita.GetComponent<Abilita_utilizzabili_cooldown>();
         render = GetComponent<SpriteRenderer>();
         colore_player = render.color;
         max_uti = cooldown_abl_classe.max_uti;
     }
 
-    public void comportamento_in_azione(GameObject player)
+    public void comportamento_in_azione(UnityEngine.GameObject player)
     {
         //CircleCollider2D c_player = this.gameObject.GetComponent<CircleCollider2D>(); //questo collider deve essere di tipo trigger, quindi il player dovrà avaere 2 collider
         if(!vita_presa)

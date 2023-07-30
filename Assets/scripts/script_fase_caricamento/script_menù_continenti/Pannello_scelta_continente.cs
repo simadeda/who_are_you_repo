@@ -8,7 +8,7 @@ using TMPro;
 
 public class Pannello_scelta_continente : MonoBehaviour
 {
-    public GameObject pannel,bottone_scegli,img_intermittenza,output_pannello;
+    public UnityEngine.GameObject pannel,bottone_scegli,img_intermittenza,output_pannello;
     public RawImage img_mignatura;
     Script_principale_menu_nazione script_principale;
     Output_pannello output_Pannello_script;

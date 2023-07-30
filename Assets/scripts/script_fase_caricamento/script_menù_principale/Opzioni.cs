@@ -10,7 +10,7 @@ public class Opzioni : MonoBehaviour
     private Cerchio_caricamento cerchio_caricamento;
     public AudioMixer Mixer_main;
     public RectTransform icona_caricamento;
-    public GameObject Pannellopzioni,Btn_ok,Sound_icon;
+    public UnityEngine.GameObject Pannellopzioni,Btn_ok,Sound_icon;
     public Sprite[] Sound_icon_img = new Sprite[2];
     public bool Controllo;
     IEnumerator caricamento_normale;

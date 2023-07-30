@@ -6,7 +6,9 @@ public class Health_player : MonoBehaviour
 { 
     //----#### IMPORTANTISSIMO, QUANDO MUORE IL PLAYER DEVI ASSOLUTAMENTE TOGLIERE LE CARATTERISTICHE ABILITA' DAL PLAYER CHE SONO STATE MESSE PER QUELLA PARTITA!!!! ####-----//
     public Gestore_classi Gestore_classi;
+    [HideInInspector]
     public int num_max_vita;
+    [HideInInspector]
     public int num_corrente_vita;
     private int danno = 0;
    

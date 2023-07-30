@@ -11,18 +11,18 @@ public class Velocita_aumentata_diminuita : MonoBehaviour
     private bool vel_aum_dim_gia_attiva_uti = false;
     private int max_uti;
 
-    private GameObject UI_abilita;
+    private UnityEngine.GameObject UI_abilita;
     private Abilita_utilizzabili_cooldown cooldown_abl_classe;
 
     IEnumerator velocita_aum_attiva, velocita_dim_attiva;
     private void Start()
     {
-        UI_abilita = GameObject.Find("UI_abilità");
+        UI_abilita = UnityEngine.GameObject.Find("UI_abilità");
         cooldown_abl_classe = UI_abilita.GetComponent<Abilita_utilizzabili_cooldown>();
         max_uti = cooldown_abl_classe.max_uti;
     }
 
-    public void comportamento_in_azione(GameObject player) //forse bisogna farlo diventare override, tieni d'occhio Movimenti_player
+    public void comportamento_in_azione(UnityEngine.GameObject player) //forse bisogna farlo diventare override, tieni d'occhio Movimenti_player
     {
         AnimationController vel_player = player.GetComponent<AnimationController>();
         int count_uti = cooldown_abl_classe.count_utilizzabili;

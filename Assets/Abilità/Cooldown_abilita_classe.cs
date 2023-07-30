@@ -11,7 +11,7 @@ public class Cooldown_abilita_classe : MonoBehaviour
 
     private bool coolDownComplete;
     [SerializeField] private Abilita abilita_classe;
-    [SerializeField] private GameObject player_in_game;
+    [SerializeField] private UnityEngine.GameObject player_in_game;
     [SerializeField] private Abilita_utilizzabili_cooldown abl_cla_util;
     
     private bool is_utilizzabile;
@@ -26,7 +26,7 @@ public class Cooldown_abilita_classe : MonoBehaviour
 
     void Awake()
     {
-        player_in_game = GameObject.Find("Player");
+        player_in_game = UnityEngine.GameObject.Find("Player");
 
         is_utilizzabile = abilita_classe.utilizzabili;
         if (is_utilizzabile)
@@ -37,7 +37,7 @@ public class Cooldown_abilita_classe : MonoBehaviour
         inizializza_cooldown(abilita_classe, player_in_game);
     }
 
-    public void inizializza_cooldown(Abilita abl_classe, GameObject player_in_game)
+    public void inizializza_cooldown(Abilita abl_classe, UnityEngine.GameObject player_in_game)
     {
         abilita_classe = abl_classe;
         //abilitySource = GetComponent<AudioSource>();
@@ -77,7 +77,7 @@ public class Cooldown_abilita_classe : MonoBehaviour
         cooldown_classe_rimanente -= Time.deltaTime;
         darkMask.fillAmount = (cooldown_classe_rimanente / cooldown_abl_classe);
     }
-    public void ButtonTriggered(GameObject player_in_game)
+    public void ButtonTriggered(UnityEngine.GameObject player_in_game)
     {
         cooldown_rimanente_uti_nuovo = false;
         if (!darkMask.enabled)

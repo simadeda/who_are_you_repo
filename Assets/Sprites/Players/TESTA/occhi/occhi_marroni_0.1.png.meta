@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1a35c2545db11214199ccbde6f4c5499
+guid: 3375d92ae6b60444593b3c47ea5c5036
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,11 +105,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_0
+      name: occhi_marroni_0.1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1520
+        y: 1600
         width: 64
         height: 80
       alignment: 0
@@ -119,102 +119,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75332bdd4b98a4f4dafa2510f8c6204a
-      internalID: -900854423
+      spriteID: d97e15ff7da7a694abb86b7e21ac5720
+      internalID: 2076210030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_1
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 1520
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c623c27934f73974d9003f229345d12f
-      internalID: -1787992465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_2
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 1520
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b0db4ff9b76b68e4bb496f93cb1e6167
-      internalID: -311540753
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1440
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d317aa6205c81834fa162df5d3f1f3ee
-      internalID: -1262071697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_4
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 1440
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1cd7e350a1d40c042a1a105c890a3108
-      internalID: -753900627
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_5
+      name: occhi_marroni_0.1_1
       rect:
         serializedVersion: 2
         x: 128
-        y: 1440
+        y: 1600
         width: 64
         height: 80
       alignment: 0
@@ -224,39 +140,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3824f2385a2d88c4cb80275f7d38c137
-      internalID: 874046777
+      spriteID: 3bd06a98627c5f74b9e109b0b22738b0
+      internalID: -887190651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_6
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 1440
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f06a70688e5e018418cfbebc62c1b9cc
-      internalID: 518554352
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_7
+      name: occhi_marroni_0.1_2
       rect:
         serializedVersion: 2
         x: 256
-        y: 1440
+        y: 1600
         width: 64
         height: 80
       alignment: 0
@@ -266,39 +161,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f40792203b661e54aa6725d30e8c17c3
-      internalID: 1233562354
+      spriteID: e5cef00346dea9746a37e7c6d11c95e2
+      internalID: 1387182321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_8
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 1440
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 37d3c4db5aeb47243ae0e52f9f61402c
-      internalID: 2137096620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_9
+      name: occhi_marroni_0.1_3
       rect:
         serializedVersion: 2
         x: 384
-        y: 1440
+        y: 1600
         width: 64
         height: 80
       alignment: 0
@@ -308,39 +182,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01e511d7cf9ad6144a5731f43c8c45ea
-      internalID: -1591110277
+      spriteID: 8802de63a07c01146b195a4c1811d8d3
+      internalID: -176204835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_10
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 1440
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3275737da95659247b2b3d8b38197cb8
-      internalID: -35668939
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_11
+      name: occhi_marroni_0.1_4
       rect:
         serializedVersion: 2
         x: 512
-        y: 1440
+        y: 1600
         width: 64
         height: 80
       alignment: 0
@@ -350,39 +203,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9b88d3857a58ed4e9981b5b2c02f1af
-      internalID: 2094014563
+      spriteID: 6b1695a4e060bdf42825a71e690343d4
+      internalID: 477759708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_12
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 1440
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ecd7c57e5678bbc478650660677395cc
-      internalID: 2082542918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_13
+      name: occhi_marroni_0.1_5
       rect:
         serializedVersion: 2
         x: 640
-        y: 1440
+        y: 1600
         width: 64
         height: 80
       alignment: 0
@@ -392,39 +224,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1255afa4ef27e5d42b934ee8fd05f621
-      internalID: 121260702
+      spriteID: c66b049372abd854cbbef965167276b1
+      internalID: 1377316006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_14
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 1440
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c5cc3e079a22144692485f2e2ae254d
-      internalID: 16510159
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_15
+      name: occhi_marroni_0.1_6
       rect:
         serializedVersion: 2
         x: 768
-        y: 1440
+        y: 1600
         width: 64
         height: 80
       alignment: 0
@@ -434,38 +245,164 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2da0e7bb52ced54fb55dae705fc852b
-      internalID: 1512184014
+      spriteID: b2e164ee68ee9fc49b2cd6c8d43aaea3
+      internalID: -1293597583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_16
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 1440
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa9ca4334d408bb46adbda61ae606070
-      internalID: -2107565678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_17
+      name: occhi_marroni_0.1_7
       rect:
         serializedVersion: 2
         x: 896
+        y: 1600
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0050833aac5e8a6459b960ffb598c945
+      internalID: 1633641008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1520
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575dcf4b241b1dc42967b89030d277b7
+      internalID: 136472386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1520
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f15da5e0e7dd024498437338b0afb78
+      internalID: -618798842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1520
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb7cbe6f29ce134f9ef40fa38e98eff
+      internalID: -1502514041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1520
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354158cfc1d05c84aa15aa4db9bc9a8b
+      internalID: 689732314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1520
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8492a674a8c284aa4d1b5c4b2a6c13
+      internalID: 1618422023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1520
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007c78a37c8f64f4183deeba495e51a0
+      internalID: 2086376902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_14
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 1440
         width: 64
         height: 80
@@ -476,17 +413,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e666a48149b0cd44895230011c5d207
-      internalID: 2044725354
+      spriteID: 93c22c4f76299e84f8e99e43a69266a9
+      internalID: 1677509499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_18
+      name: occhi_marroni_0.1_15
       rect:
         serializedVersion: 2
-        x: 960
+        x: 128
         y: 1440
         width: 64
         height: 80
@@ -497,14 +434,98 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86aedde2493027540a374a538ff0389f
-      internalID: 1888241892
+      spriteID: 5d8d07461ddaf7c479d75bafb3094b0e
+      internalID: 2128787344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_19
+      name: occhi_marroni_0.1_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1440
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39c34cd1f034184c940154e2f7bc827
+      internalID: 487041104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1440
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f5eaa66bf931442848d191c7b075b2
+      internalID: -432760828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_18
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1440
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ccfd50ba847df49a22b7c143e6e21b
+      internalID: 433715036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_19
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1440
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9d8db3efea1cd4c8901a901facc033
+      internalID: 739078293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_20
       rect:
         serializedVersion: 2
         x: 0
@@ -518,35 +539,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72eff5c809419f3489a419980da9b95e
-      internalID: 242599387
+      spriteID: 8bd20c921863ca84fa4da0f541d3a9ba
+      internalID: -446048202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_20
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 1360
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab6b4caaca3f23b4e8d4e84db1d37e96
-      internalID: -812642509
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_21
+      name: occhi_marroni_0.1_21
       rect:
         serializedVersion: 2
         x: 128
@@ -560,35 +560,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da281bb9bdee8be4482293a9754a733c
-      internalID: -1088398015
+      spriteID: 1000badb782ebe043b4f7eb462e67d44
+      internalID: -1306350629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_22
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 1360
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3bfc3e6f7c91a0843923d9db516d2156
-      internalID: -229467086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_23
+      name: occhi_marroni_0.1_22
       rect:
         serializedVersion: 2
         x: 256
@@ -602,35 +581,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22cd6267a4883fc4a887b6b959c17c5e
-      internalID: 959678695
+      spriteID: f8efbc74fb3d45743ae414b565e748bc
+      internalID: -226179339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_24
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 1360
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f24ed89a3d27bd2459943332680c29bc
-      internalID: 1397684391
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_25
+      name: occhi_marroni_0.1_23
       rect:
         serializedVersion: 2
         x: 384
@@ -644,35 +602,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 350118b28c7401e4e9ca4035b4de5818
-      internalID: 1431895362
+      spriteID: 8e57471f07e60e949be4d9cdec32b38d
+      internalID: -594883037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_26
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 1360
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99ee52976b439a14c84ec443179a058e
-      internalID: -748576402
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_27
+      name: occhi_marroni_0.1_24
       rect:
         serializedVersion: 2
         x: 512
@@ -686,35 +623,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9503c57108697c148a41a4cd1d72030f
-      internalID: 990251140
+      spriteID: 324184d5199bcc043a46bf04fa23d42e
+      internalID: -1802506890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_28
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 1360
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 084e769e9af06ef44a7f9806b55941ba
-      internalID: 1564218278
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_29
+      name: occhi_marroni_0.1_25
       rect:
         serializedVersion: 2
         x: 640
@@ -728,35 +644,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bddd98b006546ff4285d1cc94e87f340
-      internalID: 1823309401
+      spriteID: 1236c29d31cc21647b7575f440467772
+      internalID: -172445223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_30
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 1360
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95b6ef119f2583846907713dd59460d3
-      internalID: -413612593
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_31
+      name: occhi_marroni_0.1_26
       rect:
         serializedVersion: 2
         x: 0
@@ -770,14 +665,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d0dbdb336a460f4891503395351c5f0
-      internalID: 763323103
+      spriteID: f9d7841aa2dcb464a874d00a9f278c9d
+      internalID: 2115628506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_32
+      name: occhi_marroni_0.1_27
       rect:
         serializedVersion: 2
         x: 128
@@ -791,14 +686,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95b843d55ecb6e1428a0512dc4326d7e
-      internalID: 1219837750
+      spriteID: e4ad30f8cbe85684ea0ea08b789c6c44
+      internalID: 1925446907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_33
+      name: occhi_marroni_0.1_28
       rect:
         serializedVersion: 2
         x: 256
@@ -812,14 +707,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 167020038ad669f40b3d99ca1e2bea9b
-      internalID: -1935281380
+      spriteID: 0e6f11269ba4c924ab7a4ad9ea5efb59
+      internalID: 252716061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_34
+      name: occhi_marroni_0.1_29
       rect:
         serializedVersion: 2
         x: 384
@@ -833,14 +728,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b57606577d95484eb082d81307c6dc1
-      internalID: -1291601118
+      spriteID: 1926ca240b1d66e4ca23221cdff6bb49
+      internalID: 738684444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_35
+      name: occhi_marroni_0.1_30
       rect:
         serializedVersion: 2
         x: 512
@@ -854,14 +749,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58031c46bddb6ae47b6a7239e6cac682
-      internalID: 688627663
+      spriteID: e70cd0a6b79c8ee45a14eb96b621ddb0
+      internalID: 1406133191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_36
+      name: occhi_marroni_0.1_31
       rect:
         serializedVersion: 2
         x: 640
@@ -875,14 +770,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d8ff40b1c83dc84f83657d31ac2494a
-      internalID: -1096984255
+      spriteID: 3922d78c5e61b6b4e9627319e2a2b339
+      internalID: -1989679670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_37
+      name: occhi_marroni_0.1_32
       rect:
         serializedVersion: 2
         x: 0
@@ -896,14 +791,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7efbee3bb75ee02439a8087b966a30cb
-      internalID: 651169374
+      spriteID: 4c83e76d98fa74142be69b785619e751
+      internalID: -313871990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_38
+      name: occhi_marroni_0.1_33
       rect:
         serializedVersion: 2
         x: 128
@@ -917,14 +812,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5c823aee62f6654c81591fc9bb34358
-      internalID: 737088808
+      spriteID: c221e361fc7de8a4aa0824e09021e1aa
+      internalID: 1018734800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_39
+      name: occhi_marroni_0.1_34
       rect:
         serializedVersion: 2
         x: 256
@@ -938,14 +833,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddc71655fbbd9b042803d5e93e491cd3
-      internalID: -1556818241
+      spriteID: 4ff8434c72c8d3f4897b871c3b99ef4b
+      internalID: -960503232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_40
+      name: occhi_marroni_0.1_35
       rect:
         serializedVersion: 2
         x: 384
@@ -959,14 +854,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e89df385d4f957046996872f8f9e4d9d
-      internalID: 1537589613
+      spriteID: 4f439b69cf56cfb4fa69e80d2407cb71
+      internalID: -1025417239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_41
+      name: occhi_marroni_0.1_36
       rect:
         serializedVersion: 2
         x: 512
@@ -980,14 +875,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8be247c7ce0dbb43a9114c4f44f4f07
-      internalID: 2070908405
+      spriteID: cc1047e4553ed884e8f148d7fc48c83d
+      internalID: -18634128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_42
+      name: occhi_marroni_0.1_37
       rect:
         serializedVersion: 2
         x: 640
@@ -1001,14 +896,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 915cba4e7a970284f90a5a73056d4b1a
-      internalID: 1911530481
+      spriteID: 902ab82bf7953af44bbfe018d65317b6
+      internalID: 1144463443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_43
+      name: occhi_marroni_0.1_38
       rect:
         serializedVersion: 2
         x: 0
@@ -1022,14 +917,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 748b5746c9ad10146b0a73b086859c42
-      internalID: 774222049
+      spriteID: 9102d694770016b49a1200c699ab1ad6
+      internalID: 974985566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_44
+      name: occhi_marroni_0.1_39
       rect:
         serializedVersion: 2
         x: 128
@@ -1043,14 +938,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ea68fc41ca4a4b4ab2a6532a3e434be
-      internalID: 695439400
+      spriteID: 7236ea29e61ad4945a1421580f680aa3
+      internalID: 342747476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_45
+      name: occhi_marroni_0.1_40
       rect:
         serializedVersion: 2
         x: 256
@@ -1064,14 +959,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bb6f27174413af4ab6a31b49dd24950
-      internalID: -1875425029
+      spriteID: 11a5bd9ad8b1df742828ed0c5e6aa005
+      internalID: -902727665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_46
+      name: occhi_marroni_0.1_41
       rect:
         serializedVersion: 2
         x: 384
@@ -1085,14 +980,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 323eb8de1e280c74b85d7a5d4bfcbfcd
-      internalID: 1333174165
+      spriteID: 179aa55f0a78ce640b52b01cd812a030
+      internalID: -1163031752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_47
+      name: occhi_marroni_0.1_42
       rect:
         serializedVersion: 2
         x: 512
@@ -1106,14 +1001,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 052b4f5b125942641917592820fb42a5
-      internalID: 65438078
+      spriteID: e82ace68ef505a446992cfb31edfe38c
+      internalID: -926800057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_48
+      name: occhi_marroni_0.1_43
       rect:
         serializedVersion: 2
         x: 640
@@ -1127,396 +1022,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4be7b4ffee9498845b4b3121c712e629
-      internalID: -696617609
+      spriteID: 5e18d2b0382bc6e419c9772d3bf4457c
+      internalID: 886206876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_49
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1040
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c527ed965193f2d4cbe759b1296866ed
-      internalID: 329842071
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_50
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 1040
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f8d530a9a8788148a9bd4616dc61634
-      internalID: -2095613089
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_51
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 1040
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7eae15825b1463d47849fad2ac510328
-      internalID: 1664222903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_52
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 1040
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98e17fdb6a745be40808b35f495b536f
-      internalID: -967217569
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_53
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 1040
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2d68f4ea5405784e9161b457a4c93b0
-      internalID: 1135039090
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_54
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 1040
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79a5c796b18dc5b4fb6e80fd9e787564
-      internalID: 997908202
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_55
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 960
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3eec63c5dae3eea42a3d09cd504f87b8
-      internalID: -1882482683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_56
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 960
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b89c9df57eba4ed4da10203e1de65a79
-      internalID: -120900880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_57
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 960
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ccddf790fec4e7147bb0150a21744516
-      internalID: -880039502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_58
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 960
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6c8da4817fa629468cee9403cd1de97
-      internalID: 679295173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_59
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 960
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e9f6ef5be471124e905774618ae1053
-      internalID: -1719411657
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_60
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 960
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 045d7b0460d7852418849d6dbd429d68
-      internalID: 1969473688
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_61
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 960
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d469e8447bc3858429ab23f0d59cc443
-      internalID: -1693320551
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_62
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 960
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d63645bfd63424b459fb1e7ea2822d49
-      internalID: -1464264409
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_63
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 960
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5ef15db89130a94ba311fffdae6d6b8
-      internalID: 855979705
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_64
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 960
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e54187b8724d4042a9c5b93bb5222f6
-      internalID: 1054962214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_65
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 960
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 032bbf70f3ae5534081eb09d57d9d08f
-      internalID: 1167903954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_66
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 960
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c9fd1b8b415a0b47b6fba3934feefd9
-      internalID: -223462349
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_67
+      name: occhi_marroni_0.1_44
       rect:
         serializedVersion: 2
         x: 768
-        y: 960
+        y: 1120
         width: 64
         height: 80
       alignment: 0
@@ -1526,38 +1043,164 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5fd060f18e9b894e9d64390fd5f3f89
-      internalID: 247585895
+      spriteID: cd2aeb83df6469e4dafd9a3e2c3f5a5c
+      internalID: -1157034702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_68
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 960
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ed6d6a03e597404dad5a64ee5157df6
-      internalID: 1080892073
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_69
+      name: occhi_marroni_0.1_45
       rect:
         serializedVersion: 2
         x: 896
+        y: 1120
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a294a8554618914ba3c6b68ee2f746f
+      internalID: 1912510096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1040
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c29d274dfe0d814eb526daaae6e37a0
+      internalID: -1676377537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_47
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1040
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4278e522a19cb4d97106a729077e40
+      internalID: 398792386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1040
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61884b1b244dcb54db7f3d631ac86a9c
+      internalID: -1044582916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_49
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1040
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7186878c94b5a43b75ae01a8ddbc69
+      internalID: 195353840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_50
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1040
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76831c98d578c242853bc69d21633c1
+      internalID: -1478849308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_51
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1040
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9160b24eafd464d8fcb4c3ba40ff2e
+      internalID: 110470197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_52
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 960
         width: 64
         height: 80
@@ -1568,17 +1211,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0d89ad08546d274cb3d6cb5182579e3
-      internalID: 2031879255
+      spriteID: 02bda9d02a1ab0d48a73c1306a2399b7
+      internalID: -1847087700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_70
+      name: occhi_marroni_0.1_53
       rect:
         serializedVersion: 2
-        x: 960
+        x: 128
         y: 960
         width: 64
         height: 80
@@ -1589,18 +1232,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b56d26d3e45054f4b863f159aa692936
-      internalID: -1523575372
+      spriteID: f13b1b04f1fa8d4409a99aa243bd078b
+      internalID: 1713047976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_71
+      name: occhi_marroni_0.1_54
       rect:
         serializedVersion: 2
-        x: 0
-        y: 880
+        x: 256
+        y: 960
         width: 64
         height: 80
       alignment: 0
@@ -1610,14 +1253,77 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fad6ec1dc7b83774e9e43d1c3f626eac
-      internalID: -1867675302
+      spriteID: 72379e1a4c4f9f046bfcf2858f618ed3
+      internalID: -223208263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_72
+      name: occhi_marroni_0.1_55
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 960
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64e5bd2f1f0ade4c90b1d9905459be0
+      internalID: 1973322245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_56
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 960
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c9b4fc48ce965479151d1b88173556
+      internalID: -1966759543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_57
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17208fe17c9747a4a872d617687b9134
+      internalID: 912469342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_58
       rect:
         serializedVersion: 2
         x: 64
@@ -1631,35 +1337,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c688ad456e70690468b16a3893762f4b
-      internalID: 1890061437
+      spriteID: 549713e08450c634592139e2e25e04f3
+      internalID: -45732594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_73
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 880
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9bfbaee374ed3b740b478ab017d1247e
-      internalID: -318634637
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_74
+      name: occhi_marroni_0.1_59
       rect:
         serializedVersion: 2
         x: 192
@@ -1673,35 +1358,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8473977f3355b5b498823f0c5d354108
-      internalID: -598861557
+      spriteID: 335274aea2973c34cb699aac8b929f35
+      internalID: -1846979623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_75
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 880
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84c85a88bae0b204aab37f046434b317
-      internalID: 1431583087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_76
+      name: occhi_marroni_0.1_60
       rect:
         serializedVersion: 2
         x: 320
@@ -1715,35 +1379,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: badb0718457a2614399874b613e6949b
-      internalID: -366924787
+      spriteID: 1f44caed7c38b934e9a1f0a2319f6440
+      internalID: 2009281199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_77
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 880
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b83e750289fa0d4987efe11df860894
-      internalID: 477095109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_78
+      name: occhi_marroni_0.1_61
       rect:
         serializedVersion: 2
         x: 448
@@ -1757,35 +1400,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f31e5984c0144740b8d0b0972e1b0b2
-      internalID: -1697409461
+      spriteID: fdb487669692e284eb3bb51564bb601c
+      internalID: -691799782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_79
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 880
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3cafe067ea9d29d408e6eed709a17e11
-      internalID: -1268939103
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_80
+      name: occhi_marroni_0.1_62
       rect:
         serializedVersion: 2
         x: 576
@@ -1799,35 +1421,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1870a4c43023c12478127588d66c99e1
-      internalID: 1315980432
+      spriteID: 81f8d027a2ad60d43b08b8ddde1802f9
+      internalID: 1634167528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_81
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 880
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba99f868aab8ed646b123dfb20920857
-      internalID: 905591817
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_82
+      name: occhi_marroni_0.1_63
       rect:
         serializedVersion: 2
         x: 704
@@ -1841,14 +1442,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fda04982ce401c41bf12e7eeeb7346f
-      internalID: -2055136905
+      spriteID: e3bf21a9c122ec44dbda74d867de3bbc
+      internalID: -136797963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_83
+      name: occhi_marroni_0.1_64
       rect:
         serializedVersion: 2
         x: 0
@@ -1862,35 +1463,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c55f99b266ed33e40814839a280432c2
-      internalID: 594765656
+      spriteID: 2f23431596a4d1948b4115cd1321ebcf
+      internalID: -448824766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_84
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 800
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4abddca9037f21b4a87f0c75820f48f9
-      internalID: 363824942
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_85
+      name: occhi_marroni_0.1_65
       rect:
         serializedVersion: 2
         x: 128
@@ -1904,35 +1484,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 564961c2d159be745b8f3e82c0d442c0
-      internalID: -1229727383
+      spriteID: 014ac4a9e9bfae94f9151f9f01b422ba
+      internalID: -1669027899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_86
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 800
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e2ef7fa1848ade4a80f05db659947a4
-      internalID: 683948901
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_87
+      name: occhi_marroni_0.1_66
       rect:
         serializedVersion: 2
         x: 256
@@ -1946,35 +1505,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c89037843dec8c14cb0f21c013438797
-      internalID: -1108111102
+      spriteID: f684eefd143a2c14eae4feea17b74c46
+      internalID: 152962357
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_88
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 800
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a422e67d456605b42b46303cb756150b
-      internalID: 101572423
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_89
+      name: occhi_marroni_0.1_67
       rect:
         serializedVersion: 2
         x: 384
@@ -1988,35 +1526,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e046b8ee2d2fed04fa7f2701b7e8e085
-      internalID: 1603241092
+      spriteID: f6a7c7ca22a38804aaac1f4fdeab436b
+      internalID: 588395926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_90
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 800
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eab619e7873e3c047b5850c201dd8e8c
-      internalID: 1443670653
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_91
+      name: occhi_marroni_0.1_68
       rect:
         serializedVersion: 2
         x: 512
@@ -2030,35 +1547,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18825e726ac54594cbb7604e6c08d163
-      internalID: 1562913073
+      spriteID: b2ef9d33156a89c4fad7492592e87dad
+      internalID: -1546730212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_92
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 800
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be67f61070dfed241818d21054250dcc
-      internalID: 311882480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_93
+      name: occhi_marroni_0.1_69
       rect:
         serializedVersion: 2
         x: 640
@@ -2072,38 +1568,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5811cabbf5018ad4aaceae03e23a79d1
-      internalID: -298929646
+      spriteID: e63dba005c630da488cd67c339ec835c
+      internalID: 1627808288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_94
+      name: occhi_marroni_0.1_70
       rect:
         serializedVersion: 2
-        x: 704
-        y: 800
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 055fb2f0b1b96f242ae8ac5ec8a8b6d5
-      internalID: -811265083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_95
-      rect:
-        serializedVersion: 2
-        x: 64
+        x: 0
         y: 720
         width: 64
         height: 80
@@ -2114,17 +1589,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2dd44f09b0c514c458a6ec0b5936efbc
-      internalID: -536039267
+      spriteID: 6f3640eb02dcb31438fecfce6560cb7b
+      internalID: -363166121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_96
+      name: occhi_marroni_0.1_71
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 720
         width: 64
         height: 80
@@ -2135,17 +1610,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93ae42e1d42f83c45b8d534bce4fca3d
-      internalID: -262717451
+      spriteID: 565a1c6d587d19f43a81c16ea38ce1e3
+      internalID: -116273743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_97
+      name: occhi_marroni_0.1_72
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 720
         width: 64
         height: 80
@@ -2156,17 +1631,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 742b5269f3087594292e8390619ef08c
-      internalID: -1653613416
+      spriteID: c284edb672b1dec4d9b0e8276b80a246
+      internalID: -97709588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_98
+      name: occhi_marroni_0.1_73
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 720
         width: 64
         height: 80
@@ -2177,17 +1652,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c5e2a6b9523afb48b489c213707a67c
-      internalID: -966557500
+      spriteID: e99edb52ca42245488e97d744cf82271
+      internalID: -1245354010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_99
+      name: occhi_marroni_0.1_74
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 720
         width: 64
         height: 80
@@ -2198,17 +1673,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9359d932f751d44d9caab8d48259b8d
-      internalID: 495803060
+      spriteID: 8edb7ae0735d8d642ae83a3a07deb46c
+      internalID: 1584399213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_100
+      name: occhi_marroni_0.1_75
       rect:
         serializedVersion: 2
-        x: 704
+        x: 640
         y: 720
         width: 64
         height: 80
@@ -2219,14 +1694,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 681c3bf9a24efa74f95b39b4a5199c6e
-      internalID: 2059566165
+      spriteID: becff9ffbf76a804895428f3ac65c379
+      internalID: 1269125798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_101
+      name: occhi_marroni_0.1_76
       rect:
         serializedVersion: 2
         x: 0
@@ -2240,14 +1715,161 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f44f9711c465b5f4ca1b7a53db0914b5
-      internalID: 1926125534
+      spriteID: 9e7575bb0b6f2a64f8f90ee7c86e0f41
+      internalID: 1440334170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_102
+      name: occhi_marroni_0.1_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0d7d62a9dcaaf4587007699b89d93d
+      internalID: -330027569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_78
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1845d28a14d15b74c8f7d3c8ca82a435
+      internalID: -1871909444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_79
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed5eb52cebaaea46bdb26cf2b17282e
+      internalID: 1687481911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_80
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14a12370fb881844b3d16c7b566b04d
+      internalID: -1625722448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_81
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0edacfe3bc9d1428c45e6ce68e07ae
+      internalID: 1799140083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_82
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f1dc346eb67404389483ad4f4f2aed
+      internalID: -1414921858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_83
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412d10893110e5948b7ab9223d7bdae8
+      internalID: -1097945436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_84
       rect:
         serializedVersion: 2
         x: 0
@@ -2261,14 +1883,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64bc01d743a058b4baeeb6319d3cac1c
-      internalID: 629728348
+      spriteID: 62f633dd20f9d694dbc0087d97b22cab
+      internalID: 1726650548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_103
+      name: occhi_marroni_0.1_85
       rect:
         serializedVersion: 2
         x: 128
@@ -2282,14 +1904,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d75930d7a133c2549b20bf32d0dfc979
-      internalID: 640933963
+      spriteID: 000d7a6e5a52e89459b5bf50a345253f
+      internalID: 1995339486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_104
+      name: occhi_marroni_0.1_86
       rect:
         serializedVersion: 2
         x: 256
@@ -2303,14 +1925,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bcbd911e2ec9a440acfdf05565ff14b
-      internalID: -1672123179
+      spriteID: fee98dba2c1c8b940b61aec5047c9989
+      internalID: 189569273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_105
+      name: occhi_marroni_0.1_87
       rect:
         serializedVersion: 2
         x: 384
@@ -2324,14 +1946,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b7c2611570ea5748a3bfbf1fb5e041b
-      internalID: -93252448
+      spriteID: 7fd4c09d8a630984cbc4b4ebaa373889
+      internalID: 1411843861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_106
+      name: occhi_marroni_0.1_88
       rect:
         serializedVersion: 2
         x: 512
@@ -2345,14 +1967,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e98f4f4aeacaee4192ce9c46169e32e
-      internalID: 623217463
+      spriteID: 09e601c89f9ee6c438b8da2d0dfaee22
+      internalID: 1862017614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_107
+      name: occhi_marroni_0.1_89
       rect:
         serializedVersion: 2
         x: 640
@@ -2366,14 +1988,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9a8a3f72e7ccbb46b0b63aaf73b6a34
-      internalID: 1968190192
+      spriteID: 1d796ece7d3982e4f8a7b3ab133a09b1
+      internalID: -763587624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_108
+      name: occhi_marroni_0.1_90
       rect:
         serializedVersion: 2
         x: 0
@@ -2387,35 +2009,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a69b7f6c5132ac5429c8fd17cc4f3346
-      internalID: -886771703
+      spriteID: 289331ac4fed2d04696473a871f74a6f
+      internalID: 1853002519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_109
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 480
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a7ed45a62f3a6541ad54f00cde21b2a
-      internalID: 1914058805
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_110
+      name: occhi_marroni_0.1_91
       rect:
         serializedVersion: 2
         x: 128
@@ -2429,35 +2030,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 006e093b9f605b747b6f16f7ee4c6045
-      internalID: -170431868
+      spriteID: 95d450f30df4cac42a5c798f9aabfb4b
+      internalID: -496085634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_111
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 480
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c4085095a911f3469f4a56005482243
-      internalID: -1656533620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_112
+      name: occhi_marroni_0.1_92
       rect:
         serializedVersion: 2
         x: 256
@@ -2471,35 +2051,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a1faca98153eb54bbe9d185ddc1ea61
-      internalID: 274686647
+      spriteID: 917addcc02e9bc0468b04bb250bf02d9
+      internalID: 1658093822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_113
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 480
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c15779db2862c44780a816dda8a18d7
-      internalID: 371416480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_114
+      name: occhi_marroni_0.1_93
       rect:
         serializedVersion: 2
         x: 384
@@ -2513,35 +2072,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 432347fd3091c66458c05d7279acec1d
-      internalID: -1686589711
+      spriteID: 4c5e9beb04db7e84dadb43097d740e73
+      internalID: 907512482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_115
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 480
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f53bd6e87bedaf4ea42cbc945c0c7f0
-      internalID: 693709439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_116
+      name: occhi_marroni_0.1_94
       rect:
         serializedVersion: 2
         x: 512
@@ -2555,35 +2093,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57a036674ca42a745bdbdd7358a70ddc
-      internalID: 1427871921
+      spriteID: ffb602cece7332b4c8e1991ef1a91f01
+      internalID: -922458356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_117
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 480
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b844dfe5f0c5efe46a531a13428bbb55
-      internalID: 460199626
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_118
+      name: occhi_marroni_0.1_95
       rect:
         serializedVersion: 2
         x: 640
@@ -2597,18 +2114,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f3eebd589f19c546b02752efc7ac58a
-      internalID: -1574423901
+      spriteID: 0064573f803c4c34981d5be991a924d5
+      internalID: -1539953932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_119
+      name: occhi_marroni_0.1_96
       rect:
         serializedVersion: 2
-        x: 704
-        y: 480
+        x: 0
+        y: 400
         width: 64
         height: 80
       alignment: 0
@@ -2618,14 +2135,119 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff08959f376c9604eb33831d4a382224
-      internalID: 474659586
+      spriteID: 161fe5f6d94b42444ae24b38a5e74319
+      internalID: -1958507298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_120
+      name: occhi_marroni_0.1_97
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 400
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07de0ebd6fd857e49855cf767a805262
+      internalID: -84526980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_98
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 400
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e281ee82112413e49a0c18d1ef822783
+      internalID: -1989703692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_99
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 400
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a26011da7eeca40afcbcec9174d211
+      internalID: 1974977296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_100
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 400
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5e04172650bc944b463d0cb93c4e95
+      internalID: 1682561739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_101
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 400
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5326d56d6629948b5d2ebe430a5cfe
+      internalID: 1869639397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_102
       rect:
         serializedVersion: 2
         x: 0
@@ -2639,35 +2261,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acc52206168dfe74ba11464d68e04359
-      internalID: -304759430
+      spriteID: 3f139516ee604044185ef2e14a9d2d62
+      internalID: 804649520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_121
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 320
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1865229191fd4b4c8cee65dc431dbbc
-      internalID: -272703662
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_122
+      name: occhi_marroni_0.1_103
       rect:
         serializedVersion: 2
         x: 128
@@ -2681,35 +2282,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 521890d8aeecb9941bed00d94fcfe4c8
-      internalID: 1001206226
+      spriteID: 25b3b3e6e158c4047bf033db53ac7b77
+      internalID: 1042405186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_123
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 320
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f2cef1f3ed621546814d481bae5cac1
-      internalID: 1170623446
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_124
+      name: occhi_marroni_0.1_104
       rect:
         serializedVersion: 2
         x: 256
@@ -2723,35 +2303,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d829f7b822f872447a42db420bd446c7
-      internalID: 430871992
+      spriteID: cb0e723a1f483b7499d3a169fbbe2430
+      internalID: 268041215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_125
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 320
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e5888140dbdae74c97ba4a1ef51e188
-      internalID: -1310745524
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_126
+      name: occhi_marroni_0.1_105
       rect:
         serializedVersion: 2
         x: 384
@@ -2765,35 +2324,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: baa1dc238cb591143ae2629bd7f9cbec
-      internalID: -913175355
+      spriteID: 72096aa557b85e34ea8e23fb68816bbd
+      internalID: 1408452030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_127
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 320
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4a538e38cbdac04b8613549d7d3a790
-      internalID: 1188834238
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_128
+      name: occhi_marroni_0.1_106
       rect:
         serializedVersion: 2
         x: 512
@@ -2807,35 +2345,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 827a02d0cf198b5459dbab99b44c0eb3
-      internalID: 312241398
+      spriteID: 37c1d32e12f0bd146a9e342819644a34
+      internalID: 1599765737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_129
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 320
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da762a46495ab234d8694afdab95ff8a
-      internalID: -1987967202
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_130
+      name: occhi_marroni_0.1_107
       rect:
         serializedVersion: 2
         x: 640
@@ -2849,35 +2366,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9b50469998776a49beffafb029215c8
-      internalID: 1905467487
+      spriteID: f62c2cf7f3b3c4e41a5d7256c36b87c5
+      internalID: -2032030507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_131
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 320
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8743a28170befac4e97df56cde864169
-      internalID: 1630007364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_132
+      name: occhi_marroni_0.1_108
       rect:
         serializedVersion: 2
         x: 768
@@ -2891,35 +2387,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 639ce1792b9d4a54aa1e96261f156052
-      internalID: 2008324175
+      spriteID: f035c1b34d61ed24aa83f233f3081cd5
+      internalID: -2112792014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_133
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 320
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0785ec05aaa212d44a2d7feffc419e3d
-      internalID: -148146511
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_134
+      name: occhi_marroni_0.1_109
       rect:
         serializedVersion: 2
         x: 896
@@ -2933,35 +2408,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e531c649e3f8394db8b538cfca5b3e9
-      internalID: -974042524
+      spriteID: 4ee717200013ce24dae97f673d811e6c
+      internalID: -1638301626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_135
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 320
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db5445875f8b42f4d8813dd04d289975
-      internalID: -1356718871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_136
+      name: occhi_marroni_0.1_110
       rect:
         serializedVersion: 2
         x: 0
@@ -2975,14 +2429,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db343d407f8adbf458ca58a0133fa536
-      internalID: 36064198
+      spriteID: bfec251052e1b754f8045f4329fc6d55
+      internalID: 144081963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_137
+      name: occhi_marroni_0.1_111
       rect:
         serializedVersion: 2
         x: 128
@@ -2996,14 +2450,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f5bbaedaa13d1d4281ca2095ff3859e
-      internalID: -5088234
+      spriteID: 572df899c6e28b84f972e40e5f22b715
+      internalID: -368527653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_138
+      name: occhi_marroni_0.1_112
       rect:
         serializedVersion: 2
         x: 256
@@ -3017,14 +2471,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f58d468eec888ff40aa94d0da8b17293
-      internalID: -1428796657
+      spriteID: 96508acefcacda744985f57381876f82
+      internalID: -1146377194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_139
+      name: occhi_marroni_0.1_113
       rect:
         serializedVersion: 2
         x: 384
@@ -3038,14 +2492,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfe8a05fa7e17504789331999eaaf805
-      internalID: -151328217
+      spriteID: 427ee7ab6385ca240be0289e01989906
+      internalID: 677701202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_140
+      name: occhi_marroni_0.1_114
       rect:
         serializedVersion: 2
         x: 512
@@ -3059,14 +2513,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 560e6085dc857554299c13ee75f0e0dc
-      internalID: -728632255
+      spriteID: 3930ee731fbccfb47818a26a3bb2c6f3
+      internalID: -1152055034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_141
+      name: occhi_marroni_0.1_115
       rect:
         serializedVersion: 2
         x: 640
@@ -3080,14 +2534,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce5fb6111449076448f13f2e435d9976
-      internalID: -15344051
+      spriteID: 86c019fb965a2b8419ac78be6fc5f2a6
+      internalID: 1545669754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_142
+      name: occhi_marroni_0.1_116
       rect:
         serializedVersion: 2
         x: 0
@@ -3101,14 +2555,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d106d21f7450f3459b92980d25dbbcd
-      internalID: -1461877776
+      spriteID: a5249d75c3982ce48a416c858a85d44c
+      internalID: 528377038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_143
+      name: occhi_marroni_0.1_117
       rect:
         serializedVersion: 2
         x: 128
@@ -3122,14 +2576,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46b53216fa7bb4148bd31a8f2c4d94ba
-      internalID: 1575235033
+      spriteID: 1e49cf442af82574197dc65f998edf4b
+      internalID: 984561011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_144
+      name: occhi_marroni_0.1_118
       rect:
         serializedVersion: 2
         x: 256
@@ -3143,14 +2597,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3af9b37a899b6e74a97e450ad635fdfc
-      internalID: 2006197976
+      spriteID: ca66c6ee08428254abe0bb25cece6e66
+      internalID: -910403118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_145
+      name: occhi_marroni_0.1_119
       rect:
         serializedVersion: 2
         x: 384
@@ -3164,14 +2618,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85125db5be544184b9fa00006644b2dd
-      internalID: -2037483750
+      spriteID: 56177c89a6393e244b72e92e06cce513
+      internalID: -2094231073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_146
+      name: occhi_marroni_0.1_120
       rect:
         serializedVersion: 2
         x: 512
@@ -3185,14 +2639,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78d42505e2127cd4a9be61e196f7e13b
-      internalID: 744562694
+      spriteID: e6f7ffae912c0854490af52c54c54874
+      internalID: -1947039058
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_147
+      name: occhi_marroni_0.1_121
       rect:
         serializedVersion: 2
         x: 640
@@ -3206,14 +2660,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d63e9612963918447a3a6c44a2c25cec
-      internalID: -1604081103
+      spriteID: 09aa8570db909264d8e3c0876eb7db17
+      internalID: -897670958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_148
+      name: occhi_marroni_0.1_122
       rect:
         serializedVersion: 2
         x: 0
@@ -3227,35 +2681,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9dd0e189331d724459797b34b10820fb
-      internalID: -1958495692
+      spriteID: 8fbbeb68243b4a645a4d45b882eb450c
+      internalID: -1627589661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_149
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 80
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd86b71418321d14b9e9f145e843e71a
-      internalID: 2009946611
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_150
+      name: occhi_marroni_0.1_123
       rect:
         serializedVersion: 2
         x: 128
@@ -3269,35 +2702,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 106e4d13feae99b4eb04384778539659
-      internalID: 743920883
+      spriteID: 498c252fe212aa246a498295692256f2
+      internalID: -1086565470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_151
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 80
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c9cc7c49523c014a8c1f0a3e29f488e
-      internalID: -1150915737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_152
+      name: occhi_marroni_0.1_124
       rect:
         serializedVersion: 2
         x: 256
@@ -3311,35 +2723,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18b8f69c383214a4193c1bdcf29afb88
-      internalID: 1804533972
+      spriteID: e74324ec19d30d441a2f7f28ee243926
+      internalID: 1995656268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_153
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 80
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01741bc2145af8540908119ffec5f2a9
-      internalID: -1129774714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_154
+      name: occhi_marroni_0.1_125
       rect:
         serializedVersion: 2
         x: 384
@@ -3353,35 +2744,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae1d46bd096459646a4fccb8aa556f22
-      internalID: -810825258
+      spriteID: d789bee0c1b26c94a8bee3ed97f0d3a9
+      internalID: 1586564726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_155
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 80
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e0dd554fd04063419e5375e35543f8c
-      internalID: 172511628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_156
+      name: occhi_marroni_0.1_126
       rect:
         serializedVersion: 2
         x: 512
@@ -3395,35 +2765,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 301c420efbc67f44092ebe812b0edfc6
-      internalID: -1968877510
+      spriteID: ab21aef75f45ff24695b5a72945e9c03
+      internalID: -917957984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_157
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 80
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b933aa10d8e2d64b9a8ca5d91beace8
-      internalID: -1875567719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_158
+      name: occhi_marroni_0.1_127
       rect:
         serializedVersion: 2
         x: 640
@@ -3437,35 +2786,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c088f587411e65b4eb4dfd4a8c130853
-      internalID: -219998314
+      spriteID: a75faa7e416a2ac4092f6ed885fb4c52
+      internalID: 874933310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_159
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 80
-        width: 64
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0e7356d5a2bc3e42b3305a8d5296cca
-      internalID: -2069263140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_creazione_player_occhi_marroni_160
+      name: occhi_marroni_0.1_128
       rect:
         serializedVersion: 2
         x: 0
@@ -3479,8 +2807,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77eb44c0d74c67c4c8f79e1d1d093103
-      internalID: -695699557
+      spriteID: 200daa8fcdcd7f546bc29066a1e1d9fb
+      internalID: 1102311746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_129
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5b37fc64fb2964cbaa80948eadd53b
+      internalID: -499175269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_130
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c01dfcb1df7565409677058362b9613
+      internalID: 1935027332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_131
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb77ff984ea4ab44bdfc18af5b6d083
+      internalID: 1667172032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_132
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4d3eb1d1875d74889305b9cacab742
+      internalID: -2065054485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_133
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbaae52ea63e6b409657f37e16d69a2
+      internalID: 1383939967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: occhi_marroni_0.1_134
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465c54210093207438d020e042478387
+      internalID: 877071999
       vertices: []
       indices: 
       edges: []
@@ -3496,167 +2950,141 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spritesheet_creazione_player_occhi_marroni_15: 1512184014
-      spritesheet_creazione_player_occhi_marroni_65: 1167903954
-      spritesheet_creazione_player_occhi_marroni_38: 737088808
-      spritesheet_creazione_player_occhi_marroni_53: 1135039090
-      spritesheet_creazione_player_occhi_marroni_105: -93252448
-      spritesheet_creazione_player_occhi_marroni_48: -696617609
-      spritesheet_creazione_player_occhi_marroni_158: -219998314
-      spritesheet_creazione_player_occhi_marroni_61: -1693320551
-      spritesheet_creazione_player_occhi_marroni_21: -1088398015
-      spritesheet_creazione_player_occhi_marroni_126: -913175355
-      spritesheet_creazione_player_occhi_marroni_29: 1823309401
-      spritesheet_creazione_player_occhi_marroni_12: 2082542918
-      spritesheet_creazione_player_occhi_marroni_41: 2070908405
-      spritesheet_creazione_player_occhi_marroni_6: 518554352
-      spritesheet_creazione_player_occhi_marroni_26: -748576402
-      spritesheet_creazione_player_occhi_marroni_16: -2107565678
-      spritesheet_creazione_player_occhi_marroni_117: 460199626
-      spritesheet_creazione_player_occhi_marroni_24: 1397684391
-      spritesheet_creazione_player_occhi_marroni_99: 495803060
-      spritesheet_creazione_player_occhi_marroni_101: 1926125534
-      spritesheet_creazione_player_occhi_marroni_50: -2095613089
-      spritesheet_creazione_player_occhi_marroni_131: 1630007364
-      spritesheet_creazione_player_occhi_marroni_113: 371416480
-      spritesheet_creazione_player_occhi_marroni_153: -1129774714
-      spritesheet_creazione_player_occhi_marroni_160: -695699557
-      spritesheet_creazione_player_occhi_marroni_19: 242599387
-      spritesheet_creazione_player_occhi_marroni_44: 695439400
-      spritesheet_creazione_player_occhi_marroni_39: -1556818241
-      spritesheet_creazione_player_occhi_marroni_58: 679295173
-      spritesheet_creazione_player_occhi_marroni_55: -1882482683
-      spritesheet_creazione_player_occhi_marroni_60: 1969473688
-      spritesheet_creazione_player_occhi_marroni_62: -1464264409
-      spritesheet_creazione_player_occhi_marroni_120: -304759430
-      spritesheet_creazione_player_occhi_marroni_40: 1537589613
-      spritesheet_creazione_player_occhi_marroni_30: -413612593
-      spritesheet_creazione_player_occhi_marroni_143: 1575235033
-      spritesheet_creazione_player_occhi_marroni_22: -229467086
-      spritesheet_creazione_player_occhi_marroni_124: 430871992
-      spritesheet_creazione_player_occhi_marroni_152: 1804533972
-      spritesheet_creazione_player_occhi_marroni_127: 1188834238
-      spritesheet_creazione_player_occhi_marroni_98: -966557500
-      spritesheet_creazione_player_occhi_marroni_23: 959678695
-      spritesheet_creazione_player_occhi_marroni_63: 855979705
-      spritesheet_creazione_player_occhi_marroni_27: 990251140
-      spritesheet_creazione_player_occhi_marroni_115: 693709439
-      spritesheet_creazione_player_occhi_marroni_88: 101572423
-      spritesheet_creazione_player_occhi_marroni_59: -1719411657
-      spritesheet_creazione_player_occhi_marroni_146: 744562694
-      spritesheet_creazione_player_occhi_marroni_92: 311882480
-      spritesheet_creazione_player_occhi_marroni_96: -262717451
-      spritesheet_creazione_player_occhi_marroni_139: -151328217
-      spritesheet_creazione_player_occhi_marroni_47: 65438078
-      spritesheet_creazione_player_occhi_marroni_118: -1574423901
-      spritesheet_creazione_player_occhi_marroni_36: -1096984255
-      spritesheet_creazione_player_occhi_marroni_137: -5088234
-      spritesheet_creazione_player_occhi_marroni_14: 16510159
-      spritesheet_creazione_player_occhi_marroni_25: 1431895362
-      spritesheet_creazione_player_occhi_marroni_106: 623217463
-      spritesheet_creazione_player_occhi_marroni_42: 1911530481
-      spritesheet_creazione_player_occhi_marroni_56: -120900880
-      spritesheet_creazione_player_occhi_marroni_7: 1233562354
-      spritesheet_creazione_player_occhi_marroni_75: 1431583087
-      spritesheet_creazione_player_occhi_marroni_74: -598861557
-      spritesheet_creazione_player_occhi_marroni_94: -811265083
-      spritesheet_creazione_player_occhi_marroni_18: 1888241892
-      spritesheet_creazione_player_occhi_marroni_2: -311540753
-      spritesheet_creazione_player_occhi_marroni_86: 683948901
-      spritesheet_creazione_player_occhi_marroni_116: 1427871921
-      spritesheet_creazione_player_occhi_marroni_82: -2055136905
-      spritesheet_creazione_player_occhi_marroni_80: 1315980432
-      spritesheet_creazione_player_occhi_marroni_100: 2059566165
-      spritesheet_creazione_player_occhi_marroni_132: 2008324175
-      spritesheet_creazione_player_occhi_marroni_10: -35668939
-      spritesheet_creazione_player_occhi_marroni_49: 329842071
-      spritesheet_creazione_player_occhi_marroni_102: 629728348
-      spritesheet_creazione_player_occhi_marroni_46: 1333174165
-      spritesheet_creazione_player_occhi_marroni_148: -1958495692
-      spritesheet_creazione_player_occhi_marroni_67: 247585895
-      spritesheet_creazione_player_occhi_marroni_34: -1291601118
-      spritesheet_creazione_player_occhi_marroni_133: -148146511
-      spritesheet_creazione_player_occhi_marroni_147: -1604081103
-      spritesheet_creazione_player_occhi_marroni_136: 36064198
-      spritesheet_creazione_player_occhi_marroni_149: 2009946611
-      spritesheet_creazione_player_occhi_marroni_95: -536039267
-      spritesheet_creazione_player_occhi_marroni_28: 1564218278
-      spritesheet_creazione_player_occhi_marroni_151: -1150915737
-      spritesheet_creazione_player_occhi_marroni_64: 1054962214
-      spritesheet_creazione_player_occhi_marroni_66: -223462349
-      spritesheet_creazione_player_occhi_marroni_141: -15344051
-      spritesheet_creazione_player_occhi_marroni_31: 763323103
-      spritesheet_creazione_player_occhi_marroni_112: 274686647
-      spritesheet_creazione_player_occhi_marroni_52: -967217569
-      spritesheet_creazione_player_occhi_marroni_122: 1001206226
-      spritesheet_creazione_player_occhi_marroni_134: -974042524
-      spritesheet_creazione_player_occhi_marroni_76: -366924787
-      spritesheet_creazione_player_occhi_marroni_157: -1875567719
-      spritesheet_creazione_player_occhi_marroni_71: -1867675302
-      spritesheet_creazione_player_occhi_marroni_13: 121260702
-      spritesheet_creazione_player_occhi_marroni_111: -1656533620
-      spritesheet_creazione_player_occhi_marroni_91: 1562913073
-      spritesheet_creazione_player_occhi_marroni_155: 172511628
-      spritesheet_creazione_player_occhi_marroni_145: -2037483750
-      spritesheet_creazione_player_occhi_marroni_33: -1935281380
-      spritesheet_creazione_player_occhi_marroni_72: 1890061437
-      spritesheet_creazione_player_occhi_marroni_51: 1664222903
-      spritesheet_creazione_player_occhi_marroni_32: 1219837750
-      spritesheet_creazione_player_occhi_marroni_3: -1262071697
-      spritesheet_creazione_player_occhi_marroni_89: 1603241092
-      spritesheet_creazione_player_occhi_marroni_73: -318634637
-      spritesheet_creazione_player_occhi_marroni_45: -1875425029
-      spritesheet_creazione_player_occhi_marroni_85: -1229727383
-      spritesheet_creazione_player_occhi_marroni_125: -1310745524
-      spritesheet_creazione_player_occhi_marroni_144: 2006197976
-      spritesheet_creazione_player_occhi_marroni_121: -272703662
-      spritesheet_creazione_player_occhi_marroni_150: 743920883
-      spritesheet_creazione_player_occhi_marroni_119: 474659586
-      spritesheet_creazione_player_occhi_marroni_130: 1905467487
-      spritesheet_creazione_player_occhi_marroni_123: 1170623446
-      spritesheet_creazione_player_occhi_marroni_68: 1080892073
-      spritesheet_creazione_player_occhi_marroni_9: -1591110277
-      spritesheet_creazione_player_occhi_marroni_57: -880039502
-      spritesheet_creazione_player_occhi_marroni_128: 312241398
-      spritesheet_creazione_player_occhi_marroni_93: -298929646
-      spritesheet_creazione_player_occhi_marroni_109: 1914058805
-      spritesheet_creazione_player_occhi_marroni_37: 651169374
-      spritesheet_creazione_player_occhi_marroni_17: 2044725354
-      spritesheet_creazione_player_occhi_marroni_84: 363824942
-      spritesheet_creazione_player_occhi_marroni_0: -900854423
-      spritesheet_creazione_player_occhi_marroni_11: 2094014563
-      spritesheet_creazione_player_occhi_marroni_78: -1697409461
-      spritesheet_creazione_player_occhi_marroni_110: -170431868
-      spritesheet_creazione_player_occhi_marroni_90: 1443670653
-      spritesheet_creazione_player_occhi_marroni_8: 2137096620
-      spritesheet_creazione_player_occhi_marroni_159: -2069263140
-      spritesheet_creazione_player_occhi_marroni_129: -1987967202
-      spritesheet_creazione_player_occhi_marroni_81: 905591817
-      spritesheet_creazione_player_occhi_marroni_79: -1268939103
-      spritesheet_creazione_player_occhi_marroni_87: -1108111102
-      spritesheet_creazione_player_occhi_marroni_114: -1686589711
-      spritesheet_creazione_player_occhi_marroni_43: 774222049
-      spritesheet_creazione_player_occhi_marroni_140: -728632255
-      spritesheet_creazione_player_occhi_marroni_97: -1653613416
-      spritesheet_creazione_player_occhi_marroni_20: -812642509
-      spritesheet_creazione_player_occhi_marroni_154: -810825258
-      spritesheet_creazione_player_occhi_marroni_54: 997908202
-      spritesheet_creazione_player_occhi_marroni_70: -1523575372
-      spritesheet_creazione_player_occhi_marroni_77: 477095109
-      spritesheet_creazione_player_occhi_marroni_35: 688627663
-      spritesheet_creazione_player_occhi_marroni_83: 594765656
-      spritesheet_creazione_player_occhi_marroni_5: 874046777
-      spritesheet_creazione_player_occhi_marroni_138: -1428796657
-      spritesheet_creazione_player_occhi_marroni_69: 2031879255
-      spritesheet_creazione_player_occhi_marroni_108: -886771703
-      spritesheet_creazione_player_occhi_marroni_1: -1787992465
-      spritesheet_creazione_player_occhi_marroni_107: 1968190192
-      spritesheet_creazione_player_occhi_marroni_156: -1968877510
-      spritesheet_creazione_player_occhi_marroni_135: -1356718871
-      spritesheet_creazione_player_occhi_marroni_104: -1672123179
-      spritesheet_creazione_player_occhi_marroni_4: -753900627
-      spritesheet_creazione_player_occhi_marroni_103: 640933963
-      spritesheet_creazione_player_occhi_marroni_142: -1461877776
+      occhi_marroni_0.1_128: 1102311746
+      occhi_marroni_0.1_87: 1411843861
+      occhi_marroni_0.1_134: 877071999
+      occhi_marroni_0.1_133: 1383939967
+      occhi_marroni_0.1_120: -1947039058
+      occhi_marroni_0.1_49: 195353840
+      occhi_marroni_0.1_132: -2065054485
+      occhi_marroni_0.1_88: 1862017614
+      occhi_marroni_0.1_93: 907512482
+      occhi_marroni_0.1_5: 1377316006
+      occhi_marroni_0.1_97: -84526980
+      occhi_marroni_0.1_28: 252716061
+      occhi_marroni_0.1_124: 1995656268
+      occhi_marroni_0.1_115: 1545669754
+      occhi_marroni_0.1_85: 1995339486
+      occhi_marroni_0.1_121: -897670958
+      occhi_marroni_0.1_27: 1925446907
+      occhi_marroni_0.1_68: -1546730212
+      occhi_marroni_0.1_41: -1163031752
+      occhi_marroni_0.1_55: 1973322245
+      occhi_marroni_0.1_91: -496085634
+      occhi_marroni_0.1_106: 1599765737
+      occhi_marroni_0.1_9: -618798842
+      occhi_marroni_0.1_116: 528377038
+      occhi_marroni_0.1_1: -887190651
+      occhi_marroni_0.1_11: 689732314
+      occhi_marroni_0.1_29: 738684444
+      occhi_marroni_0.1_60: 2009281199
+      occhi_marroni_0.1_13: 2086376902
+      occhi_marroni_0.1_105: 1408452030
+      occhi_marroni_0.1_30: 1406133191
+      occhi_marroni_0.1_32: -313871990
+      occhi_marroni_0.1_4: 477759708
+      occhi_marroni_0.1_90: 1853002519
+      occhi_marroni_0.1_56: -1966759543
+      occhi_marroni_0.1_69: 1627808288
+      occhi_marroni_0.1_94: -922458356
+      occhi_marroni_0.1_17: -432760828
+      occhi_marroni_0.1_24: -1802506890
+      occhi_marroni_0.1_84: 1726650548
+      occhi_marroni_0.1_73: -1245354010
+      occhi_marroni_0.1_109: -1638301626
+      occhi_marroni_0.1_113: 677701202
+      occhi_marroni_0.1_3: -176204835
+      occhi_marroni_0.1_79: 1687481911
+      occhi_marroni_0.1_39: 342747476
+      occhi_marroni_0.1_74: 1584399213
+      occhi_marroni_0.1_126: -917957984
+      occhi_marroni_0.1_2: 1387182321
+      occhi_marroni_0.1_63: -136797963
+      occhi_marroni_0.1_22: -226179339
+      occhi_marroni_0.1_75: 1269125798
+      occhi_marroni_0.1_119: -2094231073
+      occhi_marroni_0.1_59: -1846979623
+      occhi_marroni_0.1_129: -499175269
+      occhi_marroni_0.1_66: 152962357
+      occhi_marroni_0.1_104: 268041215
+      occhi_marroni_0.1_0: 2076210030
+      occhi_marroni_0.1_95: -1539953932
+      occhi_marroni_0.1_101: 1869639397
+      occhi_marroni_0.1_45: 1912510096
+      occhi_marroni_0.1_16: 487041104
+      occhi_marroni_0.1_25: -172445223
+      occhi_marroni_0.1_40: -902727665
+      occhi_marroni_0.1_50: -1478849308
+      occhi_marroni_0.1_21: -1306350629
+      occhi_marroni_0.1_89: -763587624
+      occhi_marroni_0.1_81: 1799140083
+      occhi_marroni_0.1_15: 2128787344
+      occhi_marroni_0.1_18: 433715036
+      occhi_marroni_0.1_58: -45732594
+      occhi_marroni_0.1_98: -1989703692
+      occhi_marroni_0.1_70: -363166121
+      occhi_marroni_0.1_125: 1586564726
+      occhi_marroni_0.1_117: 984561011
+      occhi_marroni_0.1_8: 136472386
+      occhi_marroni_0.1_23: -594883037
+      occhi_marroni_0.1_48: -1044582916
+      occhi_marroni_0.1_26: 2115628506
+      occhi_marroni_0.1_67: 588395926
+      occhi_marroni_0.1_110: 144081963
+      occhi_marroni_0.1_83: -1097945436
+      occhi_marroni_0.1_122: -1627589661
+      occhi_marroni_0.1_34: -960503232
+      occhi_marroni_0.1_43: 886206876
+      occhi_marroni_0.1_47: 398792386
+      occhi_marroni_0.1_44: -1157034702
+      occhi_marroni_0.1_131: 1667172032
+      occhi_marroni_0.1_38: 974985566
+      occhi_marroni_0.1_36: -18634128
+      occhi_marroni_0.1_99: 1974977296
+      occhi_marroni_0.1_10: -1502514041
+      occhi_marroni_0.1_33: 1018734800
+      occhi_marroni_0.1_71: -116273743
+      occhi_marroni_0.1_52: -1847087700
+      occhi_marroni_0.1_100: 1682561739
+      occhi_marroni_0.1_103: 1042405186
+      occhi_marroni_0.1_114: -1152055034
+      occhi_marroni_0.1_130: 1935027332
+      occhi_marroni_0.1_53: 1713047976
+      occhi_marroni_0.1_112: -1146377194
+      occhi_marroni_0.1_82: -1414921858
+      occhi_marroni_0.1_62: 1634167528
+      occhi_marroni_0.1_72: -97709588
+      occhi_marroni_0.1_107: -2032030507
+      occhi_marroni_0.1_78: -1871909444
+      occhi_marroni_0.1_92: 1658093822
+      occhi_marroni_0.1_111: -368527653
+      occhi_marroni_0.1_127: 874933310
+      occhi_marroni_0.1_57: 912469342
+      occhi_marroni_0.1_31: -1989679670
+      occhi_marroni_0.1_118: -910403118
+      occhi_marroni_0.1_64: -448824766
+      occhi_marroni_0.1_108: -2112792014
+      occhi_marroni_0.1_14: 1677509499
+      occhi_marroni_0.1_65: -1669027899
+      occhi_marroni_0.1_102: 804649520
+      occhi_marroni_0.1_51: 110470197
+      occhi_marroni_0.1_35: -1025417239
+      occhi_marroni_0.1_76: 1440334170
+      occhi_marroni_0.1_80: -1625722448
+      occhi_marroni_0.1_96: -1958507298
+      occhi_marroni_0.1_37: 1144463443
+      occhi_marroni_0.1_12: 1618422023
+      occhi_marroni_0.1_46: -1676377537
+      occhi_marroni_0.1_6: -1293597583
+      occhi_marroni_0.1_19: 739078293
+      occhi_marroni_0.1_86: 189569273
+      occhi_marroni_0.1_20: -446048202
+      occhi_marroni_0.1_61: -691799782
+      occhi_marroni_0.1_7: 1633641008
+      occhi_marroni_0.1_54: -223208263
+      occhi_marroni_0.1_123: -1086565470
+      occhi_marroni_0.1_77: -330027569
+      occhi_marroni_0.1_42: -926800057
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

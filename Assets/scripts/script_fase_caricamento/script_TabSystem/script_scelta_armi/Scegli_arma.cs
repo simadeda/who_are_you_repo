@@ -7,7 +7,7 @@ using TMPro;
 
 public class Scegli_arma : MonoBehaviour
 {
-    public GameObject txt_arma_scelta, txt_descrizione_arma, txt_armi_utilizzabili, LettoreXMLgb, selezione_arma1, selezione_arma2, arma_1, arma_2;
+    public UnityEngine.GameObject txt_arma_scelta, txt_descrizione_arma, txt_armi_utilizzabili, LettoreXMLgb, selezione_arma1, selezione_arma2, arma_1, arma_2;
     public Sprite[] armi = new Sprite[4];
     bool classe_attabrighe = false;
     Image arma_img1, arma_img2;

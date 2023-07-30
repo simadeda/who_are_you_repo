@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Salva_carica1 : MonoBehaviour
 {
-    public GameObject LettoreContinenteStatoXML;
+    public UnityEngine.GameObject LettoreContinenteStatoXML;
     LettoreXML salvataggi_fileXML;
 
     void Start()
@@ -19,7 +19,6 @@ public class Salva_carica1 : MonoBehaviour
                 Gestione_salvataggi.Salvataggio(salvataggi_fileXML, Scelta_salvataggio);
                 break;
         }
-
     }
     public void Carica_dati()
     {

@@ -5,7 +5,7 @@ using TMPro;
 
 public class Output_pannello : MonoBehaviour
 {
-    public GameObject continente,stato,capitale,num_stati,abilita_classe,abilita_stato;
+    public UnityEngine.GameObject continente,stato,capitale,num_stati,abilita_classe,abilita_stato;
     private TextMeshProUGUI textMesH1, textMesH2, textMesH3, textMesH4, textMesH5, textMesH6;
     private void Awake()
     {

@@ -16,7 +16,7 @@ public class Big_shot_abilita : Abilita
           
     //riferimento allo script che ti permette di trapassare i muri
 
-    public override void inizializza(GameObject obj)
+    public override void inizializza(UnityEngine.GameObject obj)
     {
         //mimetismo serve perchè è un buff per il player
         if (obj.GetComponent<Mimetismo_caratteristica>() == null)
@@ -25,11 +25,10 @@ public class Big_shot_abilita : Abilita
         }
         mimetismo = obj.GetComponent<Mimetismo_caratteristica>();
         mimetismo.Durata_mimetismo = durata;
-
     }
 
     //ATTIVA L'ABILITA'
-    public override void TriggerAbility(GameObject obj) //override per l'abilità BIGSHOT
+    public override void TriggerAbility(UnityEngine.GameObject obj) //override per l'abilità BIGSHOT
     {
         mimetismo.comportamento_in_azione();
         barret_calibro_50();
@@ -41,6 +40,4 @@ public class Big_shot_abilita : Abilita
     {
         Debug.Log("barret attivo");
     }
-
-
 }
