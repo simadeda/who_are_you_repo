@@ -978,10 +978,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4133804809518686227, guid: 2533b4b312854584c94563f280161de3, type: 3}
       propertyPath: arma_equipaggiata
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4133804809518686227, guid: 2533b4b312854584c94563f280161de3, type: 3}
       propertyPath: anteprima_personaggio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6560690619804604943, guid: 2533b4b312854584c94563f280161de3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6560690619804604976, guid: 2533b4b312854584c94563f280161de3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6560690619804604976, guid: 2533b4b312854584c94563f280161de3, type: 3}
+      propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6736894623070826924, guid: 2533b4b312854584c94563f280161de3, type: 3}
