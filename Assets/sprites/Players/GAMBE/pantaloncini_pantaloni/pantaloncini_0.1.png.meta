@@ -101,6 +101,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -4210,23 +4234,23 @@ TextureImporter:
       pantaloncini_0.1_111: 1679999723
       pantaloncini_0.1_129: 150890177
       pantaloncini_0.1_69: -320107493
-      pantaloncini_0.1_77: 427583220
       pantaloncini_0.1_114: -691024289
-      pantaloncini_0.1_66: 1205588443
+      pantaloncini_0.1_77: 427583220
       pantaloncini_0.1_138: 65122539
-      pantaloncini_0.1_31: -889844271
+      pantaloncini_0.1_66: 1205588443
       pantaloncini_0.1_149: -1920457995
+      pantaloncini_0.1_31: -889844271
       pantaloncini_0.1_49: 1351160367
       pantaloncini_0.1_20: 255704579
       pantaloncini_0.1_9: -655847179
       pantaloncini_0.1_53: 1499704585
-      pantaloncini_0.1_7: -1797318531
-      pantaloncini_0.1_80: 38706346
       pantaloncini_0.1_87: 455471220
-      pantaloncini_0.1_60: 876603374
-      pantaloncini_0.1_103: -2090114624
+      pantaloncini_0.1_7: -1797318531
       pantaloncini_0.1_133: 1448941765
+      pantaloncini_0.1_80: 38706346
+      pantaloncini_0.1_60: 876603374
       pantaloncini_0.1_29: 368502474
+      pantaloncini_0.1_103: -2090114624
       pantaloncini_0.1_90: 1973996923
       pantaloncini_0.1_65: -1397404122
       pantaloncini_0.1_185: -242278920
@@ -4244,8 +4268,8 @@ TextureImporter:
       pantaloncini_0.1_117: 1927774275
       pantaloncini_0.1_68: 1194669830
       pantaloncini_0.1_113: 1172715440
-      pantaloncini_0.1_116: -836228909
       pantaloncini_0.1_118: 582420373
+      pantaloncini_0.1_116: -836228909
       pantaloncini_0.1_18: -1641736320
       pantaloncini_0.1_24: -1569616452
       pantaloncini_0.1_186: -783537493
